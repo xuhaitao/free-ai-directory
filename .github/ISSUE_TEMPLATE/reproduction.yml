@@ -1,0 +1,13 @@
+name: 测试复现
+description: 提交可复现的兼容性测试结果
+title: "[复现] "
+labels: ["reproduction"]
+body:
+  - type: dropdown
+    id: client
+    attributes: { label: 客户端, options: [Codex, Claude Code, OpenCode, OpenAI SDK, 其他] }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: 脱敏复现步骤与结果 }
+    validations: { required: true }

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b3d30"/>
+  <circle cx="1020" cy="90" r="260" fill="#0e5d46"/>
+  <circle cx="1130" cy="520" r="310" fill="#0a3228"/>
+  <rect x="72" y="68" width="170" height="34" rx="17" fill="#d6f6e5"/>
+  <text x="157" y="91" fill="#0b3d30" font-size="18" font-weight="700" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif">每日自动更新</text>
+  <text x="72" y="220" fill="#ffffff" font-size="72" font-weight="800" font-family="PingFang SC, Microsoft YaHei, sans-serif">免费 AI 目录</text>
+  <text x="72" y="302" fill="#d6f6e5" font-size="42" font-weight="650" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI 热点 · 免费模型 · 中转站资料</text>
+  <g transform="translate(72 382)" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="300" height="118" rx="18" fill="#ffffff"/>
+    <text x="28" y="45" fill="#087a55" font-size="21" font-weight="700">今日榜单</text>
+    <text x="28" y="84" fill="#111916" font-size="27" font-weight="800">新闻 · 项目 · 模型</text>
+    <rect x="324" width="300" height="118" rx="18" fill="#ffffff"/>
+    <text x="352" y="45" fill="#087a55" font-size="21" font-weight="700">免费入口</text>
+    <text x="352" y="84" fill="#111916" font-size="27" font-weight="800">14 种模型类型</text>
+  </g>
+  <text x="72" y="565" fill="#b9d9cd" font-size="24" font-family="Arial, sans-serif">www.qaz5678.xyz</text>
+</svg>

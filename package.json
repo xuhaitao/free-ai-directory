@@ -1,0 +1,30 @@
+{
+  "name": "free-ai-directory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "build": "node src/build.ts",
+    "daily:update": "node src/update-daily.ts",
+    "daily:verify": "node src/verify-daily.ts",
+    "preview": "node src/server.ts dist",
+    "test": "node --test --experimental-test-coverage tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && node src/validate.ts",
+    "deploy:dry-run": "HOME=/tmp WRANGLER_LOG_PATH=/tmp/free-ai-directory-wrangler.log wrangler deploy --dry-run",
+    "dev:worker": "npm run build && wrangler dev",
+    "release:audit": "node src/release-audit.ts",
+    "indexnow": "node src/submit-indexnow.ts",
+    "release:verify": "npm test && npm run check && npm run daily:verify && npm run build && npm run release:audit && npm run deploy:dry-run"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260712.1",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.110.0"
+  }
+}

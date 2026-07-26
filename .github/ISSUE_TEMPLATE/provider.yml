@@ -1,0 +1,13 @@
+name: 提交 Provider
+description: 推荐一个无需充值即可获得 API 额度的 Provider
+title: "[Provider] "
+labels: ["provider-submission"]
+body:
+  - type: input
+    id: website
+    attributes: { label: 官网与文档链接 }
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes: { label: 免费政策证据, description: 请勿提交 API Key、Cookie 或个人信息。 }
+    validations: { required: true }

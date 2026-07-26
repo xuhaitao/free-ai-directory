@@ -1,0 +1,13 @@
+name: 免费政策纠错
+description: 报告额度、门槛或免费类型变化
+title: "[政策纠错] "
+labels: ["data-correction"]
+body:
+  - type: input
+    id: model
+    attributes: { label: Provider 与模型 }
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes: { label: 变更与公开证据 }
+    validations: { required: true }

@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-24T22:19:19.791Z",
+  "timezone": "Asia/Shanghai",
+  "freshness": {
+    "news": "2026-07-24T22:19:19.791Z",
+    "projects": "2026-07-24T22:19:19.791Z",
+    "models": "2026-07-24T22:19:19.791Z"
+  },
+  "news": [
+    {
+      "id": "49038433",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49038433",
+      "source": "anthropic.com",
+      "points": 1115,
+      "comments": 592,
+      "publishedAt": "2026-07-24T16:57:41.000Z",
+      "hotScore": 1783
+    },
+    {
+      "id": "49023016",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49023016",
+      "source": "politico.com",
+      "points": 1037,
+      "comments": 841,
+      "publishedAt": "2026-07-23T15:18:40.000Z",
+      "hotScore": 1311
+    },
+    {
+      "id": "48997548",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48997548",
+      "source": "openai.com",
+      "points": 1617,
+      "comments": 1150,
+      "publishedAt": "2026-07-21T20:09:52.000Z",
+      "hotScore": 1254
+    },
+    {
+      "id": "48979269",
+      "title": "China’s open-weights AI strategy is winning",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48979269",
+      "source": "werd.io",
+      "points": 1238,
+      "comments": 932,
+      "publishedAt": "2026-07-20T14:21:47.000Z",
+      "hotScore": 818
+    },
+    {
+      "id": "49020999",
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49020999",
+      "source": "futurism.com",
+      "points": 676,
+      "comments": 363,
+      "publishedAt": "2026-07-23T13:09:10.000Z",
+      "hotScore": 673
+    },
+    {
+      "id": "49015639",
+      "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49015639",
+      "source": "simonwillison.net",
+      "points": 566,
+      "comments": 438,
+      "publishedAt": "2026-07-23T01:16:14.000Z",
+      "hotScore": 592
+    },
+    {
+      "id": "48993414",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48993414",
+      "source": "blog.google",
+      "points": 751,
+      "comments": 573,
+      "publishedAt": "2026-07-21T15:17:16.000Z",
+      "hotScore": 584
+    },
+    {
+      "id": "48996652",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48996652",
+      "source": "apnews.com",
+      "points": 564,
+      "comments": 620,
+      "publishedAt": "2026-07-21T19:04:39.000Z",
+      "hotScore": 560
+    },
+    {
+      "id": "49038060",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49038060",
+      "source": "theguardian.com",
+      "points": 350,
+      "comments": 187,
+      "publishedAt": "2026-07-24T16:33:31.000Z",
+      "hotScore": 556
+    },
+    {
+      "id": "48966569",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48966569",
+      "source": "simonwillison.net",
+      "points": 608,
+      "comments": 848,
+      "publishedAt": "2026-07-19T10:03:23.000Z",
+      "hotScore": 510
+    }
+  ],
+  "projects": [
+    {
+      "id": "koala73/worldmonitor",
+      "name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 73181,
+      "forks": 10978,
+      "starsToday": 2194,
+      "topics": [],
+      "hotScore": 392581,
+      "basis": "github_trending"
+    },
+    {
+      "id": "composiohq/awesome-claude-skills",
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 70009,
+      "forks": 7899,
+      "starsToday": 662,
+      "topics": [],
+      "hotScore": 236209,
+      "basis": "github_trending"
+    },
+    {
+      "id": "shiyu-coder/kronos",
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 33463,
+      "forks": 5677,
+      "starsToday": 506,
+      "topics": [],
+      "hotScore": 184063,
+      "basis": "github_trending"
+    },
+    {
+      "id": "citrolabs/ego-lite",
+      "name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars": 2494,
+      "forks": 120,
+      "starsToday": 884,
+      "topics": [],
+      "hotScore": 190894,
+      "basis": "github_trending"
+    },
+    {
+      "id": "corebunch/instatic",
+      "name": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "language": "TypeScript",
+      "stars": 4236,
+      "forks": 406,
+      "starsToday": 250,
+      "topics": [],
+      "hotScore": 129236,
+      "basis": "github_trending"
+    },
+    {
+      "id": "lordog/dive-into-llms",
+      "name": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 44971,
+      "forks": 5385,
+      "starsToday": 654,
+      "topics": [],
+      "hotScore": 210371,
+      "basis": "github_trending"
+    },
+    {
+      "id": "diegosouzapw/omniroute",
+      "name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars": 28731,
+      "forks": 3770,
+      "starsToday": 1843,
+      "topics": [],
+      "hotScore": 313031,
+      "basis": "github_trending"
+    },
+    {
+      "id": "ottermind/chat2db",
+      "name": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "language": "Java",
+      "stars": 26300,
+      "forks": 2880,
+      "starsToday": 129,
+      "topics": [],
+      "hotScore": 139200,
+      "basis": "github_trending"
+    },
+    {
+      "id": "dietrichgebert/ponytail",
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 88958,
+      "forks": 4876,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin"
+      ],
+      "hotScore": 841065,
+      "basis": "recent_star_velocity"
+    },
+    {
+      "id": "graphify-labs/graphify",
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 95209,
+      "forks": 9218,
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis"
+      ],
+      "hotScore": 504379,
+      "basis": "recent_star_velocity"
+    }
+  ],
+  "trendingModels": [
+    {
+      "id": "baidu/unlimited-ocr",
+      "name": "baidu/Unlimited-OCR",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "pipelineTag": "image-text-to-text",
+      "downloads": 2500391,
+      "likes": 2964,
+      "trendingScore": 853,
+      "lastModified": "2026-07-23T09:16:19.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unlimited-ocr",
+        "feature-extraction",
+        "baidu"
+      ]
+    },
+    {
+      "id": "poolside/laguna-s-2.1",
+      "name": "poolside/Laguna-S-2.1",
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "pipelineTag": "text-generation",
+      "downloads": 28992,
+      "likes": 565,
+      "trendingScore": 557,
+      "lastModified": "2026-07-24T10:38:47.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "laguna",
+        "text-generation",
+        "laguna-s-2.1"
+      ]
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "name": "thinkingmachines/Inkling",
+      "url": "https://huggingface.co/thinkingmachines/Inkling",
+      "pipelineTag": "image-text-to-text",
+      "downloads": 27883,
+      "likes": 1533,
+      "trendingScore": 551,
+      "lastModified": "2026-07-23T17:27:17.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "inkling_mm_model",
+        "image-text-to-text",
+        "conversational"
+      ]
+    },
+    {
+      "id": "upstage/solar-open2-250b",
+      "name": "upstage/Solar-Open2-250B",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "pipelineTag": "text-generation",
+      "downloads": 1106,
+      "likes": 523,
+      "trendingScore": 447,
+      "lastModified": "2026-07-24T06:02:09.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "solar_open2",
+        "text-generation",
+        "upstage"
+      ]
+    },
+    {
+      "id": "davidau/qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf",
+      "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "pipelineTag": "image-text-to-text",
+      "downloads": 407421,
+      "likes": 448,
+      "trendingScore": 417,
+      "lastModified": "2026-07-20T09:16:52.000Z",
+      "tags": [
+        "gguf",
+        "unsloth",
+        "fine tune",
+        "heretic",
+        "uncensored"
+      ]
+    },
+    {
+      "id": "nanbeige/nanbeige4.2-3b",
+      "name": "Nanbeige/Nanbeige4.2-3B",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+      "pipelineTag": "text-generation",
+      "downloads": 8169,
+      "likes": 351,
+      "trendingScore": 349,
+      "lastModified": "2026-07-24T08:20:38.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nanbeige",
+        "text-generation",
+        "llm"
+      ]
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-27b-gguf",
+      "name": "prism-ml/Ternary-Bonsai-27B-gguf",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+      "pipelineTag": "text-generation",
+      "downloads": 595415,
+      "likes": 1000,
+      "trendingScore": 322,
+      "lastModified": "2026-07-18T06:05:31.000Z",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "conversational",
+        "ternary",
+        "2-bit"
+      ]
+    },
+    {
+      "id": "zai-org/glm-5.2",
+      "name": "zai-org/GLM-5.2",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "pipelineTag": "text-generation",
+      "downloads": 667403,
+      "likes": 4401,
+      "trendingScore": 287,
+      "lastModified": "2026-07-02T08:08:14.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "glm_moe_dsa",
+        "text-generation",
+        "conversational"
+      ]
+    },
+    {
+      "id": "prism-ml/bonsai-27b-gguf",
+      "name": "prism-ml/Bonsai-27B-gguf",
+      "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+      "pipelineTag": "text-generation",
+      "downloads": 2028115,
+      "likes": 626,
+      "trendingScore": 236,
+      "lastModified": "2026-07-17T16:05:42.000Z",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "conversational",
+        "1-bit",
+        "llama-cpp"
+      ]
+    },
+    {
+      "id": "microsoft/mage-flow",
+      "name": "microsoft/Mage-Flow",
+      "url": "https://huggingface.co/microsoft/Mage-Flow",
+      "pipelineTag": "text-to-image",
+      "downloads": 891,
+      "likes": 204,
+      "trendingScore": 201,
+      "lastModified": "2026-07-23T03:15:05.000Z",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "image-generation",
+        "image-editing"
+      ]
+    }
+  ],
+  "sourceStatus": [
+    {
+      "name": "Hacker News / Algolia",
+      "url": "https://hn.algolia.com/api",
+      "ok": true,
+      "note": "本次抓取成功"
+    },
+    {
+      "name": "GitHub Trending / Search",
+      "url": "https://github.com/trending",
+      "ok": true,
+      "note": "本次抓取成功"
+    },
+    {
+      "name": "Hugging Face Hub（镜像 API）",
+      "url": "https://huggingface.co/models",
+      "ok": true,
+      "note": "本次抓取成功"
+    }
+  ]
+}

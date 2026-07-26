@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CONFIG=${TRAFFIC_CONFIG:-/etc/default/free-ai-directory}
+if [[ -r "$CONFIG" ]]; then
+  # shellcheck disable=SC1090
+  source "$CONFIG"
+fi
+
+LOG=${EVENT_LOG:-/var/log/nginx/events.log}
+DAY=${1:-$(LC_ALL=C date '+%d/%b/%Y')}
+EXCLUDE_IPS=${EXCLUDE_IPS:-}
+
+if [[ ! -f "$LOG" ]]; then
+  echo "event log not found: $LOG" >&2
+  exit 1
+fi
+
+awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
+  BEGIN {
+    count=split(excluded,excluded_ips,",");
+    for(i=1;i<=count;i++)if(excluded_ips[i] != "")ignore[excluded_ips[i]]=1;
+  }
+  index($4,day)==1 && $7 ~ /^\/event\?/ && !($1 in ignore) {
+    split($0,q,"\""); ua=q[6]; request=q[2];
+    ua_lower=tolower(ua);
+    if(ua_lower ~ /(bot|spider|crawler|headless|curl|wget|python|go-http|httpclient|preview|lighthouse)/) next;
+    type=""; path=""; ref=""; reason="";
+    n=split(request,r," "); split(r[2],url,"?"); split(url[2],pairs,"&");
+    for(i in pairs){split(pairs[i],kv,"="); if(kv[1]=="type")type=kv[2]; if(kv[1]=="path")path=kv[2]; if(kv[1]=="ref")ref=kv[2]; if(kv[1]=="reason")reason=kv[2]}
+    events++;
+    identity=$1 "|" ua;
+    if(type=="pageview"){
+      pageviews++; visitors[identity]=1; paths[path]++; sources[ref]++;
+    } else if(type=="engaged") {
+      engaged_events++;
+      if(reason=="dwell-15s") dwell_visitors[identity]=1;
+      else engaged_visitors[identity]=1;
+    } else if(type=="share") shares++;
+    else if(type!="deploy-check") outbound[type]++;
+  }
+  END {
+    for(v in visitors) {
+      users++;
+      has_interaction=(v in engaged_visitors);
+      has_dwell=(v in dwell_visitors);
+      if(has_interaction) interactive_users++;
+      if(has_dwell && !has_interaction) dwell_only_users++;
+      if(has_interaction) verified_users++;
+    }
+    print "date",substr(day,2,length(day)-2);
+    print "verified_visitors",verified_users+0;
+    print "engaged_visitors",interactive_users+0;
+    print "dwell_only_signals",dwell_only_users+0;
+    print "javascript_visitors",users+0;
+    print "pageviews",pageviews+0;
+    print "engaged_events",engaged_events+0;
+    print "shares",shares+0;
+    print "tracked_events",events+0;
+    print "top_paths";
+    for(p in paths) print paths[p],p | "sort -nr | head -10";
+    close("sort -nr | head -10");
+    print "sources";
+    for(s in sources) print sources[s],s | "sort -nr | head -10";
+    close("sort -nr | head -10");
+    print "outbound_clicks";
+    for(o in outbound) print outbound[o],o | "sort -nr | head -10";
+    close("sort -nr | head -10");
+  }
+' "$LOG"

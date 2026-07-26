@@ -1,0 +1,15 @@
+[Unit]
+Description=Update Free AI Directory daily rankings
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/free-ai-directory
+Environment=HF_API_ENDPOINT=https://hf-mirror.com
+ExecStart=/opt/free-ai-directory/deploy/daily-update.sh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

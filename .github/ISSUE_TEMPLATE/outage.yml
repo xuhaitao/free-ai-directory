@@ -1,0 +1,13 @@
+name: 故障报告
+description: 报告模型 API 无法调用或能力异常
+title: "[故障] "
+labels: ["outage"]
+body:
+  - type: input
+    id: model
+    attributes: { label: Provider 与模型 ID }
+    validations: { required: true }
+  - type: textarea
+    id: result
+    attributes: { label: 时间、协议、HTTP 状态与脱敏错误, description: 不要粘贴 Authorization、x-api-key、Cookie 或完整请求。 }
+    validations: { required: true }

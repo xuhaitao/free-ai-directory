@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Free AI Directory updater every morning
+
+[Timer]
+OnCalendar=*-*-* 06:15:00
+Persistent=true
+RandomizedDelaySec=300
+Unit=free-ai-directory-daily.service
+
+[Install]
+WantedBy=timers.target

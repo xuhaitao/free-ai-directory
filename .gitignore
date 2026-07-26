@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+var/
+.wrangler/
+.DS_Store
+
+# Local operations and promotional production files
+video/
+marketing/
+sales/
+todos/
+TODO.md
