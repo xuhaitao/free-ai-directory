@@ -37,6 +37,7 @@ for(const required of [
   "guides/free-embedding-api/index.html",
   "guides/free-image-video-models/index.html",
   "guides/free-image-generation-api/index.html",
+  "guides/free-image-segmentation-api/index.html",
   "guides/codex-claude-code-relay/index.html",
   "guides/codex-free/index.html",
   "guides/claude-code-free/index.html",
