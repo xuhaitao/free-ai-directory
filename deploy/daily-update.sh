@@ -6,6 +6,7 @@ exec 9>/run/free-ai-directory-daily.lock
 flock -n 9 || exit 0
 
 npm run daily:update
+npm run directory:update
 PUBLIC_SITE_URL=https://www.qaz5678.xyz npm run build
 npm run release:audit
 rsync -a --delete dist/ /var/www/free-ai-directory/

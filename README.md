@@ -26,7 +26,9 @@ curl http://localhost:8787/api/health
 ## 数据维护
 
 - `npm run daily:update`：从 Hacker News、GitHub 与 Hugging Face 生成每日榜单和归档。
+- `npm run directory:update`：同步 OpenRouter 官方免费模型、发现高相关中转候选，并检查全部目录外链；不调用模型。
 - `content/daily.json`：当前 3 个 Top 10 榜单；`content/history/` 保留每日快照。
+- `content/directory.json`：免费模型与中转站的每日有效快照；来源暂时失败时保留上一版有效数据。
 - `src/data.ts`：模型、平台、中转站和来源链接。
 - `src/types.ts`：数据结构。
 - `src/validate.ts`：数量、分类、HTTPS 来源和风险字段校验。
@@ -42,7 +44,7 @@ PUBLIC_SITE_URL=https://你的域名 npm run release:verify
 npm exec wrangler -- deploy
 ```
 
-每日榜单不需要 API Key；服务器使用 systemd timer 每天北京时间 06:15 自动抓取、校验、构建、发布并提交 IndexNow。更新日志使用 `journalctl -u free-ai-directory-daily.service` 查看。发布后检查：
+每日榜单和目录更新都不需要 API Key；服务器使用 systemd timer 每天北京时间 06:15 自动抓取榜单、同步目录、检查外链、校验、构建、发布并提交 IndexNow。更新日志使用 `journalctl -u free-ai-directory-daily.service` 查看。发布后检查：
 
 ```bash
 curl -i https://你的域名/api/health
@@ -50,6 +52,7 @@ curl -I https://你的域名/models/
 curl -I https://你的域名/relays/
 curl -I https://你的域名/daily/
 curl https://你的域名/data/daily.json
+curl https://你的域名/data/directory.json
 ```
 
 ## 安全与商业边界

@@ -101,3 +101,24 @@ export type DailySnapshot = {
   trendingModels: DailyModel[];
   sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
 };
+
+export type DirectoryLinkCheck = {
+  kind: "model" | "relay";
+  id: string;
+  url: string;
+  ok: boolean;
+  status: number;
+  checkedAt: string;
+  note: string;
+};
+
+export type DirectorySnapshot = {
+  schemaVersion: 1;
+  date: string;
+  generatedAt: string;
+  timezone: "Asia/Shanghai";
+  models: ModelEntry[];
+  relays: Relay[];
+  checks: DirectoryLinkCheck[];
+  sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
+};

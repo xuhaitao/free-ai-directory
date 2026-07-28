@@ -8,6 +8,8 @@
     "build": "node src/build.ts",
     "daily:update": "node src/update-daily.ts",
     "daily:verify": "node src/verify-daily.ts",
+    "directory:update": "node src/update-directory.ts",
+    "directory:verify": "node src/verify-directory.ts",
     "preview": "node src/server.ts dist",
     "test": "node --test --experimental-test-coverage tests/*.test.ts",
     "typecheck": "tsc --noEmit",
@@ -16,7 +18,7 @@
     "dev:worker": "npm run build && wrangler dev",
     "release:audit": "node src/release-audit.ts",
     "indexnow": "node src/submit-indexnow.ts",
-    "release:verify": "npm test && npm run check && npm run daily:verify && npm run build && npm run release:audit && npm run deploy:dry-run"
+    "release:verify": "npm test && npm run check && npm run daily:verify && npm run directory:verify && npm run build && npm run release:audit && npm run deploy:dry-run"
   },
   "engines": {
     "node": ">=22.18"

@@ -53,6 +53,7 @@ for(const required of [
   "google12cdc1700f3f0191.html",
   "sitemap.xml",
   "video-sitemap.xml",
-  "robots.txt"
+  "robots.txt",
+  "data/directory.json"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);
 if(errors.length){console.error(errors.join("\n"));process.exitCode=1}else console.log(`发布审计通过：${htmlFiles.length} 个 HTML 页面，${files.length} 个构建文件`);

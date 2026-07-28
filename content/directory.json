@@ -1,0 +1,2594 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T01:40:38.008Z",
+  "timezone": "Asia/Shanghai",
+  "models": [
+    {
+      "id": "gemini-36-flash",
+      "name": "Gemini 3.6 Flash",
+      "modelId": "gemini-3.6-flash",
+      "providerId": "google",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "官方定价页列有免费输入与输出额度",
+      "modelUrl": "https://aistudio.google.com/",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "tryUrl": "https://aistudio.google.com/",
+      "tags": [
+        "API",
+        "中文",
+        "长文本"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "gemma-4",
+      "name": "Gemma 4",
+      "modelId": "gemma-4",
+      "providerId": "google",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "官方定价页列为免费层可用",
+      "modelUrl": "https://aistudio.google.com/",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "tryUrl": "https://aistudio.google.com/",
+      "tags": [
+        "API",
+        "开放权重"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "openrouter-free",
+      "name": "Free Models Router",
+      "modelId": "openrouter/free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "permanent",
+      "freeSummary": "免费路由；模型随机、容量和可用性会变化",
+      "modelUrl": "https://openrouter.ai/openrouter/free",
+      "sourceUrl": "https://openrouter.ai/docs/cookbook/get-started/free-models-router-playground",
+      "tryUrl": "https://openrouter.ai/openrouter/free",
+      "tags": [
+        "OpenAI 兼容",
+        "免模型选择"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "github-gpt41",
+      "name": "GPT-4.1",
+      "modelId": "openai/gpt-4.1",
+      "providerId": "github-models",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "GitHub Models 提供限流的免费 Playground 与 API 用量，RPD/RPM 按模型等级和账户方案计算",
+      "modelUrl": "https://github.com/marketplace/models",
+      "sourceUrl": "https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models",
+      "tryUrl": "https://github.com/marketplace/models",
+      "tags": [
+        "Playground",
+        "API",
+        "公开预览"
+      ],
+      "lastReviewedAt": "2026-07-26",
+      "notes": "不同账户方案和模型等级限额不同。"
+    },
+    {
+      "id": "cerebras-glm47",
+      "name": "GLM 4.7",
+      "modelId": "zai-glm-4.7",
+      "providerId": "cerebras",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "Cerebras Free Trial 官方表列 1M TPD，并按 RPM/TPM 限流",
+      "modelUrl": "https://cloud.cerebras.ai/",
+      "sourceUrl": "https://inference-docs.cerebras.ai/support/rate-limits",
+      "tryUrl": "https://cloud.cerebras.ai/",
+      "tags": [
+        "OpenAI 兼容",
+        "推理",
+        "高速"
+      ],
+      "lastReviewedAt": "2026-07-26",
+      "notes": "以账户 Limits 页面实时额度为准。"
+    },
+    {
+      "id": "sambanova-gpt-oss",
+      "name": "GPT-OSS 120B",
+      "modelId": "gpt-oss-120b",
+      "providerId": "sambanova",
+      "category": "text_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "可使用注册赠送的 5 美元 API 额度，初始额度 30 天后过期",
+      "modelUrl": "https://cloud.sambanova.ai/",
+      "sourceUrl": "https://cloud.sambanova.ai/plans",
+      "tryUrl": "https://cloud.sambanova.ai/",
+      "tags": [
+        "OpenAI 兼容",
+        "API",
+        "试用额度"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "siliconflow-qwen35",
+      "name": "Qwen3.5 9B",
+      "modelId": "Qwen/Qwen3.5-9B",
+      "providerId": "siliconflow",
+      "category": "text_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "可使用平台注册的 1 美元免费额度，实际扣费按价格页",
+      "modelUrl": "https://cloud.siliconflow.com/models",
+      "sourceUrl": "https://www.siliconflow.com/pricing",
+      "tryUrl": "https://cloud.siliconflow.com/models",
+      "tags": [
+        "OpenAI 兼容",
+        "中文",
+        "试用额度"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "groq-compound",
+      "name": "Groq Compound",
+      "modelId": "groq/compound",
+      "providerId": "groq",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "Groq 免费计划有明确速率限制",
+      "modelUrl": "https://console.groq.com/docs/models",
+      "sourceUrl": "https://console.groq.com/docs/rate-limits",
+      "tryUrl": "https://console.groq.com/docs/models",
+      "tags": [
+        "OpenAI 兼容",
+        "工具"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "mistral-small",
+      "name": "Mistral Small",
+      "modelId": "mistral-small-latest",
+      "providerId": "mistral",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "Mistral Studio Free mode 可调用，受账户用量与速率限制",
+      "modelUrl": "https://console.mistral.ai/",
+      "sourceUrl": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+      "tryUrl": "https://console.mistral.ai/",
+      "tags": [
+        "OpenAI 兼容",
+        "免信用卡",
+        "API"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "cohere-command-a",
+      "name": "Command A",
+      "modelId": "command-a-03-2025",
+      "providerId": "cohere",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "Cohere 免费 Evaluation key 可用于原型，试用 Key 每月最多 1,000 次 API 调用",
+      "modelUrl": "https://dashboard.cohere.com/",
+      "sourceUrl": "https://docs.cohere.com/v2/docs/rate-limits",
+      "tryUrl": "https://dashboard.cohere.com/",
+      "tags": [
+        "API",
+        "工具调用",
+        "试用 Key"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "llama-cf",
+      "name": "Llama 3.1 8B Instruct",
+      "modelId": "@cf/meta/llama-3.1-8b-instruct",
+      "providerId": "cloudflare",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/llama-3.1-8b-instruct/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/llama-3.1-8b-instruct/",
+      "tags": [
+        "API",
+        "轻量"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "qwen-coder-cf",
+      "name": "Qwen2.5 Coder 32B",
+      "modelId": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "providerId": "cloudflare",
+      "category": "code_generation",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/qwen2.5-coder-32b-instruct/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/qwen2.5-coder-32b-instruct/",
+      "tags": [
+        "代码",
+        "API"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "gpt-oss-groq",
+      "name": "GPT-OSS 120B",
+      "modelId": "openai/gpt-oss-120b",
+      "providerId": "groq",
+      "category": "code_generation",
+      "freeType": "recurring",
+      "freeSummary": "Groq 免费计划按模型限流",
+      "modelUrl": "https://console.groq.com/docs/models",
+      "sourceUrl": "https://console.groq.com/docs/rate-limits",
+      "tryUrl": "https://console.groq.com/docs/models",
+      "tags": [
+        "代码",
+        "推理",
+        "OpenAI 兼容"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "gpt-oss-cerebras",
+      "name": "GPT-OSS 120B",
+      "modelId": "gpt-oss-120b",
+      "providerId": "cerebras",
+      "category": "code_generation",
+      "freeType": "recurring",
+      "freeSummary": "Cerebras Free Trial 官方表列 1M TPD，并按 RPM/TPM 限流",
+      "modelUrl": "https://cloud.cerebras.ai/",
+      "sourceUrl": "https://inference-docs.cerebras.ai/support/rate-limits",
+      "tryUrl": "https://cloud.cerebras.ai/",
+      "tags": [
+        "代码",
+        "推理",
+        "OpenAI 兼容"
+      ],
+      "lastReviewedAt": "2026-07-26",
+      "notes": "以账户 Limits 页面实时额度为准。"
+    },
+    {
+      "id": "qwen-coder-hf",
+      "name": "Qwen2.5 Coder 32B",
+      "modelId": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "providerId": "huggingface",
+      "category": "code_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "可使用 Hugging Face 每月小额免费推理额度，需确认当前路由 Provider",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/pricing",
+      "tryUrl": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "tags": [
+        "代码",
+        "开放权重"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "moondream-cf",
+      "name": "Moondream 3.1",
+      "modelId": "@cf/moondream/moondream3.1-9b-a2b",
+      "providerId": "cloudflare",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "图片理解",
+        "OCR",
+        "目标定位"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "gemini-vision",
+      "name": "Gemini 3.6 Flash Vision",
+      "modelId": "gemini-3.6-flash",
+      "providerId": "google",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "免费层支持文本与多模态输入，具体限制以控制台为准",
+      "modelUrl": "https://aistudio.google.com/",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "tryUrl": "https://aistudio.google.com/",
+      "tags": [
+        "图片",
+        "文档",
+        "视频理解"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "flux-schnell",
+      "name": "FLUX.1 Schnell",
+      "modelId": "@cf/black-forest-labs/flux-1-schnell",
+      "providerId": "cloudflare",
+      "category": "image_generation",
+      "freeType": "recurring",
+      "freeSummary": "生成消耗每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/flux-1-schnell/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/flux-1-schnell/",
+      "tags": [
+        "文生图",
+        "API"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "flux-klein",
+      "name": "FLUX.2 Klein 4B",
+      "modelId": "@cf/black-forest-labs/flux-2-klein-4b",
+      "providerId": "cloudflare",
+      "category": "image_generation",
+      "freeType": "recurring",
+      "freeSummary": "生成消耗每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/flux-2-klein-4b/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/flux-2-klein-4b/",
+      "tags": [
+        "文生图",
+        "图像编辑"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "qwen-image",
+      "name": "Qwen Image",
+      "modelId": "Qwen/Qwen-Image",
+      "providerId": "huggingface",
+      "category": "image_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "符合条件的路由可使用每月免费额度",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen-Image",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/text-to-image",
+      "tryUrl": "https://huggingface.co/Qwen/Qwen-Image",
+      "tags": [
+        "文生图",
+        "中文文字"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "wan22-video",
+      "name": "Wan 2.2 TI2V 5B",
+      "modelId": "Wan-AI/Wan2.2-TI2V-5B",
+      "providerId": "huggingface",
+      "category": "video_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "符合条件的路由可使用每月免费额度；视频通常很快耗尽小额额度",
+      "modelUrl": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
+      "tryUrl": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
+      "tags": [
+        "文生视频",
+        "图生视频"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "hunyuan-video",
+      "name": "HunyuanVideo",
+      "modelId": "tencent/HunyuanVideo",
+      "providerId": "huggingface",
+      "category": "video_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "符合条件的路由可使用每月免费额度",
+      "modelUrl": "https://huggingface.co/tencent/HunyuanVideo",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
+      "tryUrl": "https://huggingface.co/tencent/HunyuanVideo",
+      "tags": [
+        "文生视频"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "ltx-video",
+      "name": "LTX-Video",
+      "modelId": "Lightricks/LTX-Video",
+      "providerId": "huggingface",
+      "category": "video_generation",
+      "freeType": "open_source",
+      "freeSummary": "模型权重可下载；在线推理是否覆盖免费额度取决于当前 Provider",
+      "modelUrl": "https://huggingface.co/Lightricks/LTX-Video",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
+      "tryUrl": "https://huggingface.co/Lightricks/LTX-Video",
+      "tags": [
+        "视频",
+        "开放权重"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "bge-m3",
+      "name": "BGE-M3",
+      "modelId": "@cf/baai/bge-m3",
+      "providerId": "cloudflare",
+      "category": "embedding",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/bge-m3/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/bge-m3/",
+      "tags": [
+        "多语言",
+        "稠密向量"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "qwen3-embed",
+      "name": "Qwen3 Embedding 0.6B",
+      "modelId": "@cf/qwen/qwen3-embedding-0.6b",
+      "providerId": "cloudflare",
+      "category": "embedding",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "多语言",
+        "轻量"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "gemini-embedding",
+      "name": "Gemini Embedding 2",
+      "modelId": "gemini-embedding-2",
+      "providerId": "google",
+      "category": "embedding",
+      "freeType": "recurring",
+      "freeSummary": "官方定价页列有免费层，限额以控制台为准",
+      "modelUrl": "https://ai.google.dev/gemini-api/docs/embeddings",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "tryUrl": "https://ai.google.dev/gemini-api/docs/embeddings",
+      "tags": [
+        "多模态向量",
+        "API"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "cohere-embed-v4",
+      "name": "Cohere Embed 4",
+      "modelId": "embed-v4.0",
+      "providerId": "cohere",
+      "category": "embedding",
+      "freeType": "recurring",
+      "freeSummary": "免费 Evaluation key 可用；Embed 试用限额按输入数和月度调用量计算",
+      "modelUrl": "https://dashboard.cohere.com/",
+      "sourceUrl": "https://docs.cohere.com/v2/docs/rate-limits",
+      "tryUrl": "https://dashboard.cohere.com/",
+      "tags": [
+        "多语言",
+        "多模态向量",
+        "API"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "jina-embeddings-v4",
+      "name": "Jina Embeddings v4",
+      "modelId": "jina-embeddings-v4",
+      "providerId": "jina",
+      "category": "embedding",
+      "freeType": "signup_credit",
+      "freeSummary": "新用户当前获得 10M 免费 tokens；免费 Key 有 RPM、TPM 与并发限制",
+      "modelUrl": "https://jina.ai/models/jina-embeddings-v4/",
+      "sourceUrl": "https://api.jina.ai/docs",
+      "tryUrl": "https://jina.ai/models/jina-embeddings-v4/",
+      "tags": [
+        "多语言",
+        "多模态向量",
+        "长文本"
+      ],
+      "lastReviewedAt": "2026-07-26",
+      "notes": "模型权重使用 Qwen Research License；官方 API 与本地权重的使用边界不同。"
+    },
+    {
+      "id": "harrier-embed",
+      "name": "Harrier OSS 0.6B",
+      "modelId": "microsoft/harrier-oss-v1-0.6b",
+      "providerId": "huggingface",
+      "category": "embedding",
+      "freeType": "signup_credit",
+      "freeSummary": "符合条件的路由可使用每月免费额度",
+      "modelUrl": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/feature-extraction",
+      "tryUrl": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "tags": [
+        "向量",
+        "开放权重"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "bge-reranker",
+      "name": "BGE Reranker Base",
+      "modelId": "@cf/baai/bge-reranker-base",
+      "providerId": "cloudflare",
+      "category": "rerank",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/bge-reranker-base/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/bge-reranker-base/",
+      "tags": [
+        "RAG",
+        "重排"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "cohere-rerank-v4",
+      "name": "Cohere Rerank 4 Fast",
+      "modelId": "rerank-v4.0-fast",
+      "providerId": "cohere",
+      "category": "rerank",
+      "freeType": "recurring",
+      "freeSummary": "免费 Evaluation key 可用；试用 Rerank 当前限制为 10 RPM，并受每月 1,000 次调用限制",
+      "modelUrl": "https://dashboard.cohere.com/",
+      "sourceUrl": "https://docs.cohere.com/v2/docs/rate-limits",
+      "tryUrl": "https://dashboard.cohere.com/",
+      "tags": [
+        "RAG",
+        "多语言",
+        "API"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "jina-reranker-v3",
+      "name": "Jina Reranker v3",
+      "modelId": "jina-reranker-v3",
+      "providerId": "jina",
+      "category": "rerank",
+      "freeType": "signup_credit",
+      "freeSummary": "新用户当前获得 10M 免费 tokens，Embedding、Rerank 等服务共享",
+      "modelUrl": "https://jina.ai/en-US/reranker/",
+      "sourceUrl": "https://api.jina.ai/docs",
+      "tryUrl": "https://jina.ai/en-US/reranker/",
+      "tags": [
+        "RAG",
+        "多语言",
+        "长上下文"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "cross-encoder",
+      "name": "MS MARCO MiniLM Reranker",
+      "modelId": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "providerId": "huggingface",
+      "category": "rerank",
+      "freeType": "open_source",
+      "freeSummary": "权重可免费下载并本地运行；HF 在线额度需看当前部署状态",
+      "modelUrl": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/pricing",
+      "tryUrl": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "tags": [
+        "RAG",
+        "本地运行"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "mask2former-panoptic",
+      "name": "Mask2Former COCO Panoptic",
+      "modelId": "facebook/mask2former-swin-large-coco-panoptic",
+      "providerId": "huggingface",
+      "category": "semantic_segmentation",
+      "freeType": "signup_credit",
+      "freeSummary": "Hugging Face 任务文档推荐模型；在线 Provider 与免费额度以页面实时状态为准",
+      "modelUrl": "https://huggingface.co/facebook/mask2former-swin-large-coco-panoptic",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
+      "tryUrl": "https://huggingface.co/facebook/mask2former-swin-large-coco-panoptic",
+      "tags": [
+        "全景分割",
+        "实例分割"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "mask2former-ade",
+      "name": "Mask2Former ADE20K Semantic",
+      "modelId": "facebook/mask2former-swin-base-ade-semantic",
+      "providerId": "huggingface",
+      "category": "semantic_segmentation",
+      "freeType": "open_source",
+      "freeSummary": "权重可免费下载并本地运行；当前模型页未显示托管 Provider",
+      "modelUrl": "https://huggingface.co/facebook/mask2former-swin-base-ade-semantic",
+      "sourceUrl": "https://huggingface.co/facebook/mask2former-swin-base-ade-semantic",
+      "tryUrl": "https://huggingface.co/facebook/mask2former-swin-base-ade-semantic",
+      "tags": [
+        "语义分割",
+        "ADE20K",
+        "本地运行"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "rmbg2",
+      "name": "RMBG 2.0",
+      "modelId": "briaai/RMBG-2.0",
+      "providerId": "huggingface",
+      "category": "semantic_segmentation",
+      "freeType": "signup_credit",
+      "freeSummary": "任务文档提供 Inference Providers 调用示例，是否覆盖免费额度取决于路由",
+      "modelUrl": "https://huggingface.co/briaai/RMBG-2.0",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
+      "tryUrl": "https://huggingface.co/briaai/RMBG-2.0",
+      "tags": [
+        "前景分割",
+        "抠图"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "detr-cf",
+      "name": "DETR ResNet-50",
+      "modelId": "@cf/facebook/detr-resnet-50",
+      "providerId": "cloudflare",
+      "category": "object_detection",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "目标检测",
+        "COCO"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "resnet-cf",
+      "name": "ResNet-50",
+      "modelId": "@cf/microsoft/resnet-50",
+      "providerId": "cloudflare",
+      "category": "image_classification",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "图像分类"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "whisper-cf",
+      "name": "Whisper Large v3 Turbo",
+      "modelId": "@cf/openai/whisper-large-v3-turbo",
+      "providerId": "cloudflare",
+      "category": "speech_to_text",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "ASR",
+        "多语言"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "aura2-cf",
+      "name": "Aura 2 English",
+      "modelId": "@cf/deepgram/aura-2-en",
+      "providerId": "cloudflare",
+      "category": "text_to_speech",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "TTS",
+        "英语"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "wav2vec-audio",
+      "name": "Wav2Vec2 Audio Classification",
+      "modelId": "superb/wav2vec2-base-superb-ks",
+      "providerId": "huggingface",
+      "category": "audio_classification",
+      "freeType": "open_source",
+      "freeSummary": "权重可下载本地运行；在线免费额度取决于部署状态",
+      "modelUrl": "https://huggingface.co/superb/wav2vec2-base-superb-ks",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/en/tasks/index",
+      "tryUrl": "https://huggingface.co/superb/wav2vec2-base-superb-ks",
+      "tags": [
+        "关键词识别",
+        "本地运行"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "m2m100-cf",
+      "name": "M2M100 1.2B",
+      "modelId": "@cf/meta/m2m100-1.2b",
+      "providerId": "cloudflare",
+      "category": "translation",
+      "freeType": "recurring",
+      "freeSummary": "计入 Workers AI 每日免费 Neurons",
+      "modelUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "tryUrl": "https://developers.cloudflare.com/workers-ai/models/",
+      "tags": [
+        "翻译",
+        "多语言"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "openrouter-cohere-north-mini-code-free",
+      "name": "Cohere: North Mini Code",
+      "modelId": "cohere/north-mini-code:free",
+      "providerId": "openrouter",
+      "category": "code_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/cohere/north-mini-code:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/cohere/north-mini-code:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-google-gemma-4-26b-a4b-it-free",
+      "name": "Google: Gemma 4 26B A4B",
+      "modelId": "google/gemma-4-26b-a4b-it:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入",
+        "视频输入"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-google-gemma-4-31b-it-free",
+      "name": "Google: Gemma 4 31B",
+      "modelId": "google/gemma-4-31b-it:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/google/gemma-4-31b-it:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/google/gemma-4-31b-it:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入",
+        "视频输入"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-inclusionai-ling-3-0-flash-free",
+      "name": "Ling-3.0-flash",
+      "modelId": "inclusionai/ling-3.0-flash:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+      "modelId": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free",
+      "name": "NVIDIA: Nemotron 3 Nano Omni",
+      "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "音频输入",
+        "图片输入",
+        "视频输入"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free",
+      "name": "NVIDIA: Nemotron 3 Super",
+      "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
+      "name": "NVIDIA: Nemotron 3 Ultra",
+      "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-3-5-content-safety-free",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety",
+      "modelId": "nvidia/nemotron-3.5-content-safety:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
+      "name": "NVIDIA: Nemotron Nano 12B 2 VL",
+      "modelId": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入",
+        "视频输入"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
+      "name": "NVIDIA: Nemotron Nano 9B V2",
+      "modelId": "nvidia/nemotron-nano-9b-v2:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-openai-gpt-oss-20b-free",
+      "name": "OpenAI: gpt-oss-20b",
+      "modelId": "openai/gpt-oss-20b:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/openai/gpt-oss-20b:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/openai/gpt-oss-20b:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-poolside-laguna-m-1-free",
+      "name": "Poolside: Laguna M.1",
+      "modelId": "poolside/laguna-m.1:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/poolside/laguna-m.1:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/poolside/laguna-m.1:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-poolside-laguna-s-2-1-free",
+      "name": "Poolside: Laguna S 2.1",
+      "modelId": "poolside/laguna-s-2.1:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-poolside-laguna-xs-2-1-free",
+      "name": "Poolside: Laguna XS 2.1",
+      "modelId": "poolside/laguna-xs-2.1:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-07-28",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    }
+  ],
+  "relays": [
+    {
+      "id": "302ai",
+      "name": "302.AI",
+      "websiteUrl": "https://302.ai/",
+      "docsUrl": "https://help.302.ai/docs/chang-jian-wen-ti",
+      "trialSummary": "官网 FAQ 称手机号注册用户有试用金；金额和规则以实时页面为准",
+      "protocols": [
+        "OpenAI 兼容",
+        "多模型 API"
+      ],
+      "clients": [
+        "通用 SDK"
+      ],
+      "evidence": "official_docs",
+      "operatorDisclosure": "public",
+      "termsFound": true,
+      "privacyFound": true,
+      "sourceUrls": [
+        "https://help.302.ai/docs/chang-jian-wen-ti",
+        "https://price.302.ai/"
+      ],
+      "riskNotes": [],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "aihubmix",
+      "name": "AIHubMix",
+      "websiteUrl": "https://aihubmix.com/",
+      "docsUrl": "https://docs.aihubmix.com/",
+      "trialSummary": "官网文档列有补贴免费模型；具体列表会变化",
+      "protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "clients": [
+        "Codex",
+        "Claude Code",
+        "通用 SDK"
+      ],
+      "evidence": "official_docs",
+      "operatorDisclosure": "partial",
+      "termsFound": false,
+      "privacyFound": true,
+      "sourceUrls": [
+        "https://docs.aihubmix.com/en/blogs/free-ai-models"
+      ],
+      "riskNotes": [
+        "免费模型可能下线或限流。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "api2d",
+      "name": "API2D",
+      "websiteUrl": "https://api2d.com/",
+      "trialSummary": "未找到长期免费额度承诺；缓存命中免费不等于所有调用免费",
+      "protocols": [
+        "OpenAI 兼容",
+        "Claude",
+        "图像",
+        "向量"
+      ],
+      "clients": [
+        "通用 SDK"
+      ],
+      "evidence": "site_claim",
+      "operatorDisclosure": "partial",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://api2d.com/"
+      ],
+      "riskNotes": [
+        "主要为付费服务。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "packyapi",
+      "name": "PackyAPI",
+      "websiteUrl": "https://packyapi.com/",
+      "docsUrl": "https://docs.packyapi.com/docs/",
+      "trialSummary": "未核实免充值试用额度",
+      "protocols": [
+        "OpenAI 兼容",
+        "Anthropic Messages"
+      ],
+      "clients": [
+        "Codex",
+        "Claude Code",
+        "通用 SDK"
+      ],
+      "evidence": "official_docs",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://docs.packyapi.com/docs/register/"
+      ],
+      "riskNotes": [
+        "上游和运营主体披露不足。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "fastapi",
+      "name": "FastApi",
+      "websiteUrl": "https://fastapi.saturney.cn/",
+      "trialSummary": "官网称注册赠送少量体验额度",
+      "protocols": [
+        "Anthropic Messages"
+      ],
+      "clients": [
+        "Claude Code"
+      ],
+      "evidence": "site_claim",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://fastapi.saturney.cn/"
+      ],
+      "riskNotes": [
+        "额度、上游和持续运营均为官网自述。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "ccsub",
+      "name": "CCSub",
+      "websiteUrl": "https://www.ccsub.net/",
+      "docsUrl": "https://www.ccsub.net/docs",
+      "trialSummary": "文档未核实长期免费额度",
+      "protocols": [
+        "OpenAI 兼容",
+        "Anthropic Messages"
+      ],
+      "clients": [
+        "Codex",
+        "Claude Code"
+      ],
+      "evidence": "official_docs",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://www.ccsub.net/docs"
+      ],
+      "riskNotes": [
+        "低价和倍率均为站方自述。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "apikl",
+      "name": "API 快连",
+      "websiteUrl": "https://apikl.ai/",
+      "docsUrl": "https://apikl.ai/",
+      "trialSummary": "未核实免充值试用额度",
+      "protocols": [
+        "OpenAI 兼容",
+        "Anthropic Messages",
+        "Gemini"
+      ],
+      "clients": [
+        "Codex",
+        "Claude Code",
+        "通用 SDK"
+      ],
+      "evidence": "site_claim",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://apikl.ai/"
+      ],
+      "riskNotes": [
+        "账号池、价格和模型真实性为站方自述。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "getcodex",
+      "name": "GetCodex",
+      "websiteUrl": "https://home.getcodex.cc/",
+      "trialSummary": "未核实免费额度；官网主打按量充值",
+      "protocols": [
+        "OpenAI 兼容"
+      ],
+      "clients": [
+        "Codex"
+      ],
+      "evidence": "site_claim",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://home.getcodex.cc/"
+      ],
+      "riskNotes": [
+        "模型核验截图不能替代独立审计。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "suixiang",
+      "name": "随想 AI",
+      "websiteUrl": "https://sui-xiang.com/",
+      "docsUrl": "https://sui-xiang.com/docs/",
+      "trialSummary": "未核实免充值试用额度",
+      "protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "clients": [
+        "Codex",
+        "Claude Code",
+        "通用 SDK"
+      ],
+      "evidence": "official_docs",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://sui-xiang.com/docs/"
+      ],
+      "riskNotes": [
+        "上游与数据处理方式未独立核验。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "timedigital",
+      "name": "TimeDigital",
+      "websiteUrl": "https://www.timedigital.cn/",
+      "trialSummary": "可免费注册；未核实赠送额度",
+      "protocols": [
+        "OpenAI 兼容",
+        "国产模型"
+      ],
+      "clients": [
+        "通用 SDK"
+      ],
+      "evidence": "site_claim",
+      "operatorDisclosure": "partial",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://www.timedigital.cn/"
+      ],
+      "riskNotes": [],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "quickrouter",
+      "name": "QuickRouter",
+      "websiteUrl": "https://quickrouter.ai/",
+      "trialSummary": "搜索快照称注册有小额赠金，需在官网实时确认",
+      "protocols": [
+        "OpenAI 兼容",
+        "多模型"
+      ],
+      "clients": [
+        "通用 SDK"
+      ],
+      "evidence": "third_party_listing",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://quickrouter.ai/"
+      ],
+      "riskNotes": [
+        "赠金额度尚无独立或文档级证据。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "pateway",
+      "name": "PatewayAI",
+      "websiteUrl": "https://pateway.ai/",
+      "trialSummary": "搜索快照称注册有体验额度，需在官网实时确认",
+      "protocols": [
+        "OpenAI 兼容",
+        "多模型"
+      ],
+      "clients": [
+        "通用 SDK"
+      ],
+      "evidence": "third_party_listing",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://pateway.ai/"
+      ],
+      "riskNotes": [
+        "体验额度和上游均需用户自行复核。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    },
+    {
+      "id": "llmapi",
+      "name": "LLM API",
+      "websiteUrl": "https://llmapi.pro/",
+      "docsUrl": "https://llmapi.pro/api-relay-cn",
+      "trialSummary": "官网称可免费获取 Key，是否含可调用余额未核实",
+      "protocols": [
+        "OpenAI Responses",
+        "Anthropic Messages",
+        "Gemini"
+      ],
+      "clients": [
+        "Codex",
+        "Claude Code",
+        "通用 SDK"
+      ],
+      "evidence": "site_claim",
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://llmapi.pro/api-relay-cn"
+      ],
+      "riskNotes": [
+        "“低至官方十分之一”等为站方营销自述。"
+      ],
+      "lastReviewedAt": "2026-07-26"
+    }
+  ],
+  "checks": [
+    {
+      "kind": "model",
+      "id": "gemini-36-flash",
+      "url": "https://aistudio.google.com/",
+      "ok": false,
+      "status": 0,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-36-flash",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "ok": false,
+      "status": 0,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "gemma-4",
+      "url": "https://aistudio.google.com/",
+      "ok": false,
+      "status": 0,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "gemma-4",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "ok": false,
+      "status": 0,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-free",
+      "url": "https://openrouter.ai/openrouter/free",
+      "ok": false,
+      "status": 0,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-free",
+      "url": "https://openrouter.ai/docs/cookbook/get-started/free-models-router-playground",
+      "ok": false,
+      "status": 0,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "github-gpt41",
+      "url": "https://github.com/marketplace/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "github-gpt41",
+      "url": "https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cerebras-glm47",
+      "url": "https://cloud.cerebras.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cerebras-glm47",
+      "url": "https://inference-docs.cerebras.ai/support/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "sambanova-gpt-oss",
+      "url": "https://cloud.sambanova.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "sambanova-gpt-oss",
+      "url": "https://cloud.sambanova.ai/plans",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "siliconflow-qwen35",
+      "url": "https://cloud.siliconflow.com/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "siliconflow-qwen35",
+      "url": "https://www.siliconflow.com/pricing",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "groq-compound",
+      "url": "https://console.groq.com/docs/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "groq-compound",
+      "url": "https://console.groq.com/docs/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "mistral-small",
+      "url": "https://console.mistral.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "mistral-small",
+      "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cohere-command-a",
+      "url": "https://dashboard.cohere.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cohere-command-a",
+      "url": "https://docs.cohere.com/v2/docs/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "llama-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/llama-3.1-8b-instruct/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "llama-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-coder-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/qwen2.5-coder-32b-instruct/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-coder-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gpt-oss-groq",
+      "url": "https://console.groq.com/docs/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gpt-oss-groq",
+      "url": "https://console.groq.com/docs/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gpt-oss-cerebras",
+      "url": "https://cloud.cerebras.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gpt-oss-cerebras",
+      "url": "https://inference-docs.cerebras.ai/support/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-coder-hf",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-coder-hf",
+      "url": "https://huggingface.co/docs/inference-providers/pricing",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "moondream-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "moondream-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-vision",
+      "url": "https://aistudio.google.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-vision",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "flux-schnell",
+      "url": "https://developers.cloudflare.com/workers-ai/models/flux-1-schnell/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "flux-schnell",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "flux-klein",
+      "url": "https://developers.cloudflare.com/workers-ai/models/flux-2-klein-4b/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "flux-klein",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-image",
+      "url": "https://huggingface.co/Qwen/Qwen-Image",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-image",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-image",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "wan22-video",
+      "url": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "wan22-video",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "hunyuan-video",
+      "url": "https://huggingface.co/tencent/HunyuanVideo",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "hunyuan-video",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "ltx-video",
+      "url": "https://huggingface.co/Lightricks/LTX-Video",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "ltx-video",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "bge-m3",
+      "url": "https://developers.cloudflare.com/workers-ai/models/bge-m3/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "bge-m3",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen3-embed",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "qwen3-embed",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-embedding",
+      "url": "https://ai.google.dev/gemini-api/docs/embeddings",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-embedding",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cohere-embed-v4",
+      "url": "https://dashboard.cohere.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cohere-embed-v4",
+      "url": "https://docs.cohere.com/v2/docs/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "jina-embeddings-v4",
+      "url": "https://jina.ai/models/jina-embeddings-v4/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "jina-embeddings-v4",
+      "url": "https://api.jina.ai/docs",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "harrier-embed",
+      "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "harrier-embed",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/feature-extraction",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "bge-reranker",
+      "url": "https://developers.cloudflare.com/workers-ai/models/bge-reranker-base/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "bge-reranker",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cohere-rerank-v4",
+      "url": "https://dashboard.cohere.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cohere-rerank-v4",
+      "url": "https://docs.cohere.com/v2/docs/rate-limits",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "jina-reranker-v3",
+      "url": "https://jina.ai/en-US/reranker/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "jina-reranker-v3",
+      "url": "https://api.jina.ai/docs",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cross-encoder",
+      "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "cross-encoder",
+      "url": "https://huggingface.co/docs/inference-providers/pricing",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "mask2former-panoptic",
+      "url": "https://huggingface.co/facebook/mask2former-swin-large-coco-panoptic",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "mask2former-panoptic",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "mask2former-ade",
+      "url": "https://huggingface.co/facebook/mask2former-swin-base-ade-semantic",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "rmbg2",
+      "url": "https://huggingface.co/briaai/RMBG-2.0",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "rmbg2",
+      "url": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "detr-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "detr-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "resnet-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "resnet-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "whisper-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "whisper-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "aura2-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "aura2-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "wav2vec-audio",
+      "url": "https://huggingface.co/superb/wav2vec2-base-superb-ks",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "wav2vec-audio",
+      "url": "https://huggingface.co/docs/inference-providers/en/tasks/index",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "m2m100-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/models/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "m2m100-cf",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-cohere-north-mini-code-free",
+      "url": "https://openrouter.ai/cohere/north-mini-code:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-cohere-north-mini-code-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-google-gemma-4-26b-a4b-it-free",
+      "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-google-gemma-4-26b-a4b-it-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-google-gemma-4-31b-it-free",
+      "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-google-gemma-4-31b-it-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-inclusionai-ling-3-0-flash-free",
+      "url": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-inclusionai-ling-3-0-flash-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-5-content-safety-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-3-5-content-safety-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-openai-gpt-oss-20b-free",
+      "url": "https://openrouter.ai/openai/gpt-oss-20b:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-openai-gpt-oss-20b-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-poolside-laguna-m-1-free",
+      "url": "https://openrouter.ai/poolside/laguna-m.1:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-poolside-laguna-m-1-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-poolside-laguna-s-2-1-free",
+      "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-poolside-laguna-s-2-1-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-poolside-laguna-xs-2-1-free",
+      "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-poolside-laguna-xs-2-1-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "302ai",
+      "url": "https://302.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "302ai",
+      "url": "https://help.302.ai/docs/chang-jian-wen-ti",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "302ai",
+      "url": "https://price.302.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "aihubmix",
+      "url": "https://aihubmix.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "aihubmix",
+      "url": "https://docs.aihubmix.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "aihubmix",
+      "url": "https://docs.aihubmix.com/en/blogs/free-ai-models",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "api2d",
+      "url": "https://api2d.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "packyapi",
+      "url": "https://packyapi.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "packyapi",
+      "url": "https://docs.packyapi.com/docs/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "packyapi",
+      "url": "https://docs.packyapi.com/docs/register/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "fastapi",
+      "url": "https://fastapi.saturney.cn/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "ccsub",
+      "url": "https://www.ccsub.net/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "ccsub",
+      "url": "https://www.ccsub.net/docs",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "apikl",
+      "url": "https://apikl.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "getcodex",
+      "url": "https://home.getcodex.cc/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "suixiang",
+      "url": "https://sui-xiang.com/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "suixiang",
+      "url": "https://sui-xiang.com/docs/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "timedigital",
+      "url": "https://www.timedigital.cn/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "quickrouter",
+      "url": "https://quickrouter.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "pateway",
+      "url": "https://pateway.ai/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "llmapi",
+      "url": "https://llmapi.pro/",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    },
+    {
+      "kind": "relay",
+      "id": "llmapi",
+      "url": "https://llmapi.pro/api-relay-cn",
+      "ok": true,
+      "status": 200,
+      "checkedAt": "2026-07-28T01:40:38.008Z",
+      "note": "入口可访问"
+    }
+  ],
+  "sourceStatus": [
+    {
+      "name": "OpenRouter 免费模型目录",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "note": "同步 15 个零价格模型"
+    },
+    {
+      "name": "GitHub 中转站候选发现",
+      "url": "https://api.github.com/search/repositories",
+      "ok": true,
+      "note": "筛出 0 个高相关候选"
+    },
+    {
+      "name": "免费模型入口检查",
+      "url": "https://www.qaz5678.xyz/models/",
+      "ok": true,
+      "note": "107/113 个链接可访问"
+    },
+    {
+      "name": "中转站入口与证据检查",
+      "url": "https://www.qaz5678.xyz/relays/",
+      "ok": true,
+      "note": "22/22 个链接可访问"
+    }
+  ]
+}
