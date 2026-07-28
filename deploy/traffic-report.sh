@@ -20,6 +20,10 @@ awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
   BEGIN {
     count=split(excluded,excluded_ips,",");
     for(i=1;i<=count;i++)if(excluded_ips[i] != "")ignore[excluded_ips[i]]=1;
+    funnel_names["site-search"]=1; funnel_names["directory-filter"]=1;
+    funnel_names["finder-entry"]=1; funnel_names["finder-start"]=1; funnel_names["finder-result"]=1; funnel_names["finder-open"]=1;
+    funnel_names["search-result"]=1; funnel_names["model"]=1; funnel_names["model-source"]=1; funnel_names["relay"]=1;
+    funnel_names["rss"]=1; funnel_names["rss-models"]=1; funnel_names["rss-relays"]=1; funnel_names["share"]=1;
   }
   index($4,day)==1 && $7 ~ /^\/event\?/ && !($1 in ignore) {
     split($0,q,"\""); ua=q[6]; request=q[2];
@@ -30,6 +34,7 @@ awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     for(i in pairs){split(pairs[i],kv,"="); if(kv[1]=="type")type=kv[2]; if(kv[1]=="path")path=kv[2]; if(kv[1]=="ref")ref=kv[2]; if(kv[1]=="reason")reason=kv[2]}
     events++;
     identity=$1 "|" ua;
+    if(type in funnel_names){funnel_events[type]++; funnel_people[type SUBSEP identity]=1;}
     if(type=="pageview"){
       pageviews++; visitors[identity]=1; paths[path]++; sources[ref]++;
     } else if(type=="engaged") {
@@ -48,6 +53,7 @@ awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
       if(has_dwell && !has_interaction) dwell_only_users++;
       if(has_interaction) verified_users++;
     }
+    for(key in funnel_people){split(key,parts,SUBSEP); funnel_visitors[parts[1]]++;}
     print "date",substr(day,2,length(day)-2);
     print "verified_visitors",verified_users+0;
     print "engaged_visitors",interactive_users+0;
@@ -57,6 +63,12 @@ awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     print "engaged_events",engaged_events+0;
     print "shares",shares+0;
     print "tracked_events",events+0;
+    print "funnel_events";
+    for(f in funnel_events) print funnel_events[f],f | "sort -nr";
+    close("sort -nr");
+    print "funnel_visitors";
+    for(f in funnel_visitors) print funnel_visitors[f],f | "sort -nr";
+    close("sort -nr");
     print "top_paths";
     for(p in paths) print paths[p],p | "sort -nr | head -10";
     close("sort -nr | head -10");

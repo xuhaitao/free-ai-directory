@@ -8,6 +8,8 @@
 
 站内提供模型、中转站、新闻、项目、趋势模型和教程的统一搜索；每日目录页记录真实的新增、移除与规则变化。链接状态会区分正常响应、目标站限制自动检查、确认失效、更新服务器网络受限与临时错误，避免把国内服务器不可达误写成条目失效。
 
+“帮我选免费模型”按用途、在线 API / 本地运行、充值、账户和中文需求缩小候选范围，结果可通过 URL 分享。免费模型变化和中转站变化分别提供独立 RSS。互动统计只记录搜索、筛选、引导器、详情跳转、外链、分享和订阅等事件类型，不发送搜索词或具体筛选答案。
+
 ## 本地开发
 
 需要 Node.js 22.18 或更高版本。
@@ -56,6 +58,9 @@ curl -I https://你的域名/relays/
 curl -I https://你的域名/daily/
 curl https://你的域名/data/daily.json
 curl https://你的域名/data/directory.json
+curl https://你的域名/data/model-finder.json
+curl https://你的域名/models-changes.xml
+curl https://你的域名/relays-changes.xml
 ```
 
 ## 安全与商业边界

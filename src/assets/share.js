@@ -3,7 +3,8 @@ const sendShare=()=>{
   navigator.sendBeacon?.(`/event?${params}`,new Blob([], {type:'text/plain'}));
 };
 
-document.querySelectorAll('[data-share]').forEach(button=>button.addEventListener('click',async()=>{
+document.querySelectorAll('[data-share]').forEach(button=>button.addEventListener('click',async event=>{
+  if(!event.isTrusted)return;
   const original=button.textContent;
   try{
     if(navigator.share){

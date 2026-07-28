@@ -28,6 +28,7 @@ for(const required of [
   "relays/index.html",
   "changes/index.html",
   "search/index.html",
+  "find-model/index.html",
   "methodology/index.html",
   "questions/index.html",
   "guides/free-ai-api/index.html",
@@ -49,6 +50,7 @@ for(const required of [
   "assets/metrics.js",
   "assets/share.js",
   "assets/search.js",
+  "assets/model-finder.js",
   "assets/responsive.css",
   "assets/social-card.png",
   "favicon.ico",
@@ -59,6 +61,9 @@ for(const required of [
   "video-sitemap.xml",
   "robots.txt",
   "data/directory.json",
-  "data/search-index.json"
+  "data/search-index.json",
+  "data/model-finder.json",
+  "models-changes.xml",
+  "relays-changes.xml"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);
 if(errors.length){console.error(errors.join("\n"));process.exitCode=1}else console.log(`发布审计通过：${htmlFiles.length} 个 HTML 页面，${files.length} 个构建文件`);

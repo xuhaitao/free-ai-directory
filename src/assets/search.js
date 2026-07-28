@@ -27,8 +27,9 @@ function render(){
   }
   if(query&&!found.length){const empty=document.createElement('p');empty.className='empty';empty.textContent='没有匹配结果，请尝试模型名、能力类型、客户端或项目名称。';results.append(empty)}
 }
-function sync(){const query=input.value.trim(),next=new URLSearchParams();if(query)next.set('q',query);history.replaceState(null,'',location.pathname+(next.size?`?${next}`:''));render()}
-form?.addEventListener('submit',event=>{event.preventDefault();sync()});
-input?.addEventListener('input',()=>{clearTimeout(input._timer);input._timer=setTimeout(sync,120)});
+let searchMetricSent=false;function trackSearch(event){if(event?.isTrusted&&!searchMetricSent&&input.value.trim()){searchMetricSent=true;document.dispatchEvent(new CustomEvent('site-metric',{detail:{type:'site-search'}}))}}
+function sync(event){const query=input.value.trim(),next=new URLSearchParams();if(query)next.set('q',query);history.replaceState(null,'',location.pathname+(next.size?`?${next}`:''));render();trackSearch(event)}
+form?.addEventListener('submit',event=>{event.preventDefault();sync(event)});
+input?.addEventListener('input',event=>{clearTimeout(input._timer);input._timer=setTimeout(()=>sync(event),120)});
 if(input)input.value=params.get('q')||'';
 try{index=await fetch('/data/search-index.json',{credentials:'omit'}).then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json()});render()}catch{status.textContent='搜索索引暂时无法加载，请稍后重试。'}

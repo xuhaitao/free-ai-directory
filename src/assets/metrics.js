@@ -47,7 +47,14 @@ try{
 }
 
 document.addEventListener('click',event=>{
+  if(!event.isTrusted)return;
   const link=event.target.closest('a[data-track]');
   if(!link)return;
   send(link.dataset.track||'external');
+});
+
+const funnelEvents=new Set(['site-search','directory-filter','finder-start','finder-result','finder-open']);
+document.addEventListener('site-metric',event=>{
+  const type=String(event.detail?.type||'');
+  if(funnelEvents.has(type))send(type);
 });
