@@ -115,7 +115,14 @@ const methodology = layout("榜单口径、收录方法与风险边界","每日 
 
 function relayUseCase(client:"Codex"|"Claude Code",slug:string,protocol:string){
   const items=relays.filter(r=>r.clients.includes(client));
-  return layout(`${client} 中转站入口`,`${client} 可配置的第三方 API 中转站公开入口、协议与风险信息。`,`/use-cases/${slug}/`,`<section class="page-head"><span class="kicker">${client.toUpperCase()}</span><h1>${client} 中转站入口</h1><p>以下 ${items.length} 个站点的公开资料提到 ${client} 或对应协议。本站不验证模型上游和稳定性，配置前先查看主体、条款、隐私及余额规则。</p></section><section class="guide-summary"><h2>先确认这三件事</h2><ol><li>文档是否明确支持 ${protocol}，不要只看兼容宣传。</li><li>不要上传公司源码、客户数据或长期有效的官方 Key。</li><li>先用最低金额验证退款、余额和模型 ID，再决定是否继续。</li></ol><a href="/guides/relay-risk-checklist/">查看完整风险清单 →</a></section><div class="cards standalone">${items.map(relayCard).join("")}</div>`);
+  const path=`/use-cases/${slug}/`;
+  const faq=[
+    {q:`这些 ${client} 中转站是官方渠道吗？`,a:"不是。本站收录的是第三方公开入口，不代表 OpenAI、Anthropic 或客户端官方认可。"},
+    {q:`配置 ${client} 是否只需要修改 Base URL？`,a:`不一定。还要核对 ${protocol}、认证头、模型 ID、流式响应和工具调用是否兼容。`},
+    {q:"哪个中转站最稳定？",a:"本站没有足够的长期实测证据做稳定性排名，只展示公开文档、运营主体和链接状态等可核验信息。"}
+  ];
+  const schemas=`${jsonLd({"@context":"https://schema.org","@type":"ItemList",name:`${client} 中转站公开入口`,numberOfItems:items.length,itemListElement:items.map((item,index)=>({"@type":"ListItem",position:index+1,name:item.name,url:item.websiteUrl}))})}${jsonLd({"@context":"https://schema.org","@type":"FAQPage",mainEntity:faq.map(item=>({"@type":"Question",name:item.q,acceptedAnswer:{"@type":"Answer",text:item.a}}))})}`;
+  return layout(`2026 ${client} 中转站入口：协议兼容与风险清单`,`${items.length} 个 ${client} 第三方 API 中转站公开入口，核对 ${protocol}、工具调用、运营主体与余额风险。`,path,`<section class="page-head"><span class="kicker">${client.toUpperCase()} RELAYS · 2026</span><h1>${client} 中转站入口</h1><p>以下 ${items.length} 个站点的公开资料提到 ${client} 或对应协议。本站不验证模型上游和稳定性，配置前先查看主体、条款、隐私及余额规则。</p></section><section class="guide-summary"><h2>先确认这三件事</h2><ol><li>文档是否明确支持 ${protocol}，不要只看兼容宣传。</li><li>不要上传公司源码、客户数据或长期有效的官方 Key。</li><li>先用最低金额验证退款、余额和模型 ID，再决定是否继续。</li></ol><a href="/guides/relay-risk-checklist/">查看完整风险清单 →</a></section><div class="cards standalone">${items.map(relayCard).join("")}</div><article class="prose"><h2>${client} 中转站常见问题</h2>${faq.map(item=>`<h3>${esc(item.q)}</h3><p>${esc(item.a)}</p>`).join("")}<p>目录每日检查公开入口，但“能打开”不等于模型真实、长期稳定或资金安全。</p></article>${schemas}`);
 }
 
 const riskGuide=layout("API 中转站使用前检查清单","使用 Codex、Claude Code 或通用 SDK 中转站前应核对的主体、协议、数据与资金风险。","/guides/relay-risk-checklist/",`<section class="page-head prose-head"><span class="kicker">RELAY SAFETY</span><h1>中转站使用前检查清单</h1><p>便宜和可连接不等于上游真实、数据安全或余额可兑付。充值和发送代码前逐项确认。</p></section><article class="prose checklist"><h2>1. 运营主体</h2><p>查找公司名称、联系方式、备案信息与实际运营时间。只有群聊或匿名客服的站点，不适合存放大额余额。</p><h2>2. 协议是否匹配</h2><p>Codex 重点检查 OpenAI Responses 或明确的客户端配置；Claude Code 重点检查 Anthropic Messages。仅支持 Chat Completions 不代表全部功能正常。</p><h2>3. 数据经过谁</h2><p>提示词、代码、文件和响应会经过中转服务器。不要发送客户数据、生产密钥、身份证件、未公开源码或公司内部文档。</p><h2>4. Key 隔离</h2><p>每个站点使用独立 Key，设置余额和速率上限。不要把官方平台 Key 交给第三方，也不要在多个站点复用同一个凭据。</p><h2>5. 余额与退款</h2><p>先小额充值并保存价格、倍率、退款与有效期截图。不要因为折扣一次性囤积长期余额。</p><h2>6. 模型真实性</h2><p>站方展示的模型名和截图不能替代独立审计。对于重要工作，应使用官方渠道或自行可控的推理服务。</p><h2>7. 停服预案</h2><p>客户端配置与业务代码不要绑定单一中转站。保留官方或其他 Provider 的切换方式。</p><h2>8. 合规要求</h2><p>公司代码、个人信息、医疗和金融数据应遵循所属组织与地区要求；不确定时不要经过个人中转站。</p><p><a href="/relays/">返回中转站目录 →</a></p></article>`);
@@ -303,6 +310,8 @@ async function build(){
     ["免费图像生成 API","FLUX、Qwen Image 的额度与入口","/guides/free-image-generation-api/","图像生成 文生图"],
     ["免费图像分割 API","语义分割、全景分割和自动抠图模型入口","/guides/free-image-segmentation-api/","图像分割 语义分割 抠图 全景分割 Mask2Former RMBG"],
     ["Codex 与 Claude Code 中转指南","协议差异、配置边界与第三方风险","/guides/codex-claude-code-relay/","Codex Claude Code 中转"],
+    ["2026 Codex 中转站入口","Responses 协议兼容、公开证据与风险清单","/use-cases/codex-relays/","Codex 中转站 API Responses Base URL"],
+    ["2026 Claude Code 中转站入口","Anthropic Messages 协议兼容、公开证据与风险清单","/use-cases/claude-code-relays/","Claude Code 中转站 API Anthropic Messages Base URL"],
     ["Codex 免费使用入口","ChatGPT Free 计划与限制","/guides/codex-free/","OpenAI Codex 免费"],
     ["Claude Code 免费使用方案","官方认证要求与替代入口","/guides/claude-code-free/","Anthropic Claude Code 免费"],
     ["中转站风险检查清单","主体、隐私、Key、余额与停服预案","/guides/relay-risk-checklist/","中转 API 风险 安全"]
