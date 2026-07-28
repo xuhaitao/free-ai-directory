@@ -2,7 +2,15 @@
 
 面向中文用户的每日 AI 情报与免费资源目录。每天更新 10 条 AI 热门新闻、10 个热门 AI 项目和 10 个趋势模型，并收录文本、代码、多模态、图像、视频、Embedding、Rerank、语义分割、目标检测、图像分类、语音和翻译等免费入口。
 
-在线站点：[www.qaz5678.xyz](https://www.qaz5678.xyz/)
+在线站点：[www.qaz5678.xyz](https://www.qaz5678.xyz/?utm_source=github&utm_medium=readme&utm_campaign=repository)
+
+常用入口：
+
+- [回答 5 个问题，筛选免费 AI 模型](https://www.qaz5678.xyz/find-model/?utm_source=github&utm_medium=readme&utm_campaign=model_finder)
+- [浏览 57 个免费模型与 14 种能力](https://www.qaz5678.xyz/models/?utm_source=github&utm_medium=readme&utm_campaign=free_models)
+- [查看每日 AI 新闻、项目和趋势模型 Top 10](https://www.qaz5678.xyz/daily/?utm_source=github&utm_medium=readme&utm_campaign=daily_ai)
+- [核对 Codex / Claude Code 中转站协议与风险](https://www.qaz5678.xyz/guides/codex-claude-code-relay/?utm_source=github&utm_medium=readme&utm_campaign=relay_guide)
+- [查看免费图像分割 API 与模型](https://www.qaz5678.xyz/guides/free-image-segmentation-api/?utm_source=github&utm_medium=readme&utm_campaign=segmentation_api)
 
 产品边界很明确：不代测模型、不接收或托管用户 Key、不代理请求、不做伪精确的稳定性排名。模型卡只提供免费规则摘要、来源和可跳转地址；中转站卡显示证据等级和风险。
 
