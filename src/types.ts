@@ -107,9 +107,19 @@ export type DirectoryLinkCheck = {
   id: string;
   url: string;
   ok: boolean;
+  state: "reachable" | "restricted" | "network_limited" | "not_found" | "temporary_error";
   status: number;
   checkedAt: string;
   note: string;
+};
+
+export type DirectoryChange = {
+  kind: "model" | "relay";
+  change: "added" | "removed" | "changed";
+  id: string;
+  name: string;
+  summary: string;
+  url?: string;
 };
 
 export type DirectorySnapshot = {
@@ -120,5 +130,6 @@ export type DirectorySnapshot = {
   models: ModelEntry[];
   relays: Relay[];
   checks: DirectoryLinkCheck[];
+  changes?: DirectoryChange[];
   sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
 };

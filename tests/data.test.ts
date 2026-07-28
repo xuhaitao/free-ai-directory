@@ -5,6 +5,7 @@ import { validateData } from "../src/validate.ts";
 import { loadDailySnapshot } from "../src/daily.ts";
 import { loadDirectorySnapshot } from "../src/directory.ts";
 import { githubRelayCandidates, hasHostedRelayPageEvidence, openRouterFreeModels } from "../src/directory-update-core.ts";
+import { directoryChanges, linkStateForStatus, mergeDirectoryChanges } from "../src/directory-change-core.ts";
 
 test("发布数据达到最低规模",()=>{const x=validateData();assert.ok(x.models>=30);assert.ok(x.relays>=10);assert.equal(x.categories,14);});
 test("所有模型类型都有入口",()=>{for(const category of Object.keys(categoryLabels))assert.ok(models.some(x=>x.category===category),category);});
@@ -35,4 +36,19 @@ test("每日目录快照可校验且不把导航和切换工具自动收录",asy
   assert.ok(directory.sourceStatus.length>=4);
   assert.ok(directory.models.some(item=>item.tags.includes("每日同步")));
   assert.ok(directory.relays.filter(item=>item.id.startsWith("github-")).every(item=>!/(awesome|nav|dashboard|switch|mcp|vscode)/i.test(`${item.id} ${item.name} ${item.websiteUrl}`)));
+});
+test("链接状态区分目标站限制、确认失效和临时错误",()=>{
+  assert.equal(linkStateForStatus(200),"reachable");
+  assert.equal(linkStateForStatus(403),"restricted");
+  assert.equal(linkStateForStatus(404),"not_found");
+  assert.equal(linkStateForStatus(503),"temporary_error");
+});
+test("目录变化只记录新增、移除和实质字段变更",()=>{
+  const before={schemaVersion:1 as const,date:"2026-07-27",generatedAt:"2026-07-27T00:00:00.000Z",timezone:"Asia/Shanghai" as const,models:[models[0]!],relays:[relays[0]!],checks:[],sourceStatus:[]};
+  const changedModel={...models[0]!,freeSummary:`${models[0]!.freeSummary}（调整）`,lastReviewedAt:"2026-07-28"};
+  const changes=directoryChanges(before,[changedModel,models[1]!],[]);
+  assert.ok(changes.some(item=>item.change==="changed"&&item.id===changedModel.id&&item.summary.includes("免费规则")));
+  assert.ok(changes.some(item=>item.change==="added"&&item.id===models[1]!.id));
+  assert.ok(changes.some(item=>item.change==="removed"&&item.id===relays[0]!.id));
+  assert.equal(mergeDirectoryChanges(changes,changes).length,changes.length);
 });

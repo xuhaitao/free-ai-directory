@@ -4,6 +4,7 @@ dist/
 .env.*
 !.env.example
 coverage/
+content/directory-history/
 var/
 .wrangler/
 .DS_Store

@@ -13,6 +13,7 @@ export function validateDirectorySnapshot(value: unknown): asserts value is Dire
   if (!Array.isArray(snapshot?.models) || snapshot.models.length < 30) errors.push("免费模型少于 30 个");
   if (!Array.isArray(snapshot?.relays) || snapshot.relays.length < 10) errors.push("中转站少于 10 个");
   if (!Array.isArray(snapshot?.checks)) errors.push("缺少链接检查结果");
+  if (snapshot?.changes !== undefined && !Array.isArray(snapshot.changes)) errors.push("目录变化记录格式错误");
   if (!Array.isArray(snapshot?.sourceStatus) || snapshot.sourceStatus.length < 2) errors.push("缺少目录来源状态");
 
   const models = snapshot?.models || [] as ModelEntry[];
@@ -26,6 +27,8 @@ export function validateDirectorySnapshot(value: unknown): asserts value is Dire
   for (const relay of relays) {
     if (!relay.websiteUrl?.startsWith("https://") || !relay.sourceUrls?.length) errors.push(`${relay.id}: 中转站缺少 HTTPS 入口或来源`);
   }
+  const states = new Set(["reachable", "restricted", "network_limited", "not_found", "temporary_error"]);
+  for (const check of snapshot?.checks || []) if (!states.has(check.state)) errors.push(`${check.id}: 链接状态错误`);
   if (errors.length) throw new Error(errors.join("\n"));
 }
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T01:40:38.008Z",
+  "generatedAt": "2026-07-28T02:03:47.906Z",
   "timezone": "Asia/Shanghai",
   "models": [
     {
@@ -1354,1223 +1354,1359 @@
       "id": "gemini-36-flash",
       "url": "https://aistudio.google.com/",
       "ok": false,
+      "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "fetch failed"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gemini-36-flash",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "ok": false,
-      "status": 0,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemma-4",
       "url": "https://aistudio.google.com/",
-      "ok": false,
-      "status": 0,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemma-4",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
       "ok": false,
+      "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "fetch failed"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-free",
       "url": "https://openrouter.ai/openrouter/free",
       "ok": false,
+      "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "fetch failed"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-free",
       "url": "https://openrouter.ai/docs/cookbook/get-started/free-models-router-playground",
-      "ok": false,
-      "status": 0,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "github-gpt41",
       "url": "https://github.com/marketplace/models",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "github-gpt41",
       "url": "https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "cerebras-glm47",
       "url": "https://cloud.cerebras.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cerebras-glm47",
       "url": "https://inference-docs.cerebras.ai/support/rate-limits",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "sambanova-gpt-oss",
       "url": "https://cloud.sambanova.ai/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "sambanova-gpt-oss",
       "url": "https://cloud.sambanova.ai/plans",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "siliconflow-qwen35",
       "url": "https://cloud.siliconflow.com/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "siliconflow-qwen35",
       "url": "https://www.siliconflow.com/pricing",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "groq-compound",
       "url": "https://console.groq.com/docs/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "groq-compound",
       "url": "https://console.groq.com/docs/rate-limits",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "mistral-small",
       "url": "https://console.mistral.ai/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "mistral-small",
       "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "cohere-command-a",
       "url": "https://dashboard.cohere.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cohere-command-a",
       "url": "https://docs.cohere.com/v2/docs/rate-limits",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "llama-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/llama-3.1-8b-instruct/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "llama-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen-coder-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/qwen2.5-coder-32b-instruct/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen-coder-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gpt-oss-groq",
       "url": "https://console.groq.com/docs/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gpt-oss-groq",
       "url": "https://console.groq.com/docs/rate-limits",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gpt-oss-cerebras",
       "url": "https://cloud.cerebras.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gpt-oss-cerebras",
       "url": "https://inference-docs.cerebras.ai/support/rate-limits",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen-coder-hf",
       "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen-coder-hf",
       "url": "https://huggingface.co/docs/inference-providers/pricing",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "moondream-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "moondream-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemini-vision",
       "url": "https://aistudio.google.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemini-vision",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "flux-schnell",
       "url": "https://developers.cloudflare.com/workers-ai/models/flux-1-schnell/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "flux-schnell",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "flux-klein",
       "url": "https://developers.cloudflare.com/workers-ai/models/flux-2-klein-4b/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "flux-klein",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen-image",
       "url": "https://huggingface.co/Qwen/Qwen-Image",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "qwen-image",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-image",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "wan22-video",
       "url": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "wan22-video",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "hunyuan-video",
       "url": "https://huggingface.co/tencent/HunyuanVideo",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "hunyuan-video",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "ltx-video",
       "url": "https://huggingface.co/Lightricks/LTX-Video",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "ltx-video",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "bge-m3",
       "url": "https://developers.cloudflare.com/workers-ai/models/bge-m3/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "bge-m3",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen3-embed",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen3-embed",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gemini-embedding",
       "url": "https://ai.google.dev/gemini-api/docs/embeddings",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemini-embedding",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cohere-embed-v4",
       "url": "https://dashboard.cohere.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cohere-embed-v4",
       "url": "https://docs.cohere.com/v2/docs/rate-limits",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "jina-embeddings-v4",
       "url": "https://jina.ai/models/jina-embeddings-v4/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "jina-embeddings-v4",
       "url": "https://api.jina.ai/docs",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "harrier-embed",
       "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "harrier-embed",
       "url": "https://huggingface.co/docs/inference-providers/tasks/feature-extraction",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "bge-reranker",
       "url": "https://developers.cloudflare.com/workers-ai/models/bge-reranker-base/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "bge-reranker",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cohere-rerank-v4",
       "url": "https://dashboard.cohere.com/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "cohere-rerank-v4",
       "url": "https://docs.cohere.com/v2/docs/rate-limits",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "jina-reranker-v3",
       "url": "https://jina.ai/en-US/reranker/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "jina-reranker-v3",
       "url": "https://api.jina.ai/docs",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cross-encoder",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cross-encoder",
       "url": "https://huggingface.co/docs/inference-providers/pricing",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "mask2former-panoptic",
       "url": "https://huggingface.co/facebook/mask2former-swin-large-coco-panoptic",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "mask2former-panoptic",
       "url": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "mask2former-ade",
       "url": "https://huggingface.co/facebook/mask2former-swin-base-ade-semantic",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "rmbg2",
       "url": "https://huggingface.co/briaai/RMBG-2.0",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "rmbg2",
       "url": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "detr-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "detr-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "resnet-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "resnet-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "whisper-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "whisper-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "aura2-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "aura2-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "wav2vec-audio",
       "url": "https://huggingface.co/superb/wav2vec2-base-superb-ks",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "wav2vec-audio",
       "url": "https://huggingface.co/docs/inference-providers/en/tasks/index",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "m2m100-cf",
       "url": "https://developers.cloudflare.com/workers-ai/models/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "m2m100-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-cohere-north-mini-code-free",
       "url": "https://openrouter.ai/cohere/north-mini-code:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-cohere-north-mini-code-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-google-gemma-4-26b-a4b-it-free",
       "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-google-gemma-4-26b-a4b-it-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-google-gemma-4-31b-it-free",
       "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-google-gemma-4-31b-it-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-inclusionai-ling-3-0-flash-free",
       "url": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-inclusionai-ling-3-0-flash-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-5-content-safety-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-5-content-safety-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
       "url": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
       "url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-openai-gpt-oss-20b-free",
       "url": "https://openrouter.ai/openai/gpt-oss-20b:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-openai-gpt-oss-20b-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-m-1-free",
       "url": "https://openrouter.ai/poolside/laguna-m.1:free",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-m-1-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-s-2-1-free",
       "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-s-2-1-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-xs-2-1-free",
       "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-xs-2-1-free",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "302ai",
       "url": "https://302.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "302ai",
       "url": "https://help.302.ai/docs/chang-jian-wen-ti",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "302ai",
       "url": "https://price.302.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "aihubmix",
       "url": "https://aihubmix.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "aihubmix",
       "url": "https://docs.aihubmix.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "aihubmix",
       "url": "https://docs.aihubmix.com/en/blogs/free-ai-models",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "api2d",
       "url": "https://api2d.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "packyapi",
       "url": "https://packyapi.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "packyapi",
       "url": "https://docs.packyapi.com/docs/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "packyapi",
       "url": "https://docs.packyapi.com/docs/register/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "fastapi",
       "url": "https://fastapi.saturney.cn/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "ccsub",
       "url": "https://www.ccsub.net/",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "ccsub",
       "url": "https://www.ccsub.net/docs",
-      "ok": true,
-      "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "apikl",
       "url": "https://apikl.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "getcodex",
       "url": "https://home.getcodex.cc/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "suixiang",
       "url": "https://sui-xiang.com/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "suixiang",
       "url": "https://sui-xiang.com/docs/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "timedigital",
       "url": "https://www.timedigital.cn/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "quickrouter",
       "url": "https://quickrouter.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "pateway",
       "url": "https://pateway.ai/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "llmapi",
       "url": "https://llmapi.pro/",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "llmapi",
       "url": "https://llmapi.pro/api-relay-cn",
       "ok": true,
+      "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T01:40:38.008Z",
-      "note": "入口可访问"
+      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "note": "目标入口正常响应"
     }
   ],
+  "changes": [],
   "sourceStatus": [
     {
       "name": "OpenRouter 免费模型目录",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": true,
-      "note": "同步 15 个零价格模型"
+      "ok": false,
+      "note": "同步失败，保留 15 个上一版条目：fetch failed"
     },
     {
       "name": "GitHub 中转站候选发现",
@@ -2582,13 +2718,13 @@
       "name": "免费模型入口检查",
       "url": "https://www.qaz5678.xyz/models/",
       "ok": true,
-      "note": "107/113 个链接可访问"
+      "note": "正常响应 81，限制自动检查 0，确认失效 0，网络受限 32，临时错误 0"
     },
     {
       "name": "中转站入口与证据检查",
       "url": "https://www.qaz5678.xyz/relays/",
       "ok": true,
-      "note": "22/22 个链接可访问"
+      "note": "正常响应 20，限制自动检查 0，确认失效 0，网络受限 2，临时错误 0"
     }
   ]
 }

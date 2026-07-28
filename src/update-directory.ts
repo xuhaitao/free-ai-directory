@@ -1,11 +1,13 @@
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import { models as curatedModels, relays as curatedRelays } from "./data.ts";
+import { directoryChanges, linkStateForStatus, mergeDirectoryChanges } from "./directory-change-core.ts";
 import { githubRelayCandidates, hasHostedRelayPageEvidence, openRouterFreeModels } from "./directory-update-core.ts";
 import { validateDirectorySnapshot } from "./directory.ts";
 import type { DirectoryLinkCheck, DirectorySnapshot, Relay } from "./types.ts";
 
 const contentDir = new URL("../content/", import.meta.url);
 const currentUrl = new URL("directory.json", contentDir);
+const historyDir = new URL("directory-history/", contentDir);
 const now = new Date();
 const generatedAt = now.toISOString();
 const date = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
@@ -22,7 +24,12 @@ async function request(url: string, init: RequestInit = {}, timeout = 20_000) {
 }
 
 async function previousSnapshot(): Promise<DirectorySnapshot | null> {
-  try { const value = JSON.parse(await readFile(currentUrl, "utf8")); validateDirectorySnapshot(value); return value; } catch { return null; }
+  try {
+    const value = JSON.parse(await readFile(currentUrl, "utf8")) as DirectorySnapshot;
+    for (const check of value.checks || []) if (!check.state) check.state = check.status === 0 ? "network_limited" : linkStateForStatus(check.status);
+    validateDirectorySnapshot(value);
+    return value;
+  } catch { return null; }
 }
 
 async function fetchOpenRouter(previous: DirectorySnapshot | null, sourceStatus: DirectorySnapshot["sourceStatus"]) {
@@ -75,20 +82,32 @@ async function fetchRelayCandidates(previous: DirectorySnapshot | null, sourceSt
 }
 
 async function checkLink(kind: DirectoryLinkCheck["kind"], id: string, url: string): Promise<DirectoryLinkCheck> {
+  const probe = async (method: "HEAD" | "GET") => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 12_000);
+    try {
+      return await fetch(url, { method, headers: { "user-agent": userAgent, accept: "text/html,application/json;q=0.9,*/*;q=0.8", ...(method === "GET" ? { Range: "bytes=0-0" } : {}) }, redirect: "follow", signal: controller.signal });
+    } finally { clearTimeout(timer); }
+  };
   try {
-    const response = await request(url, { method: "HEAD" }, 12_000).catch(async error => {
-      const message = error instanceof Error ? error.message : String(error);
-      if (!/HTTP (403|405)/.test(message)) throw error;
-      const fallback = await request(url, { headers: { Range: "bytes=0-0" } }, 12_000);
-      await fallback.body?.cancel();
-      return fallback;
-    });
+    let response = await probe("HEAD");
+    if ([403, 405].includes(response.status)) {
+      const headResponse = response;
+      try { response = await probe("GET"); } catch { response = headResponse; }
+    }
     await response.body?.cancel();
-    return { kind, id, url, ok: true, status: response.status, checkedAt: generatedAt, note: "入口可访问" };
+    const status = response.status;
+    const state: DirectoryLinkCheck["state"] = linkStateForStatus(status);
+    const note = { reachable: "目标入口正常响应", restricted: "目标站已响应，但拒绝或限制自动检查", not_found: "目标入口确认不存在", temporary_error: "目标站暂时错误", network_limited: "更新服务器网络受限" }[state];
+    return { kind, id, url, ok: state === "reachable" || state === "restricted", state, status, checkedAt: generatedAt, note };
   } catch (error) {
-    const match = String(error).match(/HTTP (\d{3})/);
-    return { kind, id, url, ok: false, status: Number(match?.[1] || 0), checkedAt: generatedAt, note: error instanceof Error ? error.message : String(error) };
+    return { kind, id, url, ok: false, state: "network_limited", status: 0, checkedAt: generatedAt, note: `更新服务器无法完成访问：${error instanceof Error ? error.message : String(error)}` };
   }
+}
+
+function checkSummary(checks: DirectoryLinkCheck[]) {
+  const count = (state: DirectoryLinkCheck["state"]) => checks.filter(item => item.state === state).length;
+  return `正常响应 ${count("reachable")}，限制自动检查 ${count("restricted")}，确认失效 ${count("not_found")}，网络受限 ${count("network_limited")}，临时错误 ${count("temporary_error")}`;
 }
 
 async function mapLimit<T, R>(items: T[], limit: number, run: (item: T) => Promise<R>) {
@@ -115,15 +134,19 @@ async function main() {
   for (const relay of relays) for (const url of [relay.websiteUrl, relay.docsUrl, relay.pricingUrl, ...relay.sourceUrls].filter(Boolean) as string[]) targets.set(`relay:${relay.id}:${url}`, { kind: "relay", id: relay.id, url });
   const checks = await mapLimit([...targets.values()], 6, item => checkLink(item.kind, item.id, item.url));
   const modelChecks = checks.filter(item => item.kind === "model"), relayChecks = checks.filter(item => item.kind === "relay");
-  sourceStatus.push({ name: "免费模型入口检查", url: "https://www.qaz5678.xyz/models/", ok: modelChecks.some(item => item.ok), note: `${modelChecks.filter(item => item.ok).length}/${modelChecks.length} 个链接可访问` });
-  sourceStatus.push({ name: "中转站入口与证据检查", url: "https://www.qaz5678.xyz/relays/", ok: relayChecks.some(item => item.ok), note: `${relayChecks.filter(item => item.ok).length}/${relayChecks.length} 个链接可访问` });
-  const snapshot: DirectorySnapshot = { schemaVersion: 1, date, generatedAt, timezone: "Asia/Shanghai", models, relays, checks, sourceStatus };
+  sourceStatus.push({ name: "免费模型入口检查", url: "https://www.qaz5678.xyz/models/", ok: !modelChecks.some(item => item.state === "not_found"), note: checkSummary(modelChecks) });
+  sourceStatus.push({ name: "中转站入口与证据检查", url: "https://www.qaz5678.xyz/relays/", ok: !relayChecks.some(item => item.state === "not_found"), note: checkSummary(relayChecks) });
+  const detectedChanges = directoryChanges(previous, models, relays);
+  const changes = mergeDirectoryChanges(previous?.date === date ? previous.changes : [], detectedChanges);
+  const snapshot: DirectorySnapshot = { schemaVersion: 1, date, generatedAt, timezone: "Asia/Shanghai", models, relays, checks, changes, sourceStatus };
   validateDirectorySnapshot(snapshot);
   await mkdir(contentDir, { recursive: true });
   const tempUrl = new URL(`directory.${process.pid}.tmp`, contentDir);
   await writeFile(tempUrl, JSON.stringify(snapshot, null, 2) + "\n");
   await rename(tempUrl, currentUrl);
-  console.log(`目录更新完成：${date}，模型 ${models.length}（自动 ${autoModels.length}），中转站 ${relays.length}（自动候选 ${autoRelays.length}）`);
+  await mkdir(historyDir, { recursive: true });
+  await writeFile(new URL(`${date}.json`, historyDir), JSON.stringify(snapshot, null, 2) + "\n");
+  console.log(`目录更新完成：${date}，模型 ${models.length}（自动 ${autoModels.length}），中转站 ${relays.length}（自动候选 ${autoRelays.length}），变化 ${changes.length}`);
   for (const source of sourceStatus) console.log(`${source.ok ? "OK" : "STALE"} ${source.name}: ${source.note}`);
 }
 

@@ -26,6 +26,8 @@ for(const required of [
   "models/index.html",
   "models/bge-m3/index.html",
   "relays/index.html",
+  "changes/index.html",
+  "search/index.html",
   "methodology/index.html",
   "questions/index.html",
   "guides/free-ai-api/index.html",
@@ -46,6 +48,8 @@ for(const required of [
   "providers/cloudflare/index.html",
   "assets/metrics.js",
   "assets/share.js",
+  "assets/search.js",
+  "assets/responsive.css",
   "assets/social-card.png",
   "favicon.ico",
   "assets/codex-ai-daily.mp4",
@@ -54,6 +58,7 @@ for(const required of [
   "sitemap.xml",
   "video-sitemap.xml",
   "robots.txt",
-  "data/directory.json"
+  "data/directory.json",
+  "data/search-index.json"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);
 if(errors.length){console.error(errors.join("\n"));process.exitCode=1}else console.log(`发布审计通过：${htmlFiles.length} 个 HTML 页面，${files.length} 个构建文件`);
