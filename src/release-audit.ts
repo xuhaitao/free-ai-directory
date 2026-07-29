@@ -29,6 +29,7 @@ for(const required of [
   "changes/index.html",
   "search/index.html",
   "find-model/index.html",
+  "sitemap/index.html",
   "methodology/index.html",
   "questions/index.html",
   "guides/free-ai-api/index.html",
