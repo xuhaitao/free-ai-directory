@@ -33,6 +33,7 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     for(i=1;i<=count;i++)if(excluded_ips[i] != "")ignore[excluded_ips[i]]=1;
     funnel_names["site-search"]=1; funnel_names["directory-filter"]=1;
     funnel_names["finder-entry"]=1; funnel_names["finder-start"]=1; funnel_names["finder-result"]=1; funnel_names["finder-open"]=1;
+    funnel_names["archive-current"]=1;
     funnel_names["search-result"]=1; funnel_names["model"]=1; funnel_names["model-source"]=1; funnel_names["relay"]=1;
     funnel_names["rss"]=1; funnel_names["rss-models"]=1; funnel_names["rss-relays"]=1; funnel_names["share"]=1;
   }
