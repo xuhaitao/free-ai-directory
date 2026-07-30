@@ -23,6 +23,7 @@ for(const path of htmlFiles){
   if(!/href="\/skills\/"[^>]*>Skill 热榜<\/a>/.test(html))errors.push(`${path}: 主导航缺少 Skill 热榜入口`);
   if(!/href="\/ai-stocks\/"[^>]*>AI 炒股<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 炒股入口`);
   if(!/href="\/weekly\/"[^>]*>AI 周报<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 周报入口`);
+  if(path.endsWith("/weekly/index.html")&&(!/本周变化雷达/.test(html)||!/连续上榜/.test(html)||!/最新快照首次出现/.test(html)||!/排名升温/.test(html)))errors.push(`${path}: 周变化模块不完整`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
 for(const required of [

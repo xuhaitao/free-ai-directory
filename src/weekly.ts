@@ -6,7 +6,7 @@ const sectionSizes={headlines:5,projects:5,models:5,moneyNews:6,skills:6,stockPr
 
 export function validateWeeklyDigest(value:unknown):asserts value is WeeklyDigest{
   const data=value as WeeklyDigest,errors:string[]=[];
-  if(!data||data.schemaVersion!==1)errors.push("schemaVersion 必须为 1");
+  if(!data||data.schemaVersion!==2)errors.push("schemaVersion 必须为 2");
   if(!/^\d{4}-W\d{2}$/.test(data?.week||""))errors.push("周编号格式错误");
   if(!/^\d{4}-\d{2}-\d{2}$/.test(data?.periodStart||"")||!/^\d{4}-\d{2}-\d{2}$/.test(data?.periodEnd||""))errors.push("周报日期格式错误");
   if(data?.timezone!=="Asia/Shanghai")errors.push("时区必须为 Asia/Shanghai");
@@ -16,6 +16,9 @@ export function validateWeeklyDigest(value:unknown):asserts value is WeeklyDiges
     else if(items.some(item=>!item.url.startsWith("https://")||!item.sourceLabels.length||item.appearances<1||item.bestRank<1||item.weeklyScore<0||item.weeklyScore>100))errors.push(`${name} 包含无效条目`);
   }
   if(!data?.snapshotDays||Object.values(data.snapshotDays).some(value=>!Number.isInteger(value)||value<1||value>7))errors.push("快照覆盖天数无效");
+  const changes=data?.changes,groups=[...(changes?.eligibleGroups||[]),...(changes?.skippedGroups||[])];
+  if(!changes||groups.length!==7||new Set(groups).size!==7)errors.push("周变化分组无效");
+  for(const name of ["persistent","newcomers","risers"] as const){const items=changes?.[name];if(!Array.isArray(items)||items.length>6)errors.push(`${name} 最多 6 条`);else if(items.some(item=>!item.url.startsWith("https://")||!item.sourceLabels.length||!item.section||item.appearances<1||item.latestRank<1))errors.push(`${name} 包含无效条目`)}
   if(errors.length)throw new Error(errors.join("\n"));
 }
 

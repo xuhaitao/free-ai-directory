@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "week": "2026-W31",
   "periodStart": "2026-07-27",
   "periodEnd": "2026-07-30",
-  "generatedAt": "2026-07-30T05:40:37.057Z",
+  "generatedAt": "2026-07-30T05:50:34.198Z",
   "timezone": "Asia/Shanghai",
   "snapshotDays": {
     "daily": 4,
@@ -16,10 +16,6 @@
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "summary": "anthropic.com · 1778 赞同 · 1330 讨论",
-      "sources": [
-        "anthropic.com",
-        "Hacker News 日榜"
-      ],
       "sourceLabels": [
         "anthropic.com",
         "Hacker News 日榜"
@@ -33,10 +29,6 @@
       "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
       "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
       "summary": "politico.com · 1069 赞同 · 889 讨论",
-      "sources": [
-        "politico.com",
-        "Hacker News 日榜"
-      ],
       "sourceLabels": [
         "politico.com",
         "Hacker News 日榜"
@@ -50,10 +42,6 @@
       "title": "AI companies are shredding rare books",
       "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
       "summary": "twitter.com · 790 赞同 · 510 讨论",
-      "sources": [
-        "twitter.com",
-        "Hacker News 日榜"
-      ],
       "sourceLabels": [
         "twitter.com",
         "Hacker News 日榜"
@@ -67,10 +55,6 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "summary": "claude.com · 462 赞同 · 402 讨论",
-      "sources": [
-        "claude.com",
-        "Hacker News 日榜"
-      ],
       "sourceLabels": [
         "claude.com",
         "Hacker News 日榜"
@@ -84,10 +68,6 @@
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "summary": "openai.com · 1628 赞同 · 1156 讨论",
-      "sources": [
-        "openai.com",
-        "Hacker News 日榜"
-      ],
       "sourceLabels": [
         "openai.com",
         "Hacker News 日榜"
@@ -103,9 +83,6 @@
       "title": "moeru-ai/airi",
       "url": "https://github.com/moeru-ai/airi",
       "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -118,9 +95,6 @@
       "title": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -133,9 +107,6 @@
       "title": "citrolabs/ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
       "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -148,9 +119,6 @@
       "title": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "summary": "The design language that makes your AI harness better at design.",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -163,9 +131,6 @@
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "summary": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -180,9 +145,6 @@
       "title": "baidu/Unlimited-OCR",
       "url": "https://huggingface.co/baidu/Unlimited-OCR",
       "summary": "image-text-to-text · 近月下载 2694935",
-      "sources": [
-        "Hugging Face"
-      ],
       "sourceLabels": [
         "Hugging Face"
       ],
@@ -195,9 +157,6 @@
       "title": "moonshotai/Kimi-K3",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
       "summary": "image-text-to-text · 近月下载 99214",
-      "sources": [
-        "Hugging Face"
-      ],
       "sourceLabels": [
         "Hugging Face"
       ],
@@ -210,9 +169,6 @@
       "title": "poolside/Laguna-S-2.1",
       "url": "https://huggingface.co/poolside/Laguna-S-2.1",
       "summary": "text-generation · 近月下载 67286",
-      "sources": [
-        "Hugging Face"
-      ],
       "sourceLabels": [
         "Hugging Face"
       ],
@@ -225,9 +181,6 @@
       "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "summary": "image-text-to-text · 近月下载 736692",
-      "sources": [
-        "Hugging Face"
-      ],
       "sourceLabels": [
         "Hugging Face"
       ],
@@ -240,9 +193,6 @@
       "title": "upstage/Solar-Open2-250B",
       "url": "https://huggingface.co/upstage/Solar-Open2-250B",
       "summary": "text-generation · 近月下载 4804",
-      "sources": [
-        "Hugging Face"
-      ],
       "sourceLabels": [
         "Hugging Face"
       ],
@@ -257,9 +207,6 @@
       "title": "How to Build a SaaS Landing Page That Converts",
       "url": "https://dev.to/qingluan/how-to-build-a-saas-landing-page-that-converts-2n5l",
       "summary": "收入 / 盈利 · 融合分 86.8",
-      "sources": [
-        "DEV Community"
-      ],
       "sourceLabels": [
         "DEV Community"
       ],
@@ -272,9 +219,6 @@
       "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
       "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
       "summary": "创业 / SaaS · 融合分 86.4",
-      "sources": [
-        "TechCrunch"
-      ],
       "sourceLabels": [
         "TechCrunch"
       ],
@@ -287,9 +231,6 @@
       "title": "The Documentation Dividend: Why Docs Are the Highest-ROI Investment in SaaS",
       "url": "https://dev.to/insightlab/the-documentation-dividend-why-docs-are-the-highest-roi-investment-in-saas-4lkd",
       "summary": "收入 / 盈利 · 融合分 83.8",
-      "sources": [
-        "DEV Community"
-      ],
       "sourceLabels": [
         "DEV Community"
       ],
@@ -302,9 +243,6 @@
       "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
       "url": "https://usetokenless.com",
       "summary": "收入 / 盈利 · 融合分 83.8",
-      "sources": [
-        "Hacker News"
-      ],
       "sourceLabels": [
         "Hacker News"
       ],
@@ -317,9 +255,6 @@
       "title": "AI Powered Growth Hacks",
       "url": "https://dev.to/harisha_pc/ai-powered-growth-hacks-556i",
       "summary": "收入 / 盈利 · 融合分 80.3",
-      "sources": [
-        "DEV Community"
-      ],
       "sourceLabels": [
         "DEV Community"
       ],
@@ -332,9 +267,6 @@
       "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
       "url": "https://www.tines.com",
       "summary": "自动化提效 · 融合分 79.9",
-      "sources": [
-        "Hacker News"
-      ],
       "sourceLabels": [
         "Hacker News"
       ],
@@ -349,10 +281,6 @@
       "title": "grill-me",
       "url": "https://skills.sh/mattpocock/skills/grill-me",
       "summary": "mattpocock/skills · 安装趋势 10419 · 融合分 94.1",
-      "sources": [
-        "skills.sh",
-        "GitHub"
-      ],
       "sourceLabels": [
         "skills.sh",
         "GitHub"
@@ -366,10 +294,6 @@
       "title": "grill-with-docs",
       "url": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "summary": "mattpocock/skills · 安装趋势 8822 · 融合分 93.1",
-      "sources": [
-        "skills.sh",
-        "GitHub"
-      ],
       "sourceLabels": [
         "skills.sh",
         "GitHub"
@@ -383,10 +307,6 @@
       "title": "grilling",
       "url": "https://skills.sh/mattpocock/skills/grilling",
       "summary": "mattpocock/skills · 安装趋势 8566 · 融合分 93",
-      "sources": [
-        "skills.sh",
-        "GitHub"
-      ],
       "sourceLabels": [
         "skills.sh",
         "GitHub"
@@ -400,10 +320,6 @@
       "title": "find-skills",
       "url": "https://skills.sh/vercel-labs/skills/find-skills",
       "summary": "vercel-labs/skills · 安装趋势 16496 · 融合分 92.8",
-      "sources": [
-        "skills.sh",
-        "GitHub"
-      ],
       "sourceLabels": [
         "skills.sh",
         "GitHub"
@@ -417,10 +333,6 @@
       "title": "improve-codebase-architecture",
       "url": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
       "summary": "mattpocock/skills · 安装趋势 8055 · 融合分 92.5",
-      "sources": [
-        "skills.sh",
-        "GitHub"
-      ],
       "sourceLabels": [
         "skills.sh",
         "GitHub"
@@ -434,10 +346,6 @@
       "title": "tdd",
       "url": "https://skills.sh/mattpocock/skills/tdd",
       "summary": "mattpocock/skills · 安装趋势 7931 · 融合分 92.5",
-      "sources": [
-        "skills.sh",
-        "GitHub"
-      ],
       "sourceLabels": [
         "skills.sh",
         "GitHub"
@@ -453,9 +361,6 @@
       "title": "TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "summary": "多 Agent · 多个专业 Agent 协作完成市场、基本面、新闻、观点辩论与风险分析。",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -468,9 +373,6 @@
       "title": "Qlib",
       "url": "https://github.com/microsoft/qlib",
       "summary": "量化框架 · 微软开源的 AI 量化投资研究平台，覆盖数据、模型、策略与回测流程。",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -483,9 +385,6 @@
       "title": "Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "summary": "交易工作台 · 把金融问题转成可运行分析任务的开源个人交易 Agent 研究工作台。",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -498,9 +397,6 @@
       "title": "TradingAgents-CN",
       "url": "https://github.com/hsliuping/TradingAgents-CN",
       "summary": "多 Agent · 面向中文用户和 A 股、港股、美股场景适配的多 Agent 金融分析框架。",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -513,9 +409,6 @@
       "title": "FinGPT",
       "url": "https://github.com/AI4Finance-Foundation/FinGPT",
       "summary": "股票研究 · 面向金融领域的大语言模型、数据与应用研究项目。",
-      "sources": [
-        "GitHub"
-      ],
       "sourceLabels": [
         "GitHub"
       ],
@@ -530,9 +423,6 @@
       "title": "Show HN: I ran 12 AI bots predicting stocks for two months, every call public",
       "url": "https://ldbd.app",
       "summary": "工具 / 产品 · 情报分 75",
-      "sources": [
-        "Hacker News"
-      ],
       "sourceLabels": [
         "Hacker News"
       ],
@@ -545,9 +435,6 @@
       "title": "AI Appreciation Day: How Intelligent Tech is Redefining Finance and Empowering Global Builders",
       "url": "https://www.nasdaq.com/articles/ai-appreciation-day-how-intelligent-tech-redefining-finance-and-empowering-global-builders",
       "summary": "监管 / 风险 · 情报分 70.7",
-      "sources": [
-        "Nasdaq AI"
-      ],
       "sourceLabels": [
         "Nasdaq AI"
       ],
@@ -560,9 +447,6 @@
       "title": "Ask HN: Is anyone shorting the overspend in AI yet?",
       "url": "https://news.ycombinator.com/item?id=48486763",
       "summary": "市场 / 公司 · 情报分 53.6",
-      "sources": [
-        "Hacker News"
-      ],
       "sourceLabels": [
         "Hacker News"
       ],
@@ -575,9 +459,6 @@
       "title": "Is AI Good at Stock-Market Timing? A New Study Casts Doubt",
       "url": "https://www.wsj.com/tech/ai/ai-stock-market-trading-research-154eeb72",
       "summary": "市场 / 公司 · 情报分 51.4",
-      "sources": [
-        "Hacker News"
-      ],
       "sourceLabels": [
         "Hacker News"
       ],
@@ -590,9 +471,6 @@
       "title": "Show HN: Noema – AI personas debate US listed stocks",
       "url": "https://itsnoema.com",
       "summary": "监管 / 风险 · 情报分 43.8",
-      "sources": [
-        "Hacker News"
-      ],
       "sourceLabels": [
         "Hacker News"
       ],
@@ -600,5 +478,242 @@
       "bestRank": 5,
       "weeklyScore": 83.2
     }
-  ]
+  ],
+  "changes": {
+    "persistent": [
+      {
+        "id": "49038433",
+        "title": "Claude Opus 5",
+        "url": "https://www.anthropic.com/news/claude-opus-5",
+        "summary": "anthropic.com · 1778 赞同 · 1330 讨论",
+        "sourceLabels": [
+          "anthropic.com",
+          "Hacker News 日榜"
+        ],
+        "section": "AI 热门新闻",
+        "appearances": 4,
+        "latestRank": 1
+      },
+      {
+        "id": "baidu/unlimited-ocr",
+        "title": "baidu/Unlimited-OCR",
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "summary": "image-text-to-text · 近月下载 2694935",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 4,
+        "latestRank": 2
+      },
+      {
+        "id": "49023016",
+        "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+        "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+        "summary": "politico.com · 1069 赞同 · 889 讨论",
+        "sourceLabels": [
+          "politico.com",
+          "Hacker News 日榜"
+        ],
+        "section": "AI 热门新闻",
+        "appearances": 4,
+        "latestRank": 3
+      },
+      {
+        "id": "davidau/qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf",
+        "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "summary": "image-text-to-text · 近月下载 736692",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 4,
+        "latestRank": 3
+      },
+      {
+        "id": "upstage/solar-open2-250b",
+        "title": "upstage/Solar-Open2-250B",
+        "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+        "summary": "text-generation · 近月下载 4804",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 4,
+        "latestRank": 4
+      },
+      {
+        "id": "poolside/laguna-s-2.1",
+        "title": "poolside/Laguna-S-2.1",
+        "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+        "summary": "text-generation · 近月下载 67286",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 4,
+        "latestRank": 5
+      }
+    ],
+    "newcomers": [
+      {
+        "id": "microsoft/vibevoice",
+        "title": "microsoft/VibeVoice",
+        "url": "https://github.com/microsoft/VibeVoice",
+        "summary": "Open-Source Frontier Voice AI",
+        "sourceLabels": [
+          "GitHub"
+        ],
+        "section": "热门开源项目",
+        "appearances": 1,
+        "latestRank": 3
+      },
+      {
+        "id": "49096188",
+        "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+        "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+        "summary": "enklypesalt.com · 316 赞同 · 236 讨论",
+        "sourceLabels": [
+          "enklypesalt.com",
+          "Hacker News 日榜"
+        ],
+        "section": "AI 热门新闻",
+        "appearances": 1,
+        "latestRank": 4
+      },
+      {
+        "id": "different-ai/openwork",
+        "title": "different-ai/openwork",
+        "url": "https://github.com/different-ai/openwork",
+        "summary": "The open-source alternative to Claude Cowork (powered by opencode)",
+        "sourceLabels": [
+          "GitHub"
+        ],
+        "section": "热门开源项目",
+        "appearances": 1,
+        "latestRank": 4
+      },
+      {
+        "id": "49102150",
+        "title": "Claude: Elevated errors across all models",
+        "url": "https://status.claude.com/incidents/q2kg8n613kr3",
+        "summary": "status.claude.com · 228 赞同 · 203 讨论",
+        "sourceLabels": [
+          "status.claude.com",
+          "Hacker News 日榜"
+        ],
+        "section": "AI 热门新闻",
+        "appearances": 1,
+        "latestRank": 5
+      },
+      {
+        "id": "obra/superpowers",
+        "title": "obra/superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "summary": "An agentic skills framework & software development methodology that works.",
+        "sourceLabels": [
+          "GitHub"
+        ],
+        "section": "热门开源项目",
+        "appearances": 1,
+        "latestRank": 5
+      },
+      {
+        "id": "maderix/ane",
+        "title": "maderix/ANE",
+        "url": "https://github.com/maderix/ANE",
+        "summary": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
+        "sourceLabels": [
+          "GitHub"
+        ],
+        "section": "热门开源项目",
+        "appearances": 1,
+        "latestRank": 7
+      }
+    ],
+    "risers": [
+      {
+        "id": "owensong/inflect-micro-v2",
+        "title": "owensong/Inflect-Micro-v2",
+        "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+        "summary": "text-to-speech · 近月下载 645",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 2,
+        "latestRank": 8,
+        "previousRank": 10,
+        "rankDelta": 2
+      },
+      {
+        "id": "affaan-m/ecc",
+        "title": "affaan-m/ECC",
+        "url": "https://github.com/affaan-m/ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "sourceLabels": [
+          "GitHub"
+        ],
+        "section": "热门开源项目",
+        "appearances": 2,
+        "latestRank": 2,
+        "previousRank": 3,
+        "rankDelta": 1
+      },
+      {
+        "id": "davidau/qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf",
+        "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "summary": "image-text-to-text · 近月下载 736692",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 4,
+        "latestRank": 3,
+        "previousRank": 4,
+        "rankDelta": 1
+      },
+      {
+        "id": "upstage/solar-open2-250b",
+        "title": "upstage/Solar-Open2-250B",
+        "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+        "summary": "text-generation · 近月下载 4804",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 4,
+        "latestRank": 4,
+        "previousRank": 5,
+        "rankDelta": 1
+      },
+      {
+        "id": "kwaipilot/kat-coder-v2.5-dev",
+        "title": "Kwaipilot/KAT-Coder-V2.5-Dev",
+        "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
+        "summary": "text-generation · 近月下载 6275",
+        "sourceLabels": [
+          "Hugging Face"
+        ],
+        "section": "趋势模型",
+        "appearances": 3,
+        "latestRank": 7,
+        "previousRank": 8,
+        "rankDelta": 1
+      }
+    ],
+    "eligibleGroups": [
+      "AI 热门新闻",
+      "热门开源项目",
+      "趋势模型"
+    ],
+    "skippedGroups": [
+      "AI 创收线索",
+      "Agent Skill",
+      "AI 股票工具与项目",
+      "AI 炒股相关新闻"
+    ]
+  }
 }

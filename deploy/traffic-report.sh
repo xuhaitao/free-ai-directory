@@ -40,7 +40,7 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     funnel_names["nav-money"]=1; funnel_names["nav-skills"]=1;
     funnel_names["nav-stocks"]=1; funnel_names["home-stocks"]=1; funnel_names["home-stocks-project"]=1; funnel_names["home-stocks-news"]=1; funnel_names["stock-project"]=1; funnel_names["stock-source"]=1;
     funnel_names["stock-news"]=1; funnel_names["stock-news-source"]=1; funnel_names["stock-risk"]=1; funnel_names["rss-stocks"]=1; funnel_names["archive-stocks-current"]=1;
-    funnel_names["nav-weekly"]=1; funnel_names["home-weekly"]=1; funnel_names["weekly-item"]=1; funnel_names["rss-weekly"]=1; funnel_names["archive-weekly-current"]=1;
+    funnel_names["nav-weekly"]=1; funnel_names["home-weekly"]=1; funnel_names["weekly-item"]=1; funnel_names["weekly-change"]=1; funnel_names["rss-weekly"]=1; funnel_names["archive-weekly-current"]=1;
     funnel_names["search-result"]=1; funnel_names["model"]=1; funnel_names["model-source"]=1; funnel_names["relay"]=1;
     funnel_names["rss"]=1; funnel_names["rss-models"]=1; funnel_names["rss-relays"]=1; funnel_names["share"]=1;
   }

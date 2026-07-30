@@ -194,8 +194,21 @@ export type WeeklyDigestItem = {
   weeklyScore: number;
 };
 
+export type WeeklyChangeItem = {
+  id: string;
+  title: string;
+  url: string;
+  summary: string;
+  sourceLabels: string[];
+  section: string;
+  appearances: number;
+  latestRank: number;
+  previousRank?: number;
+  rankDelta?: number;
+};
+
 export type WeeklyDigest = {
-  schemaVersion: 1;
+  schemaVersion: 2;
   week: string;
   periodStart: string;
   periodEnd: string;
@@ -209,6 +222,13 @@ export type WeeklyDigest = {
   skills: WeeklyDigestItem[];
   stockProjects: WeeklyDigestItem[];
   stockNews: WeeklyDigestItem[];
+  changes: {
+    persistent: WeeklyChangeItem[];
+    newcomers: WeeklyChangeItem[];
+    risers: WeeklyChangeItem[];
+    eligibleGroups: string[];
+    skippedGroups: string[];
+  };
 };
 
 export type DirectoryLinkCheck = {

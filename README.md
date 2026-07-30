@@ -44,7 +44,7 @@ curl http://localhost:8787/api/health
 - `npm run daily:update`：从 Hacker News、GitHub 与 Hugging Face 生成每日榜单和归档。
 - `npm run opportunities:update`：融合 Hacker News、DEV Community、Bing News、TechCrunch、VentureBeat 的 AI 创收资讯，并融合 skills.sh 安装趋势与 GitHub 仓库信号生成 Agent Skill Top 50。
 - `npm run stocks:update`：更新 12 个公开 AI 股票工具/项目的 GitHub 信号，并融合多个公开来源生成 12 条相关新闻。
-- `npm run weekly:update`：按当前自然周聚合已保存的日榜、机会榜和 AI 炒股快照；只统计实际覆盖日期。
+- `npm run weekly:update`：按当前自然周聚合已保存的日榜、机会榜和 AI 炒股快照，并计算连续上榜、最新快照首次出现和排名升温；只统计实际覆盖日期，少于 2 天的分组不判断变化。
 - `npm run directory:update`：同步 OpenRouter 官方免费模型、发现高相关中转候选，并检查全部目录外链；不调用模型。
 - `content/daily.json`：当前 3 个 Top 10 榜单；`content/history/` 保留每日快照。
 - `content/opportunities.json`：当前 AI 创收资讯与 Skill Top 50；`content/opportunities-history/` 保留每日快照。
