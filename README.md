@@ -4,6 +4,8 @@
 
 另提供每日约 50 条 AI 工具商业化与创收线索、50 个 Agent Skill 融合榜、12 个 AI 股票研究工具/项目和 12 条相关新闻，并用 AI 情报周报与跨榜主题追踪聚合一周内反复上榜的公开信号；这些榜单不构成收入承诺、投资建议或安全背书。
 
+首页会从新闻、项目、模型、AI 创收、Agent Skill 和 AI 炒股六个现有榜单各取当前第 1 条生成 30 秒简报；用户可一键复制带来源站点链接的文本，或选择每日 RSS、每周 RSS 和浏览器本地主题关注。
+
 在线站点：[www.qaz5678.xyz](https://www.qaz5678.xyz/?utm_source=github&utm_medium=readme&utm_campaign=repository)
 
 常用入口：

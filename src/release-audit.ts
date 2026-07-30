@@ -26,6 +26,7 @@ for(const path of htmlFiles){
   if(!/href="\/topics\/"[^>]*>主题追踪<\/a>/.test(html))errors.push(`${path}: 主导航缺少主题追踪入口`);
   if(path.endsWith("/weekly/index.html")&&(!/本周变化雷达/.test(html)||!/连续上榜/.test(html)||!/最新快照首次出现/.test(html)||!/排名升温/.test(html)))errors.push(`${path}: 周变化模块不完整`);
   if(path.endsWith("/topics/index.html")&&(!/跨榜追踪/.test(html)||!/至少匹配 3 条内容并覆盖 2 个栏目/.test(html)||!/data-track="topic-item"/.test(html)||!/data-topic-follow=/.test(html)||!/data-track="rss-topic"/.test(html)))errors.push(`${path}: 主题追踪模块不完整`);
+  if(path===resolve(root,"index.html")&&(!/今天 6 条 AI 情报简报/.test(html)||!/<a href="\/news\/" data-track="home-brief-news">/.test(html)||!/<a href="\/ai-money\/" data-track="home-brief-money">/.test(html)||!/<button[^>]+data-copy-brief/.test(html)||!/data-track="home-retention-weekly"/.test(html)))errors.push(`${path}: 首页运营简报不完整`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
 for(const required of [
@@ -70,6 +71,7 @@ for(const required of [
   "assets/saved.js",
   "assets/compare.js",
   "assets/topics.js",
+  "assets/operations.js",
   "assets/interactions.css",
   "assets/search.js",
   "assets/model-finder.js",
