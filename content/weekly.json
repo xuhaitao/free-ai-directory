@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "week": "2026-W31",
+  "periodStart": "2026-07-27",
+  "periodEnd": "2026-07-30",
+  "generatedAt": "2026-07-30T05:40:37.057Z",
+  "timezone": "Asia/Shanghai",
+  "snapshotDays": {
+    "daily": 4,
+    "opportunities": 1,
+    "stocks": 1
+  },
+  "headlines": [
+    {
+      "id": "49038433",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "summary": "anthropic.com · 1778 赞同 · 1330 讨论",
+      "sources": [
+        "anthropic.com",
+        "Hacker News 日榜"
+      ],
+      "sourceLabels": [
+        "anthropic.com",
+        "Hacker News 日榜"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "weeklyScore": 100
+    },
+    {
+      "id": "49023016",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "summary": "politico.com · 1069 赞同 · 889 讨论",
+      "sources": [
+        "politico.com",
+        "Hacker News 日榜"
+      ],
+      "sourceLabels": [
+        "politico.com",
+        "Hacker News 日榜"
+      ],
+      "appearances": 4,
+      "bestRank": 3,
+      "weeklyScore": 90.6
+    },
+    {
+      "id": "49068738",
+      "title": "AI companies are shredding rare books",
+      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+      "summary": "twitter.com · 790 赞同 · 510 讨论",
+      "sources": [
+        "twitter.com",
+        "Hacker News 日榜"
+      ],
+      "sourceLabels": [
+        "twitter.com",
+        "Hacker News 日榜"
+      ],
+      "appearances": 3,
+      "bestRank": 2,
+      "weeklyScore": 88.3
+    },
+    {
+      "id": "49051361",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "summary": "claude.com · 462 赞同 · 402 讨论",
+      "sources": [
+        "claude.com",
+        "Hacker News 日榜"
+      ],
+      "sourceLabels": [
+        "claude.com",
+        "Hacker News 日榜"
+      ],
+      "appearances": 4,
+      "bestRank": 5,
+      "weeklyScore": 80.1
+    },
+    {
+      "id": "48997548",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "summary": "openai.com · 1628 赞同 · 1156 讨论",
+      "sources": [
+        "openai.com",
+        "Hacker News 日榜"
+      ],
+      "sourceLabels": [
+        "openai.com",
+        "Hacker News 日榜"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "weeklyScore": 78.7
+    }
+  ],
+  "projects": [
+    {
+      "id": "moeru-ai/airi",
+      "title": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "weeklyScore": 92.5
+    },
+    {
+      "id": "affaan-m/ecc",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "weeklyScore": 78.7
+    },
+    {
+      "id": "citrolabs/ego-lite",
+      "title": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "weeklyScore": 77.5
+    },
+    {
+      "id": "pbakaus/impeccable",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "summary": "The design language that makes your AI harness better at design.",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 2,
+      "bestRank": 2,
+      "weeklyScore": 76.6
+    },
+    {
+      "id": "alibaba/open-code-review",
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 3,
+      "bestRank": 4,
+      "weeklyScore": 74.3
+    }
+  ],
+  "models": [
+    {
+      "id": "baidu/unlimited-ocr",
+      "title": "baidu/Unlimited-OCR",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "summary": "image-text-to-text · 近月下载 2694935",
+      "sources": [
+        "Hugging Face"
+      ],
+      "sourceLabels": [
+        "Hugging Face"
+      ],
+      "appearances": 4,
+      "bestRank": 1,
+      "weeklyScore": 96.9
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "title": "moonshotai/Kimi-K3",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "summary": "image-text-to-text · 近月下载 99214",
+      "sources": [
+        "Hugging Face"
+      ],
+      "sourceLabels": [
+        "Hugging Face"
+      ],
+      "appearances": 3,
+      "bestRank": 1,
+      "weeklyScore": 92.5
+    },
+    {
+      "id": "poolside/laguna-s-2.1",
+      "title": "poolside/Laguna-S-2.1",
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "summary": "text-generation · 近月下载 67286",
+      "sources": [
+        "Hugging Face"
+      ],
+      "sourceLabels": [
+        "Hugging Face"
+      ],
+      "appearances": 4,
+      "bestRank": 2,
+      "weeklyScore": 90.6
+    },
+    {
+      "id": "davidau/qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf",
+      "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "summary": "image-text-to-text · 近月下载 736692",
+      "sources": [
+        "Hugging Face"
+      ],
+      "sourceLabels": [
+        "Hugging Face"
+      ],
+      "appearances": 4,
+      "bestRank": 3,
+      "weeklyScore": 88.4
+    },
+    {
+      "id": "upstage/solar-open2-250b",
+      "title": "upstage/Solar-Open2-250B",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "summary": "text-generation · 近月下载 4804",
+      "sources": [
+        "Hugging Face"
+      ],
+      "sourceLabels": [
+        "Hugging Face"
+      ],
+      "appearances": 4,
+      "bestRank": 3,
+      "weeklyScore": 86.4
+    }
+  ],
+  "moneyNews": [
+    {
+      "id": "ffe7e7f00a195c16",
+      "title": "How to Build a SaaS Landing Page That Converts",
+      "url": "https://dev.to/qingluan/how-to-build-a-saas-landing-page-that-converts-2n5l",
+      "summary": "收入 / 盈利 · 融合分 86.8",
+      "sources": [
+        "DEV Community"
+      ],
+      "sourceLabels": [
+        "DEV Community"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "weeklyScore": 100
+    },
+    {
+      "id": "37558a659aede364",
+      "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+      "summary": "创业 / SaaS · 融合分 86.4",
+      "sources": [
+        "TechCrunch"
+      ],
+      "sourceLabels": [
+        "TechCrunch"
+      ],
+      "appearances": 1,
+      "bestRank": 2,
+      "weeklyScore": 95.8
+    },
+    {
+      "id": "1d4a959136405d74",
+      "title": "The Documentation Dividend: Why Docs Are the Highest-ROI Investment in SaaS",
+      "url": "https://dev.to/insightlab/the-documentation-dividend-why-docs-are-the-highest-roi-investment-in-saas-4lkd",
+      "summary": "收入 / 盈利 · 融合分 83.8",
+      "sources": [
+        "DEV Community"
+      ],
+      "sourceLabels": [
+        "DEV Community"
+      ],
+      "appearances": 1,
+      "bestRank": 3,
+      "weeklyScore": 91.6
+    },
+    {
+      "id": "42009bab04d515d0",
+      "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+      "url": "https://usetokenless.com",
+      "summary": "收入 / 盈利 · 融合分 83.8",
+      "sources": [
+        "Hacker News"
+      ],
+      "sourceLabels": [
+        "Hacker News"
+      ],
+      "appearances": 1,
+      "bestRank": 4,
+      "weeklyScore": 87.4
+    },
+    {
+      "id": "e541d0ee949e5ae6",
+      "title": "AI Powered Growth Hacks",
+      "url": "https://dev.to/harisha_pc/ai-powered-growth-hacks-556i",
+      "summary": "收入 / 盈利 · 融合分 80.3",
+      "sources": [
+        "DEV Community"
+      ],
+      "sourceLabels": [
+        "DEV Community"
+      ],
+      "appearances": 1,
+      "bestRank": 5,
+      "weeklyScore": 83.2
+    },
+    {
+      "id": "2206e874f480fda1",
+      "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
+      "url": "https://www.tines.com",
+      "summary": "自动化提效 · 融合分 79.9",
+      "sources": [
+        "Hacker News"
+      ],
+      "sourceLabels": [
+        "Hacker News"
+      ],
+      "appearances": 1,
+      "bestRank": 6,
+      "weeklyScore": 79
+    }
+  ],
+  "skills": [
+    {
+      "id": "mattpocock/skills/grill-me",
+      "title": "grill-me",
+      "url": "https://skills.sh/mattpocock/skills/grill-me",
+      "summary": "mattpocock/skills · 安装趋势 10419 · 融合分 94.1",
+      "sources": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "weeklyScore": 100
+    },
+    {
+      "id": "mattpocock/skills/grill-with-docs",
+      "title": "grill-with-docs",
+      "url": "https://skills.sh/mattpocock/skills/grill-with-docs",
+      "summary": "mattpocock/skills · 安装趋势 8822 · 融合分 93.1",
+      "sources": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 2,
+      "weeklyScore": 95.8
+    },
+    {
+      "id": "mattpocock/skills/grilling",
+      "title": "grilling",
+      "url": "https://skills.sh/mattpocock/skills/grilling",
+      "summary": "mattpocock/skills · 安装趋势 8566 · 融合分 93",
+      "sources": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 3,
+      "weeklyScore": 91.6
+    },
+    {
+      "id": "vercel-labs/skills/find-skills",
+      "title": "find-skills",
+      "url": "https://skills.sh/vercel-labs/skills/find-skills",
+      "summary": "vercel-labs/skills · 安装趋势 16496 · 融合分 92.8",
+      "sources": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 4,
+      "weeklyScore": 87.4
+    },
+    {
+      "id": "mattpocock/skills/improve-codebase-architecture",
+      "title": "improve-codebase-architecture",
+      "url": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+      "summary": "mattpocock/skills · 安装趋势 8055 · 融合分 92.5",
+      "sources": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 5,
+      "weeklyScore": 83.2
+    },
+    {
+      "id": "mattpocock/skills/tdd",
+      "title": "tdd",
+      "url": "https://skills.sh/mattpocock/skills/tdd",
+      "summary": "mattpocock/skills · 安装趋势 7931 · 融合分 92.5",
+      "sources": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "skills.sh",
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 6,
+      "weeklyScore": 79
+    }
+  ],
+  "stockProjects": [
+    {
+      "id": "tauricresearch/tradingagents",
+      "title": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "多 Agent · 多个专业 Agent 协作完成市场、基本面、新闻、观点辩论与风险分析。",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "weeklyScore": 100
+    },
+    {
+      "id": "microsoft/qlib",
+      "title": "Qlib",
+      "url": "https://github.com/microsoft/qlib",
+      "summary": "量化框架 · 微软开源的 AI 量化投资研究平台，覆盖数据、模型、策略与回测流程。",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 2,
+      "weeklyScore": 95.8
+    },
+    {
+      "id": "hkuds/vibe-trading",
+      "title": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "summary": "交易工作台 · 把金融问题转成可运行分析任务的开源个人交易 Agent 研究工作台。",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 3,
+      "weeklyScore": 91.6
+    },
+    {
+      "id": "hsliuping/tradingagents-cn",
+      "title": "TradingAgents-CN",
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "summary": "多 Agent · 面向中文用户和 A 股、港股、美股场景适配的多 Agent 金融分析框架。",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 4,
+      "weeklyScore": 87.4
+    },
+    {
+      "id": "ai4finance-foundation/fingpt",
+      "title": "FinGPT",
+      "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "summary": "股票研究 · 面向金融领域的大语言模型、数据与应用研究项目。",
+      "sources": [
+        "GitHub"
+      ],
+      "sourceLabels": [
+        "GitHub"
+      ],
+      "appearances": 1,
+      "bestRank": 5,
+      "weeklyScore": 83.2
+    }
+  ],
+  "stockNews": [
+    {
+      "id": "bf653817a3369860",
+      "title": "Show HN: I ran 12 AI bots predicting stocks for two months, every call public",
+      "url": "https://ldbd.app",
+      "summary": "工具 / 产品 · 情报分 75",
+      "sources": [
+        "Hacker News"
+      ],
+      "sourceLabels": [
+        "Hacker News"
+      ],
+      "appearances": 1,
+      "bestRank": 1,
+      "weeklyScore": 100
+    },
+    {
+      "id": "869deb43e20c23a8",
+      "title": "AI Appreciation Day: How Intelligent Tech is Redefining Finance and Empowering Global Builders",
+      "url": "https://www.nasdaq.com/articles/ai-appreciation-day-how-intelligent-tech-redefining-finance-and-empowering-global-builders",
+      "summary": "监管 / 风险 · 情报分 70.7",
+      "sources": [
+        "Nasdaq AI"
+      ],
+      "sourceLabels": [
+        "Nasdaq AI"
+      ],
+      "appearances": 1,
+      "bestRank": 2,
+      "weeklyScore": 95.8
+    },
+    {
+      "id": "fdc42810ef099380",
+      "title": "Ask HN: Is anyone shorting the overspend in AI yet?",
+      "url": "https://news.ycombinator.com/item?id=48486763",
+      "summary": "市场 / 公司 · 情报分 53.6",
+      "sources": [
+        "Hacker News"
+      ],
+      "sourceLabels": [
+        "Hacker News"
+      ],
+      "appearances": 1,
+      "bestRank": 3,
+      "weeklyScore": 91.6
+    },
+    {
+      "id": "8989a18d2a78b9f6",
+      "title": "Is AI Good at Stock-Market Timing? A New Study Casts Doubt",
+      "url": "https://www.wsj.com/tech/ai/ai-stock-market-trading-research-154eeb72",
+      "summary": "市场 / 公司 · 情报分 51.4",
+      "sources": [
+        "Hacker News"
+      ],
+      "sourceLabels": [
+        "Hacker News"
+      ],
+      "appearances": 1,
+      "bestRank": 4,
+      "weeklyScore": 87.4
+    },
+    {
+      "id": "310288792459569c",
+      "title": "Show HN: Noema – AI personas debate US listed stocks",
+      "url": "https://itsnoema.com",
+      "summary": "监管 / 风险 · 情报分 43.8",
+      "sources": [
+        "Hacker News"
+      ],
+      "sourceLabels": [
+        "Hacker News"
+      ],
+      "appearances": 1,
+      "bestRank": 5,
+      "weeklyScore": 83.2
+    }
+  ]
+}

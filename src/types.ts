@@ -183,6 +183,34 @@ export type StockSnapshot = {
   sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
 };
 
+export type WeeklyDigestItem = {
+  id: string;
+  title: string;
+  url: string;
+  summary: string;
+  sourceLabels: string[];
+  appearances: number;
+  bestRank: number;
+  weeklyScore: number;
+};
+
+export type WeeklyDigest = {
+  schemaVersion: 1;
+  week: string;
+  periodStart: string;
+  periodEnd: string;
+  generatedAt: string;
+  timezone: "Asia/Shanghai";
+  snapshotDays: { daily: number; opportunities: number; stocks: number };
+  headlines: WeeklyDigestItem[];
+  projects: WeeklyDigestItem[];
+  models: WeeklyDigestItem[];
+  moneyNews: WeeklyDigestItem[];
+  skills: WeeklyDigestItem[];
+  stockProjects: WeeklyDigestItem[];
+  stockNews: WeeklyDigestItem[];
+};
+
 export type DirectoryLinkCheck = {
   kind: "model" | "relay";
   id: string;

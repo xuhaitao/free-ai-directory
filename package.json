@@ -12,6 +12,8 @@
     "opportunities:verify": "node src/verify-opportunities.ts",
     "stocks:update": "node src/update-stocks.ts",
     "stocks:verify": "node src/verify-stocks.ts",
+    "weekly:update": "node src/update-weekly.ts",
+    "weekly:verify": "node src/verify-weekly.ts",
     "directory:update": "node src/update-directory.ts",
     "directory:verify": "node src/verify-directory.ts",
     "preview": "node src/server.ts dist",
@@ -22,7 +24,7 @@
     "dev:worker": "npm run build && wrangler dev",
     "release:audit": "node src/release-audit.ts",
     "indexnow": "node src/submit-indexnow.ts",
-    "release:verify": "npm test && npm run check && npm run daily:verify && npm run opportunities:verify && npm run stocks:verify && npm run directory:verify && npm run build && npm run release:audit && npm run deploy:dry-run"
+    "release:verify": "npm test && npm run check && npm run daily:verify && npm run opportunities:verify && npm run stocks:verify && npm run weekly:verify && npm run directory:verify && npm run build && npm run release:audit && npm run deploy:dry-run"
   },
   "engines": {
     "node": ">=22.18"

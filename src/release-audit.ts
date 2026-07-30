@@ -22,6 +22,7 @@ for(const path of htmlFiles){
   if(!/href="\/ai-money\/"[^>]*>AI 创收<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 创收入口`);
   if(!/href="\/skills\/"[^>]*>Skill 热榜<\/a>/.test(html))errors.push(`${path}: 主导航缺少 Skill 热榜入口`);
   if(!/href="\/ai-stocks\/"[^>]*>AI 炒股<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 炒股入口`);
+  if(!/href="\/weekly\/"[^>]*>AI 周报<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 周报入口`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
 for(const required of [
@@ -36,6 +37,7 @@ for(const required of [
   "ai-money/index.html",
   "skills/index.html",
   "ai-stocks/index.html",
+  "weekly/index.html",
   "saved/index.html",
   "compare/index.html",
   "sitemap/index.html",
@@ -80,9 +82,11 @@ for(const required of [
   "data/model-finder.json",
   "data/opportunities.json",
   "data/ai-stocks.json",
+  "data/weekly.json",
   "ai-money.xml",
   "skills.xml",
   "ai-stocks.xml",
+  "weekly.xml",
   "models-changes.xml",
   "relays-changes.xml"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);
