@@ -11,12 +11,23 @@ LOG=${EVENT_LOG:-/var/log/nginx/events.log}
 DAY=${1:-$(LC_ALL=C date '+%d/%b/%Y')}
 EXCLUDE_IPS=${EXCLUDE_IPS:-}
 
-if [[ ! -f "$LOG" ]]; then
-  echo "event log not found: $LOG" >&2
+LOG_FILES=()
+for candidate in "$LOG" "$LOG"-* "$LOG".*; do
+  [[ -f "$candidate" ]] && LOG_FILES+=("$candidate")
+done
+
+if [[ ${#LOG_FILES[@]} -eq 0 ]]; then
+  echo "event logs not found: $LOG" >&2
   exit 1
 fi
 
-awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
+read_logs() {
+  for file in "${LOG_FILES[@]}"; do
+    if [[ "$file" == *.gz ]]; then gzip -cd -- "$file"; else cat -- "$file"; fi
+  done
+}
+
+read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
   BEGIN {
     count=split(excluded,excluded_ips,",");
     for(i=1;i<=count;i++)if(excluded_ips[i] != "")ignore[excluded_ips[i]]=1;
@@ -79,4 +90,4 @@ awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     for(o in outbound) print outbound[o],o | "sort -nr | head -10";
     close("sort -nr | head -10");
   }
-' "$LOG"
+'
