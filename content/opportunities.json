@@ -1,0 +1,1012 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T02:48:26.136Z",
+  "timezone": "Asia/Shanghai",
+  "moneyNews": [
+    {
+      "id": "49023016",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49023016",
+      "source": "politico.com",
+      "publishedAt": "2026-07-23T15:18:40.000Z",
+      "points": 1069,
+      "comments": 889,
+      "hotScore": 830,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "48987863",
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48987863",
+      "source": "asia.nikkei.com",
+      "publishedAt": "2026-07-21T03:56:03.000Z",
+      "points": 382,
+      "comments": 272,
+      "hotScore": 237,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49076505",
+      "title": "Kimi K3 Now Available via Telnyx Inference API",
+      "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49076505",
+      "source": "telnyx.com",
+      "publishedAt": "2026-07-27T22:46:28.000Z",
+      "points": 130,
+      "comments": 88,
+      "hotScore": 154,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49099143",
+      "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+      "url": "https://usetokenless.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49099143",
+      "source": "usetokenless.com",
+      "publishedAt": "2026-07-29T15:55:27.000Z",
+      "points": 53,
+      "comments": 47,
+      "hotScore": 121,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "49047448",
+      "title": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
+      "url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49047448",
+      "source": "wsj.com",
+      "publishedAt": "2026-07-25T13:33:03.000Z",
+      "points": 65,
+      "comments": 85,
+      "hotScore": 86,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "48819808",
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48819808",
+      "source": "github.com",
+      "publishedAt": "2026-07-07T16:10:44.000Z",
+      "points": 219,
+      "comments": 99,
+      "hotScore": 70,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "49008901",
+      "title": "Launch HN: Unlayer (YC W22) – Add email and document builders to your app",
+      "url": "https://unlayer.com",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49008901",
+      "source": "unlayer.com",
+      "publishedAt": "2026-07-22T16:02:03.000Z",
+      "points": 56,
+      "comments": 39,
+      "hotScore": 43,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "48908950",
+      "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+      "url": "https://agnost.ai",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48908950",
+      "source": "agnost.ai",
+      "publishedAt": "2026-07-14T16:06:18.000Z",
+      "points": 85,
+      "comments": 52,
+      "hotScore": 40,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "48762862",
+      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
+      "url": "https://manufact.com",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48762862",
+      "source": "manufact.com",
+      "publishedAt": "2026-07-02T15:11:20.000Z",
+      "points": 111,
+      "comments": 70,
+      "hotScore": 39,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "48762000",
+      "title": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail",
+      "url": "https://mailmemories.com",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48762000",
+      "source": "mailmemories.com",
+      "publishedAt": "2026-07-02T14:16:57.000Z",
+      "points": 103,
+      "comments": 58,
+      "hotScore": 34,
+      "signal": "服务 / 内容变现"
+    },
+    {
+      "id": "48586299",
+      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+      "url": "https://tester.army",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48586299",
+      "source": "tester.army",
+      "publishedAt": "2026-06-18T14:49:44.000Z",
+      "points": 132,
+      "comments": 69,
+      "hotScore": 33,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "48803711",
+      "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
+      "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48803711",
+      "source": "breef.com",
+      "publishedAt": "2026-07-06T12:33:09.000Z",
+      "points": 77,
+      "comments": 49,
+      "hotScore": 30,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49084371",
+      "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
+      "url": "https://www.tines.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49084371",
+      "source": "tines.com",
+      "publishedAt": "2026-07-28T14:23:55.000Z",
+      "points": 27,
+      "comments": 2,
+      "hotScore": 30,
+      "signal": "自动化提效"
+    },
+    {
+      "id": "48900465",
+      "title": "Show HN: FixBugs – Reproduce production bugs and verify fixes",
+      "url": "https://fixbugs.ai",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48900465",
+      "source": "fixbugs.ai",
+      "publishedAt": "2026-07-13T23:42:53.000Z",
+      "points": 43,
+      "comments": 39,
+      "hotScore": 26,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "48544823",
+      "title": "Show HN: Veterinarian turned founder, AI lawn diagnosis",
+      "url": "https://grassdx.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48544823",
+      "source": "grassdx.com",
+      "publishedAt": "2026-06-15T17:56:00.000Z",
+      "points": 78,
+      "comments": 60,
+      "hotScore": 24,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "48922706",
+      "title": "Launch HN: Coasty (YC S26) – An API for computer-use agents",
+      "url": "https://coasty.ai/docs",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48922706",
+      "source": "coasty.ai",
+      "publishedAt": "2026-07-15T15:51:20.000Z",
+      "points": 44,
+      "comments": 26,
+      "hotScore": 23,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "48847298",
+      "title": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
+      "url": "https://www.lastshelf.ai/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48847298",
+      "source": "lastshelf.ai",
+      "publishedAt": "2026-07-09T15:13:11.000Z",
+      "points": 47,
+      "comments": 33,
+      "hotScore": 22,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "48997941",
+      "title": "Show HN: Orate – On-device neural text-to-speech queue for Mac",
+      "url": "https://orate.to/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48997941",
+      "source": "orate.to",
+      "publishedAt": "2026-07-21T20:38:29.000Z",
+      "points": 17,
+      "comments": 23,
+      "hotScore": 22,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "48798330",
+      "title": "New Microsoft 365 pricing live, some products up by 42% due to AI",
+      "url": "https://www.windowslatest.com/2026/07/05/microsoft-365-just-got-a-price-hike-over-continuous-innovation-but-copilot-is-the-ai-tax-on-businesses/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48798330",
+      "source": "windowslatest.com",
+      "publishedAt": "2026-07-05T21:58:20.000Z",
+      "points": 52,
+      "comments": 32,
+      "hotScore": 21,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49105561",
+      "title": "Show HN: How we use AI agents for our million-user SaaS (seafile)",
+      "url": "https://news.ycombinator.com/item?id=49105561",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49105561",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-30T02:40:21.000Z",
+      "points": 1,
+      "comments": 0,
+      "hotScore": 21,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49083145",
+      "title": "Show HN: Cosmos47, a public chronological feed without algorithms",
+      "url": "https://cosmos47.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49083145",
+      "source": "cosmos47.com",
+      "publishedAt": "2026-07-28T13:00:54.000Z",
+      "points": 2,
+      "comments": 7,
+      "hotScore": 20,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "48646165",
+      "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
+      "url": "https://github.com/NotASithLord/peerd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48646165",
+      "source": "github.com",
+      "publishedAt": "2026-06-23T15:05:00.000Z",
+      "points": 75,
+      "comments": 23,
+      "hotScore": 18,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "49091292",
+      "title": "Show HN: Magpie, a CLI to Turn Your AI Agent into a Bookkeeper",
+      "url": "https://github.com/kyle-visner/magpie",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49091292",
+      "source": "github.com",
+      "publishedAt": "2026-07-28T23:16:16.000Z",
+      "points": 8,
+      "comments": 0,
+      "hotScore": 18,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49086639",
+      "title": "Show HN: NoClick – Build always-on agents with your existing AI subscriptions",
+      "url": "https://www.noclick.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49086639",
+      "source": "noclick.com",
+      "publishedAt": "2026-07-28T16:48:16.000Z",
+      "points": 4,
+      "comments": 3,
+      "hotScore": 18,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49096153",
+      "title": "I'm testing AI on the customer orders that ERPs can't parse",
+      "url": "https://www.zentriqai.com/challenge",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49096153",
+      "source": "zentriqai.com",
+      "publishedAt": "2026-07-29T11:40:47.000Z",
+      "points": 3,
+      "comments": 0,
+      "hotScore": 18,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "49096149",
+      "title": "Show HN: Steadra.dev is for automated QA with no effort",
+      "url": "https://steadra.dev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49096149",
+      "source": "steadra.dev",
+      "publishedAt": "2026-07-29T11:40:05.000Z",
+      "points": 2,
+      "comments": 1,
+      "hotScore": 18,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "48936491",
+      "title": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
+      "url": "https://github.com/ratel-ai/ratel",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48936491",
+      "source": "github.com",
+      "publishedAt": "2026-07-16T16:11:13.000Z",
+      "points": 23,
+      "comments": 20,
+      "hotScore": 17,
+      "signal": "自动化提效"
+    },
+    {
+      "id": "49085118",
+      "title": "Automation Led to Economic Misery. AI Doesn't Have To",
+      "url": "https://www.theatlantic.com/ideas/2026/07/ai-automation-productivity-workers/688083/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49085118",
+      "source": "theatlantic.com",
+      "publishedAt": "2026-07-28T15:10:07.000Z",
+      "points": 4,
+      "comments": 0,
+      "hotScore": 15,
+      "signal": "自动化提效"
+    },
+    {
+      "id": "48887276",
+      "title": "Show HN: Self-hosted voice AI agent for Asterisk/FreePBX",
+      "url": "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48887276",
+      "source": "github.com",
+      "publishedAt": "2026-07-13T02:51:34.000Z",
+      "points": 32,
+      "comments": 11,
+      "hotScore": 14,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "49063723",
+      "title": "Quebec scraps AI and automation projects in the public sector",
+      "url": "https://www.ctvnews.ca/montreal/article/quebec-scraps-ai-and-automation-projects-in-the-public-sector/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49063723",
+      "source": "ctvnews.ca",
+      "publishedAt": "2026-07-27T00:14:20.000Z",
+      "points": 11,
+      "comments": 0,
+      "hotScore": 14,
+      "signal": "自动化提效"
+    },
+    {
+      "id": "49077815",
+      "title": "Show HN: Building a new game everyday with AI. Day #106 Zombie Survival Training",
+      "url": "https://gamevibe.us/106-zombie-survival-training",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49077815",
+      "source": "gamevibe.us",
+      "publishedAt": "2026-07-28T00:49:18.000Z",
+      "points": 3,
+      "comments": 2,
+      "hotScore": 14,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49082361",
+      "title": "Show HN: Zenly – Investment research platform built around a quality/value score",
+      "url": "https://zenlyfinancial.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49082361",
+      "source": "zenlyfinancial.com",
+      "publishedAt": "2026-07-28T11:38:56.000Z",
+      "points": 2,
+      "comments": 1,
+      "hotScore": 14,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "48978880",
+      "title": "Show HN: The0 – self-hosted runtime for trading bots, bring your own language",
+      "url": "https://github.com/alexanderwanyoike/the0",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48978880",
+      "source": "github.com",
+      "publishedAt": "2026-07-20T13:49:53.000Z",
+      "points": 18,
+      "comments": 6,
+      "hotScore": 13,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "48986762",
+      "title": "Show HN: Ekko – post-quantum E2EE layer for Instagram, WhatsApp, Telegram Web",
+      "url": "https://useekko.app/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48986762",
+      "source": "useekko.app",
+      "publishedAt": "2026-07-21T00:39:22.000Z",
+      "points": 10,
+      "comments": 10,
+      "hotScore": 13,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "49011806",
+      "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
+      "url": "https://github.com/Northwood-Systems/millwright",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49011806",
+      "source": "github.com",
+      "publishedAt": "2026-07-22T19:03:50.000Z",
+      "points": 10,
+      "comments": 7,
+      "hotScore": 13,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49079512",
+      "title": "QuickOn – Explainable AI for qualifying inbound B2B SaaS leads",
+      "url": "https://www.quickon.in",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49079512",
+      "source": "quickon.in",
+      "publishedAt": "2026-07-28T04:53:00.000Z",
+      "points": 2,
+      "comments": 1,
+      "hotScore": 13,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49084328",
+      "title": "Show HN: Countify – Collaborative No-code computer vision for labs",
+      "url": "https://www.countifybio.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49084328",
+      "source": "countifybio.com",
+      "publishedAt": "2026-07-28T14:21:35.000Z",
+      "points": 2,
+      "comments": 0,
+      "hotScore": 13,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49083443",
+      "title": "How AI is powering business email compromise at scale",
+      "url": "https://research.eye.security/phishing-as-a-service-inside-two-ai-powered-phishing-kits-that-automate-bec/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49083443",
+      "source": "research.eye.security",
+      "publishedAt": "2026-07-28T13:21:16.000Z",
+      "points": 1,
+      "comments": 0,
+      "hotScore": 13,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "48939710",
+      "title": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
+      "url": "https://libretto.sh/debug-agents",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48939710",
+      "source": "libretto.sh",
+      "publishedAt": "2026-07-16T20:21:27.000Z",
+      "points": 22,
+      "comments": 5,
+      "hotScore": 12,
+      "signal": "自动化提效"
+    },
+    {
+      "id": "49026899",
+      "title": "Show HN: Production duplex speech model for revenue calls",
+      "url": "https://metavoice.io/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49026899",
+      "source": "metavoice.io",
+      "publishedAt": "2026-07-23T19:33:36.000Z",
+      "points": 14,
+      "comments": 2,
+      "hotScore": 12,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "49012855",
+      "title": "Google revenue surges on AI-driven boom in Cloud unit",
+      "url": "https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49012855",
+      "source": "ft.com",
+      "publishedAt": "2026-07-22T20:21:12.000Z",
+      "points": 9,
+      "comments": 5,
+      "hotScore": 12,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "49066256",
+      "title": "Build internal tools for your Startup with Construct AI",
+      "url": "https://construct.computer/blog/build-internal-tools-with-construct/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49066256",
+      "source": "construct.computer",
+      "publishedAt": "2026-07-27T07:40:56.000Z",
+      "points": 3,
+      "comments": 1,
+      "hotScore": 12,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49075654",
+      "title": "60 Minute Creator – Node-based AI content workflows using your own API keys",
+      "url": "https://60minutecreator.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49075654",
+      "source": "60minutecreator.com",
+      "publishedAt": "2026-07-27T21:18:56.000Z",
+      "points": 2,
+      "comments": 0,
+      "hotScore": 12,
+      "signal": "服务 / 内容变现"
+    },
+    {
+      "id": "49075191",
+      "title": "Show HN: Latest Q2 AI SaaS Trends Report",
+      "url": "https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49075191",
+      "source": "relvehq.com",
+      "publishedAt": "2026-07-27T20:36:54.000Z",
+      "points": 1,
+      "comments": 1,
+      "hotScore": 12,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49082126",
+      "title": "Show HN: DynoTable – The DynamoDB GUI with real SQL and your AI agent",
+      "url": "https://dynotable.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49082126",
+      "source": "dynotable.com",
+      "publishedAt": "2026-07-28T11:07:14.000Z",
+      "points": 1,
+      "comments": 0,
+      "hotScore": 12,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "49063016",
+      "title": "So-called 'Skynet Day' came too close to SF after rogue agent hacked a startup",
+      "url": "https://apnews.com/article/skynet-ai-terminator-artificial-intelligence-eb85da03a0161beaa5f3babc4331e93b",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49063016",
+      "source": "apnews.com",
+      "publishedAt": "2026-07-26T22:20:43.000Z",
+      "points": 4,
+      "comments": 0,
+      "hotScore": 11,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49053809",
+      "title": "NYU Stern pricing expert: The hidden 'AI tax' hitting your next phone",
+      "url": "https://fortune.com/2026/07/24/apple-ai-memory-chip-price-increases/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49053809",
+      "source": "fortune.com",
+      "publishedAt": "2026-07-26T01:49:50.000Z",
+      "points": 4,
+      "comments": 2,
+      "hotScore": 11,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "49066212",
+      "title": "From Seed to Startup: How AI Is Revolutionizing Cannabis Cultivation",
+      "url": "https://www.researchgate.net/publication/410602482_From_Seed_to_Startup_How_AI_Is_Revolutionizing_Cannabis_Cultivation_and_Empowering_Small_Businesses",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49066212",
+      "source": "researchgate.net",
+      "publishedAt": "2026-07-27T07:33:58.000Z",
+      "points": 2,
+      "comments": 0,
+      "hotScore": 11,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49066576",
+      "title": "Show HN: adCasa OS – AI marketing workspace built with Bayesian attribution",
+      "url": "https://adcasa.io/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49066576",
+      "source": "adcasa.io",
+      "publishedAt": "2026-07-27T08:18:04.000Z",
+      "points": 2,
+      "comments": 0,
+      "hotScore": 11,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "49072749",
+      "title": "Turn business SOPs into AI agents with real API endpoints",
+      "url": "https://studio.tramenterprise.com/Account/Login?ReturnUrl=%2F",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49072749",
+      "source": "studio.tramenterprise.com",
+      "publishedAt": "2026-07-27T17:19:45.000Z",
+      "points": 1,
+      "comments": 0,
+      "hotScore": 11,
+      "signal": "创业 / SaaS"
+    }
+  ],
+  "skills": [
+    {
+      "id": "design-layers/agent-skills/sleek-design-mobile-apps",
+      "name": "sleek-design-mobile-apps",
+      "source": "design-layers/agent-skills",
+      "url": "https://skills.sh/design-layers/agent-skills/sleek-design-mobile-apps",
+      "installs": 24556,
+      "installUrl": "https://github.com/design-layers/agent-skills"
+    },
+    {
+      "id": "101-skills/skills/ai-video-generation",
+      "name": "ai-video-generation",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/ai-video-generation",
+      "installs": 21754,
+      "installUrl": "https://github.com/101-skills/skills"
+    },
+    {
+      "id": "101-skills/skills/ai-image-generation",
+      "name": "ai-image-generation",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/ai-image-generation",
+      "installs": 21658,
+      "installUrl": "https://github.com/101-skills/skills"
+    },
+    {
+      "id": "101-skills/skills/twitter-automation",
+      "name": "twitter-automation",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/twitter-automation",
+      "installs": 21647,
+      "installUrl": "https://github.com/101-skills/skills"
+    },
+    {
+      "id": "101-skills/skills/ai-avatar-video",
+      "name": "ai-avatar-video",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/ai-avatar-video",
+      "installs": 21647,
+      "installUrl": "https://github.com/101-skills/skills"
+    },
+    {
+      "id": "101-skills/skills/remotion-render",
+      "name": "remotion-render",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/remotion-render",
+      "installs": 21646,
+      "installUrl": "https://github.com/101-skills/skills"
+    },
+    {
+      "id": "skills-collective/skills/coll_image-to-video",
+      "name": "coll_image-to-video",
+      "source": "skills-collective/skills",
+      "url": "https://skills.sh/skills-collective/skills/coll_image-to-video",
+      "installs": 19416,
+      "installUrl": "https://github.com/skills-collective/skills"
+    },
+    {
+      "id": "doany-skills/skills/reddit-automation",
+      "name": "reddit-automation",
+      "source": "doany-skills/skills",
+      "url": "https://skills.sh/doany-skills/skills/reddit-automation",
+      "installs": 19299,
+      "installUrl": "https://github.com/doany-skills/skills"
+    },
+    {
+      "id": "skills-collective/skills/coll_ai-video-generation",
+      "name": "coll_ai-video-generation",
+      "source": "skills-collective/skills",
+      "url": "https://skills.sh/skills-collective/skills/coll_ai-video-generation",
+      "installs": 19223,
+      "installUrl": "https://github.com/skills-collective/skills"
+    },
+    {
+      "id": "skills-collective/skills/coll_ai-music",
+      "name": "coll_ai-music",
+      "source": "skills-collective/skills",
+      "url": "https://skills.sh/skills-collective/skills/coll_ai-music",
+      "installs": 19156,
+      "installUrl": "https://github.com/skills-collective/skills"
+    },
+    {
+      "id": "skills-collective/skills/coll_ai-image-generation",
+      "name": "coll_ai-image-generation",
+      "source": "skills-collective/skills",
+      "url": "https://skills.sh/skills-collective/skills/coll_ai-image-generation",
+      "installs": 19063,
+      "installUrl": "https://github.com/skills-collective/skills"
+    },
+    {
+      "id": "skills-collective/skills/coll_video-edit",
+      "name": "coll_video-edit",
+      "source": "skills-collective/skills",
+      "url": "https://skills.sh/skills-collective/skills/coll_video-edit",
+      "installs": 18952,
+      "installUrl": "https://github.com/skills-collective/skills"
+    },
+    {
+      "id": "vercel-labs/skills/find-skills",
+      "name": "find-skills",
+      "source": "vercel-labs/skills",
+      "url": "https://skills.sh/vercel-labs/skills/find-skills",
+      "installs": 16870,
+      "installUrl": "https://github.com/vercel-labs/skills"
+    },
+    {
+      "id": "getpaperclipai/paperclip/design-guide",
+      "name": "design-guide",
+      "source": "getpaperclipai/paperclip",
+      "url": "https://skills.sh/getpaperclipai/paperclip/design-guide",
+      "installs": 14486,
+      "installUrl": "https://github.com/getpaperclipai/paperclip"
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip",
+      "name": "paperclip",
+      "source": "getpaperclipai/paperclip",
+      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip",
+      "installs": 14426,
+      "installUrl": "https://github.com/getpaperclipai/paperclip"
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip-create-agent",
+      "name": "paperclip-create-agent",
+      "source": "getpaperclipai/paperclip",
+      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent",
+      "installs": 14425,
+      "installUrl": "https://github.com/getpaperclipai/paperclip"
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip-converting-plans-to-tasks",
+      "name": "paperclip-converting-plans-to-tasks",
+      "source": "getpaperclipai/paperclip",
+      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks",
+      "installs": 14424,
+      "installUrl": "https://github.com/getpaperclipai/paperclip"
+    },
+    {
+      "id": "getpaperclipai/paperclip/para-memory-files",
+      "name": "para-memory-files",
+      "source": "getpaperclipai/paperclip",
+      "url": "https://skills.sh/getpaperclipai/paperclip/para-memory-files",
+      "installs": 14423,
+      "installUrl": "https://github.com/getpaperclipai/paperclip"
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip-board",
+      "name": "paperclip-board",
+      "source": "getpaperclipai/paperclip",
+      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip-board",
+      "installs": 14423,
+      "installUrl": "https://github.com/getpaperclipai/paperclip"
+    },
+    {
+      "id": "uizze.com/anti-ui-slop",
+      "name": "anti-ui-slop",
+      "source": "uizze.com",
+      "url": "https://skills.sh/site/uizze.com/anti-ui-slop",
+      "installs": 13374
+    },
+    {
+      "id": "mattpocock/skills/grill-me",
+      "name": "grill-me",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/grill-me",
+      "installs": 10685,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/grill-with-docs",
+      "name": "grill-with-docs",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/grill-with-docs",
+      "installs": 9056,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/grilling",
+      "name": "grilling",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/grilling",
+      "installs": 8749,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/improve-codebase-architecture",
+      "name": "improve-codebase-architecture",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+      "installs": 8255,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/tdd",
+      "name": "tdd",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/tdd",
+      "installs": 8127,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "uizze.com/ui-radar",
+      "name": "ui-radar",
+      "source": "uizze.com",
+      "url": "https://skills.sh/site/uizze.com/ui-radar",
+      "installs": 8027
+    },
+    {
+      "id": "mattpocock/skills/domain-modeling",
+      "name": "domain-modeling",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/domain-modeling",
+      "installs": 8023,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/setup-matt-pocock-skills",
+      "name": "setup-matt-pocock-skills",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
+      "installs": 7776,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/to-spec",
+      "name": "to-spec",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/to-spec",
+      "installs": 7744,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/codebase-design",
+      "name": "codebase-design",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/codebase-design",
+      "installs": 7720,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/to-tickets",
+      "name": "to-tickets",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/to-tickets",
+      "installs": 7679,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/prototype",
+      "name": "prototype",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/prototype",
+      "installs": 7595,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/diagnosing-bugs",
+      "name": "diagnosing-bugs",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
+      "installs": 7559,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/handoff",
+      "name": "handoff",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/handoff",
+      "installs": 7549,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/code-review",
+      "name": "code-review",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/code-review",
+      "installs": 7542,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "heygen-com/hyperframes/hyperframes-cli",
+      "name": "hyperframes-cli",
+      "source": "heygen-com/hyperframes",
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
+      "installs": 7491,
+      "installUrl": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "id": "mattpocock/skills/wayfinder",
+      "name": "wayfinder",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/wayfinder",
+      "installs": 7398,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/writing-great-skills",
+      "name": "writing-great-skills",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/writing-great-skills",
+      "installs": 7391,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "mattpocock/skills/triage",
+      "name": "triage",
+      "source": "mattpocock/skills",
+      "url": "https://skills.sh/mattpocock/skills/triage",
+      "installs": 7308,
+      "installUrl": "https://github.com/mattpocock/skills"
+    },
+    {
+      "id": "open.feishu.cn/lark-doc",
+      "name": "lark-doc",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-doc",
+      "installs": 7233
+    },
+    {
+      "id": "open.feishu.cn/lark-drive",
+      "name": "lark-drive",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-drive",
+      "installs": 7229
+    },
+    {
+      "id": "open.feishu.cn/lark-base",
+      "name": "lark-base",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-base",
+      "installs": 7228
+    },
+    {
+      "id": "open.feishu.cn/lark-approval",
+      "name": "lark-approval",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-approval",
+      "installs": 7226
+    },
+    {
+      "id": "heygen-com/hyperframes/media-use",
+      "name": "media-use",
+      "source": "heygen-com/hyperframes",
+      "url": "https://skills.sh/heygen-com/hyperframes/media-use",
+      "installs": 7225,
+      "installUrl": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "id": "open.feishu.cn/lark-shared",
+      "name": "lark-shared",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-shared",
+      "installs": 7223
+    },
+    {
+      "id": "open.feishu.cn/lark-contact",
+      "name": "lark-contact",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-contact",
+      "installs": 7223
+    },
+    {
+      "id": "open.feishu.cn/lark-calendar",
+      "name": "lark-calendar",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-calendar",
+      "installs": 7223
+    },
+    {
+      "id": "open.feishu.cn/lark-wiki",
+      "name": "lark-wiki",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-wiki",
+      "installs": 7220
+    },
+    {
+      "id": "open.feishu.cn/lark-markdown",
+      "name": "lark-markdown",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-markdown",
+      "installs": 7218
+    },
+    {
+      "id": "open.feishu.cn/lark-sheets",
+      "name": "lark-sheets",
+      "source": "open.feishu.cn",
+      "url": "https://skills.sh/site/open.feishu.cn/lark-sheets",
+      "installs": 7217
+    }
+  ],
+  "sourceStatus": [
+    {
+      "name": "Hacker News / Algolia 商业化线索",
+      "url": "https://hn.algolia.com/api",
+      "ok": true,
+      "note": "本次抓取成功"
+    },
+    {
+      "name": "skills.sh 24 小时 Trending",
+      "url": "https://skills.sh/trending",
+      "ok": true,
+      "note": "本次抓取成功"
+    }
+  ]
+}

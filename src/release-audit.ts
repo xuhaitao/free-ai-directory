@@ -30,6 +30,8 @@ for(const required of [
   "changes/index.html",
   "search/index.html",
   "find-model/index.html",
+  "ai-money/index.html",
+  "skills/index.html",
   "saved/index.html",
   "compare/index.html",
   "sitemap/index.html",
@@ -60,6 +62,7 @@ for(const required of [
   "assets/search.js",
   "assets/model-finder.js",
   "assets/responsive.css",
+  "assets/opportunities.css",
   "assets/social-card.png",
   "favicon.ico",
   "assets/codex-ai-daily.mp4",
@@ -71,6 +74,9 @@ for(const required of [
   "data/directory.json",
   "data/search-index.json",
   "data/model-finder.json",
+  "data/opportunities.json",
+  "ai-money.xml",
+  "skills.xml",
   "models-changes.xml",
   "relays-changes.xml"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);

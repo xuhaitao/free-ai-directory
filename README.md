@@ -2,6 +2,8 @@
 
 面向中文用户的每日 AI 情报与免费资源目录。每天更新 10 条 AI 热门新闻、10 个热门 AI 项目和 10 个趋势模型，并收录文本、代码、多模态、图像、视频、Embedding、Rerank、语义分割、目标检测、图像分类、语音和翻译等免费入口。
 
+另提供每日约 50 条 AI 工具商业化与创收线索，以及按 skills.sh 公开安装趋势整理的 50 个 Agent Skill；这些榜单反映公开讨论和安装热度，不构成收入承诺或安全背书。
+
 在线站点：[www.qaz5678.xyz](https://www.qaz5678.xyz/?utm_source=github&utm_medium=readme&utm_campaign=repository)
 
 常用入口：
@@ -38,8 +40,10 @@ curl http://localhost:8787/api/health
 ## 数据维护
 
 - `npm run daily:update`：从 Hacker News、GitHub 与 Hugging Face 生成每日榜单和归档。
+- `npm run opportunities:update`：从 Hacker News / Algolia 生成 AI 创收资讯，并从 skills.sh 生成 Agent Skill 24 小时趋势榜。
 - `npm run directory:update`：同步 OpenRouter 官方免费模型、发现高相关中转候选，并检查全部目录外链；不调用模型。
 - `content/daily.json`：当前 3 个 Top 10 榜单；`content/history/` 保留每日快照。
+- `content/opportunities.json`：当前 AI 创收资讯与 Skill Top 50；`content/opportunities-history/` 保留每日快照。
 - `content/directory.json`：免费模型与中转站的每日有效快照；来源暂时失败时保留上一版有效数据。
 - `content/directory-history/`：按日期保留目录快照与真实字段变化。
 - `src/data.ts`：模型、平台、中转站和来源链接。

@@ -35,6 +35,8 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     funnel_names["finder-entry"]=1; funnel_names["finder-start"]=1; funnel_names["finder-result"]=1; funnel_names["finder-open"]=1;
     funnel_names["archive-current"]=1;
     funnel_names["save-item"]=1; funnel_names["saved-open"]=1; funnel_names["model-compare-add"]=1; funnel_names["model-compare-open"]=1;
+    funnel_names["money-news"]=1; funnel_names["money-discussion"]=1; funnel_names["skill"]=1; funnel_names["skill-source"]=1;
+    funnel_names["rss-money"]=1; funnel_names["rss-skills"]=1; funnel_names["archive-money-current"]=1; funnel_names["archive-skills-current"]=1;
     funnel_names["search-result"]=1; funnel_names["model"]=1; funnel_names["model-source"]=1; funnel_names["relay"]=1;
     funnel_names["rss"]=1; funnel_names["rss-models"]=1; funnel_names["rss-relays"]=1; funnel_names["share"]=1;
   }

@@ -102,6 +102,38 @@ export type DailySnapshot = {
   sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
 };
 
+export type AIMoneyNews = {
+  id: string;
+  title: string;
+  url: string;
+  discussionUrl: string;
+  source: string;
+  publishedAt: string;
+  points: number;
+  comments: number;
+  hotScore: number;
+  signal: "收入 / 盈利" | "获客 / 销售" | "付费 / 定价" | "服务 / 内容变现" | "自动化提效" | "创业 / SaaS";
+};
+
+export type TrendingSkill = {
+  id: string;
+  name: string;
+  source: string;
+  url: string;
+  installs: number;
+  installUrl?: string;
+};
+
+export type OpportunitySnapshot = {
+  schemaVersion: 1;
+  date: string;
+  generatedAt: string;
+  timezone: "Asia/Shanghai";
+  moneyNews: AIMoneyNews[];
+  skills: TrendingSkill[];
+  sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
+};
+
 export type DirectoryLinkCheck = {
   kind: "model" | "relay";
   id: string;
