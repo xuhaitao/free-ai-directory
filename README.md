@@ -13,6 +13,7 @@
 - [查看每日 AI 新闻、项目和趋势模型 Top 10](https://www.qaz5678.xyz/daily/?utm_source=github&utm_medium=readme&utm_campaign=daily_ai)
 - [查看一周 AI 情报汇总](https://www.qaz5678.xyz/weekly/?utm_source=github&utm_medium=readme&utm_campaign=weekly_ai)
 - [查看跨榜 AI 主题追踪](https://www.qaz5678.xyz/topics/?utm_source=github&utm_medium=readme&utm_campaign=ai_topics)
+- [查看当前浏览器关注的主题](https://www.qaz5678.xyz/following/?utm_source=github&utm_medium=readme&utm_campaign=topic_following)
 - [查看 AI 炒股工具、项目与每日新闻](https://www.qaz5678.xyz/ai-stocks/?utm_source=github&utm_medium=readme&utm_campaign=ai_stocks)
 - [核对 Codex / Claude Code 中转站协议与风险](https://www.qaz5678.xyz/guides/codex-claude-code-relay/?utm_source=github&utm_medium=readme&utm_campaign=relay_guide)
 - [查看免费图像分割 API 与模型](https://www.qaz5678.xyz/guides/free-image-segmentation-api/?utm_source=github&utm_medium=readme&utm_campaign=segmentation_api)

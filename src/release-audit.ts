@@ -16,7 +16,7 @@ for(const path of htmlFiles){
   for(const [p,label] of forbidden)if(p.test(html))errors.push(`${path}: ${label}`);
   for(const m of html.matchAll(/href="(\/[^"#]*)"/g))if(!internalExists(m[1]!))errors.push(`${path}: 站内链接不存在 ${m[1]}`);
   if(!/<link rel="canonical" href="https:\/\//.test(html))errors.push(`${path}: 缺少 HTTPS canonical`);
-  const expectedRobots=path.endsWith("/saved/index.html")?"noindex,follow":"index,follow";
+  const expectedRobots=path.endsWith("/saved/index.html")||path.endsWith("/following/index.html")?"noindex,follow":"index,follow";
   if(!new RegExp(`<meta name="robots" content="${expectedRobots}`).test(html))errors.push(`${path}: robots 声明错误`);
   if(!/<meta property="og:image" content="https:\/\//.test(html))errors.push(`${path}: 缺少社交分享图片`);
   if(!/href="\/ai-money\/"[^>]*>AI 创收<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 创收入口`);
@@ -25,7 +25,7 @@ for(const path of htmlFiles){
   if(!/href="\/weekly\/"[^>]*>AI 周报<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 周报入口`);
   if(!/href="\/topics\/"[^>]*>主题追踪<\/a>/.test(html))errors.push(`${path}: 主导航缺少主题追踪入口`);
   if(path.endsWith("/weekly/index.html")&&(!/本周变化雷达/.test(html)||!/连续上榜/.test(html)||!/最新快照首次出现/.test(html)||!/排名升温/.test(html)))errors.push(`${path}: 周变化模块不完整`);
-  if(path.endsWith("/topics/index.html")&&(!/跨榜追踪/.test(html)||!/至少匹配 3 条内容并覆盖 2 个栏目/.test(html)||!/data-track="topic-item"/.test(html)))errors.push(`${path}: 主题追踪模块不完整`);
+  if(path.endsWith("/topics/index.html")&&(!/跨榜追踪/.test(html)||!/至少匹配 3 条内容并覆盖 2 个栏目/.test(html)||!/data-track="topic-item"/.test(html)||!/data-topic-follow=/.test(html)||!/data-track="rss-topic"/.test(html)))errors.push(`${path}: 主题追踪模块不完整`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
 for(const required of [
@@ -42,6 +42,7 @@ for(const required of [
   "ai-stocks/index.html",
   "weekly/index.html",
   "topics/index.html",
+  "following/index.html",
   "saved/index.html",
   "compare/index.html",
   "sitemap/index.html",
@@ -68,6 +69,7 @@ for(const required of [
   "assets/share.js",
   "assets/saved.js",
   "assets/compare.js",
+  "assets/topics.js",
   "assets/interactions.css",
   "assets/search.js",
   "assets/model-finder.js",
@@ -96,4 +98,6 @@ for(const required of [
   "models-changes.xml",
   "relays-changes.xml"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);
+const topicData=JSON.parse(await readFile(resolve(root,"data/topics.json"),"utf8")) as {topics:{id:string}[]};
+for(const topic of topicData.topics)if(!files.some(x=>x.endsWith(`topics/${topic.id}.xml`)))errors.push(`缺少主题 RSS topics/${topic.id}.xml`);
 if(errors.length){console.error(errors.join("\n"));process.exitCode=1}else console.log(`发布审计通过：${htmlFiles.length} 个 HTML 页面，${files.length} 个构建文件`);
