@@ -7,6 +7,7 @@ flock -n 9 || exit 0
 
 npm run daily:update
 npm run opportunities:update
+npm run stocks:update
 npm run directory:update
 PUBLIC_SITE_URL=https://www.qaz5678.xyz npm run build
 npm run release:audit

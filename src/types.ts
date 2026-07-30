@@ -143,6 +143,46 @@ export type OpportunitySnapshot = {
   sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
 };
 
+export type StockProject = {
+  id: string;
+  name: string;
+  kind: "工具" | "开源项目";
+  category: "股票研究" | "量化框架" | "多 Agent" | "交易工作台";
+  summary: string;
+  url: string;
+  sourceUrl: string;
+  stars: number;
+  forks: number;
+  updatedAt: string;
+  popularityScore: number;
+  freshnessScore: number;
+  score: number;
+};
+
+export type StockNews = {
+  id: string;
+  title: string;
+  url: string;
+  publishedAt: string;
+  source: string;
+  sourcePlatforms: string[];
+  evidence: { platform: string; url: string }[];
+  signal: "工具 / 产品" | "市场 / 公司" | "研究 / 策略" | "监管 / 风险";
+  sourceScore: number;
+  freshnessScore: number;
+  score: number;
+};
+
+export type StockSnapshot = {
+  schemaVersion: 1;
+  date: string;
+  generatedAt: string;
+  timezone: "Asia/Shanghai";
+  projects: StockProject[];
+  news: StockNews[];
+  sourceStatus: { name: string; url: string; ok: boolean; note: string }[];
+};
+
 export type DirectoryLinkCheck = {
   kind: "model" | "relay";
   id: string;

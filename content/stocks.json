@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T04:05:03.512Z",
+  "timezone": "Asia/Shanghai",
+  "projects": [
+    {
+      "id": "tauricresearch/tradingagents",
+      "name": "TradingAgents",
+      "kind": "工具",
+      "category": "多 Agent",
+      "summary": "多个专业 Agent 协作完成市场、基本面、新闻、观点辩论与风险分析。",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "sourceUrl": "https://github.com/TauricResearch/TradingAgents",
+      "stars": 94999,
+      "forks": 18352,
+      "updatedAt": "2026-07-18T15:55:04.000Z",
+      "popularityScore": 100,
+      "freshnessScore": 93.6,
+      "score": 97.8
+    },
+    {
+      "id": "microsoft/qlib",
+      "name": "Qlib",
+      "kind": "开源项目",
+      "category": "量化框架",
+      "summary": "微软开源的 AI 量化投资研究平台，覆盖数据、模型、策略与回测流程。",
+      "url": "https://github.com/microsoft/qlib",
+      "sourceUrl": "https://github.com/microsoft/qlib",
+      "stars": 46817,
+      "forks": 7441,
+      "updatedAt": "2026-07-23T08:15:29.000Z",
+      "popularityScore": 93.2,
+      "freshnessScore": 96.1,
+      "score": 94.2
+    },
+    {
+      "id": "hkuds/vibe-trading",
+      "name": "Vibe-Trading",
+      "kind": "工具",
+      "category": "交易工作台",
+      "summary": "把金融问题转成可运行分析任务的开源个人交易 Agent 研究工作台。",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "sourceUrl": "https://github.com/HKUDS/Vibe-Trading",
+      "stars": 28596,
+      "forks": 4627,
+      "updatedAt": "2026-07-30T03:58:19.000Z",
+      "popularityScore": 88.8,
+      "freshnessScore": 100,
+      "score": 92.7
+    },
+    {
+      "id": "hsliuping/tradingagents-cn",
+      "name": "TradingAgents-CN",
+      "kind": "工具",
+      "category": "多 Agent",
+      "summary": "面向中文用户和 A 股、港股、美股场景适配的多 Agent 金融分析框架。",
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "sourceUrl": "https://github.com/hsliuping/TradingAgents-CN",
+      "stars": 30765,
+      "forks": 6481,
+      "updatedAt": "2026-07-24T02:27:21.000Z",
+      "popularityScore": 90,
+      "freshnessScore": 96.6,
+      "score": 92.3
+    },
+    {
+      "id": "ai4finance-foundation/fingpt",
+      "name": "FinGPT",
+      "kind": "开源项目",
+      "category": "股票研究",
+      "summary": "面向金融领域的大语言模型、数据与应用研究项目。",
+      "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "sourceUrl": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "stars": 20979,
+      "forks": 2974,
+      "updatedAt": "2026-07-28T06:05:08.000Z",
+      "popularityScore": 85.8,
+      "freshnessScore": 98.9,
+      "score": 90.4
+    },
+    {
+      "id": "ai4finance-foundation/finrl",
+      "name": "FinRL",
+      "kind": "开源项目",
+      "category": "量化框架",
+      "summary": "用于金融强化学习研究、训练、回测与实验的开源框架。",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL",
+      "sourceUrl": "https://github.com/AI4Finance-Foundation/FinRL",
+      "stars": 15849,
+      "forks": 3442,
+      "updatedAt": "2026-07-12T06:22:09.000Z",
+      "popularityScore": 84.1,
+      "freshnessScore": 90.2,
+      "score": 86.2
+    },
+    {
+      "id": "ai4finance-foundation/finrobot",
+      "name": "FinRobot",
+      "kind": "开源项目",
+      "category": "多 Agent",
+      "summary": "将大模型、量化分析和 Agent 工作流用于金融研究的开源平台。",
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "sourceUrl": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "stars": 7682,
+      "forks": 1291,
+      "updatedAt": "2026-07-27T07:06:05.000Z",
+      "popularityScore": 77,
+      "freshnessScore": 98.4,
+      "score": 84.5
+    },
+    {
+      "id": "traderalice/openalice",
+      "name": "OpenAlice",
+      "kind": "工具",
+      "category": "交易工作台",
+      "summary": "覆盖股票、商品、外汇和宏观研究流程的本地 AI 交易 Agent 工作台。",
+      "url": "https://github.com/TraderAlice/OpenAlice",
+      "sourceUrl": "https://github.com/TraderAlice/OpenAlice",
+      "stars": 6316,
+      "forks": 1010,
+      "updatedAt": "2026-07-29T10:29:44.000Z",
+      "popularityScore": 75.2,
+      "freshnessScore": 99.6,
+      "score": 83.7
+    },
+    {
+      "id": "valuecell-ai/valuecell",
+      "name": "ValueCell",
+      "kind": "工具",
+      "category": "股票研究",
+      "summary": "社区驱动的多 Agent 金融应用平台，覆盖股票研究、跟踪与策略分析。",
+      "url": "https://github.com/ValueCell-ai/valuecell",
+      "sourceUrl": "https://github.com/ValueCell-ai/valuecell",
+      "stars": 10954,
+      "forks": 1816,
+      "updatedAt": "2026-02-11T03:43:15.000Z",
+      "popularityScore": 80.2,
+      "freshnessScore": 37.7,
+      "score": 65.3
+    },
+    {
+      "id": "chen-zexi/langalpha",
+      "name": "LangAlpha",
+      "kind": "开源项目",
+      "category": "股票研究",
+      "summary": "面向股票市场研究的多 Agent 金融分析工作流。",
+      "url": "https://github.com/Chen-zexi/LangAlpha",
+      "sourceUrl": "https://github.com/Chen-zexi/LangAlpha",
+      "stars": 231,
+      "forks": 57,
+      "updatedAt": "2026-03-26T23:02:06.000Z",
+      "popularityScore": 46.3,
+      "freshnessScore": 48.5,
+      "score": 47.1
+    },
+    {
+      "id": "tradinggoose/tradinggoose.github.io",
+      "name": "TradingGoose",
+      "kind": "工具",
+      "category": "多 Agent",
+      "summary": "基于事件驱动研究和多 Agent 协作的股票分析与组合管理平台。",
+      "url": "https://github.com/TradingGoose/TradingGoose.github.io",
+      "sourceUrl": "https://github.com/TradingGoose/TradingGoose.github.io",
+      "stars": 75,
+      "forks": 25,
+      "updatedAt": "2026-04-22T20:50:46.000Z",
+      "popularityScore": 36.9,
+      "freshnessScore": 56.7,
+      "score": 43.8
+    },
+    {
+      "id": "gsaini/financial-research-analyst-agent",
+      "name": "Financial Research Analyst Agent",
+      "kind": "开源项目",
+      "category": "股票研究",
+      "summary": "协调多个专业 Agent、数据源和回测模块的股票研究系统。",
+      "url": "https://github.com/gsaini/financial-research-analyst-agent",
+      "sourceUrl": "https://github.com/gsaini/financial-research-analyst-agent",
+      "stars": 42,
+      "forks": 15,
+      "updatedAt": "2026-05-13T04:40:05.000Z",
+      "popularityScore": 31.9,
+      "freshnessScore": 63.7,
+      "score": 43
+    }
+  ],
+  "news": [
+    {
+      "id": "bf653817a3369860",
+      "title": "Show HN: I ran 12 AI bots predicting stocks for two months, every call public",
+      "url": "https://ldbd.app",
+      "publishedAt": "2026-07-22T22:35:21.000Z",
+      "source": "ldbd.app",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49014412"
+        }
+      ],
+      "signal": "工具 / 产品",
+      "sourceScore": 94.1,
+      "freshnessScore": 69.9,
+      "score": 75
+    },
+    {
+      "id": "869deb43e20c23a8",
+      "title": "AI Appreciation Day: How Intelligent Tech is Redefining Finance and Empowering Global Builders",
+      "url": "https://www.nasdaq.com/articles/ai-appreciation-day-how-intelligent-tech-redefining-finance-and-empowering-global-builders",
+      "publishedAt": "2026-07-16T20:30:00.000Z",
+      "source": "Nasdaq AI",
+      "sourcePlatforms": [
+        "Nasdaq AI"
+      ],
+      "evidence": [
+        {
+          "platform": "Nasdaq AI",
+          "url": "https://www.nasdaq.com/articles/ai-appreciation-day-how-intelligent-tech-redefining-finance-and-empowering-global-builders"
+        }
+      ],
+      "signal": "监管 / 风险",
+      "sourceScore": 100,
+      "freshnessScore": 51.7,
+      "score": 70.7
+    },
+    {
+      "id": "fdc42810ef099380",
+      "title": "Ask HN: Is anyone shorting the overspend in AI yet?",
+      "url": "https://news.ycombinator.com/item?id=48486763",
+      "publishedAt": "2026-06-11T06:05:41.000Z",
+      "source": "news.ycombinator.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48486763"
+        }
+      ],
+      "signal": "市场 / 公司",
+      "sourceScore": 100,
+      "freshnessScore": 8.9,
+      "score": 53.6
+    },
+    {
+      "id": "8989a18d2a78b9f6",
+      "title": "Is AI Good at Stock-Market Timing? A New Study Casts Doubt",
+      "url": "https://www.wsj.com/tech/ai/ai-stock-market-trading-research-154eeb72",
+      "publishedAt": "2026-06-25T20:33:22.000Z",
+      "source": "wsj.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48678848"
+        }
+      ],
+      "signal": "市场 / 公司",
+      "sourceScore": 88.2,
+      "freshnessScore": 18.3,
+      "score": 51.4
+    },
+    {
+      "id": "310288792459569c",
+      "title": "Show HN: Noema – AI personas debate US listed stocks",
+      "url": "https://itsnoema.com",
+      "publishedAt": "2026-07-09T13:09:29.000Z",
+      "source": "itsnoema.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48845255"
+        }
+      ],
+      "signal": "监管 / 风险",
+      "sourceScore": 58.8,
+      "freshnessScore": 36,
+      "score": 43.8
+    },
+    {
+      "id": "866138fb0ae37c2e",
+      "title": "Hybrid local and cloud LLM stack for regulated financial document processing?",
+      "url": "https://news.ycombinator.com/item?id=48327218",
+      "publishedAt": "2026-05-29T18:22:54.000Z",
+      "source": "news.ycombinator.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48327218"
+        }
+      ],
+      "signal": "监管 / 风险",
+      "sourceScore": 82.4,
+      "freshnessScore": 4.8,
+      "score": 43.1
+    },
+    {
+      "id": "7b73832cb43f15cc",
+      "title": "Which MCP servers should AI agents use for financial market data in 2026",
+      "url": "https://dev.to/algovaultlabs/which-mcp-servers-should-ai-agents-use-for-financial-market-data-in-2026-21i6",
+      "publishedAt": "2026-07-14T02:02:22.000Z",
+      "source": "DEV Community",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/algovaultlabs/which-mcp-servers-should-ai-agents-use-for-financial-market-data-in-2026-21i6"
+        }
+      ],
+      "signal": "工具 / 产品",
+      "sourceScore": 50,
+      "freshnessScore": 45.1,
+      "score": 43
+    },
+    {
+      "id": "82e61013acd75f69",
+      "title": "The Hedge Fund Veteran Trying to Make His Past Self Obsolete with AI",
+      "url": "https://www.wsj.com/finance/investing/the-hedge-fund-veteran-trying-to-make-his-past-self-obsolete-with-ai-714b58e4",
+      "publishedAt": "2026-06-01T14:16:10.000Z",
+      "source": "wsj.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48357146"
+        }
+      ],
+      "signal": "市场 / 公司",
+      "sourceScore": 76.5,
+      "freshnessScore": 5.5,
+      "score": 40.5
+    },
+    {
+      "id": "b0832bc61afa4045",
+      "title": "Wall Street Is Rushing to Fund the AI Bonanza in Every Conceivable Way",
+      "url": "https://www.wsj.com/finance/investing/global-stocks-markets-dow-news-06-08-2026-aac7c547",
+      "publishedAt": "2026-06-09T09:54:45.000Z",
+      "source": "wsj.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48458922"
+        }
+      ],
+      "signal": "市场 / 公司",
+      "sourceScore": 70.6,
+      "freshnessScore": 8.1,
+      "score": 38.5
+    },
+    {
+      "id": "3a84e8086d022a3f",
+      "title": "The AI Boom's Hunt for Cash Hits a New Corner of the Bond Market",
+      "url": "https://www.wsj.com/finance/investing/the-ai-booms-hunt-for-cash-hits-a-new-corner-of-the-bond-market-0ea6f36b",
+      "publishedAt": "2026-06-17T02:34:17.000Z",
+      "source": "wsj.com",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48565063"
+        }
+      ],
+      "signal": "市场 / 公司",
+      "sourceScore": 64.7,
+      "freshnessScore": 11.9,
+      "score": 37.1
+    },
+    {
+      "id": "61c0c7c95b4ae360",
+      "title": "AI Market Trends: Q2 2026 Review and Forecast",
+      "url": "https://www.nasdaq.com/articles/ai-market-trends-q2-2026-review-and-forecast",
+      "publishedAt": "2026-07-14T20:30:00.000Z",
+      "source": "Nasdaq AI",
+      "sourcePlatforms": [
+        "Nasdaq AI"
+      ],
+      "evidence": [
+        {
+          "platform": "Nasdaq AI",
+          "url": "https://www.nasdaq.com/articles/ai-market-trends-q2-2026-review-and-forecast"
+        }
+      ],
+      "signal": "监管 / 风险",
+      "sourceScore": 0,
+      "freshnessScore": 46.8,
+      "score": 18.7
+    },
+    {
+      "id": "13a11c482dbcbb39",
+      "title": "Show HN: We killed our AI stock analysis and kept the news feed (API and MCP)",
+      "url": "https://alphai.io/developers",
+      "publishedAt": "2026-07-27T12:23:12.000Z",
+      "source": "alphai.io",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49068635"
+        }
+      ],
+      "signal": "监管 / 风险",
+      "sourceScore": 0,
+      "freshnessScore": 87.7,
+      "score": 35.1
+    }
+  ],
+  "sourceStatus": [
+    {
+      "name": "GitHub 项目元数据",
+      "url": "https://github.com/",
+      "ok": true,
+      "note": "12 个项目的 Star、Fork 与最近提交已更新"
+    },
+    {
+      "name": "Nasdaq AI",
+      "url": "https://www.nasdaq.com/feed/rssoutbound?category=Artificial+Intelligence",
+      "ok": true,
+      "note": "抓取 2 条候选"
+    },
+    {
+      "name": "SEC",
+      "url": "https://www.sec.gov/news/pressreleases.rss",
+      "ok": false,
+      "note": "没有符合条件的条目"
+    },
+    {
+      "name": "MarketWatch",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "ok": false,
+      "note": "没有符合条件的条目"
+    },
+    {
+      "name": "DEV Community",
+      "url": "https://dev.to/feed/tag/fintech",
+      "ok": true,
+      "note": "抓取 1 条候选"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hn.algolia.com/api",
+      "ok": true,
+      "note": "抓取 21 条候选"
+    },
+    {
+      "name": "AI 炒股新闻融合榜",
+      "url": "https://www.qaz5678.xyz/methodology/",
+      "ok": true,
+      "note": "Nasdaq AI + DEV Community + Hacker News 归一化后按 50% 来源热度、40% 时效、10% 跨源覆盖排序"
+    }
+  ]
+}

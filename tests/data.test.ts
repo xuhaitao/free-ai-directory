@@ -4,6 +4,7 @@ import { categoryLabels, models, relays } from "../src/data.ts";
 import { validateData } from "../src/validate.ts";
 import { loadDailySnapshot } from "../src/daily.ts";
 import { loadOpportunitySnapshot } from "../src/opportunities.ts";
+import { loadStockSnapshot } from "../src/stocks.ts";
 import { loadDirectorySnapshot } from "../src/directory.ts";
 import { githubRelayCandidates, hasHostedRelayPageEvidence, openRouterFreeModels } from "../src/directory-update-core.ts";
 import { directoryChanges, linkStateForStatus, mergeDirectoryChanges } from "../src/directory-change-core.ts";
@@ -14,6 +15,7 @@ test("模型卡只需要跳转与来源，不包含探测字段",()=>{for(const 
 test("弱证据中转站明确标注",()=>{assert.ok(relays.some(x=>x.evidence==="third_party_listing"));assert.ok(relays.filter(x=>x.operatorDisclosure==="not_found").every(x=>x.riskNotes.length>0));});
 test("每日三个榜单均为 10 条且来源可追溯",async()=>{const daily=await loadDailySnapshot();assert.equal(daily.news.length,10);assert.equal(daily.projects.length,10);assert.equal(daily.trendingModels.length,10);assert.ok(daily.sourceStatus.length>=3);});
 test("每日创收资讯与 Skill 热榜使用多源融合且来源可追溯",async()=>{const data=await loadOpportunitySnapshot();assert.ok(data.moneyNews.length>=40&&data.moneyNews.length<=60);assert.equal(data.skills.length,50);assert.ok(new Set(data.moneyNews.flatMap(item=>item.sourcePlatforms)).size>=2);assert.ok(data.moneyNews.every(item=>item.evidence.length>0&&item.fusionScore>=0&&item.fusionScore<=100));assert.ok(data.skills.every(item=>item.url.startsWith("https://skills.sh/")&&item.installUrl?.startsWith("https://github.com/")&&item.fusionScore>=0&&item.fusionScore<=100));const counts=new Map<string,number>();for(const item of data.skills)counts.set(item.source,(counts.get(item.source)||0)+1);assert.ok([...counts.values()].every(count=>count<=5));});
+test("AI 炒股情报包含 12 个项目和 12 条多源新闻",async()=>{const data=await loadStockSnapshot();assert.equal(data.projects.length,12);assert.equal(data.news.length,12);assert.ok(data.projects.every(item=>item.sourceUrl.startsWith("https://github.com/")&&item.score>=0&&item.score<=100));assert.ok(new Set(data.news.flatMap(item=>item.sourcePlatforms)).size>=2);assert.ok(data.news.every(item=>item.evidence.length>0&&item.score>=0&&item.score<=100));});
 test("OpenRouter 每日同步只接收明确的免费路由",()=>{
   const result=openRouterFreeModels({data:[
     {id:"demo/free:free",name:"Free",pricing:{prompt:"0",completion:"0"},architecture:{input_modalities:["text"],output_modalities:["text"]}},
