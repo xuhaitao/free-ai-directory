@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 const root=resolve("dist");
 async function filesIn(dir:string):Promise<string[]>{const entries=await readdir(dir);return(await Promise.all(entries.map(async name=>{const path=resolve(dir,name);return(await stat(path)).isDirectory()?filesIn(path):[path]}))).flat()}
 const files=await filesIn(root),htmlFiles=files.filter(x=>x.endsWith(".html")&&!x.endsWith("google12cdc1700f3f0191.html")),errors:string[]=[];
+const structuredListPaths=new Set(["daily","ai-money","skills","ai-stocks","weekly","topics"].map(name=>resolve(root,name,"index.html")));
 const forbidden:[RegExp,string][]=[
   [/sk-[A-Za-z0-9_-]{16,}/,"疑似 API Key"],
   [/Bearer\s+[A-Za-z0-9._-]{16,}/i,"疑似 Bearer Token"],
@@ -27,6 +28,7 @@ for(const path of htmlFiles){
   if(path.endsWith("/weekly/index.html")&&(!/本周变化雷达/.test(html)||!/连续上榜/.test(html)||!/最新快照首次出现/.test(html)||!/排名升温/.test(html)))errors.push(`${path}: 周变化模块不完整`);
   if(path.endsWith("/topics/index.html")&&(!/跨榜追踪/.test(html)||!/至少匹配 3 条内容并覆盖 2 个栏目/.test(html)||!/data-track="topic-item"/.test(html)||!/data-topic-follow=/.test(html)||!/data-track="rss-topic"/.test(html)))errors.push(`${path}: 主题追踪模块不完整`);
   if(path===resolve(root,"index.html")&&(!/今天 6 条 AI 情报简报/.test(html)||!/<a href="\/news\/" data-track="home-brief-news">/.test(html)||!/<a href="\/ai-money\/" data-track="home-brief-money">/.test(html)||!/<button[^>]+data-copy-brief/.test(html)||!/data-track="home-retention-weekly"/.test(html)))errors.push(`${path}: 首页运营简报不完整`);
+  if(structuredListPaths.has(path)&&(!/"@type":"CollectionPage"/.test(html)||!/"@type":"ItemList"/.test(html)||!/"dateModified":"/.test(html)||!/"numberOfItems":/.test(html)))errors.push(`${path}: 核心榜单结构化数据不完整`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
 for(const required of [
