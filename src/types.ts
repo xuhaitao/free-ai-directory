@@ -106,12 +106,14 @@ export type AIMoneyNews = {
   id: string;
   title: string;
   url: string;
-  discussionUrl: string;
   source: string;
   publishedAt: string;
-  points: number;
-  comments: number;
-  hotScore: number;
+  sourcePlatforms: ("Hacker News" | "DEV Community" | "Bing News" | "TechCrunch" | "VentureBeat")[];
+  evidence: { platform: string; url: string; engagement: number }[];
+  engagementScore: number;
+  freshnessScore: number;
+  coverageScore: number;
+  fusionScore: number;
   signal: "收入 / 盈利" | "获客 / 销售" | "付费 / 定价" | "服务 / 内容变现" | "自动化提效" | "创业 / SaaS";
 };
 
@@ -122,6 +124,13 @@ export type TrendingSkill = {
   url: string;
   installs: number;
   installUrl?: string;
+  githubStars: number;
+  githubForks: number;
+  repositoryUpdatedAt?: string;
+  installScore: number;
+  repositoryScore: number;
+  freshnessScore: number;
+  fusionScore: number;
 };
 
 export type OpportunitySnapshot = {

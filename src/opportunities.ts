@@ -13,9 +13,13 @@ export function validateOpportunitySnapshot(value:unknown):asserts value is Oppo
   if(!Array.isArray(data?.skills)||data.skills.length!==50)errors.push("Skill 热榜必须恰好 50 条");
   if(new Set(data?.moneyNews?.map(item=>item.id)).size!==data?.moneyNews?.length)errors.push("AI 创收资讯 ID 重复");
   if(new Set(data?.skills?.map(item=>item.id)).size!==data?.skills?.length)errors.push("Skill ID 重复");
-  if([...(data?.moneyNews||[]).map(item=>item.url),...(data?.skills||[]).map(item=>item.url)].some(url=>!url.startsWith("https://")))errors.push("所有来源必须为 HTTPS");
-  if((data?.moneyNews||[]).some(item=>!item.discussionUrl.startsWith("https://news.ycombinator.com/")))errors.push("创收资讯缺少 HN 讨论来源");
-  if((data?.skills||[]).some(item=>!item.url.startsWith("https://skills.sh/")))errors.push("Skill 缺少 skills.sh 排名来源");
+  if([...(data?.moneyNews||[]).map(item=>item.url),...(data?.skills||[]).flatMap(item=>[item.url,item.installUrl||""])].some(url=>url&&!url.startsWith("https://")))errors.push("所有来源必须为 HTTPS");
+  if((data?.moneyNews||[]).some(item=>!item.sourcePlatforms?.length||!item.evidence?.length||item.evidence.some(source=>!source.url.startsWith("https://"))))errors.push("创收资讯缺少公开来源证据");
+  if(new Set((data?.moneyNews||[]).flatMap(item=>item.sourcePlatforms||[])).size<2)errors.push("创收资讯至少需要两个独立平台来源");
+  if((data?.moneyNews||[]).some(item=>[item.engagementScore,item.freshnessScore,item.coverageScore,item.fusionScore].some(score=>!Number.isFinite(score)||score<0||score>100)))errors.push("创收资讯融合分无效");
+  if((data?.skills||[]).some(item=>!item.url.startsWith("https://skills.sh/")||!item.installUrl?.startsWith("https://github.com/")))errors.push("Skill 必须同时有 skills.sh 和 GitHub 来源");
+  if((data?.skills||[]).some(item=>[item.installScore,item.repositoryScore,item.freshnessScore,item.fusionScore].some(score=>!Number.isFinite(score)||score<0||score>100)))errors.push("Skill 融合分无效");
+  const sourceCounts=new Map<string,number>();for(const item of data?.skills||[])sourceCounts.set(item.source,(sourceCounts.get(item.source)||0)+1);if([...sourceCounts.values()].some(count=>count>5))errors.push("同一 Skill 仓库不得超过 5 席");
   if(errors.length)throw new Error(errors.join("\n"));
 }
 

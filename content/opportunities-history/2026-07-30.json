@@ -1,1012 +1,1916 @@
 {
   "schemaVersion": 1,
   "date": "2026-07-30",
-  "generatedAt": "2026-07-30T02:48:26.136Z",
+  "generatedAt": "2026-07-30T03:35:19.880Z",
   "timezone": "Asia/Shanghai",
   "moneyNews": [
     {
-      "id": "49023016",
-      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49023016",
-      "source": "politico.com",
-      "publishedAt": "2026-07-23T15:18:40.000Z",
-      "points": 1069,
-      "comments": 889,
-      "hotScore": 830,
+      "id": "ffe7e7f00a195c16",
+      "title": "How to Build a SaaS Landing Page That Converts",
+      "url": "https://dev.to/qingluan/how-to-build-a-saas-landing-page-that-converts-2n5l",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T02:00:52.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/qingluan/how-to-build-a-saas-landing-page-that-converts-2n5l",
+          "engagement": 100
+        }
+      ],
+      "engagementScore": 100,
+      "freshnessScore": 99.5,
+      "coverageScore": 35,
+      "fusionScore": 86.8,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "37558a659aede364",
+      "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+      "source": "TechCrunch",
+      "publishedAt": "2026-07-29T21:16:39.000Z",
+      "sourcePlatforms": [
+        "TechCrunch"
+      ],
+      "evidence": [
+        {
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+          "engagement": 84
+        }
+      ],
+      "engagementScore": 100,
+      "freshnessScore": 98.2,
+      "coverageScore": 35,
+      "fusionScore": 86.4,
       "signal": "创业 / SaaS"
     },
     {
-      "id": "48987863",
-      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48987863",
-      "source": "asia.nikkei.com",
-      "publishedAt": "2026-07-21T03:56:03.000Z",
-      "points": 382,
-      "comments": 272,
-      "hotScore": 237,
-      "signal": "创业 / SaaS"
+      "id": "1d4a959136405d74",
+      "title": "The Documentation Dividend: Why Docs Are the Highest-ROI Investment in SaaS",
+      "url": "https://dev.to/insightlab/the-documentation-dividend-why-docs-are-the-highest-roi-investment-in-saas-4lkd",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T03:30:11.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/insightlab/the-documentation-dividend-why-docs-are-the-highest-roi-investment-in-saas-4lkd",
+          "engagement": 100
+        }
+      ],
+      "engagementScore": 92.9,
+      "freshnessScore": 100,
+      "coverageScore": 35,
+      "fusionScore": 83.8,
+      "signal": "收入 / 盈利"
     },
     {
-      "id": "49076505",
-      "title": "Kimi K3 Now Available via Telnyx Inference API",
-      "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49076505",
-      "source": "telnyx.com",
-      "publishedAt": "2026-07-27T22:46:28.000Z",
-      "points": 130,
-      "comments": 88,
-      "hotScore": 154,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "49099143",
+      "id": "42009bab04d515d0",
       "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
-      "url": "https://usetokenless.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49099143",
+      "url": "https://usetokenless.com",
       "source": "usetokenless.com",
       "publishedAt": "2026-07-29T15:55:27.000Z",
-      "points": 53,
-      "comments": 47,
-      "hotScore": 121,
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49099143",
+          "engagement": 129.8
+        }
+      ],
+      "engagementScore": 95.4,
+      "freshnessScore": 96.7,
+      "coverageScore": 35,
+      "fusionScore": 83.8,
       "signal": "收入 / 盈利"
     },
     {
-      "id": "49047448",
-      "title": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
-      "url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49047448",
-      "source": "wsj.com",
-      "publishedAt": "2026-07-25T13:33:03.000Z",
-      "points": 65,
-      "comments": 85,
-      "hotScore": 86,
+      "id": "e541d0ee949e5ae6",
+      "title": "AI Powered Growth Hacks",
+      "url": "https://dev.to/harisha_pc/ai-powered-growth-hacks-556i",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T01:01:24.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/harisha_pc/ai-powered-growth-hacks-556i",
+          "engagement": 94
+        }
+      ],
+      "engagementScore": 85.7,
+      "freshnessScore": 99.3,
+      "coverageScore": 35,
+      "fusionScore": 80.3,
       "signal": "收入 / 盈利"
     },
     {
-      "id": "48819808",
-      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48819808",
-      "source": "github.com",
-      "publishedAt": "2026-07-07T16:10:44.000Z",
-      "points": 219,
-      "comments": 99,
-      "hotScore": 70,
-      "signal": "获客 / 销售"
-    },
-    {
-      "id": "49008901",
-      "title": "Launch HN: Unlayer (YC W22) – Add email and document builders to your app",
-      "url": "https://unlayer.com",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49008901",
-      "source": "unlayer.com",
-      "publishedAt": "2026-07-22T16:02:03.000Z",
-      "points": 56,
-      "comments": 39,
-      "hotScore": 43,
-      "signal": "收入 / 盈利"
-    },
-    {
-      "id": "48908950",
-      "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
-      "url": "https://agnost.ai",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48908950",
-      "source": "agnost.ai",
-      "publishedAt": "2026-07-14T16:06:18.000Z",
-      "points": 85,
-      "comments": 52,
-      "hotScore": 40,
-      "signal": "获客 / 销售"
-    },
-    {
-      "id": "48762862",
-      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
-      "url": "https://manufact.com",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48762862",
-      "source": "manufact.com",
-      "publishedAt": "2026-07-02T15:11:20.000Z",
-      "points": 111,
-      "comments": 70,
-      "hotScore": 39,
-      "signal": "获客 / 销售"
-    },
-    {
-      "id": "48762000",
-      "title": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail",
-      "url": "https://mailmemories.com",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48762000",
-      "source": "mailmemories.com",
-      "publishedAt": "2026-07-02T14:16:57.000Z",
-      "points": 103,
-      "comments": 58,
-      "hotScore": 34,
-      "signal": "服务 / 内容变现"
-    },
-    {
-      "id": "48586299",
-      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
-      "url": "https://tester.army",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48586299",
-      "source": "tester.army",
-      "publishedAt": "2026-06-18T14:49:44.000Z",
-      "points": 132,
-      "comments": 69,
-      "hotScore": 33,
-      "signal": "收入 / 盈利"
-    },
-    {
-      "id": "48803711",
-      "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
-      "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48803711",
-      "source": "breef.com",
-      "publishedAt": "2026-07-06T12:33:09.000Z",
-      "points": 77,
-      "comments": 49,
-      "hotScore": 30,
-      "signal": "创业 / SaaS"
-    },
-    {
-      "id": "49084371",
+      "id": "2206e874f480fda1",
       "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
-      "url": "https://www.tines.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49084371",
+      "url": "https://www.tines.com",
       "source": "tines.com",
       "publishedAt": "2026-07-28T14:23:55.000Z",
-      "points": 27,
-      "comments": 2,
-      "hotScore": 30,
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49084371",
+          "engagement": 30.2
+        }
+      ],
+      "engagementScore": 92.1,
+      "freshnessScore": 89.8,
+      "coverageScore": 35,
+      "fusionScore": 79.9,
       "signal": "自动化提效"
     },
     {
-      "id": "48900465",
-      "title": "Show HN: FixBugs – Reproduce production bugs and verify fixes",
-      "url": "https://fixbugs.ai",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48900465",
-      "source": "fixbugs.ai",
-      "publishedAt": "2026-07-13T23:42:53.000Z",
-      "points": 43,
-      "comments": 39,
-      "hotScore": 26,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "48544823",
-      "title": "Show HN: Veterinarian turned founder, AI lawn diagnosis",
-      "url": "https://grassdx.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48544823",
-      "source": "grassdx.com",
-      "publishedAt": "2026-06-15T17:56:00.000Z",
-      "points": 78,
-      "comments": 60,
-      "hotScore": 24,
-      "signal": "获客 / 销售"
-    },
-    {
-      "id": "48922706",
-      "title": "Launch HN: Coasty (YC S26) – An API for computer-use agents",
-      "url": "https://coasty.ai/docs",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48922706",
-      "source": "coasty.ai",
-      "publishedAt": "2026-07-15T15:51:20.000Z",
-      "points": 44,
-      "comments": 26,
-      "hotScore": 23,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "48847298",
-      "title": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
-      "url": "https://www.lastshelf.ai/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48847298",
-      "source": "lastshelf.ai",
-      "publishedAt": "2026-07-09T15:13:11.000Z",
-      "points": 47,
-      "comments": 33,
-      "hotScore": 22,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "48997941",
-      "title": "Show HN: Orate – On-device neural text-to-speech queue for Mac",
-      "url": "https://orate.to/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48997941",
-      "source": "orate.to",
-      "publishedAt": "2026-07-21T20:38:29.000Z",
-      "points": 17,
-      "comments": 23,
-      "hotScore": 22,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "48798330",
-      "title": "New Microsoft 365 pricing live, some products up by 42% due to AI",
-      "url": "https://www.windowslatest.com/2026/07/05/microsoft-365-just-got-a-price-hike-over-continuous-innovation-but-copilot-is-the-ai-tax-on-businesses/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48798330",
-      "source": "windowslatest.com",
-      "publishedAt": "2026-07-05T21:58:20.000Z",
-      "points": 52,
-      "comments": 32,
-      "hotScore": 21,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "49105561",
-      "title": "Show HN: How we use AI agents for our million-user SaaS (seafile)",
-      "url": "https://news.ycombinator.com/item?id=49105561",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49105561",
+      "id": "fb50edd0fc8e4006",
+      "title": "Im 14 and I want to create AI for students",
+      "url": "https://news.ycombinator.com/item?id=49095106",
       "source": "news.ycombinator.com",
-      "publishedAt": "2026-07-30T02:40:21.000Z",
-      "points": 1,
-      "comments": 0,
-      "hotScore": 21,
+      "publishedAt": "2026-07-29T09:21:52.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49095106",
+          "engagement": 14.6
+        }
+      ],
+      "engagementScore": 86.3,
+      "freshnessScore": 94.9,
+      "coverageScore": 35,
+      "fusionScore": 79.1,
       "signal": "创业 / SaaS"
     },
     {
-      "id": "49083145",
-      "title": "Show HN: Cosmos47, a public chronological feed without algorithms",
-      "url": "https://cosmos47.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49083145",
-      "source": "cosmos47.com",
-      "publishedAt": "2026-07-28T13:00:54.000Z",
-      "points": 2,
-      "comments": 7,
-      "hotScore": 20,
+      "id": "912d0342886f9d4c",
+      "title": "Klaviyo Vs Zerocart Ai Cart Recovery Comparison",
+      "url": "https://dev.to/marcus_the_architect/klaviyo-vs-zerocart-ai-cart-recovery-comparison-1p72",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T02:31:58.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/marcus_the_architect/klaviyo-vs-zerocart-ai-cart-recovery-comparison-1p72",
+          "engagement": 94
+        }
+      ],
+      "engagementScore": 78.6,
+      "freshnessScore": 99.7,
+      "coverageScore": 35,
+      "fusionScore": 77.3,
       "signal": "获客 / 销售"
     },
     {
-      "id": "48646165",
-      "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
-      "url": "https://github.com/NotASithLord/peerd",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48646165",
-      "source": "github.com",
-      "publishedAt": "2026-06-23T15:05:00.000Z",
-      "points": 75,
-      "comments": 23,
-      "hotScore": 18,
-      "signal": "获客 / 销售"
+      "id": "4de03213f8f704e1",
+      "title": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
+      "url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
+      "source": "wsj.com",
+      "publishedAt": "2026-07-25T13:33:03.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49047448",
+          "engagement": 201
+        }
+      ],
+      "engagementScore": 97.5,
+      "freshnessScore": 72.8,
+      "coverageScore": 35,
+      "fusionScore": 76.4,
+      "signal": "收入 / 盈利"
     },
     {
-      "id": "49091292",
+      "id": "b2b36e20e7a7d8b4",
+      "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
+      "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
+      "source": "TechCrunch",
+      "publishedAt": "2026-07-29T15:35:09.000Z",
+      "sourcePlatforms": [
+        "TechCrunch"
+      ],
+      "evidence": [
+        {
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
+          "engagement": 68
+        }
+      ],
+      "engagementScore": 75,
+      "freshnessScore": 96.6,
+      "coverageScore": 35,
+      "fusionScore": 74.6,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "2d78a28f9f25106e",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "source": "politico.com",
+      "publishedAt": "2026-07-23T15:18:40.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49023016",
+          "engagement": 2491.4
+        }
+      ],
+      "engagementScore": 100,
+      "freshnessScore": 63.7,
+      "coverageScore": 35,
+      "fusionScore": 74.3,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "d1c0514174c9b52b",
+      "title": "I gave an AI agent a business and $0. It found the one thing AI can't sell.",
+      "url": "https://dev.to/duckduckduck/i-gave-an-ai-agent-a-business-and-0-it-found-the-one-thing-ai-cant-sell-38ne",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T03:14:08.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/duckduckduck/i-gave-an-ai-agent-a-business-and-0-it-found-the-one-thing-ai-cant-sell-38ne",
+          "engagement": 94
+        }
+      ],
+      "engagementScore": 71.4,
+      "freshnessScore": 99.9,
+      "coverageScore": 35,
+      "fusionScore": 74.1,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "e303152436fe0d83",
       "title": "Show HN: Magpie, a CLI to Turn Your AI Agent into a Bookkeeper",
       "url": "https://github.com/kyle-visner/magpie",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49091292",
       "source": "github.com",
       "publishedAt": "2026-07-28T23:16:16.000Z",
-      "points": 8,
-      "comments": 0,
-      "hotScore": 18,
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49091292",
+          "engagement": 8
+        }
+      ],
+      "engagementScore": 77.1,
+      "freshnessScore": 92.1,
+      "coverageScore": 35,
+      "fusionScore": 73.9,
       "signal": "创业 / SaaS"
     },
     {
-      "id": "49086639",
+      "id": "7face4431245cc0b",
       "title": "Show HN: NoClick – Build always-on agents with your existing AI subscriptions",
-      "url": "https://www.noclick.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49086639",
+      "url": "https://www.noclick.com",
       "source": "noclick.com",
       "publishedAt": "2026-07-28T16:48:16.000Z",
-      "points": 4,
-      "comments": 3,
-      "hotScore": 18,
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49086639",
+          "engagement": 8.8
+        }
+      ],
+      "engagementScore": 78.3,
+      "freshnessScore": 90.4,
+      "coverageScore": 35,
+      "fusionScore": 73.9,
       "signal": "付费 / 定价"
     },
     {
-      "id": "49096153",
-      "title": "I'm testing AI on the customer orders that ERPs can't parse",
-      "url": "https://www.zentriqai.com/challenge",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49096153",
-      "source": "zentriqai.com",
-      "publishedAt": "2026-07-29T11:40:47.000Z",
-      "points": 3,
-      "comments": 0,
-      "hotScore": 18,
-      "signal": "获客 / 销售"
+      "id": "dbb57f5032aa0042",
+      "title": "How to get more coding productivity with LLMs",
+      "url": "https://news.ycombinator.com/item?id=49104392",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-29T23:28:10.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49104392",
+          "engagement": 6.6
+        }
+      ],
+      "engagementScore": 71.7,
+      "freshnessScore": 98.8,
+      "coverageScore": 35,
+      "fusionScore": 73.8,
+      "signal": "自动化提效"
     },
     {
-      "id": "49096149",
-      "title": "Show HN: Steadra.dev is for automated QA with no effort",
-      "url": "https://steadra.dev",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49096149",
-      "source": "steadra.dev",
-      "publishedAt": "2026-07-29T11:40:05.000Z",
-      "points": 2,
-      "comments": 1,
-      "hotScore": 18,
+      "id": "6518416feb386a3d",
+      "title": "Show HN: SeaTicket – AI agent that resolve GitHub and Discord issues",
+      "url": "https://news.ycombinator.com/item?id=49078625",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-28T02:43:40.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49078625",
+          "engagement": 10.2
+        }
+      ],
+      "engagementScore": 80.8,
+      "freshnessScore": 86.8,
+      "coverageScore": 35,
+      "fusionScore": 73.7,
       "signal": "付费 / 定价"
     },
     {
-      "id": "48936491",
-      "title": "Show HN: Ratel, give agents unlimited tools and skills without context bloat",
-      "url": "https://github.com/ratel-ai/ratel",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48936491",
+      "id": "9bbc5216b23a573d",
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
       "source": "github.com",
-      "publishedAt": "2026-07-16T16:11:13.000Z",
-      "points": 23,
-      "comments": 20,
-      "hotScore": 17,
+      "publishedAt": "2026-07-23T15:11:37.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49022911",
+          "engagement": 253.4
+        }
+      ],
+      "engagementScore": 98.3,
+      "freshnessScore": 63.7,
+      "coverageScore": 35,
+      "fusionScore": 73.5,
       "signal": "自动化提效"
     },
     {
-      "id": "49085118",
-      "title": "Automation Led to Economic Misery. AI Doesn't Have To",
-      "url": "https://www.theatlantic.com/ideas/2026/07/ai-automation-productivity-workers/688083/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49085118",
-      "source": "theatlantic.com",
-      "publishedAt": "2026-07-28T15:10:07.000Z",
-      "points": 4,
-      "comments": 0,
-      "hotScore": 15,
+      "id": "66f28115f44e1836",
+      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-23T16:48:38.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "engagement": 194.2
+        }
+      ],
+      "engagementScore": 97.1,
+      "freshnessScore": 64,
+      "coverageScore": 35,
+      "fusionScore": 73.1,
       "signal": "自动化提效"
     },
     {
-      "id": "48887276",
-      "title": "Show HN: Self-hosted voice AI agent for Asterisk/FreePBX",
-      "url": "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48887276",
-      "source": "github.com",
-      "publishedAt": "2026-07-13T02:51:34.000Z",
-      "points": 32,
-      "comments": 11,
-      "hotScore": 14,
-      "signal": "获客 / 销售"
-    },
-    {
-      "id": "49063723",
+      "id": "b1b03a310fa962ad",
       "title": "Quebec scraps AI and automation projects in the public sector",
-      "url": "https://www.ctvnews.ca/montreal/article/quebec-scraps-ai-and-automation-projects-in-the-public-sector/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49063723",
+      "url": "https://www.ctvnews.ca/montreal/article/quebec-scraps-ai-and-automation-projects-in-the-public-sector",
       "source": "ctvnews.ca",
       "publishedAt": "2026-07-27T00:14:20.000Z",
-      "points": 11,
-      "comments": 0,
-      "hotScore": 14,
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49063723",
+          "engagement": 11
+        }
+      ],
+      "engagementScore": 81.7,
+      "freshnessScore": 80.4,
+      "coverageScore": 35,
+      "fusionScore": 71.9,
       "signal": "自动化提效"
     },
     {
-      "id": "49077815",
-      "title": "Show HN: Building a new game everyday with AI. Day #106 Zombie Survival Training",
-      "url": "https://gamevibe.us/106-zombie-survival-training",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49077815",
-      "source": "gamevibe.us",
-      "publishedAt": "2026-07-28T00:49:18.000Z",
-      "points": 3,
-      "comments": 2,
-      "hotScore": 14,
-      "signal": "付费 / 定价"
-    },
-    {
-      "id": "49082361",
-      "title": "Show HN: Zenly – Investment research platform built around a quality/value score",
-      "url": "https://zenlyfinancial.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49082361",
-      "source": "zenlyfinancial.com",
-      "publishedAt": "2026-07-28T11:38:56.000Z",
-      "points": 2,
-      "comments": 1,
-      "hotScore": 14,
-      "signal": "收入 / 盈利"
-    },
-    {
-      "id": "48978880",
-      "title": "Show HN: The0 – self-hosted runtime for trading bots, bring your own language",
-      "url": "https://github.com/alexanderwanyoike/the0",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48978880",
-      "source": "github.com",
-      "publishedAt": "2026-07-20T13:49:53.000Z",
-      "points": 18,
-      "comments": 6,
-      "hotScore": 13,
-      "signal": "创业 / SaaS"
-    },
-    {
-      "id": "48986762",
-      "title": "Show HN: Ekko – post-quantum E2EE layer for Instagram, WhatsApp, Telegram Web",
-      "url": "https://useekko.app/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48986762",
-      "source": "useekko.app",
-      "publishedAt": "2026-07-21T00:39:22.000Z",
-      "points": 10,
-      "comments": 10,
-      "hotScore": 13,
+      "id": "cfce2b127423c7ad",
+      "title": "n8n AI Workflow Builder Brings Natural Language Automation to Cloud Workflows",
+      "url": "https://dev.to/alifar/n8n-ai-workflow-builder-brings-natural-language-automation-to-cloud-workflows-2ah4",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T03:20:30.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/alifar/n8n-ai-workflow-builder-brings-natural-language-automation-to-cloud-workflows-2ah4",
+          "engagement": 88
+        }
+      ],
+      "engagementScore": 64.3,
+      "freshnessScore": 99.9,
+      "coverageScore": 35,
+      "fusionScore": 70.9,
       "signal": "获客 / 销售"
     },
     {
-      "id": "49011806",
+      "id": "1db9c8ac263782c1",
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "source": "asia.nikkei.com",
+      "publishedAt": "2026-07-21T03:56:03.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48987863",
+          "engagement": 817.2
+        }
+      ],
+      "engagementScore": 99.6,
+      "freshnessScore": 53.6,
+      "coverageScore": 35,
+      "fusionScore": 70.6,
+      "signal": "创业 / SaaS"
+    },
+    {
+      "id": "809e6a3d28fb8702",
+      "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+      "url": "https://news.ycombinator.com/item?id=48981136",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-20T16:32:10.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48981136",
+          "engagement": 272.2
+        }
+      ],
+      "engagementScore": 98.8,
+      "freshnessScore": 51.9,
+      "coverageScore": 35,
+      "fusionScore": 69.6,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "539828ecf457eca4",
+      "title": "Show HN: Production duplex speech model for revenue calls",
+      "url": "https://metavoice.io",
+      "source": "metavoice.io",
+      "publishedAt": "2026-07-23T19:33:36.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49026899",
+          "engagement": 17.2
+        }
+      ],
+      "engagementScore": 88.8,
+      "freshnessScore": 64.5,
+      "coverageScore": 35,
+      "fusionScore": 69.5,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "80d8ce7c0fea14ea",
+      "title": "Show HN: Building a new game everyday with AI. Day #106 Zombie Survival Training",
+      "url": "https://gamevibe.us/106-zombie-survival-training",
+      "source": "gamevibe.us",
+      "publishedAt": "2026-07-28T00:49:18.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49077815",
+          "engagement": 6.2
+        }
+      ],
+      "engagementScore": 70.8,
+      "freshnessScore": 86.4,
+      "coverageScore": 35,
+      "fusionScore": 69.1,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "378c7fccdff16c5b",
+      "title": "Sfwig – had a laugh with AI, then a question",
+      "url": "https://news.ycombinator.com/item?id=49105009",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-30T01:05:00.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49105009",
+          "engagement": 4.6
+        }
+      ],
+      "engagementScore": 60,
+      "freshnessScore": 99.3,
+      "coverageScore": 35,
+      "fusionScore": 68.8,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "609f5f1dd906fbfc",
       "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
       "url": "https://github.com/Northwood-Systems/millwright",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49011806",
       "source": "github.com",
       "publishedAt": "2026-07-22T19:03:50.000Z",
-      "points": 10,
-      "comments": 7,
-      "hotScore": 13,
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49011806",
+          "engagement": 21.2
+        }
+      ],
+      "engagementScore": 90.4,
+      "freshnessScore": 60.1,
+      "coverageScore": 35,
+      "fusionScore": 68.7,
       "signal": "付费 / 定价"
     },
     {
-      "id": "49079512",
-      "title": "QuickOn – Explainable AI for qualifying inbound B2B SaaS leads",
-      "url": "https://www.quickon.in",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49079512",
-      "source": "quickon.in",
-      "publishedAt": "2026-07-28T04:53:00.000Z",
-      "points": 2,
-      "comments": 1,
-      "hotScore": 13,
-      "signal": "创业 / SaaS"
+      "id": "5200085d49ccf9aa",
+      "title": "Google revenue surges on AI-driven boom in Cloud unit",
+      "url": "https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530",
+      "source": "ft.com",
+      "publishedAt": "2026-07-22T20:21:12.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49012855",
+          "engagement": 17
+        }
+      ],
+      "engagementScore": 88.3,
+      "freshnessScore": 60.3,
+      "coverageScore": 35,
+      "fusionScore": 67.8,
+      "signal": "收入 / 盈利"
     },
     {
-      "id": "49084328",
-      "title": "Show HN: Countify – Collaborative No-code computer vision for labs",
-      "url": "https://www.countifybio.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49084328",
-      "source": "countifybio.com",
-      "publishedAt": "2026-07-28T14:21:35.000Z",
-      "points": 2,
-      "comments": 0,
-      "hotScore": 13,
+      "id": "7d9781b1c6d6cbd8",
+      "title": "Fund Momentum MCP: Live VC Fund Data for AI Agents",
+      "url": "https://news.ycombinator.com/item?id=49096519",
+      "source": "news.ycombinator.com",
+      "publishedAt": "2026-07-29T12:21:37.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49096519",
+          "engagement": 4.6
+        }
+      ],
+      "engagementScore": 60.4,
+      "freshnessScore": 95.7,
+      "coverageScore": 35,
+      "fusionScore": 67.7,
       "signal": "付费 / 定价"
     },
     {
-      "id": "49083443",
-      "title": "How AI is powering business email compromise at scale",
-      "url": "https://research.eye.security/phishing-as-a-service-inside-two-ai-powered-phishing-kits-that-automate-bec/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49083443",
-      "source": "research.eye.security",
-      "publishedAt": "2026-07-28T13:21:16.000Z",
-      "points": 1,
-      "comments": 0,
-      "hotScore": 13,
+      "id": "9f5dd433967a1b89",
+      "title": "Looking to Collaborate with Developers on AI, Web, or Startup Projects",
+      "url": "https://dev.to/koshiro1994/looking-to-collaborate-with-developers-on-ai-web-or-startup-projects-2knh",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T02:18:02.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/koshiro1994/looking-to-collaborate-with-developers-on-ai-web-or-startup-projects-2knh",
+          "engagement": 82
+        }
+      ],
+      "engagementScore": 57.1,
+      "freshnessScore": 99.6,
+      "coverageScore": 35,
+      "fusionScore": 67.6,
       "signal": "创业 / SaaS"
     },
     {
-      "id": "48939710",
-      "title": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
-      "url": "https://libretto.sh/debug-agents",
-      "discussionUrl": "https://news.ycombinator.com/item?id=48939710",
-      "source": "libretto.sh",
-      "publishedAt": "2026-07-16T20:21:27.000Z",
-      "points": 22,
-      "comments": 5,
-      "hotScore": 12,
+      "id": "91cb18a8caf86957",
+      "title": "NYU Stern pricing expert: The hidden 'AI tax' hitting your next phone",
+      "url": "https://fortune.com/2026/07/24/apple-ai-memory-chip-price-increases",
+      "source": "fortune.com",
+      "publishedAt": "2026-07-26T01:49:50.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49053809",
+          "engagement": 7.2
+        }
+      ],
+      "engagementScore": 74.6,
+      "freshnessScore": 75.4,
+      "coverageScore": 35,
+      "fusionScore": 67,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "65df713593b883ed",
+      "title": "Tesla's profits slide despite growing revenue as it pivots to robotics and AI",
+      "url": "https://www.theguardian.com/technology/2026/jul/22/tesla-profits-earnings",
+      "source": "theguardian.com",
+      "publishedAt": "2026-07-22T22:51:17.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49014549",
+          "engagement": 11.2
+        }
+      ],
+      "engagementScore": 82.1,
+      "freshnessScore": 60.7,
+      "coverageScore": 35,
+      "fusionScore": 65.2,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "f3c7e32474b8b939",
+      "title": "Zero-cost automation: running AI agents 24/7 on a $0 budget",
+      "url": "https://dev.to/razix_devilnemesisloki/zero-cost-automation-running-ai-agents-247-on-a-0-budget-5901",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T02:37:49.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/razix_devilnemesisloki/zero-cost-automation-running-ai-agents-247-on-a-0-budget-5901",
+          "engagement": 76
+        }
+      ],
+      "engagementScore": 50,
+      "freshnessScore": 99.7,
+      "coverageScore": 35,
+      "fusionScore": 64.4,
       "signal": "自动化提效"
     },
     {
-      "id": "49026899",
-      "title": "Show HN: Production duplex speech model for revenue calls",
-      "url": "https://metavoice.io/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49026899",
-      "source": "metavoice.io",
-      "publishedAt": "2026-07-23T19:33:36.000Z",
-      "points": 14,
-      "comments": 2,
-      "hotScore": 12,
+      "id": "e421e2d1671c4447",
+      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+      "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls",
+      "source": "TechCrunch",
+      "publishedAt": "2026-07-29T14:41:06.000Z",
+      "sourcePlatforms": [
+        "TechCrunch"
+      ],
+      "evidence": [
+        {
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls",
+          "engagement": 64
+        }
+      ],
+      "engagementScore": 50,
+      "freshnessScore": 96.3,
+      "coverageScore": 35,
+      "fusionScore": 63.2,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "5df485aaac78041b",
+      "title": "Optimizing AI Costs: Leveraging Batch APIs for Non-Urgent Tasks",
+      "url": "https://dev.to/kapil/optimizing-ai-costs-leveraging-batch-apis-for-non-urgent-tasks-1hp",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T03:30:38.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/kapil/optimizing-ai-costs-leveraging-batch-apis-for-non-urgent-tasks-1hp",
+          "engagement": 76
+        }
+      ],
+      "engagementScore": 42.9,
+      "freshnessScore": 100,
+      "coverageScore": 35,
+      "fusionScore": 61.3,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "49a89426c8150f84",
+      "title": "My AI agent update broke and now it talks in emojis — turns out that’s better UX",
+      "url": "https://dev.to/lars_winstand/my-ai-agent-update-broke-and-now-it-talks-in-emojis-turns-out-thats-better-ux-1493",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T02:34:18.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/lars_winstand/my-ai-agent-update-broke-and-now-it-talks-in-emojis-turns-out-thats-better-ux-1493",
+          "engagement": 70
+        }
+      ],
+      "engagementScore": 35.7,
+      "freshnessScore": 99.7,
+      "coverageScore": 35,
+      "fusionScore": 58,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "2ef815ee6d0985aa",
+      "title": "Ditch LLM Chasing, Build Once: Streamlining AI Integration with a Unified Gateway",
+      "url": "https://dev.to/startuphubai__c637ac1b0/ditch-llm-chasing-build-once-streamlining-ai-integration-with-a-unified-gateway-4k7o",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T00:47:15.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/startuphubai__c637ac1b0/ditch-llm-chasing-build-once-streamlining-ai-integration-with-a-unified-gateway-4k7o",
+          "engagement": 70
+        }
+      ],
+      "engagementScore": 28.6,
+      "freshnessScore": 99.2,
+      "coverageScore": 35,
+      "fusionScore": 54.6,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "153f3066406ba974",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "source": "VentureBeat",
+      "publishedAt": "2026-01-22T14:00:00.000Z",
+      "sourcePlatforms": [
+        "VentureBeat"
+      ],
+      "evidence": [
+        {
+          "platform": "VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+          "engagement": 94
+        }
+      ],
+      "engagementScore": 100,
+      "freshnessScore": 0,
+      "coverageScore": 35,
+      "fusionScore": 52,
       "signal": "收入 / 盈利"
     },
     {
-      "id": "49012855",
-      "title": "Google revenue surges on AI-driven boom in Cloud unit",
-      "url": "https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49012855",
-      "source": "ft.com",
-      "publishedAt": "2026-07-22T20:21:12.000Z",
-      "points": 9,
-      "comments": 5,
-      "hotScore": 12,
-      "signal": "收入 / 盈利"
-    },
-    {
-      "id": "49066256",
-      "title": "Build internal tools for your Startup with Construct AI",
-      "url": "https://construct.computer/blog/build-internal-tools-with-construct/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49066256",
-      "source": "construct.computer",
-      "publishedAt": "2026-07-27T07:40:56.000Z",
-      "points": 3,
-      "comments": 1,
-      "hotScore": 12,
+      "id": "7d87bfadf1ff8f0e",
+      "title": "5分钟用FROST写一个任务Agent：从零到一的最小实战教程",
+      "url": "https://dev.to/llimage/5fen-zhong-yong-frostxie-ge-ren-wu-agentcong-ling-dao-de-zui-xiao-shi-zhan-jiao-cheng-19b",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T03:26:18.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/llimage/5fen-zhong-yong-frostxie-ge-ren-wu-agentcong-ling-dao-de-zui-xiao-shi-zhan-jiao-cheng-19b",
+          "engagement": 64
+        }
+      ],
+      "engagementScore": 21.4,
+      "freshnessScore": 100,
+      "coverageScore": 35,
+      "fusionScore": 51.6,
       "signal": "创业 / SaaS"
     },
     {
-      "id": "49075654",
-      "title": "60 Minute Creator – Node-based AI content workflows using your own API keys",
-      "url": "https://60minutecreator.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49075654",
-      "source": "60minutecreator.com",
-      "publishedAt": "2026-07-27T21:18:56.000Z",
-      "points": 2,
-      "comments": 0,
-      "hotScore": 12,
+      "id": "e83ee80071b9e603",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
+      "source": "TechCrunch",
+      "publishedAt": "2026-07-29T11:00:00.000Z",
+      "sourcePlatforms": [
+        "TechCrunch"
+      ],
+      "evidence": [
+        {
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
+          "engagement": 60
+        }
+      ],
+      "engagementScore": 25,
+      "freshnessScore": 95.3,
+      "coverageScore": 35,
+      "fusionScore": 51.6,
       "signal": "服务 / 内容变现"
     },
     {
-      "id": "49075191",
-      "title": "Show HN: Latest Q2 AI SaaS Trends Report",
-      "url": "https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49075191",
-      "source": "relvehq.com",
-      "publishedAt": "2026-07-27T20:36:54.000Z",
-      "points": 1,
-      "comments": 1,
-      "hotScore": 12,
-      "signal": "创业 / SaaS"
+      "id": "15a67a4716546bfe",
+      "title": "How Startup Founders and Small Businesses Can Instantly Generate Custom NDAs Without a Legal Team",
+      "url": "https://dev.to/olubunminelson/how-startup-founders-and-small-businesses-can-instantly-generate-custom-ndas-without-a-legal-team-1klh",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T00:01:07.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/olubunminelson/how-startup-founders-and-small-businesses-can-instantly-generate-custom-ndas-without-a-legal-team-1klh",
+          "engagement": 46
+        }
+      ],
+      "engagementScore": 14.3,
+      "freshnessScore": 99,
+      "coverageScore": 35,
+      "fusionScore": 48.1,
+      "signal": "获客 / 销售"
     },
     {
-      "id": "49082126",
-      "title": "Show HN: DynoTable – The DynamoDB GUI with real SQL and your AI agent",
-      "url": "https://dynotable.com/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49082126",
-      "source": "dynotable.com",
-      "publishedAt": "2026-07-28T11:07:14.000Z",
-      "points": 1,
-      "comments": 0,
-      "hotScore": 12,
-      "signal": "收入 / 盈利"
+      "id": "85fc6d0a624a1d8e",
+      "title": "The Seven Problems of AI Engineering",
+      "url": "https://dev.to/bayu911/the-seven-problems-of-ai-engineering-247c",
+      "source": "dev.to",
+      "publishedAt": "2026-07-30T03:19:24.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/bayu911/the-seven-problems-of-ai-engineering-247c",
+          "engagement": 46
+        }
+      ],
+      "engagementScore": 7.1,
+      "freshnessScore": 99.9,
+      "coverageScore": 35,
+      "fusionScore": 45.2,
+      "signal": "自动化提效"
     },
     {
-      "id": "49063016",
-      "title": "So-called 'Skynet Day' came too close to SF after rogue agent hacked a startup",
-      "url": "https://apnews.com/article/skynet-ai-terminator-artificial-intelligence-eb85da03a0161beaa5f3babc4331e93b",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49063016",
-      "source": "apnews.com",
-      "publishedAt": "2026-07-26T22:20:43.000Z",
-      "points": 4,
-      "comments": 0,
-      "hotScore": 11,
-      "signal": "创业 / SaaS"
-    },
-    {
-      "id": "49053809",
-      "title": "NYU Stern pricing expert: The hidden 'AI tax' hitting your next phone",
-      "url": "https://fortune.com/2026/07/24/apple-ai-memory-chip-price-increases/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49053809",
-      "source": "fortune.com",
-      "publishedAt": "2026-07-26T01:49:50.000Z",
-      "points": 4,
-      "comments": 2,
-      "hotScore": 11,
+      "id": "7f96b809b58cabb1",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "source": "VentureBeat",
+      "publishedAt": "2026-01-19T14:00:00.000Z",
+      "sourcePlatforms": [
+        "VentureBeat"
+      ],
+      "evidence": [
+        {
+          "platform": "VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+          "engagement": 88
+        }
+      ],
+      "engagementScore": 80,
+      "freshnessScore": 0,
+      "coverageScore": 35,
+      "fusionScore": 43,
       "signal": "付费 / 定价"
     },
     {
-      "id": "49066212",
-      "title": "From Seed to Startup: How AI Is Revolutionizing Cannabis Cultivation",
-      "url": "https://www.researchgate.net/publication/410602482_From_Seed_to_Startup_How_AI_Is_Revolutionizing_Cannabis_Cultivation_and_Empowering_Small_Businesses",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49066212",
-      "source": "researchgate.net",
-      "publishedAt": "2026-07-27T07:33:58.000Z",
-      "points": 2,
-      "comments": 0,
-      "hotScore": 11,
-      "signal": "创业 / SaaS"
+      "id": "19083c6e3b69a4d1",
+      "title": "Building in Public: How Our AI Agents Run a Content Factory",
+      "url": "https://dev.to/ipiak/building-in-public-how-our-ai-agents-run-a-content-factory-5hdl",
+      "source": "dev.to",
+      "publishedAt": "2026-07-29T23:05:13.000Z",
+      "sourcePlatforms": [
+        "DEV Community"
+      ],
+      "evidence": [
+        {
+          "platform": "DEV Community",
+          "url": "https://dev.to/ipiak/building-in-public-how-our-ai-agents-run-a-content-factory-5hdl",
+          "engagement": 40
+        }
+      ],
+      "engagementScore": 0,
+      "freshnessScore": 98.7,
+      "coverageScore": 35,
+      "fusionScore": 41.5,
+      "signal": "获客 / 销售"
     },
     {
-      "id": "49066576",
-      "title": "Show HN: adCasa OS – AI marketing workspace built with Bayesian attribution",
-      "url": "https://adcasa.io/",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49066576",
-      "source": "adcasa.io",
-      "publishedAt": "2026-07-27T08:18:04.000Z",
-      "points": 2,
-      "comments": 0,
-      "hotScore": 11,
-      "signal": "创业 / SaaS"
+      "id": "c4117fb1cbb45726",
+      "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+      "source": "TechCrunch",
+      "publishedAt": "2026-07-28T14:00:00.000Z",
+      "sourcePlatforms": [
+        "TechCrunch"
+      ],
+      "evidence": [
+        {
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+          "engagement": 36
+        }
+      ],
+      "engagementScore": 0,
+      "freshnessScore": 89.7,
+      "coverageScore": 35,
+      "fusionScore": 38.4,
+      "signal": "收入 / 盈利"
     },
     {
-      "id": "49072749",
-      "title": "Turn business SOPs into AI agents with real API endpoints",
-      "url": "https://studio.tramenterprise.com/Account/Login?ReturnUrl=%2F",
-      "discussionUrl": "https://news.ycombinator.com/item?id=49072749",
-      "source": "studio.tramenterprise.com",
-      "publishedAt": "2026-07-27T17:19:45.000Z",
-      "points": 1,
-      "comments": 0,
-      "hotScore": 11,
+      "id": "26adfe0141708171",
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "source": "VentureBeat",
+      "publishedAt": "2026-01-16T14:01:00.000Z",
+      "sourcePlatforms": [
+        "VentureBeat"
+      ],
+      "evidence": [
+        {
+          "platform": "VentureBeat",
+          "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+          "engagement": 82
+        }
+      ],
+      "engagementScore": 60,
+      "freshnessScore": 0,
+      "coverageScore": 35,
+      "fusionScore": 34,
+      "signal": "收入 / 盈利"
+    },
+    {
+      "id": "4143ec6f5c162b6a",
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "source": "VentureBeat",
+      "publishedAt": "2026-01-13T13:00:00.000Z",
+      "sourcePlatforms": [
+        "VentureBeat"
+      ],
+      "evidence": [
+        {
+          "platform": "VentureBeat",
+          "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+          "engagement": 76
+        }
+      ],
+      "engagementScore": 40,
+      "freshnessScore": 0,
+      "coverageScore": 35,
+      "fusionScore": 25,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "8aadbbf9804d6113",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "source": "VentureBeat",
+      "publishedAt": "2026-01-12T11:30:00.000Z",
+      "sourcePlatforms": [
+        "VentureBeat"
+      ],
+      "evidence": [
+        {
+          "platform": "VentureBeat",
+          "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+          "engagement": 70
+        }
+      ],
+      "engagementScore": 20,
+      "freshnessScore": 0,
+      "coverageScore": 35,
+      "fusionScore": 16,
+      "signal": "付费 / 定价"
+    },
+    {
+      "id": "fed46196ed2489cf",
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "source": "VentureBeat",
+      "publishedAt": "2026-01-07T20:00:00.000Z",
+      "sourcePlatforms": [
+        "VentureBeat"
+      ],
+      "evidence": [
+        {
+          "platform": "VentureBeat",
+          "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+          "engagement": 64
+        }
+      ],
+      "engagementScore": 0,
+      "freshnessScore": 0,
+      "coverageScore": 35,
+      "fusionScore": 7,
+      "signal": "服务 / 内容变现"
+    },
+    {
+      "id": "4b093e805e21f1c1",
+      "title": "OpenAI Appears to Be Missing Its Sales Goals by a Margin",
+      "url": "https://futurism.com/artificial-intelligence/openai-ad-revenue-ai-advertising-financial-projection",
+      "source": "futurism.com",
+      "publishedAt": "2026-07-20T22:17:56.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48985584",
+          "engagement": 12.6
+        }
+      ],
+      "engagementScore": 84.6,
+      "freshnessScore": 52.8,
+      "coverageScore": 35,
+      "fusionScore": 63.6,
+      "signal": "获客 / 销售"
+    },
+    {
+      "id": "beeccc699d5799c6",
+      "title": "Can AI Run a Food Truck Business?",
+      "url": "https://foodtruckbench.com",
+      "source": "foodtruckbench.com",
+      "publishedAt": "2026-07-25T02:10:59.000Z",
+      "sourcePlatforms": [
+        "Hacker News"
+      ],
+      "evidence": [
+        {
+          "platform": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49043853",
+          "engagement": 6.2
+        }
+      ],
+      "engagementScore": 70.4,
+      "freshnessScore": 70.4,
+      "coverageScore": 35,
+      "fusionScore": 63.3,
       "signal": "创业 / SaaS"
     }
   ],
   "skills": [
     {
-      "id": "design-layers/agent-skills/sleek-design-mobile-apps",
-      "name": "sleek-design-mobile-apps",
-      "source": "design-layers/agent-skills",
-      "url": "https://skills.sh/design-layers/agent-skills/sleek-design-mobile-apps",
-      "installs": 24556,
-      "installUrl": "https://github.com/design-layers/agent-skills"
-    },
-    {
-      "id": "101-skills/skills/ai-video-generation",
-      "name": "ai-video-generation",
-      "source": "101-skills/skills",
-      "url": "https://skills.sh/101-skills/skills/ai-video-generation",
-      "installs": 21754,
-      "installUrl": "https://github.com/101-skills/skills"
-    },
-    {
-      "id": "101-skills/skills/ai-image-generation",
-      "name": "ai-image-generation",
-      "source": "101-skills/skills",
-      "url": "https://skills.sh/101-skills/skills/ai-image-generation",
-      "installs": 21658,
-      "installUrl": "https://github.com/101-skills/skills"
-    },
-    {
-      "id": "101-skills/skills/twitter-automation",
-      "name": "twitter-automation",
-      "source": "101-skills/skills",
-      "url": "https://skills.sh/101-skills/skills/twitter-automation",
-      "installs": 21647,
-      "installUrl": "https://github.com/101-skills/skills"
-    },
-    {
-      "id": "101-skills/skills/ai-avatar-video",
-      "name": "ai-avatar-video",
-      "source": "101-skills/skills",
-      "url": "https://skills.sh/101-skills/skills/ai-avatar-video",
-      "installs": 21647,
-      "installUrl": "https://github.com/101-skills/skills"
-    },
-    {
-      "id": "101-skills/skills/remotion-render",
-      "name": "remotion-render",
-      "source": "101-skills/skills",
-      "url": "https://skills.sh/101-skills/skills/remotion-render",
-      "installs": 21646,
-      "installUrl": "https://github.com/101-skills/skills"
-    },
-    {
-      "id": "skills-collective/skills/coll_image-to-video",
-      "name": "coll_image-to-video",
-      "source": "skills-collective/skills",
-      "url": "https://skills.sh/skills-collective/skills/coll_image-to-video",
-      "installs": 19416,
-      "installUrl": "https://github.com/skills-collective/skills"
-    },
-    {
-      "id": "doany-skills/skills/reddit-automation",
-      "name": "reddit-automation",
-      "source": "doany-skills/skills",
-      "url": "https://skills.sh/doany-skills/skills/reddit-automation",
-      "installs": 19299,
-      "installUrl": "https://github.com/doany-skills/skills"
-    },
-    {
-      "id": "skills-collective/skills/coll_ai-video-generation",
-      "name": "coll_ai-video-generation",
-      "source": "skills-collective/skills",
-      "url": "https://skills.sh/skills-collective/skills/coll_ai-video-generation",
-      "installs": 19223,
-      "installUrl": "https://github.com/skills-collective/skills"
-    },
-    {
-      "id": "skills-collective/skills/coll_ai-music",
-      "name": "coll_ai-music",
-      "source": "skills-collective/skills",
-      "url": "https://skills.sh/skills-collective/skills/coll_ai-music",
-      "installs": 19156,
-      "installUrl": "https://github.com/skills-collective/skills"
-    },
-    {
-      "id": "skills-collective/skills/coll_ai-image-generation",
-      "name": "coll_ai-image-generation",
-      "source": "skills-collective/skills",
-      "url": "https://skills.sh/skills-collective/skills/coll_ai-image-generation",
-      "installs": 19063,
-      "installUrl": "https://github.com/skills-collective/skills"
-    },
-    {
-      "id": "skills-collective/skills/coll_video-edit",
-      "name": "coll_video-edit",
-      "source": "skills-collective/skills",
-      "url": "https://skills.sh/skills-collective/skills/coll_video-edit",
-      "installs": 18952,
-      "installUrl": "https://github.com/skills-collective/skills"
-    },
-    {
-      "id": "vercel-labs/skills/find-skills",
-      "name": "find-skills",
-      "source": "vercel-labs/skills",
-      "url": "https://skills.sh/vercel-labs/skills/find-skills",
-      "installs": 16870,
-      "installUrl": "https://github.com/vercel-labs/skills"
-    },
-    {
-      "id": "getpaperclipai/paperclip/design-guide",
-      "name": "design-guide",
-      "source": "getpaperclipai/paperclip",
-      "url": "https://skills.sh/getpaperclipai/paperclip/design-guide",
-      "installs": 14486,
-      "installUrl": "https://github.com/getpaperclipai/paperclip"
-    },
-    {
-      "id": "getpaperclipai/paperclip/paperclip",
-      "name": "paperclip",
-      "source": "getpaperclipai/paperclip",
-      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip",
-      "installs": 14426,
-      "installUrl": "https://github.com/getpaperclipai/paperclip"
-    },
-    {
-      "id": "getpaperclipai/paperclip/paperclip-create-agent",
-      "name": "paperclip-create-agent",
-      "source": "getpaperclipai/paperclip",
-      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent",
-      "installs": 14425,
-      "installUrl": "https://github.com/getpaperclipai/paperclip"
-    },
-    {
-      "id": "getpaperclipai/paperclip/paperclip-converting-plans-to-tasks",
-      "name": "paperclip-converting-plans-to-tasks",
-      "source": "getpaperclipai/paperclip",
-      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks",
-      "installs": 14424,
-      "installUrl": "https://github.com/getpaperclipai/paperclip"
-    },
-    {
-      "id": "getpaperclipai/paperclip/para-memory-files",
-      "name": "para-memory-files",
-      "source": "getpaperclipai/paperclip",
-      "url": "https://skills.sh/getpaperclipai/paperclip/para-memory-files",
-      "installs": 14423,
-      "installUrl": "https://github.com/getpaperclipai/paperclip"
-    },
-    {
-      "id": "getpaperclipai/paperclip/paperclip-board",
-      "name": "paperclip-board",
-      "source": "getpaperclipai/paperclip",
-      "url": "https://skills.sh/getpaperclipai/paperclip/paperclip-board",
-      "installs": 14423,
-      "installUrl": "https://github.com/getpaperclipai/paperclip"
-    },
-    {
-      "id": "uizze.com/anti-ui-slop",
-      "name": "anti-ui-slop",
-      "source": "uizze.com",
-      "url": "https://skills.sh/site/uizze.com/anti-ui-slop",
-      "installs": 13374
-    },
-    {
       "id": "mattpocock/skills/grill-me",
       "name": "grill-me",
       "source": "mattpocock/skills",
       "url": "https://skills.sh/mattpocock/skills/grill-me",
-      "installs": 10685,
-      "installUrl": "https://github.com/mattpocock/skills"
+      "installs": 10419,
+      "installUrl": "https://github.com/mattpocock/skills",
+      "githubStars": 194828,
+      "githubForks": 16780,
+      "repositoryUpdatedAt": "2026-07-28T09:18:17.000Z",
+      "installScore": 91.5,
+      "repositoryScore": 97.4,
+      "freshnessScore": 99,
+      "fusionScore": 94.1
     },
     {
       "id": "mattpocock/skills/grill-with-docs",
       "name": "grill-with-docs",
       "source": "mattpocock/skills",
       "url": "https://skills.sh/mattpocock/skills/grill-with-docs",
-      "installs": 9056,
-      "installUrl": "https://github.com/mattpocock/skills"
+      "installs": 8822,
+      "installUrl": "https://github.com/mattpocock/skills",
+      "githubStars": 194828,
+      "githubForks": 16780,
+      "repositoryUpdatedAt": "2026-07-28T09:18:17.000Z",
+      "installScore": 89.8,
+      "repositoryScore": 97.4,
+      "freshnessScore": 99,
+      "fusionScore": 93.1
     },
     {
       "id": "mattpocock/skills/grilling",
       "name": "grilling",
       "source": "mattpocock/skills",
       "url": "https://skills.sh/mattpocock/skills/grilling",
-      "installs": 8749,
-      "installUrl": "https://github.com/mattpocock/skills"
+      "installs": 8566,
+      "installUrl": "https://github.com/mattpocock/skills",
+      "githubStars": 194828,
+      "githubForks": 16780,
+      "repositoryUpdatedAt": "2026-07-28T09:18:17.000Z",
+      "installScore": 89.6,
+      "repositoryScore": 97.4,
+      "freshnessScore": 99,
+      "fusionScore": 93
+    },
+    {
+      "id": "vercel-labs/skills/find-skills",
+      "name": "find-skills",
+      "source": "vercel-labs/skills",
+      "url": "https://skills.sh/vercel-labs/skills/find-skills",
+      "installs": 16496,
+      "installUrl": "https://github.com/vercel-labs/skills",
+      "githubStars": 27570,
+      "githubForks": 2322,
+      "repositoryUpdatedAt": "2026-07-30T00:04:48.000Z",
+      "installScore": 96,
+      "repositoryScore": 80.7,
+      "freshnessScore": 99.9,
+      "fusionScore": 92.8
     },
     {
       "id": "mattpocock/skills/improve-codebase-architecture",
       "name": "improve-codebase-architecture",
       "source": "mattpocock/skills",
       "url": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
-      "installs": 8255,
-      "installUrl": "https://github.com/mattpocock/skills"
+      "installs": 8055,
+      "installUrl": "https://github.com/mattpocock/skills",
+      "githubStars": 194828,
+      "githubForks": 16780,
+      "repositoryUpdatedAt": "2026-07-28T09:18:17.000Z",
+      "installScore": 88.9,
+      "repositoryScore": 97.4,
+      "freshnessScore": 99,
+      "fusionScore": 92.5
     },
     {
       "id": "mattpocock/skills/tdd",
       "name": "tdd",
       "source": "mattpocock/skills",
       "url": "https://skills.sh/mattpocock/skills/tdd",
-      "installs": 8127,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "uizze.com/ui-radar",
-      "name": "ui-radar",
-      "source": "uizze.com",
-      "url": "https://skills.sh/site/uizze.com/ui-radar",
-      "installs": 8027
-    },
-    {
-      "id": "mattpocock/skills/domain-modeling",
-      "name": "domain-modeling",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/domain-modeling",
-      "installs": 8023,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/setup-matt-pocock-skills",
-      "name": "setup-matt-pocock-skills",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
-      "installs": 7776,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/to-spec",
-      "name": "to-spec",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/to-spec",
-      "installs": 7744,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/codebase-design",
-      "name": "codebase-design",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/codebase-design",
-      "installs": 7720,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/to-tickets",
-      "name": "to-tickets",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/to-tickets",
-      "installs": 7679,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/prototype",
-      "name": "prototype",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/prototype",
-      "installs": 7595,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/diagnosing-bugs",
-      "name": "diagnosing-bugs",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
-      "installs": 7559,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/handoff",
-      "name": "handoff",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/handoff",
-      "installs": 7549,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/code-review",
-      "name": "code-review",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/code-review",
-      "installs": 7542,
-      "installUrl": "https://github.com/mattpocock/skills"
+      "installs": 7931,
+      "installUrl": "https://github.com/mattpocock/skills",
+      "githubStars": 194828,
+      "githubForks": 16780,
+      "repositoryUpdatedAt": "2026-07-28T09:18:17.000Z",
+      "installScore": 88.8,
+      "repositoryScore": 97.4,
+      "freshnessScore": 99,
+      "fusionScore": 92.5
     },
     {
       "id": "heygen-com/hyperframes/hyperframes-cli",
       "name": "hyperframes-cli",
       "source": "heygen-com/hyperframes",
       "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
-      "installs": 7491,
-      "installUrl": "https://github.com/heygen-com/hyperframes"
+      "installs": 7303,
+      "installUrl": "https://github.com/heygen-com/hyperframes",
+      "githubStars": 38671,
+      "githubForks": 3638,
+      "repositoryUpdatedAt": "2026-07-30T01:37:58.000Z",
+      "installScore": 88,
+      "repositoryScore": 83.8,
+      "freshnessScore": 100,
+      "fusionScore": 88.8
     },
     {
-      "id": "mattpocock/skills/wayfinder",
-      "name": "wayfinder",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/wayfinder",
-      "installs": 7398,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/writing-great-skills",
-      "name": "writing-great-skills",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/writing-great-skills",
-      "installs": 7391,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "mattpocock/skills/triage",
-      "name": "triage",
-      "source": "mattpocock/skills",
-      "url": "https://skills.sh/mattpocock/skills/triage",
-      "installs": 7308,
-      "installUrl": "https://github.com/mattpocock/skills"
-    },
-    {
-      "id": "open.feishu.cn/lark-doc",
-      "name": "lark-doc",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-doc",
-      "installs": 7233
-    },
-    {
-      "id": "open.feishu.cn/lark-drive",
-      "name": "lark-drive",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-drive",
-      "installs": 7229
-    },
-    {
-      "id": "open.feishu.cn/lark-base",
-      "name": "lark-base",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-base",
-      "installs": 7228
-    },
-    {
-      "id": "open.feishu.cn/lark-approval",
-      "name": "lark-approval",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-approval",
-      "installs": 7226
+      "id": "anthropics/skills/frontend-design",
+      "name": "frontend-design",
+      "source": "anthropics/skills",
+      "url": "https://skills.sh/anthropics/skills/frontend-design",
+      "installs": 4451,
+      "installUrl": "https://github.com/anthropics/skills",
+      "githubStars": 165084,
+      "githubForks": 19616,
+      "repositoryUpdatedAt": "2026-07-24T20:12:34.000Z",
+      "installScore": 83.1,
+      "repositoryScore": 96.7,
+      "freshnessScore": 97,
+      "fusionScore": 88.6
     },
     {
       "id": "heygen-com/hyperframes/media-use",
       "name": "media-use",
       "source": "heygen-com/hyperframes",
       "url": "https://skills.sh/heygen-com/hyperframes/media-use",
-      "installs": 7225,
-      "installUrl": "https://github.com/heygen-com/hyperframes"
+      "installs": 7054,
+      "installUrl": "https://github.com/heygen-com/hyperframes",
+      "githubStars": 38671,
+      "githubForks": 3638,
+      "repositoryUpdatedAt": "2026-07-30T01:37:58.000Z",
+      "installScore": 87.6,
+      "repositoryScore": 83.8,
+      "freshnessScore": 100,
+      "fusionScore": 88.5
     },
     {
-      "id": "open.feishu.cn/lark-shared",
-      "name": "lark-shared",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-shared",
-      "installs": 7223
+      "id": "heygen-com/hyperframes/hyperframes-core",
+      "name": "hyperframes-core",
+      "source": "heygen-com/hyperframes",
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-core",
+      "installs": 6708,
+      "installUrl": "https://github.com/heygen-com/hyperframes",
+      "githubStars": 38671,
+      "githubForks": 3638,
+      "repositoryUpdatedAt": "2026-07-30T01:37:58.000Z",
+      "installScore": 87.1,
+      "repositoryScore": 83.8,
+      "freshnessScore": 100,
+      "fusionScore": 88.2
     },
     {
-      "id": "open.feishu.cn/lark-contact",
-      "name": "lark-contact",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-contact",
-      "installs": 7223
+      "id": "heygen-com/hyperframes/hyperframes",
+      "name": "hyperframes",
+      "source": "heygen-com/hyperframes",
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes",
+      "installs": 6214,
+      "installUrl": "https://github.com/heygen-com/hyperframes",
+      "githubStars": 38671,
+      "githubForks": 3638,
+      "repositoryUpdatedAt": "2026-07-30T01:37:58.000Z",
+      "installScore": 86.4,
+      "repositoryScore": 83.8,
+      "freshnessScore": 100,
+      "fusionScore": 87.8
     },
     {
-      "id": "open.feishu.cn/lark-calendar",
-      "name": "lark-calendar",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-calendar",
-      "installs": 7223
+      "id": "101-skills/skills/ai-video-generation",
+      "name": "ai-video-generation",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/ai-video-generation",
+      "installs": 21686,
+      "installUrl": "https://github.com/101-skills/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 98.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 86.5
     },
     {
-      "id": "open.feishu.cn/lark-wiki",
-      "name": "lark-wiki",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-wiki",
-      "installs": 7220
+      "id": "101-skills/skills/ai-image-generation",
+      "name": "ai-image-generation",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/ai-image-generation",
+      "installs": 21591,
+      "installUrl": "https://github.com/101-skills/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 98.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 86.5
     },
     {
-      "id": "open.feishu.cn/lark-markdown",
-      "name": "lark-markdown",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-markdown",
-      "installs": 7218
+      "id": "101-skills/skills/twitter-automation",
+      "name": "twitter-automation",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/twitter-automation",
+      "installs": 21581,
+      "installUrl": "https://github.com/101-skills/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 98.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 86.5
     },
     {
-      "id": "open.feishu.cn/lark-sheets",
-      "name": "lark-sheets",
-      "source": "open.feishu.cn",
-      "url": "https://skills.sh/site/open.feishu.cn/lark-sheets",
-      "installs": 7217
+      "id": "101-skills/skills/remotion-render",
+      "name": "remotion-render",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/remotion-render",
+      "installs": 21580,
+      "installUrl": "https://github.com/101-skills/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 98.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 86.5
+    },
+    {
+      "id": "101-skills/skills/ai-avatar-video",
+      "name": "ai-avatar-video",
+      "source": "101-skills/skills",
+      "url": "https://skills.sh/101-skills/skills/ai-avatar-video",
+      "installs": 21580,
+      "installUrl": "https://github.com/101-skills/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 98.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 86.5
+    },
+    {
+      "id": "vercel-labs/agent-browser/agent-browser",
+      "name": "agent-browser",
+      "source": "vercel-labs/agent-browser",
+      "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
+      "installs": 5064,
+      "installUrl": "https://github.com/vercel-labs/agent-browser",
+      "githubStars": 39519,
+      "githubForks": 2579,
+      "repositoryUpdatedAt": "2026-07-28T05:50:28.000Z",
+      "installScore": 84.4,
+      "repositoryScore": 83.1,
+      "freshnessScore": 98.9,
+      "fusionScore": 86.3
+    },
+    {
+      "id": "design-layers/agent-skills/sleek-design-mobile-apps",
+      "name": "sleek-design-mobile-apps",
+      "source": "design-layers/agent-skills",
+      "url": "https://skills.sh/design-layers/agent-skills/sleek-design-mobile-apps",
+      "installs": 24637,
+      "installUrl": "https://github.com/design-layers/agent-skills",
+      "githubStars": 474,
+      "githubForks": 41,
+      "repositoryUpdatedAt": "2026-07-24T12:28:57.000Z",
+      "installScore": 100,
+      "repositoryScore": 46.3,
+      "freshnessScore": 96.8,
+      "fusionScore": 86.1
+    },
+    {
+      "id": "heygen-com/hyperframes/hyperframes-animation",
+      "name": "hyperframes-animation",
+      "source": "heygen-com/hyperframes",
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-animation",
+      "installs": 4490,
+      "installUrl": "https://github.com/heygen-com/hyperframes",
+      "githubStars": 38671,
+      "githubForks": 3638,
+      "repositoryUpdatedAt": "2026-07-30T01:37:58.000Z",
+      "installScore": 83.2,
+      "repositoryScore": 83.8,
+      "freshnessScore": 100,
+      "fusionScore": 85.9
+    },
+    {
+      "id": "leonxlnx/taste-skill/design-taste-frontend",
+      "name": "design-taste-frontend",
+      "source": "leonxlnx/taste-skill",
+      "url": "https://skills.sh/leonxlnx/taste-skill/design-taste-frontend",
+      "installs": 3639,
+      "installUrl": "https://github.com/leonxlnx/taste-skill",
+      "githubStars": 69054,
+      "githubForks": 4774,
+      "repositoryUpdatedAt": "2026-07-23T16:01:24.000Z",
+      "installScore": 81.1,
+      "repositoryScore": 88,
+      "freshnessScore": 96.3,
+      "fusionScore": 85.1
+    },
+    {
+      "id": "obra/superpowers/brainstorming",
+      "name": "brainstorming",
+      "source": "obra/superpowers",
+      "url": "https://skills.sh/obra/superpowers/brainstorming",
+      "installs": 1764,
+      "installUrl": "https://github.com/obra/superpowers",
+      "githubStars": 263384,
+      "githubForks": 23517,
+      "repositoryUpdatedAt": "2026-07-28T19:25:36.000Z",
+      "installScore": 73.9,
+      "repositoryScore": 100,
+      "freshnessScore": 99.2,
+      "fusionScore": 84.2
+    },
+    {
+      "id": "stablyai/orca/orca-cli",
+      "name": "orca-cli",
+      "source": "stablyai/orca",
+      "url": "https://skills.sh/stablyai/orca/orca-cli",
+      "installs": 3659,
+      "installUrl": "https://github.com/stablyai/orca",
+      "githubStars": 32965,
+      "githubForks": 2317,
+      "repositoryUpdatedAt": "2026-07-30T03:27:47.000Z",
+      "installScore": 81.1,
+      "repositoryScore": 81.8,
+      "freshnessScore": 100,
+      "fusionScore": 84.1
+    },
+    {
+      "id": "juliusbrussee/caveman/caveman",
+      "name": "caveman",
+      "source": "juliusbrussee/caveman",
+      "url": "https://skills.sh/juliusbrussee/caveman/caveman",
+      "installs": 3637,
+      "installUrl": "https://github.com/juliusbrussee/caveman",
+      "githubStars": 94404,
+      "githubForks": 5402,
+      "repositoryUpdatedAt": "2026-07-03T11:08:51.000Z",
+      "installScore": 81.1,
+      "repositoryScore": 90.2,
+      "freshnessScore": 85.7,
+      "fusionScore": 84.1
+    },
+    {
+      "id": "stablyai/orca/orchestration",
+      "name": "orchestration",
+      "source": "stablyai/orca",
+      "url": "https://skills.sh/stablyai/orca/orchestration",
+      "installs": 3535,
+      "installUrl": "https://github.com/stablyai/orca",
+      "githubStars": 32965,
+      "githubForks": 2317,
+      "repositoryUpdatedAt": "2026-07-30T03:27:47.000Z",
+      "installScore": 80.8,
+      "repositoryScore": 81.8,
+      "freshnessScore": 100,
+      "fusionScore": 83.9
+    },
+    {
+      "id": "shadcn/ui/shadcn",
+      "name": "shadcn",
+      "source": "shadcn/ui",
+      "url": "https://skills.sh/shadcn/ui/shadcn",
+      "installs": 2020,
+      "installUrl": "https://github.com/shadcn/ui",
+      "githubStars": 120106,
+      "githubForks": 9614,
+      "repositoryUpdatedAt": "2026-07-29T12:31:23.000Z",
+      "installScore": 75.3,
+      "repositoryScore": 93.1,
+      "freshnessScore": 99.6,
+      "fusionScore": 83.4
+    },
+    {
+      "id": "vercel-labs/agent-skills/vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "source": "vercel-labs/agent-skills",
+      "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "installs": 3258,
+      "installUrl": "https://github.com/vercel-labs/agent-skills",
+      "githubStars": 29612,
+      "githubForks": 2654,
+      "repositoryUpdatedAt": "2026-07-24T10:25:23.000Z",
+      "installScore": 80,
+      "repositoryScore": 81.5,
+      "freshnessScore": 96.8,
+      "fusionScore": 82.9
+    },
+    {
+      "id": "vercel-labs/agent-skills/web-design-guidelines",
+      "name": "web-design-guidelines",
+      "source": "vercel-labs/agent-skills",
+      "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+      "installs": 3203,
+      "installUrl": "https://github.com/vercel-labs/agent-skills",
+      "githubStars": 29612,
+      "githubForks": 2654,
+      "repositoryUpdatedAt": "2026-07-24T10:25:23.000Z",
+      "installScore": 79.8,
+      "repositoryScore": 81.5,
+      "freshnessScore": 96.8,
+      "fusionScore": 82.8
+    },
+    {
+      "id": "juliusbrussee/caveman/caveman-commit",
+      "name": "caveman-commit",
+      "source": "juliusbrussee/caveman",
+      "url": "https://skills.sh/juliusbrussee/caveman/caveman-commit",
+      "installs": 2877,
+      "installUrl": "https://github.com/juliusbrussee/caveman",
+      "githubStars": 94404,
+      "githubForks": 5402,
+      "repositoryUpdatedAt": "2026-07-03T11:08:51.000Z",
+      "installScore": 78.8,
+      "repositoryScore": 90.2,
+      "freshnessScore": 85.7,
+      "fusionScore": 82.7
+    },
+    {
+      "id": "nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
+      "name": "ui-ux-pro-max",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
+      "installs": 1824,
+      "installUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "githubStars": 111521,
+      "githubForks": 11905,
+      "repositoryUpdatedAt": "2026-07-28T05:00:07.000Z",
+      "installScore": 74.3,
+      "repositoryScore": 93.1,
+      "freshnessScore": 98.9,
+      "fusionScore": 82.7
+    },
+    {
+      "id": "juliusbrussee/caveman/caveman-review",
+      "name": "caveman-review",
+      "source": "juliusbrussee/caveman",
+      "url": "https://skills.sh/juliusbrussee/caveman/caveman-review",
+      "installs": 2871,
+      "installUrl": "https://github.com/juliusbrussee/caveman",
+      "githubStars": 94404,
+      "githubForks": 5402,
+      "repositoryUpdatedAt": "2026-07-03T11:08:51.000Z",
+      "installScore": 78.7,
+      "repositoryScore": 90.2,
+      "freshnessScore": 85.7,
+      "fusionScore": 82.6
+    },
+    {
+      "id": "juliusbrussee/caveman/caveman-compress",
+      "name": "caveman-compress",
+      "source": "juliusbrussee/caveman",
+      "url": "https://skills.sh/juliusbrussee/caveman/caveman-compress",
+      "installs": 2845,
+      "installUrl": "https://github.com/juliusbrussee/caveman",
+      "githubStars": 94404,
+      "githubForks": 5402,
+      "repositoryUpdatedAt": "2026-07-03T11:08:51.000Z",
+      "installScore": 78.7,
+      "repositoryScore": 90.2,
+      "freshnessScore": 85.7,
+      "fusionScore": 82.6
+    },
+    {
+      "id": "juliusbrussee/caveman/cavecrew",
+      "name": "cavecrew",
+      "source": "juliusbrussee/caveman",
+      "url": "https://skills.sh/juliusbrussee/caveman/cavecrew",
+      "installs": 2834,
+      "installUrl": "https://github.com/juliusbrussee/caveman",
+      "githubStars": 94404,
+      "githubForks": 5402,
+      "repositoryUpdatedAt": "2026-07-03T11:08:51.000Z",
+      "installScore": 78.6,
+      "repositoryScore": 90.2,
+      "freshnessScore": 85.7,
+      "fusionScore": 82.6
+    },
+    {
+      "id": "leonxlnx/taste-skill/high-end-visual-design",
+      "name": "high-end-visual-design",
+      "source": "leonxlnx/taste-skill",
+      "url": "https://skills.sh/leonxlnx/taste-skill/high-end-visual-design",
+      "installs": 2394,
+      "installUrl": "https://github.com/leonxlnx/taste-skill",
+      "githubStars": 69054,
+      "githubForks": 4774,
+      "repositoryUpdatedAt": "2026-07-23T16:01:24.000Z",
+      "installScore": 76.9,
+      "repositoryScore": 88,
+      "freshnessScore": 96.3,
+      "fusionScore": 82.6
+    },
+    {
+      "id": "leonxlnx/taste-skill/redesign-existing-projects",
+      "name": "redesign-existing-projects",
+      "source": "leonxlnx/taste-skill",
+      "url": "https://skills.sh/leonxlnx/taste-skill/redesign-existing-projects",
+      "installs": 2343,
+      "installUrl": "https://github.com/leonxlnx/taste-skill",
+      "githubStars": 69054,
+      "githubForks": 4774,
+      "repositoryUpdatedAt": "2026-07-23T16:01:24.000Z",
+      "installScore": 76.7,
+      "repositoryScore": 88,
+      "freshnessScore": 96.3,
+      "fusionScore": 82.5
+    },
+    {
+      "id": "stablyai/orca/computer-use",
+      "name": "computer-use",
+      "source": "stablyai/orca",
+      "url": "https://skills.sh/stablyai/orca/computer-use",
+      "installs": 2728,
+      "installUrl": "https://github.com/stablyai/orca",
+      "githubStars": 32965,
+      "githubForks": 2317,
+      "repositoryUpdatedAt": "2026-07-30T03:27:47.000Z",
+      "installScore": 78.2,
+      "repositoryScore": 81.8,
+      "freshnessScore": 100,
+      "fusionScore": 82.4
+    },
+    {
+      "id": "anthropics/skills/skill-creator",
+      "name": "skill-creator",
+      "source": "anthropics/skills",
+      "url": "https://skills.sh/anthropics/skills/skill-creator",
+      "installs": 1533,
+      "installUrl": "https://github.com/anthropics/skills",
+      "githubStars": 165084,
+      "githubForks": 19616,
+      "repositoryUpdatedAt": "2026-07-24T20:12:34.000Z",
+      "installScore": 72.5,
+      "repositoryScore": 96.7,
+      "freshnessScore": 97,
+      "fusionScore": 82.2
+    },
+    {
+      "id": "leonxlnx/taste-skill/brandkit",
+      "name": "brandkit",
+      "source": "leonxlnx/taste-skill",
+      "url": "https://skills.sh/leonxlnx/taste-skill/brandkit",
+      "installs": 2141,
+      "installUrl": "https://github.com/leonxlnx/taste-skill",
+      "githubStars": 69054,
+      "githubForks": 4774,
+      "repositoryUpdatedAt": "2026-07-23T16:01:24.000Z",
+      "installScore": 75.8,
+      "repositoryScore": 88,
+      "freshnessScore": 96.3,
+      "fusionScore": 81.9
+    },
+    {
+      "id": "leonxlnx/taste-skill/minimalist-ui",
+      "name": "minimalist-ui",
+      "source": "leonxlnx/taste-skill",
+      "url": "https://skills.sh/leonxlnx/taste-skill/minimalist-ui",
+      "installs": 2141,
+      "installUrl": "https://github.com/leonxlnx/taste-skill",
+      "githubStars": 69054,
+      "githubForks": 4774,
+      "repositoryUpdatedAt": "2026-07-23T16:01:24.000Z",
+      "installScore": 75.8,
+      "repositoryScore": 88,
+      "freshnessScore": 96.3,
+      "fusionScore": 81.9
+    },
+    {
+      "id": "emilkowalski/skills/emil-design-eng",
+      "name": "emil-design-eng",
+      "source": "emilkowalski/skills",
+      "url": "https://skills.sh/emilkowalski/skills/emil-design-eng",
+      "installs": 2670,
+      "installUrl": "https://github.com/emilkowalski/skills",
+      "githubStars": 22606,
+      "githubForks": 1230,
+      "repositoryUpdatedAt": "2026-07-27T11:31:08.000Z",
+      "installScore": 78,
+      "repositoryScore": 77.9,
+      "freshnessScore": 98.5,
+      "fusionScore": 81.1
+    },
+    {
+      "id": "emilkowalski/skills/review-animations",
+      "name": "review-animations",
+      "source": "emilkowalski/skills",
+      "url": "https://skills.sh/emilkowalski/skills/review-animations",
+      "installs": 2453,
+      "installUrl": "https://github.com/emilkowalski/skills",
+      "githubStars": 22606,
+      "githubForks": 1230,
+      "repositoryUpdatedAt": "2026-07-27T11:31:08.000Z",
+      "installScore": 77.2,
+      "repositoryScore": 77.9,
+      "freshnessScore": 98.5,
+      "fusionScore": 80.6
+    },
+    {
+      "id": "emilkowalski/skills/improve-animations",
+      "name": "improve-animations",
+      "source": "emilkowalski/skills",
+      "url": "https://skills.sh/emilkowalski/skills/improve-animations",
+      "installs": 2450,
+      "installUrl": "https://github.com/emilkowalski/skills",
+      "githubStars": 22606,
+      "githubForks": 1230,
+      "repositoryUpdatedAt": "2026-07-27T11:31:08.000Z",
+      "installScore": 77.2,
+      "repositoryScore": 77.9,
+      "freshnessScore": 98.5,
+      "fusionScore": 80.6
+    },
+    {
+      "id": "emilkowalski/skills/apple-design",
+      "name": "apple-design",
+      "source": "emilkowalski/skills",
+      "url": "https://skills.sh/emilkowalski/skills/apple-design",
+      "installs": 2424,
+      "installUrl": "https://github.com/emilkowalski/skills",
+      "githubStars": 22606,
+      "githubForks": 1230,
+      "repositoryUpdatedAt": "2026-07-27T11:31:08.000Z",
+      "installScore": 77.1,
+      "repositoryScore": 77.9,
+      "freshnessScore": 98.5,
+      "fusionScore": 80.5
+    },
+    {
+      "id": "emilkowalski/skills/animation-vocabulary",
+      "name": "animation-vocabulary",
+      "source": "emilkowalski/skills",
+      "url": "https://skills.sh/emilkowalski/skills/animation-vocabulary",
+      "installs": 2391,
+      "installUrl": "https://github.com/emilkowalski/skills",
+      "githubStars": 22606,
+      "githubForks": 1230,
+      "repositoryUpdatedAt": "2026-07-27T11:31:08.000Z",
+      "installScore": 76.9,
+      "repositoryScore": 77.9,
+      "freshnessScore": 98.5,
+      "fusionScore": 80.4
+    },
+    {
+      "id": "magentosh/skills/twitter-automation",
+      "name": "twitter-automation",
+      "source": "magentosh/skills",
+      "url": "https://skills.sh/magentosh/skills/twitter-automation",
+      "installs": 7131,
+      "installUrl": "https://github.com/magentosh/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 87.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 79.9
+    },
+    {
+      "id": "magentosh/skills/ai-video-generation",
+      "name": "ai-video-generation",
+      "source": "magentosh/skills",
+      "url": "https://skills.sh/magentosh/skills/ai-video-generation",
+      "installs": 7130,
+      "installUrl": "https://github.com/magentosh/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 87.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 79.9
+    },
+    {
+      "id": "magentosh/skills/ai-image-generation",
+      "name": "ai-image-generation",
+      "source": "magentosh/skills",
+      "url": "https://skills.sh/magentosh/skills/ai-image-generation",
+      "installs": 7130,
+      "installUrl": "https://github.com/magentosh/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 87.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 79.9
+    },
+    {
+      "id": "magentosh/skills/ai-avatar-video",
+      "name": "ai-avatar-video",
+      "source": "magentosh/skills",
+      "url": "https://skills.sh/magentosh/skills/ai-avatar-video",
+      "installs": 7130,
+      "installUrl": "https://github.com/magentosh/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 87.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 79.9
+    },
+    {
+      "id": "magentosh/skills/remotion-render",
+      "name": "remotion-render",
+      "source": "magentosh/skills",
+      "url": "https://skills.sh/magentosh/skills/remotion-render",
+      "installs": 7130,
+      "installUrl": "https://github.com/magentosh/skills",
+      "githubStars": 662,
+      "githubForks": 94,
+      "repositoryUpdatedAt": "2026-07-26T13:44:38.000Z",
+      "installScore": 87.7,
+      "repositoryScore": 50.3,
+      "freshnessScore": 98,
+      "fusionScore": 79.9
+    },
+    {
+      "id": "pbakaus/impeccable/impeccable",
+      "name": "impeccable",
+      "source": "pbakaus/impeccable",
+      "url": "https://skills.sh/pbakaus/impeccable/impeccable",
+      "installs": 1449,
+      "installUrl": "https://github.com/pbakaus/impeccable",
+      "githubStars": 52676,
+      "githubForks": 3117,
+      "repositoryUpdatedAt": "2026-07-30T00:50:40.000Z",
+      "installScore": 72,
+      "repositoryScore": 85.3,
+      "freshnessScore": 99.9,
+      "fusionScore": 79.5
+    },
+    {
+      "id": "larksuite/cli/lark-doc",
+      "name": "lark-doc",
+      "source": "larksuite/cli",
+      "url": "https://skills.sh/larksuite/cli/lark-doc",
+      "installs": 1896,
+      "installUrl": "https://github.com/larksuite/cli",
+      "githubStars": 15971,
+      "githubForks": 1206,
+      "repositoryUpdatedAt": "2026-07-29T13:37:15.000Z",
+      "installScore": 74.6,
+      "repositoryScore": 75.8,
+      "freshnessScore": 99.7,
+      "fusionScore": 78.7
     }
   ],
   "sourceStatus": [
     {
-      "name": "Hacker News / Algolia 商业化线索",
-      "url": "https://hn.algolia.com/api",
-      "ok": true,
-      "note": "本次抓取成功"
+      "name": "Bing News",
+      "url": "https://www.bing.com/news/search",
+      "ok": false,
+      "note": "只得到 0 条"
     },
     {
-      "name": "skills.sh 24 小时 Trending",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "ok": true,
+      "note": "抓取 5 条候选，参与站内归一化"
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "ok": true,
+      "note": "抓取 6 条候选，参与站内归一化"
+    },
+    {
+      "name": "DEV Community",
+      "url": "https://dev.to/feed/tag/ai",
+      "ok": true,
+      "note": "抓取 19 条候选，参与站内归一化"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hn.algolia.com/api",
+      "ok": true,
+      "note": "抓取 316 条候选，参与站内归一化"
+    },
+    {
+      "name": "创收融合榜",
+      "url": "https://www.qaz5678.xyz/methodology/",
+      "ok": true,
+      "note": "TechCrunch + VentureBeat + DEV Community + Hacker News 站内归一化后按 45% 互动、35% 时效、20% 跨源覆盖排序"
+    },
+    {
+      "name": "skills.sh Trending",
       "url": "https://skills.sh/trending",
       "ok": true,
-      "note": "本次抓取成功"
+      "note": "抓取 220 个带公开 GitHub 仓库的候选"
+    },
+    {
+      "name": "GitHub 仓库信号",
+      "url": "https://docs.github.com/en/repositories",
+      "ok": true,
+      "note": "核验 29/29 个仓库的 Star、Fork 与最近提交"
+    },
+    {
+      "name": "Skill 融合榜",
+      "url": "https://www.qaz5678.xyz/methodology/",
+      "ok": true,
+      "note": "按 60% 安装趋势、25% 仓库关注、15% 更新活跃排序；同仓最多 5 席"
     }
   ]
 }
