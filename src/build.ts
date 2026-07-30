@@ -320,13 +320,14 @@ for (const [category,label] of Object.entries(categoryLabels)) {
   const items = sortModels(models.filter(m=>m.category===category));
   pages.push([`categories/${category.replaceAll("_","-")}/index.html`,layout(`${label}免费模型`,`${label}的免费 API、试用额度和开放权重入口。`,`/categories/${category.replaceAll("_","-")}/`,`<section class="page-head"><span class="kicker">${esc(category)}</span><h1>${label}免费模型</h1><p>${categoryIntro[category]} 当前整理 ${items.length} 个可核对入口。</p></section><section class="method-strip"><b>“免费”不代表无限量</b><p>页面会区分周期额度、注册赠金、共享路由和开放权重；进入详情页后再核对来源。</p><a href="/guides/free-ai-api/">免费 API 选择方法 →</a></section><div class="cards standalone">${items.map(modelCard).join("")}</div>${shareBar(`有人在找${label}？把这页发给他`)}`)]);
 }
+const withExpandedNav=(html:string)=>html.replace('<a href="/daily/">每日热点</a>','<a href="/daily/">每日热点</a><a href="/ai-money/" data-track="nav-money">AI 创收</a><a href="/skills/" data-track="nav-skills">Skill 热榜</a>');
 const notFound = layout("页面未找到","请求的页面不存在。","/404.html",`<section class="not-found"><span>404</span><h1>没有这个页面</h1><a class="button primary" href="/">返回首页</a></section>`);
 
 async function build(){
   validateData(models,relays);
   await rm(out,{recursive:true,force:true}); await mkdir(out,{recursive:true});
-  for(const [path,html] of pages){const url=new URL(path,out);await mkdir(new URL(".",url),{recursive:true});await writeFile(url,html);}
-  await writeFile(new URL("404.html",out),notFound); await mkdir(new URL("assets/",out)); await cp(new URL("./assets/",import.meta.url),new URL("assets/",out),{recursive:true}); await cp(new URL("./assets/favicon.ico",import.meta.url),new URL("favicon.ico",out));
+  for(const [path,html] of pages){const url=new URL(path,out);await mkdir(new URL(".",url),{recursive:true});await writeFile(url,withExpandedNav(html));}
+  await writeFile(new URL("404.html",out),withExpandedNav(notFound)); await mkdir(new URL("assets/",out)); await cp(new URL("./assets/",import.meta.url),new URL("assets/",out),{recursive:true}); await cp(new URL("./assets/favicon.ico",import.meta.url),new URL("favicon.ico",out));
   const dailyUrls=["/","/daily/","/news/","/projects/","/trending-models/","/ai-money/","/skills/","/updates/"];
   const staticUrls=["/models/","/relays/","/changes/","/search/","/find-model/","/compare/","/sitemap/","/methodology/","/about/","/privacy/","/use-cases/codex-relays/","/use-cases/claude-code-relays/",codexBuildVideoPath,"/guides/relay-risk-checklist/","/guides/free-ai-api/","/guides/free-llm-api-providers/","/guides/free-embedding-rerank/","/guides/free-embedding-api/","/guides/free-rerank-api/","/guides/free-image-video-models/","/guides/free-image-generation-api/","/guides/free-image-segmentation-api/","/guides/codex-claude-code-relay/","/guides/codex-free/","/guides/claude-code-free/","/guides/openrouter-free-models/","/guides/cloudflare-workers-ai-free-tier/","/guides/github-models-free-api/","/guides/free-ai-api-no-topup/",...models.map(modelPath),...providers.map(providerPath),...Object.keys(categoryLabels).map(x=>`/categories/${x.replaceAll("_","-")}/`)];
   staticUrls.push("/questions/");
