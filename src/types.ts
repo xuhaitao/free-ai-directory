@@ -207,8 +207,18 @@ export type WeeklyChangeItem = {
   rankDelta?: number;
 };
 
+export type WeeklyTopic = {
+  id: string;
+  label: string;
+  description: string;
+  itemCount: number;
+  sectionLabels: string[];
+  sourceLabels: string[];
+  items: (WeeklyDigestItem & { section: string })[];
+};
+
 export type WeeklyDigest = {
-  schemaVersion: 2;
+  schemaVersion: 3;
   week: string;
   periodStart: string;
   periodEnd: string;
@@ -229,6 +239,7 @@ export type WeeklyDigest = {
     eligibleGroups: string[];
     skippedGroups: string[];
   };
+  topics: WeeklyTopic[];
 };
 
 export type DirectoryLinkCheck = {

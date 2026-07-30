@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "week": "2026-W31",
   "periodStart": "2026-07-27",
   "periodEnd": "2026-07-30",
-  "generatedAt": "2026-07-30T05:50:34.198Z",
+  "generatedAt": "2026-07-30T06:10:26.777Z",
   "timezone": "Asia/Shanghai",
   "snapshotDays": {
     "daily": 4,
@@ -715,5 +715,608 @@
       "AI 股票工具与项目",
       "AI 炒股相关新闻"
     ]
-  }
+  },
+  "topics": [
+    {
+      "id": "agents",
+      "label": "AI Agent",
+      "description": "跨榜追踪 Agent 框架、自动化执行器与多 Agent 工作流。",
+      "itemCount": 13,
+      "sectionLabels": [
+        "热门开源项目",
+        "AI 创收线索",
+        "Agent Skill",
+        "AI 股票工具与项目"
+      ],
+      "sourceLabels": [
+        "GitHub",
+        "TechCrunch",
+        "skills.sh"
+      ],
+      "items": [
+        {
+          "id": "mattpocock/skills/grill-me",
+          "title": "grill-me",
+          "url": "https://skills.sh/mattpocock/skills/grill-me",
+          "summary": "mattpocock/skills · 安装趋势 10419 · 融合分 94.1",
+          "sourceLabels": [
+            "skills.sh",
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 100,
+          "section": "Agent Skill"
+        },
+        {
+          "id": "tauricresearch/tradingagents",
+          "title": "TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "summary": "多 Agent · 多个专业 Agent 协作完成市场、基本面、新闻、观点辩论与风险分析。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 100,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "37558a659aede364",
+          "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+          "summary": "创业 / SaaS · 融合分 86.4",
+          "sourceLabels": [
+            "TechCrunch"
+          ],
+          "appearances": 1,
+          "bestRank": 2,
+          "weeklyScore": 95.8,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "mattpocock/skills/grill-with-docs",
+          "title": "grill-with-docs",
+          "url": "https://skills.sh/mattpocock/skills/grill-with-docs",
+          "summary": "mattpocock/skills · 安装趋势 8822 · 融合分 93.1",
+          "sourceLabels": [
+            "skills.sh",
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 2,
+          "weeklyScore": 95.8,
+          "section": "Agent Skill"
+        },
+        {
+          "id": "mattpocock/skills/grilling",
+          "title": "grilling",
+          "url": "https://skills.sh/mattpocock/skills/grilling",
+          "summary": "mattpocock/skills · 安装趋势 8566 · 融合分 93",
+          "sourceLabels": [
+            "skills.sh",
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 3,
+          "weeklyScore": 91.6,
+          "section": "Agent Skill"
+        },
+        {
+          "id": "hkuds/vibe-trading",
+          "title": "Vibe-Trading",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "summary": "交易工作台 · 把金融问题转成可运行分析任务的开源个人交易 Agent 研究工作台。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 3,
+          "weeklyScore": 91.6,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "vercel-labs/skills/find-skills",
+          "title": "find-skills",
+          "url": "https://skills.sh/vercel-labs/skills/find-skills",
+          "summary": "vercel-labs/skills · 安装趋势 16496 · 融合分 92.8",
+          "sourceLabels": [
+            "skills.sh",
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 4,
+          "weeklyScore": 87.4,
+          "section": "Agent Skill"
+        },
+        {
+          "id": "hsliuping/tradingagents-cn",
+          "title": "TradingAgents-CN",
+          "url": "https://github.com/hsliuping/TradingAgents-CN",
+          "summary": "多 Agent · 面向中文用户和 A 股、港股、美股场景适配的多 Agent 金融分析框架。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 4,
+          "weeklyScore": 87.4,
+          "section": "AI 股票工具与项目"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "label": "模型与推理",
+      "description": "聚合模型发布、推理能力、模型工具与相关安全动态。",
+      "itemCount": 14,
+      "sectionLabels": [
+        "AI 热门新闻",
+        "热门开源项目",
+        "趋势模型",
+        "AI 创收线索",
+        "AI 股票工具与项目"
+      ],
+      "sourceLabels": [
+        "anthropic.com",
+        "Hacker News 日榜",
+        "claude.com",
+        "openai.com",
+        "GitHub",
+        "Hugging Face",
+        "Hacker News"
+      ],
+      "items": [
+        {
+          "id": "49038433",
+          "title": "Claude Opus 5",
+          "url": "https://www.anthropic.com/news/claude-opus-5",
+          "summary": "anthropic.com · 1778 赞同 · 1330 讨论",
+          "sourceLabels": [
+            "anthropic.com",
+            "Hacker News 日榜"
+          ],
+          "appearances": 4,
+          "bestRank": 1,
+          "weeklyScore": 100,
+          "section": "AI 热门新闻"
+        },
+        {
+          "id": "baidu/unlimited-ocr",
+          "title": "baidu/Unlimited-OCR",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR",
+          "summary": "image-text-to-text · 近月下载 2694935",
+          "sourceLabels": [
+            "Hugging Face"
+          ],
+          "appearances": 4,
+          "bestRank": 1,
+          "weeklyScore": 96.9,
+          "section": "趋势模型"
+        },
+        {
+          "id": "microsoft/qlib",
+          "title": "Qlib",
+          "url": "https://github.com/microsoft/qlib",
+          "summary": "量化框架 · 微软开源的 AI 量化投资研究平台，覆盖数据、模型、策略与回测流程。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 2,
+          "weeklyScore": 95.8,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "moonshotai/kimi-k3",
+          "title": "moonshotai/Kimi-K3",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3",
+          "summary": "image-text-to-text · 近月下载 99214",
+          "sourceLabels": [
+            "Hugging Face"
+          ],
+          "appearances": 3,
+          "bestRank": 1,
+          "weeklyScore": 92.5,
+          "section": "趋势模型"
+        },
+        {
+          "id": "poolside/laguna-s-2.1",
+          "title": "poolside/Laguna-S-2.1",
+          "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+          "summary": "text-generation · 近月下载 67286",
+          "sourceLabels": [
+            "Hugging Face"
+          ],
+          "appearances": 4,
+          "bestRank": 2,
+          "weeklyScore": 90.6,
+          "section": "趋势模型"
+        },
+        {
+          "id": "davidau/qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp-gguf",
+          "title": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+          "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+          "summary": "image-text-to-text · 近月下载 736692",
+          "sourceLabels": [
+            "Hugging Face"
+          ],
+          "appearances": 4,
+          "bestRank": 3,
+          "weeklyScore": 88.4,
+          "section": "趋势模型"
+        },
+        {
+          "id": "42009bab04d515d0",
+          "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+          "url": "https://usetokenless.com",
+          "summary": "收入 / 盈利 · 融合分 83.8",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 4,
+          "weeklyScore": 87.4,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "upstage/solar-open2-250b",
+          "title": "upstage/Solar-Open2-250B",
+          "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+          "summary": "text-generation · 近月下载 4804",
+          "sourceLabels": [
+            "Hugging Face"
+          ],
+          "appearances": 4,
+          "bestRank": 3,
+          "weeklyScore": 86.4,
+          "section": "趋势模型"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "label": "AI 编程与开发工具",
+      "description": "追踪代码 Agent、开发工作流、浏览器自动化与工程 Skill。",
+      "itemCount": 6,
+      "sectionLabels": [
+        "热门开源项目",
+        "AI 创收线索",
+        "Agent Skill"
+      ],
+      "sourceLabels": [
+        "GitHub",
+        "Hacker News",
+        "skills.sh"
+      ],
+      "items": [
+        {
+          "id": "mattpocock/skills/improve-codebase-architecture",
+          "title": "improve-codebase-architecture",
+          "url": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+          "summary": "mattpocock/skills · 安装趋势 8055 · 融合分 92.5",
+          "sourceLabels": [
+            "skills.sh",
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 5,
+          "weeklyScore": 83.2,
+          "section": "Agent Skill"
+        },
+        {
+          "id": "2206e874f480fda1",
+          "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
+          "url": "https://www.tines.com",
+          "summary": "自动化提效 · 融合分 79.9",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 6,
+          "weeklyScore": 79,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "mattpocock/skills/tdd",
+          "title": "tdd",
+          "url": "https://skills.sh/mattpocock/skills/tdd",
+          "summary": "mattpocock/skills · 安装趋势 7931 · 融合分 92.5",
+          "sourceLabels": [
+            "skills.sh",
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 6,
+          "weeklyScore": 79,
+          "section": "Agent Skill"
+        },
+        {
+          "id": "affaan-m/ecc",
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 2,
+          "bestRank": 2,
+          "weeklyScore": 78.7,
+          "section": "热门开源项目"
+        },
+        {
+          "id": "citrolabs/ego-lite",
+          "title": "citrolabs/ego-lite",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 77.5,
+          "section": "热门开源项目"
+        },
+        {
+          "id": "alibaba/open-code-review",
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "summary": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 3,
+          "bestRank": 4,
+          "weeklyScore": 74.3,
+          "section": "热门开源项目"
+        }
+      ]
+    },
+    {
+      "id": "ai-stocks",
+      "label": "AI 股票与量化",
+      "description": "汇总股票研究工具、量化框架和相关公开新闻；不构成投资建议。",
+      "itemCount": 10,
+      "sectionLabels": [
+        "AI 股票工具与项目",
+        "AI 炒股相关新闻"
+      ],
+      "sourceLabels": [
+        "GitHub",
+        "Hacker News",
+        "Nasdaq AI"
+      ],
+      "items": [
+        {
+          "id": "tauricresearch/tradingagents",
+          "title": "TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "summary": "多 Agent · 多个专业 Agent 协作完成市场、基本面、新闻、观点辩论与风险分析。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 100,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "bf653817a3369860",
+          "title": "Show HN: I ran 12 AI bots predicting stocks for two months, every call public",
+          "url": "https://ldbd.app",
+          "summary": "工具 / 产品 · 情报分 75",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 100,
+          "section": "AI 炒股相关新闻"
+        },
+        {
+          "id": "microsoft/qlib",
+          "title": "Qlib",
+          "url": "https://github.com/microsoft/qlib",
+          "summary": "量化框架 · 微软开源的 AI 量化投资研究平台，覆盖数据、模型、策略与回测流程。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 2,
+          "weeklyScore": 95.8,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "869deb43e20c23a8",
+          "title": "AI Appreciation Day: How Intelligent Tech is Redefining Finance and Empowering Global Builders",
+          "url": "https://www.nasdaq.com/articles/ai-appreciation-day-how-intelligent-tech-redefining-finance-and-empowering-global-builders",
+          "summary": "监管 / 风险 · 情报分 70.7",
+          "sourceLabels": [
+            "Nasdaq AI"
+          ],
+          "appearances": 1,
+          "bestRank": 2,
+          "weeklyScore": 95.8,
+          "section": "AI 炒股相关新闻"
+        },
+        {
+          "id": "hkuds/vibe-trading",
+          "title": "Vibe-Trading",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "summary": "交易工作台 · 把金融问题转成可运行分析任务的开源个人交易 Agent 研究工作台。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 3,
+          "weeklyScore": 91.6,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "fdc42810ef099380",
+          "title": "Ask HN: Is anyone shorting the overspend in AI yet?",
+          "url": "https://news.ycombinator.com/item?id=48486763",
+          "summary": "市场 / 公司 · 情报分 53.6",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 3,
+          "weeklyScore": 91.6,
+          "section": "AI 炒股相关新闻"
+        },
+        {
+          "id": "hsliuping/tradingagents-cn",
+          "title": "TradingAgents-CN",
+          "url": "https://github.com/hsliuping/TradingAgents-CN",
+          "summary": "多 Agent · 面向中文用户和 A 股、港股、美股场景适配的多 Agent 金融分析框架。",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 4,
+          "weeklyScore": 87.4,
+          "section": "AI 股票工具与项目"
+        },
+        {
+          "id": "8989a18d2a78b9f6",
+          "title": "Is AI Good at Stock-Market Timing? A New Study Casts Doubt",
+          "url": "https://www.wsj.com/tech/ai/ai-stock-market-trading-research-154eeb72",
+          "summary": "市场 / 公司 · 情报分 51.4",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 4,
+          "weeklyScore": 87.4,
+          "section": "AI 炒股相关新闻"
+        }
+      ]
+    },
+    {
+      "id": "ai-business",
+      "label": "AI 商业化",
+      "description": "聚合 SaaS、收入、增长、客户与自动化提效公开线索。",
+      "itemCount": 8,
+      "sectionLabels": [
+        "AI 热门新闻",
+        "热门开源项目",
+        "AI 创收线索"
+      ],
+      "sourceLabels": [
+        "politico.com",
+        "Hacker News 日榜",
+        "GitHub",
+        "DEV Community",
+        "TechCrunch",
+        "Hacker News"
+      ],
+      "items": [
+        {
+          "id": "ffe7e7f00a195c16",
+          "title": "How to Build a SaaS Landing Page That Converts",
+          "url": "https://dev.to/qingluan/how-to-build-a-saas-landing-page-that-converts-2n5l",
+          "summary": "收入 / 盈利 · 融合分 86.8",
+          "sourceLabels": [
+            "DEV Community"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 100,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "37558a659aede364",
+          "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+          "summary": "创业 / SaaS · 融合分 86.4",
+          "sourceLabels": [
+            "TechCrunch"
+          ],
+          "appearances": 1,
+          "bestRank": 2,
+          "weeklyScore": 95.8,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "1d4a959136405d74",
+          "title": "The Documentation Dividend: Why Docs Are the Highest-ROI Investment in SaaS",
+          "url": "https://dev.to/insightlab/the-documentation-dividend-why-docs-are-the-highest-roi-investment-in-saas-4lkd",
+          "summary": "收入 / 盈利 · 融合分 83.8",
+          "sourceLabels": [
+            "DEV Community"
+          ],
+          "appearances": 1,
+          "bestRank": 3,
+          "weeklyScore": 91.6,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "49023016",
+          "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+          "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+          "summary": "politico.com · 1069 赞同 · 889 讨论",
+          "sourceLabels": [
+            "politico.com",
+            "Hacker News 日榜"
+          ],
+          "appearances": 4,
+          "bestRank": 3,
+          "weeklyScore": 90.6,
+          "section": "AI 热门新闻"
+        },
+        {
+          "id": "42009bab04d515d0",
+          "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+          "url": "https://usetokenless.com",
+          "summary": "收入 / 盈利 · 融合分 83.8",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 4,
+          "weeklyScore": 87.4,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "e541d0ee949e5ae6",
+          "title": "AI Powered Growth Hacks",
+          "url": "https://dev.to/harisha_pc/ai-powered-growth-hacks-556i",
+          "summary": "收入 / 盈利 · 融合分 80.3",
+          "sourceLabels": [
+            "DEV Community"
+          ],
+          "appearances": 1,
+          "bestRank": 5,
+          "weeklyScore": 83.2,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "2206e874f480fda1",
+          "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
+          "url": "https://www.tines.com",
+          "summary": "自动化提效 · 融合分 79.9",
+          "sourceLabels": [
+            "Hacker News"
+          ],
+          "appearances": 1,
+          "bestRank": 6,
+          "weeklyScore": 79,
+          "section": "AI 创收线索"
+        },
+        {
+          "id": "citrolabs/ego-lite",
+          "title": "citrolabs/ego-lite",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+          "sourceLabels": [
+            "GitHub"
+          ],
+          "appearances": 1,
+          "bestRank": 1,
+          "weeklyScore": 77.5,
+          "section": "热门开源项目"
+        }
+      ]
+    }
+  ]
 }

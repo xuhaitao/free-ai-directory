@@ -2,7 +2,7 @@
 
 面向中文用户的每日 AI 情报与免费资源目录。每天更新 10 条 AI 热门新闻、10 个热门 AI 项目和 10 个趋势模型，并收录文本、代码、多模态、图像、视频、Embedding、Rerank、语义分割、目标检测、图像分类、语音和翻译等免费入口。
 
-另提供每日约 50 条 AI 工具商业化与创收线索、50 个 Agent Skill 融合榜、12 个 AI 股票研究工具/项目和 12 条相关新闻，并用 AI 情报周报聚合一周内反复上榜的公开信号；这些榜单不构成收入承诺、投资建议或安全背书。
+另提供每日约 50 条 AI 工具商业化与创收线索、50 个 Agent Skill 融合榜、12 个 AI 股票研究工具/项目和 12 条相关新闻，并用 AI 情报周报与跨榜主题追踪聚合一周内反复上榜的公开信号；这些榜单不构成收入承诺、投资建议或安全背书。
 
 在线站点：[www.qaz5678.xyz](https://www.qaz5678.xyz/?utm_source=github&utm_medium=readme&utm_campaign=repository)
 
@@ -12,6 +12,7 @@
 - [浏览 57 个免费模型与 14 种能力](https://www.qaz5678.xyz/models/?utm_source=github&utm_medium=readme&utm_campaign=free_models)
 - [查看每日 AI 新闻、项目和趋势模型 Top 10](https://www.qaz5678.xyz/daily/?utm_source=github&utm_medium=readme&utm_campaign=daily_ai)
 - [查看一周 AI 情报汇总](https://www.qaz5678.xyz/weekly/?utm_source=github&utm_medium=readme&utm_campaign=weekly_ai)
+- [查看跨榜 AI 主题追踪](https://www.qaz5678.xyz/topics/?utm_source=github&utm_medium=readme&utm_campaign=ai_topics)
 - [查看 AI 炒股工具、项目与每日新闻](https://www.qaz5678.xyz/ai-stocks/?utm_source=github&utm_medium=readme&utm_campaign=ai_stocks)
 - [核对 Codex / Claude Code 中转站协议与风险](https://www.qaz5678.xyz/guides/codex-claude-code-relay/?utm_source=github&utm_medium=readme&utm_campaign=relay_guide)
 - [查看免费图像分割 API 与模型](https://www.qaz5678.xyz/guides/free-image-segmentation-api/?utm_source=github&utm_medium=readme&utm_campaign=segmentation_api)
@@ -44,7 +45,7 @@ curl http://localhost:8787/api/health
 - `npm run daily:update`：从 Hacker News、GitHub 与 Hugging Face 生成每日榜单和归档。
 - `npm run opportunities:update`：融合 Hacker News、DEV Community、Bing News、TechCrunch、VentureBeat 的 AI 创收资讯，并融合 skills.sh 安装趋势与 GitHub 仓库信号生成 Agent Skill Top 50。
 - `npm run stocks:update`：更新 12 个公开 AI 股票工具/项目的 GitHub 信号，并融合多个公开来源生成 12 条相关新闻。
-- `npm run weekly:update`：按当前自然周聚合已保存的日榜、机会榜和 AI 炒股快照，并计算连续上榜、最新快照首次出现和排名升温；只统计实际覆盖日期，少于 2 天的分组不判断变化。
+- `npm run weekly:update`：按当前自然周聚合已保存的日榜、机会榜和 AI 炒股快照，计算连续上榜、最新快照首次出现、排名升温和跨榜主题；变化少于 2 天不判断，主题少于 3 条或不足 2 个栏目不发布。
 - `npm run directory:update`：同步 OpenRouter 官方免费模型、发现高相关中转候选，并检查全部目录外链；不调用模型。
 - `content/daily.json`：当前 3 个 Top 10 榜单；`content/history/` 保留每日快照。
 - `content/opportunities.json`：当前 AI 创收资讯与 Skill Top 50；`content/opportunities-history/` 保留每日快照。

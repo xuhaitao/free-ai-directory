@@ -6,7 +6,7 @@ const sectionSizes={headlines:5,projects:5,models:5,moneyNews:6,skills:6,stockPr
 
 export function validateWeeklyDigest(value:unknown):asserts value is WeeklyDigest{
   const data=value as WeeklyDigest,errors:string[]=[];
-  if(!data||data.schemaVersion!==2)errors.push("schemaVersion 必须为 2");
+  if(!data||data.schemaVersion!==3)errors.push("schemaVersion 必须为 3");
   if(!/^\d{4}-W\d{2}$/.test(data?.week||""))errors.push("周编号格式错误");
   if(!/^\d{4}-\d{2}-\d{2}$/.test(data?.periodStart||"")||!/^\d{4}-\d{2}-\d{2}$/.test(data?.periodEnd||""))errors.push("周报日期格式错误");
   if(data?.timezone!=="Asia/Shanghai")errors.push("时区必须为 Asia/Shanghai");
@@ -19,6 +19,8 @@ export function validateWeeklyDigest(value:unknown):asserts value is WeeklyDiges
   const changes=data?.changes,groups=[...(changes?.eligibleGroups||[]),...(changes?.skippedGroups||[])];
   if(!changes||groups.length!==7||new Set(groups).size!==7)errors.push("周变化分组无效");
   for(const name of ["persistent","newcomers","risers"] as const){const items=changes?.[name];if(!Array.isArray(items)||items.length>6)errors.push(`${name} 最多 6 条`);else if(items.some(item=>!item.url.startsWith("https://")||!item.sourceLabels.length||!item.section||item.appearances<1||item.latestRank<1))errors.push(`${name} 包含无效条目`)}
+  if(!Array.isArray(data?.topics)||data.topics.length<1||data.topics.length>5)errors.push("有效主题必须为 1–5 个");
+  else for(const topic of data.topics){if(!/^[a-z0-9-]+$/.test(topic.id)||topic.items.length<3||topic.items.length>8||topic.itemCount<topic.items.length||topic.sectionLabels.length<2||topic.sourceLabels.length<1)errors.push(`主题 ${topic.id} 不满足跨栏目阈值`);else if(topic.items.some(item=>!item.url.startsWith("https://")||!item.section||!item.sourceLabels.length))errors.push(`主题 ${topic.id} 包含无效条目`)}
   if(errors.length)throw new Error(errors.join("\n"));
 }
 

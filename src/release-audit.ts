@@ -23,7 +23,9 @@ for(const path of htmlFiles){
   if(!/href="\/skills\/"[^>]*>Skill 热榜<\/a>/.test(html))errors.push(`${path}: 主导航缺少 Skill 热榜入口`);
   if(!/href="\/ai-stocks\/"[^>]*>AI 炒股<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 炒股入口`);
   if(!/href="\/weekly\/"[^>]*>AI 周报<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 周报入口`);
+  if(!/href="\/topics\/"[^>]*>主题追踪<\/a>/.test(html))errors.push(`${path}: 主导航缺少主题追踪入口`);
   if(path.endsWith("/weekly/index.html")&&(!/本周变化雷达/.test(html)||!/连续上榜/.test(html)||!/最新快照首次出现/.test(html)||!/排名升温/.test(html)))errors.push(`${path}: 周变化模块不完整`);
+  if(path.endsWith("/topics/index.html")&&(!/跨榜追踪/.test(html)||!/至少匹配 3 条内容并覆盖 2 个栏目/.test(html)||!/data-track="topic-item"/.test(html)))errors.push(`${path}: 主题追踪模块不完整`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
 for(const required of [
@@ -39,6 +41,7 @@ for(const required of [
   "skills/index.html",
   "ai-stocks/index.html",
   "weekly/index.html",
+  "topics/index.html",
   "saved/index.html",
   "compare/index.html",
   "sitemap/index.html",
@@ -84,10 +87,12 @@ for(const required of [
   "data/opportunities.json",
   "data/ai-stocks.json",
   "data/weekly.json",
+  "data/topics.json",
   "ai-money.xml",
   "skills.xml",
   "ai-stocks.xml",
   "weekly.xml",
+  "topics.xml",
   "models-changes.xml",
   "relays-changes.xml"
 ])if(!files.some(x=>x.endsWith(required)))errors.push(`缺少 ${required}`);
