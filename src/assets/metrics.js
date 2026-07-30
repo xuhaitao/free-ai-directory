@@ -53,7 +53,7 @@ document.addEventListener('click',event=>{
   send(link.dataset.track||'external');
 });
 
-const funnelEvents=new Set(['site-search','directory-filter','finder-start','finder-result','finder-open']);
+const funnelEvents=new Set(['site-search','directory-filter','finder-start','finder-result','finder-open','save-item','saved-open','model-compare-add','model-compare-open']);
 document.addEventListener('site-metric',event=>{
   const type=String(event.detail?.type||'');
   if(funnelEvents.has(type))send(type);

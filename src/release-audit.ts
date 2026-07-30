@@ -16,7 +16,8 @@ for(const path of htmlFiles){
   for(const [p,label] of forbidden)if(p.test(html))errors.push(`${path}: ${label}`);
   for(const m of html.matchAll(/href="(\/[^"#]*)"/g))if(!internalExists(m[1]!))errors.push(`${path}: 站内链接不存在 ${m[1]}`);
   if(!/<link rel="canonical" href="https:\/\//.test(html))errors.push(`${path}: 缺少 HTTPS canonical`);
-  if(!/<meta name="robots" content="index,follow/.test(html))errors.push(`${path}: 缺少 robots 索引声明`);
+  const expectedRobots=path.endsWith("/saved/index.html")?"noindex,follow":"index,follow";
+  if(!new RegExp(`<meta name="robots" content="${expectedRobots}`).test(html))errors.push(`${path}: robots 声明错误`);
   if(!/<meta property="og:image" content="https:\/\//.test(html))errors.push(`${path}: 缺少社交分享图片`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);
@@ -29,6 +30,8 @@ for(const required of [
   "changes/index.html",
   "search/index.html",
   "find-model/index.html",
+  "saved/index.html",
+  "compare/index.html",
   "sitemap/index.html",
   "methodology/index.html",
   "questions/index.html",
@@ -51,6 +54,9 @@ for(const required of [
   "providers/cloudflare/index.html",
   "assets/metrics.js",
   "assets/share.js",
+  "assets/saved.js",
+  "assets/compare.js",
+  "assets/interactions.css",
   "assets/search.js",
   "assets/model-finder.js",
   "assets/responsive.css",
