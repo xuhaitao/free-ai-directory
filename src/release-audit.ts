@@ -20,7 +20,7 @@ for(const path of htmlFiles){
   const expectedRobots=path.endsWith("/saved/index.html")||path.endsWith("/following/index.html")?"noindex,follow":"index,follow";
   if(!new RegExp(`<meta name="robots" content="${expectedRobots}`).test(html))errors.push(`${path}: robots 声明错误`);
   if(!/<meta property="og:image" content="https:\/\//.test(html))errors.push(`${path}: 缺少社交分享图片`);
-  if(!/href="\/ai-money\/"[^>]*>AI 创收<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 创收入口`);
+  if(!/href="\/ai-money\/"[^>]*>AI 赚钱<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 赚钱入口`);
   if(!/href="\/skills\/"[^>]*>Skill 热榜<\/a>/.test(html))errors.push(`${path}: 主导航缺少 Skill 热榜入口`);
   if(!/href="\/ai-stocks\/"[^>]*>AI 炒股<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 炒股入口`);
   if(!/href="\/weekly\/"[^>]*>AI 周报<\/a>/.test(html))errors.push(`${path}: 主导航缺少 AI 周报入口`);
