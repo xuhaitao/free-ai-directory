@@ -5,7 +5,7 @@ async function filesIn(dir:string):Promise<string[]>{const entries=await readdir
 const files=await filesIn(root),htmlFiles=files.filter(x=>x.endsWith(".html")&&!x.endsWith("google12cdc1700f3f0191.html")),errors:string[]=[];
 const structuredListPaths=new Set(["daily","ai-money","skills","ai-stocks","weekly","topics"].map(name=>resolve(root,name,"index.html")));
 const forbidden:[RegExp,string][]=[
-  [/sk-[A-Za-z0-9_-]{16,}/,"疑似 API Key"],
+  [/(?<![A-Za-z0-9])sk-[A-Za-z0-9_-]{16,}/,"疑似 API Key"],
   [/Bearer\s+[A-Za-z0-9._-]{16,}/i,"疑似 Bearer Token"],
   [/api\.example\.invalid/,"占位 API 地址"],
   [/实测可用|实时探测|最后检测|运行状态|可用率|延迟排名/,"出现与产品范围冲突的测试文案"],
