@@ -10,13 +10,15 @@
 
 常用入口：
 
+- [浏览 57 个免费模型与 14 种能力](https://www.qaz5678.xyz/models/?utm_source=github&utm_medium=readme&utm_campaign=topic_test_2026q3&utm_content=free_models)
+- [查看每日约 50 条 AI 工具创收线索](https://www.qaz5678.xyz/ai-money/?utm_source=github&utm_medium=readme&utm_campaign=topic_test_2026q3&utm_content=ai_money)
+- [查看 AI 炒股工具、项目与每日新闻](https://www.qaz5678.xyz/ai-stocks/?utm_source=github&utm_medium=readme&utm_campaign=topic_test_2026q3&utm_content=ai_stocks)
+- [查看 Agent Skill 多源融合 Top 50](https://www.qaz5678.xyz/skills/?utm_source=github&utm_medium=readme&utm_campaign=topic_test_2026q3&utm_content=skills)
 - [回答 5 个问题，筛选免费 AI 模型](https://www.qaz5678.xyz/find-model/?utm_source=github&utm_medium=readme&utm_campaign=model_finder)
-- [浏览 57 个免费模型与 14 种能力](https://www.qaz5678.xyz/models/?utm_source=github&utm_medium=readme&utm_campaign=free_models)
 - [查看每日 AI 新闻、项目和趋势模型 Top 10](https://www.qaz5678.xyz/daily/?utm_source=github&utm_medium=readme&utm_campaign=daily_ai)
 - [查看一周 AI 情报汇总](https://www.qaz5678.xyz/weekly/?utm_source=github&utm_medium=readme&utm_campaign=weekly_ai)
 - [查看跨榜 AI 主题追踪](https://www.qaz5678.xyz/topics/?utm_source=github&utm_medium=readme&utm_campaign=ai_topics)
 - [查看当前浏览器关注的主题](https://www.qaz5678.xyz/following/?utm_source=github&utm_medium=readme&utm_campaign=topic_following)
-- [查看 AI 炒股工具、项目与每日新闻](https://www.qaz5678.xyz/ai-stocks/?utm_source=github&utm_medium=readme&utm_campaign=ai_stocks)
 - [核对 Codex / Claude Code 中转站协议与风险](https://www.qaz5678.xyz/guides/codex-claude-code-relay/?utm_source=github&utm_medium=readme&utm_campaign=relay_guide)
 - [查看免费图像分割 API 与模型](https://www.qaz5678.xyz/guides/free-image-segmentation-api/?utm_source=github&utm_medium=readme&utm_campaign=segmentation_api)
 

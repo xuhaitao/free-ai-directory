@@ -45,6 +45,9 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     funnel_names["topic-follow"]=1; funnel_names["topic-unfollow"]=1; funnel_names["rss-topic"]=1; funnel_names["following-open"]=1; funnel_names["following-browse"]=1; funnel_names["following-topic-open"]=1;
     funnel_names["brief-copy"]=1; funnel_names["home-brief-news"]=1; funnel_names["home-brief-project"]=1; funnel_names["home-brief-model"]=1; funnel_names["home-brief-money"]=1; funnel_names["home-brief-skill"]=1; funnel_names["home-brief-stocks"]=1;
     funnel_names["home-retention-daily"]=1; funnel_names["home-retention-weekly"]=1; funnel_names["home-retention-following"]=1;
+    funnel_names["home-focus-money"]=1; funnel_names["home-focus-stocks"]=1;
+    funnel_names["topic-view-models"]=1; funnel_names["topic-view-money"]=1; funnel_names["topic-view-stocks"]=1; funnel_names["topic-view-skills"]=1;
+    funnel_names["topic-open-models"]=1; funnel_names["topic-open-money"]=1; funnel_names["topic-open-stocks"]=1; funnel_names["topic-open-skills"]=1;
     funnel_names["search-result"]=1; funnel_names["model"]=1; funnel_names["model-source"]=1; funnel_names["relay"]=1;
     funnel_names["rss"]=1; funnel_names["rss-models"]=1; funnel_names["rss-relays"]=1; funnel_names["share"]=1;
   }
@@ -52,18 +55,23 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     split($0,q,"\""); ua=q[6]; request=q[2];
     ua_lower=tolower(ua);
     if(ua_lower ~ /(bot|spider|crawler|headless|curl|wget|python|go-http|httpclient|preview|lighthouse)/) next;
-    type=""; path=""; ref=""; reason="";
+    type=""; path=""; ref=""; reason=""; campaign=""; content="";
     n=split(request,r," "); split(r[2],url,"?"); split(url[2],pairs,"&");
-    for(i in pairs){split(pairs[i],kv,"="); if(kv[1]=="type")type=kv[2]; if(kv[1]=="path")path=kv[2]; if(kv[1]=="ref")ref=kv[2]; if(kv[1]=="reason")reason=kv[2]}
+    for(i in pairs){split(pairs[i],kv,"="); if(kv[1]=="type")type=kv[2]; if(kv[1]=="path")path=kv[2]; if(kv[1]=="ref")ref=kv[2]; if(kv[1]=="reason")reason=kv[2]; if(kv[1]=="campaign")campaign=kv[2]; if(kv[1]=="content")content=kv[2]}
     events++;
     identity=$1 "|" ua;
     if(type in funnel_names){funnel_events[type]++; funnel_people[type SUBSEP identity]=1;}
+    if(type ~ /^topic-(view|open)-(models|money|stocks|skills)$/)topic_people[type SUBSEP identity]=1;
     if(type=="pageview"){
       pageviews++; visitors[identity]=1; paths[path]++; sources[ref]++;
+      if(campaign!="")campaign_pageviews[campaign "|" (content==""?"unspecified":content)]++;
     } else if(type=="engaged") {
       engaged_events++;
       if(reason=="dwell-15s") dwell_visitors[identity]=1;
-      else engaged_visitors[identity]=1;
+      else {
+        engaged_visitors[identity]=1;
+        if(campaign!="")campaign_people[campaign "|" (content==""?"unspecified":content) SUBSEP identity]=1;
+      }
     } else if(type=="share") shares++;
     else if(type!="deploy-check") outbound[type]++;
   }
@@ -77,6 +85,8 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
       if(has_interaction) verified_users++;
     }
     for(key in funnel_people){split(key,parts,SUBSEP); funnel_visitors[parts[1]]++;}
+    for(key in topic_people){split(key,parts,SUBSEP); if(parts[2] in engaged_visitors)topic_engaged_visitors[parts[1]]++;}
+    for(key in campaign_people){split(key,parts,SUBSEP); campaign_visitors[parts[1]]++;}
     print "date",substr(day,2,length(day)-2);
     print "verified_visitors",verified_users+0;
     print "engaged_visitors",interactive_users+0;
@@ -92,12 +102,21 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     print "funnel_visitors";
     for(f in funnel_visitors) print funnel_visitors[f],f | "sort -nr";
     close("sort -nr");
+    print "topic_engaged_visitors";
+    for(t in topic_engaged_visitors) print topic_engaged_visitors[t],t | "sort -nr";
+    close("sort -nr");
     print "top_paths";
     for(p in paths) print paths[p],p | "sort -nr | head -10";
     close("sort -nr | head -10");
     print "sources";
     for(s in sources) print sources[s],s | "sort -nr | head -10";
     close("sort -nr | head -10");
+    print "campaign_pageviews";
+    for(c in campaign_pageviews) print campaign_pageviews[c],c | "sort -nr | head -20";
+    close("sort -nr | head -20");
+    print "campaign_engaged_visitors";
+    for(c in campaign_visitors) print campaign_visitors[c],c | "sort -nr | head -20";
+    close("sort -nr | head -20");
     print "outbound_clicks";
     for(o in outbound) print outbound[o],o | "sort -nr | head -10";
     close("sort -nr | head -10");
