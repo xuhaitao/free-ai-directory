@@ -29,6 +29,9 @@ for(const path of htmlFiles){
   if(path.endsWith("/topics/index.html")&&(!/跨榜追踪/.test(html)||!/至少匹配 3 条内容并覆盖 2 个栏目/.test(html)||!/data-track="topic-item"/.test(html)||!/data-topic-follow=/.test(html)||!/data-track="rss-topic"/.test(html)))errors.push(`${path}: 主题追踪模块不完整`);
   if(path===resolve(root,"index.html")&&(!/今天 6 条 AI 情报简报/.test(html)||!/<a href="\/news\/" data-track="home-brief-news">/.test(html)||!/<a href="\/ai-money\/" data-track="home-brief-money">/.test(html)||!/<button[^>]+data-copy-brief/.test(html)||!/data-track="home-retention-weekly"/.test(html)))errors.push(`${path}: 首页运营简报不完整`);
   if(path===resolve(root,"index.html")&&["models","money","stocks","skills"].some(topic=>!new RegExp(`data-track="topic-open-${topic}" data-experiment-topic="${topic}"`).test(html)))errors.push(`${path}: 首页四主题实验入口不完整`);
+  const top3Checks:Record<string,string>={"models/index.html":"free_models","ai-money/index.html":"ai_money","ai-stocks/index.html":"ai_stocks","skills/index.html":"skills"};
+  const top3Content=top3Checks[Object.keys(top3Checks).find(key=>path===resolve(root,key))||""];
+  if(top3Content&&(!/<button[^>]+data-copy-top3/.test(html)||!/<button[^>]+data-share-top3/.test(html)||!new RegExp(`utm_campaign=topic_test_2026q3(&|&amp;)utm_content=${top3Content}`).test(html)||!/非投资建议|不承诺|不构成收入承诺|来源页实时状态|审查 SKILL/.test(html)))errors.push(`${path}: 复制今日 Top 3 分享模块不完整`);
   if(structuredListPaths.has(path)&&(!/"@type":"CollectionPage"/.test(html)||!/"@type":"ItemList"/.test(html)||!/"dateModified":"/.test(html)||!/"numberOfItems":/.test(html)))errors.push(`${path}: 核心榜单结构化数据不完整`);
 }
 if(htmlFiles.length<60)errors.push(`HTML 页面数量异常：${htmlFiles.length}`);

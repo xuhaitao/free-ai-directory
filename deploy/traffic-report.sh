@@ -43,7 +43,10 @@ read_logs | awk -v day="[$DAY:" -v excluded="$EXCLUDE_IPS" '
     funnel_names["nav-weekly"]=1; funnel_names["home-weekly"]=1; funnel_names["weekly-item"]=1; funnel_names["weekly-change"]=1; funnel_names["rss-weekly"]=1; funnel_names["archive-weekly-current"]=1;
     funnel_names["nav-topics"]=1; funnel_names["home-topics"]=1; funnel_names["weekly-topics"]=1; funnel_names["weekly-topic"]=1; funnel_names["topic-item"]=1; funnel_names["rss-topics"]=1;
     funnel_names["topic-follow"]=1; funnel_names["topic-unfollow"]=1; funnel_names["rss-topic"]=1; funnel_names["following-open"]=1; funnel_names["following-browse"]=1; funnel_names["following-topic-open"]=1;
-    funnel_names["brief-copy"]=1; funnel_names["home-brief-news"]=1; funnel_names["home-brief-project"]=1; funnel_names["home-brief-model"]=1; funnel_names["home-brief-money"]=1; funnel_names["home-brief-skill"]=1; funnel_names["home-brief-stocks"]=1;
+    funnel_names["brief-copy"]=1;
+    funnel_names["top3-copy-models"]=1; funnel_names["top3-copy-money"]=1; funnel_names["top3-copy-stocks"]=1; funnel_names["top3-copy-skills"]=1;
+    funnel_names["top3-share-models"]=1; funnel_names["top3-share-money"]=1; funnel_names["top3-share-stocks"]=1; funnel_names["top3-share-skills"]=1;
+    funnel_names["top3-open-models"]=1; funnel_names["top3-open-money"]=1; funnel_names["top3-open-stocks"]=1; funnel_names["top3-open-skills"]=1; funnel_names["home-brief-news"]=1; funnel_names["home-brief-project"]=1; funnel_names["home-brief-model"]=1; funnel_names["home-brief-money"]=1; funnel_names["home-brief-skill"]=1; funnel_names["home-brief-stocks"]=1;
     funnel_names["home-retention-daily"]=1; funnel_names["home-retention-weekly"]=1; funnel_names["home-retention-following"]=1;
     funnel_names["home-focus-money"]=1; funnel_names["home-focus-stocks"]=1;
     funnel_names["topic-view-models"]=1; funnel_names["topic-view-money"]=1; funnel_names["topic-view-stocks"]=1; funnel_names["topic-view-skills"]=1;
