@@ -310,6 +310,22 @@ const commonQuestions=[
 const commonQuestionsSchema={"@context":"https://schema.org","@type":"FAQPage",mainEntity:commonQuestions.map(x=>({"@type":"Question",name:x.q,acceptedAnswer:{"@type":"Answer",text:x.a}}))};
 const questionsPage=layout("免费 AI API、Codex、Claude Code 与中转站常见问题","回答免费 AI API、Codex、Claude Code、中转站、图像视频模型、Embedding 与 Rerank 的常见问题。","/questions/",`<section class="page-head prose-head"><span class="kicker">FREE AI FAQ</span><h1>免费 AI 与中转站<br>先把这些问题说清楚</h1><p>不把“免费试用”“长期免费”“开放权重”和“第三方中转”混为一谈。每个答案都给出下一步可核对的页面。</p></section><article class="prose model-prose"><h2>10 个常见问题</h2>${commonQuestions.map(x=>`<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p><p><a href="${x.href}">${esc(x.label)} →</a></p></details>`).join("")}</article>${shareBar("有人也在问这些问题？把这页发给他")}${jsonLd(commonQuestionsSchema)}`);
 
+const categoryGuides:Record<string,[string,string][]>={
+  text_generation:[["免费 AI API 选择指南","/guides/free-ai-api/"],["免费 LLM API 平台对比","/guides/free-llm-api-providers/"],["不充值免费 AI API","/guides/free-ai-api-no-topup/"]],
+  code_generation:[["Codex 免费使用入口与限制","/guides/codex-free/"],["Claude Code 免费使用方案","/guides/claude-code-free/"],["免费 AI API 选择指南","/guides/free-ai-api/"]],
+  multimodal:[["免费 AI API 选择指南","/guides/free-ai-api/"],["免费 LLM API 平台对比","/guides/free-llm-api-providers/"]],
+  image_generation:[["免费图像生成 API 指南","/guides/free-image-generation-api/"],["图像、视频与分割模型指南","/guides/free-image-video-models/"]],
+  video_generation:[["图像、视频与分割模型指南","/guides/free-image-video-models/"],["免费图像生成 API 指南","/guides/free-image-generation-api/"]],
+  embedding:[["免费 Embedding API 对比","/guides/free-embedding-api/"],["免费 Embedding 与 Rerank 选型","/guides/free-embedding-rerank/"]],
+  rerank:[["免费 Rerank API 指南","/guides/free-rerank-api/"],["免费 Embedding 与 Rerank 选型","/guides/free-embedding-rerank/"]],
+  semantic_segmentation:[["免费图像分割 API 与模型","/guides/free-image-segmentation-api/"],["图像、视频与分割模型指南","/guides/free-image-video-models/"]],
+  object_detection:[["图像、视频与分割模型指南","/guides/free-image-video-models/"],["免费 AI API 选择指南","/guides/free-ai-api/"]],
+  image_classification:[["图像、视频与分割模型指南","/guides/free-image-video-models/"],["免费 AI API 选择指南","/guides/free-ai-api/"]],
+  speech_to_text:[["免费 AI API 选择指南","/guides/free-ai-api/"],["免费 LLM API 平台对比","/guides/free-llm-api-providers/"]],
+  text_to_speech:[["免费 AI API 选择指南","/guides/free-ai-api/"],["免费 LLM API 平台对比","/guides/free-llm-api-providers/"]],
+  audio_classification:[["免费 AI API 选择指南","/guides/free-ai-api/"]],
+  translation:[["免费 AI API 选择指南","/guides/free-ai-api/"],["免费 LLM API 平台对比","/guides/free-llm-api-providers/"]]
+};
 function modelDetailPage(model:ModelEntry){
   const provider=providerOf(model);
   const category=categoryLabels[model.category];
@@ -317,14 +333,109 @@ function modelDetailPage(model:ModelEntry){
   const related=sortModels(models.filter(x=>x.category===model.category&&x.id!==model.id)).slice(0,3);
   const faq=[
     {q:`${model.name} 是永久免费的吗？`,a:`本站记录的免费方式是“${freeLabel[model.freeType]}”。${model.freeSummary}。规则可能调整，调用前应在来源页再次确认。`},
+    {q:`${model.name} 的免费额度有多少？`,a:`本站只转述公开规则：“${model.freeSummary}”。具体数值、重置周期与速率限制以 ${provider.name} 官方页面实时说明为准，本站不代替官方文档。`},
     {q:`${model.name} 可以直接在线调用吗？`,a:model.freeType==="open_source"?"开放权重代表可以下载或本地运行，不保证当前存在免费托管 API。":"是否可在线调用、需要何种账户以及地区限制，以平台控制台和模型页实时状态为准。"},
+    {q:`${model.name} 适合哪些任务？`,a:`该入口归为“${category}”，相关标签：${model.tags.join("、")}。如果你的任务属于这一能力范围，可以把它加入候选，再到来源页核对语言、许可证与质量是否匹配；需要横向比较时可以使用本站模型对比。`},
     {q:"本站会接收 API Key 吗？",a:"不会。本站只提供公开入口与规则来源，不代理请求，也不接收或保存用户 Key。"}
   ];
+  const usageSteps=model.freeType==="open_source"?["打开上方“模型 / 试用页”，核对权重格式、协议与许可证。","确认本地显存与算力是否满足推理要求，或查看是否有官方托管入口。","按官方仓库说明下载与部署；本站不提供安装包、镜像或代部署。","商用或上线前再次核对许可证条款。"]:[`打开 ${provider.name} 模型页或控制台，按页面提示创建账户。`,`在平台模型列表中确认模型 ID ${model.modelId} 可用。`,"按官方文档发起调用；鉴权方式、SDK 与地区限制以平台文档为准。","在定价或额度页核对免费边界，超出免费部分可能计费。"];
+  const guides=categoryGuides[model.category]||[];
   const faqSchema={"@context":"https://schema.org","@type":"FAQPage",mainEntity:faq.map(x=>({"@type":"Question",name:x.q,acceptedAnswer:{"@type":"Answer",text:x.a}}))};
   const appSchema={"@context":"https://schema.org","@type":"SoftwareApplication",name:model.name,applicationCategory:category,url:`${base}${modelPath(model)}`,description:model.freeSummary,provider:{"@type":"Organization",name:provider.name,url:provider.websiteUrl}};
-  return layout(`${model.name} 免费使用入口与规则`,`${model.name}（${model.modelId}）的免费方式、平台、模型入口和规则来源。`,modelPath(model),`<nav class="breadcrumbs" aria-label="面包屑"><a href="/models/">免费模型</a><span>›</span><a href="${categoryPath}">${category}</a><span>›</span><b>${esc(model.name)}</b></nav><section class="page-head model-detail-head"><span class="kicker">${esc(category)} · ${esc(provider.name)}</span><h1>${esc(model.name)}</h1><code>${esc(model.modelId)}</code><p>${esc(model.freeSummary)}</p><div class="actions">${ext(model.modelUrl,"打开模型 / 试用页","button primary","model")}${ext(model.sourceUrl,"核对免费规则","button","model-source")}${saveButton(`model:${model.id}`,model.name,modelPath(model),`${category} · ${provider.name}`)}${compareButton(model)}</div><small>资料审阅：${model.lastReviewedAt}</small></section><article class="prose model-prose"><h2>免费方式</h2><p><b>${freeLabel[model.freeType]}：</b>${esc(model.freeSummary)}</p>${model.notes?`<p class="note">${esc(model.notes)}</p>`:""}<h2>适合查找什么</h2><p>这个入口归入“${category}”，相关标签包括 ${model.tags.map(esc).join("、")}。本站不做模型性能测试；如果用于生产环境，还需要自行核对质量、许可证、地区和速率限制。</p><h2>使用前检查</h2><ul><li>在来源页确认免费额度仍然有效。</li><li>确认是否需要账户、绑卡或接受数据使用条款。</li><li>区分在线 API 与本地开放权重，估算真实算力成本。</li><li>不要把第三方中转 Key 与官方平台 Key 混用。</li></ul><h2>常见问题</h2>${faq.map(x=>`<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("")}</article>${related.length?`<section class="guide-results"><div class="section-title"><span class="kicker">RELATED MODELS</span><h2>同类免费入口</h2></div><div class="cards standalone">${related.map(modelCard).join("")}</div></section>`:""}${shareBar(`正在找 ${model.name}？把规则入口保存下来`)}${jsonLd(appSchema)}${jsonLd(faqSchema)}`);
+  return layout(`${model.name} 免费${category}入口与规则`,`${model.name}（${model.modelId}）在 ${provider.name} 的免费方式、使用步骤、规则来源与同类${category}入口。`,modelPath(model),`<nav class="breadcrumbs" aria-label="面包屑"><a href="/models/">免费模型</a><span>›</span><a href="${categoryPath}">${category}</a><span>›</span><b>${esc(model.name)}</b></nav><section class="page-head model-detail-head"><span class="kicker">${esc(category)} · ${esc(provider.name)}</span><h1>${esc(model.name)}</h1><code>${esc(model.modelId)}</code><p>${esc(model.freeSummary)}</p><div class="actions">${ext(model.modelUrl,"打开模型 / 试用页","button primary","model")}${ext(model.sourceUrl,"核对免费规则","button","model-source")}${saveButton(`model:${model.id}`,model.name,modelPath(model),`${category} · ${provider.name}`)}${compareButton(model)}</div><small>资料审阅：${model.lastReviewedAt}</small></section><article class="prose model-prose"><h2>免费方式</h2><p><b>${freeLabel[model.freeType]}：</b>${esc(model.freeSummary)}</p>${model.notes?`<p class="note">${esc(model.notes)}</p>`:""}<h2>适合查找什么</h2><p>这个入口归入“${category}”，相关标签包括 ${model.tags.map(esc).join("、")}。本站不做模型性能测试；如果用于生产环境，还需要自行核对质量、许可证、地区和速率限制。</p><h2>如何使用</h2><ol>${usageSteps.map(step=>`<li>${esc(step)}</li>`).join("")}</ol><h2>使用前检查</h2><ul><li>在来源页确认免费额度仍然有效。</li><li>确认是否需要账户、绑卡或接受数据使用条款。</li><li>区分在线 API 与本地开放权重，估算真实算力成本。</li><li>不要把第三方中转 Key 与官方平台 Key 混用。</li></ul><h2>常见问题</h2>${faq.map(x=>`<details><summary>${esc(x.q)}</summary><p>${esc(x.a)}</p></details>`).join("")}</article><section class="guide-results"><div class="section-title"><span class="kicker">GUIDES &amp; PLATFORM</span><h2>相关指南与平台</h2></div><div class="category-grid"><a href="${providerPath(provider)}"><b>${esc(provider.name)} 平台全部入口</b><span>打开 →</span></a>${guides.map(([label,url])=>`<a href="${url}"><b>${esc(label)}</b><span>打开 →</span></a>`).join("")}<a href="${categoryPath}"><b>全部免费${category}</b><span>打开 →</span></a></div></section>${related.length?`<section class="guide-results"><div class="section-title"><span class="kicker">RELATED MODELS</span><h2>同类免费入口</h2></div><div class="cards standalone">${related.map(modelCard).join("")}</div></section>`:""}${shareBar(`正在找 ${model.name}？把规则入口保存下来`)}${jsonLd(appSchema)}${jsonLd(faqSchema)}`);
 }
 
+const growthUtm=(source:string)=>`${base}/?utm_source=${source}&utm_medium=post&utm_campaign=daily_share&utm_content=${daily.date}`;
+const growthNews=daily.news.slice(0,3).map((x,i)=>`  ${i+1}. ${x.title}（${x.source} · 热度 ${x.points}）\n     ${x.url}`).join("\n");
+const growthProjects=daily.projects.slice(0,3).map((x,i)=>`  ${i+1}. ${x.name}（${x.language} · Star ${x.stars}）：${x.description}\n     ${x.url}`).join("\n");
+const growthTrending=daily.trendingModels.slice(0,3).map((x,i)=>`  ${i+1}. ${x.name}（${x.pipelineTag} · 下载 ${x.downloads}）\n     ${x.url}`).join("\n");
+const growthMoney=opportunities.moneyNews.slice(0,3).map((x,i)=>`  ${i+1}. ${x.title}（${x.source}）\n     ${x.url}`).join("\n");
+const growthSkills=opportunities.skills.slice(0,3).map((x,i)=>`  ${i+1}. ${x.name}（安装 ${x.installs} · Star ${x.githubStars}）\n     ${x.url}`).join("\n");
+const growthKit=[
+`免费 AI 目录 · 每日分发文案（${daily.date} 构建时自动生成）`,
+"=".repeat(46),
+"说明：以下内容基于当日真实榜单数据生成，复制后可发布到对应平台；",
+"可按个人语气微调，但不要改动事实、数据与链接。",
+"本站原则：所有条目附公开来源；不售卖、不代充、不收 API Key。",
+"",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+"【1】V2EX / 技术社区版",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+"标题：[独立开发] 免费 AI 目录：每日 AI 热点 + 可核验的免费模型入口",
+"",
+"正文：",
+"个人维护的独立小站，每天自动更新，全部条目附官方来源，欢迎拍砖。",
+"",
+`站点：${growthUtm("v2ex")}`,
+"",
+`今天（${daily.date}）榜单节选：`,
+"",
+"▍AI 新闻 Top 3",
+growthNews,
+"",
+"▍热门开源项目 Top 3",
+growthProjects,
+"",
+"▍趋势模型 Top 3",
+growthTrending,
+"",
+"▍免费模型目录",
+`目前收录 ${models.length} 个免费模型入口（文本 / 代码 / 图像 / 视频 / Embedding / Rerank 等），`,
+`每个条目都附官方规则来源与资料审阅日期：${base}/models/`,
+"",
+"原则：不售卖、不代充、不收 Key；免费规则以官方页面为准。",
+"数据与代码公开在 GitHub，纠错走 Issue。",
+"",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+"【2】即刻版",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+`今天 AI 圈在发生什么？帮你划重点（${daily.date}）：`,
+"",
+"▍新闻 Top 3",
+growthNews,
+"",
+"▍热门项目 Top 3",
+growthProjects,
+"",
+"▍趋势模型 Top 3",
+growthTrending,
+"",
+`另有 ${models.length} 个免费 AI 模型入口（全部附官方来源）+ AI 赚钱线索 50 条 + Skill 热榜：`,
+growthUtm("jike"),
+"",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+"【3】小红书版",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+`标题：每天 5 分钟看完全球 AI 热点｜${daily.date}`,
+"",
+"正文：",
+"今天 AI 圈的新鲜事整理好啦",
+"",
+"【新闻 Top 3】",
+growthNews,
+"",
+"【开源项目 Top 3】",
+growthProjects,
+"",
+"【趋势模型 Top 3】",
+growthTrending,
+"",
+`还有一个免费 AI 模型目录，收录 ${models.length} 个可免费使用的模型入口，`,
+"每个都附官方规则来源，不怕被“假免费”坑。",
+"搜：免费 AI 目录（qaz5678.xyz）",
+"",
+"#AI工具 #免费资源 #人工智能 #效率工具",
+"",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+"【4】AI 赚钱线索 Top 3（备用素材）",
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+growthMoney,
+"",
+"【5】Agent Skill Top 3（备用素材）",
+growthSkills,
+"",
+`完整榜单：${base}/ai-money/ ｜ ${base}/skills/`,
+""].join("\n");
 const updates=layout("数据更新记录","每日 AI 榜单、免费模型与中转站目录的更新记录。","/updates/",`<section class="page-head"><span class="kicker">CHANGELOG</span><h1>数据更新记录</h1><p>每日热点自动更新；免费模型与中转站只在来源或规则发生实质变化时修改审阅日期。</p></section><article class="update-entry"><time datetime="${daily.date}">${daily.date}</time><div><h2>每日 AI 热点上线</h2><p>新增每日 10 条 AI 新闻、10 个热门 AI 项目和 10 个趋势模型，包含公开排序口径、每日归档、RSS 与自动发布。</p><p><a href="/daily/">查看今日榜单 →</a> · <a href="/data/daily.json">下载每日 JSON ↗</a> · <a href="/feed.xml">订阅 RSS ↗</a></p></div></article><article class="update-entry"><time datetime="${reviewedAt}">${reviewedAt}</time><div><h2>首个公开版本</h2><p>收录 ${models.length} 个免费模型入口、${Object.keys(categoryLabels).length} 个能力类型和 ${relays.length} 个中转站候选；增加 Codex、Claude Code 专页与中转站风险清单。</p><p><a href="/data/models.json">下载模型 JSON ↗</a> · <a href="/data/relays.json">下载中转站 JSON ↗</a></p></div></article>`);
 
 const aboutPage=layout("关于本站：独立、非商业、可核验","免费 AI 目录是个人维护的独立非商业网站，公开说明数据来源、收录边界和纠错方式。","/about/",`<section class="page-head prose-head"><span class="kicker">ABOUT THIS SITE</span><h1>一个独立维护的<br>免费 AI 信息目录</h1><p>本站由个人独立维护，域名、内容与代码由维护者管理；当前不投放广告、不做付费排名、不收返佣，也不售卖模型或中转额度。</p></section><article class="prose"><h2>为什么做这个站</h2><p>“免费模型”经常把周期额度、一次性赠金、共享路由和开放权重混在一起；中转站宣传也很少同时展示主体、协议、隐私与退款信息。本站把公开来源放在同一套结构中，帮助用户先核对再跳转。</p><h2>本站会做什么</h2><ul><li>每天整理 10 条 AI 新闻、10 个热门项目和 10 个趋势模型，并公开排序口径。</li><li>按能力类型罗列免费模型、平台入口与规则来源，不代替官方文档。</li><li>整理 Codex、Claude Code 与通用 API 中转站的公开证据和风险信息。</li><li>保留公开 JSON、RSS、历史快照和 GitHub 仓库，方便复核与订阅。</li></ul><h2>本站不会做什么</h2><ul><li>不接收、保存或代用 API Key。</li><li>不替用户测试模型，也不把“能访问”包装成性能结论。</li><li>不担保第三方模型上游、中转余额、隐私、合规或长期稳定性。</li><li>不出售收录位置，不因返佣改变排序。</li></ul><h2>纠错与联系</h2><p>发现失效链接、免费规则变化或信息错误，可以在公开 GitHub Issue 中提交证据。维护过程与修改记录也保留在公开仓库。</p><p><a href="https://github.com/xuhaitao/free-ai-directory-cn/issues/1" target="_blank" rel="noopener noreferrer">提交纠错或新条目 ↗</a> · <a href="https://github.com/xuhaitao/free-ai-directory-cn" target="_blank" rel="noopener noreferrer">查看公开代码 ↗</a></p></article>${shareBar("认同透明、可核验的目录？把本站发给需要的人")}`);
@@ -415,7 +526,8 @@ async function build(){
   const directoryUrl=(path:string)=>path==="/models/"||path==="/relays/"||path==="/changes/"||path==="/find-model/"||path.startsWith("/models/")||path.startsWith("/providers/")||path.startsWith("/categories/")||path.startsWith("/use-cases/");
   await writeFile(new URL("sitemap.xml",out),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${dailyUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${x==="/ai-money/"||x==="/skills/"?opportunities.date:x==="/ai-stocks/"?stocks.date:daily.date}</lastmod><changefreq>daily</changefreq></url>`).join("")}${weeklyUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${weekly.periodEnd}</lastmod><changefreq>weekly</changefreq></url>`).join("")}${staticUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${directoryUrl(x)?directoryDate:x==="/sitemap/"||x==="/guides/free-image-video-models/"?"2026-07-29":x==="/guides/free-rerank-api/"?"2026-07-27":x==="/guides/free-image-segmentation-api/"?"2026-07-28":reviewedAt}</lastmod>${directoryUrl(x)?"<changefreq>daily</changefreq>":""}</url>`).join("")}${archiveUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${x.split("/")[2]}</lastmod></url>`).join("")}${opportunityArchiveUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${x.split("/")[2]}</lastmod></url>`).join("")}${stockArchiveUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${x.split("/")[2]}</lastmod></url>`).join("")}${weeklyArchiveUrls.map(x=>`<url><loc>${base}${x}</loc><lastmod>${weeklyHistory.find(item=>x.includes(item.week))?.periodEnd||weekly.periodEnd}</lastmod></url>`).join("")}</urlset>`);
   await writeFile(new URL("video-sitemap.xml",out),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>${base}${codexBuildVideoPath}</loc><video:video><video:thumbnail_loc>${base}/assets/codex-ai-daily-cover.jpg</video:thumbnail_loc><video:title>Codex 实战：从 4 条需求到日更 AI 网站</video:title><video:description>78 秒演示怎样给 Codex 写清目标、上下文、约束和完成标准，并完成测试、部署与自动日更。</video:description><video:content_loc>${base}/assets/codex-ai-daily.mp4</video:content_loc><video:duration>79</video:duration><video:publication_date>2026-07-26T14:10:00+08:00</video:publication_date><video:family_friendly>yes</video:family_friendly><video:live>no</video:live></video:video></url></urlset>`);
-  await writeFile(new URL("robots.txt",out),`User-agent: *\nAllow: /\nSitemap: ${base}/sitemap.xml\nSitemap: ${base}/video-sitemap.xml\n`);
+  await writeFile(new URL("robots.txt",out),`User-agent: *\nAllow: /\nDisallow: /growth-kit.txt\nSitemap: ${base}/sitemap.xml\nSitemap: ${base}/video-sitemap.xml\n`);
+  await writeFile(new URL("growth-kit.txt",out),growthKit);
   await writeFile(new URL(googleVerificationFile,out),`google-site-verification: ${googleVerificationFile}`);
   await mkdir(new URL("data/",out));
   const linkSummary=(kind:"model"|"relay")=>{const checks=directory.checks.filter(item=>item.kind===kind),count=(state:(typeof checks)[number]["state"])=>checks.filter(item=>item.state===state).length;return {responded:count("reachable")+count("restricted"),reachable:count("reachable"),restricted:count("restricted"),notFound:count("not_found"),networkLimited:count("network_limited"),temporaryError:count("temporary_error"),total:checks.length,checkedAt:directory.generatedAt};};
