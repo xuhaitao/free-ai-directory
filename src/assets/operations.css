@@ -11,3 +11,16 @@
 .top3-preview li{color:#243b32;overflow-wrap:anywhere}
 .top3-note{margin:0;color:#476359;font-size:.9rem}
 @media(max-width:800px){.top3-share-head{flex-direction:column}.top3-actions{width:100%;display:grid;grid-template-columns:1fr 1fr}.top3-actions .button{width:100%}}
+.top3-share--money{border-color:#f2b69f;background:var(--coral-soft)}
+.top3-share--stocks{border-color:#cfc2ff;background:var(--violet-soft)}
+.top3-share--skills{border-color:#e4d5a4;background:#fff9e8}
+.top3-share--money .kicker{color:#a53e18}
+.top3-share--stocks .kicker{color:#5637b7}
+.top3-share--skills .kicker{color:#805c06}
+.top3-preview{counter-reset:top3;list-style:none;padding-left:0}
+.top3-preview li{position:relative;padding-left:36px}
+.top3-preview li::before{counter-increment:top3;content:counter(top3);position:absolute;left:0;top:0;width:23px;height:23px;border-radius:8px;background:#fff;border:1px solid rgba(16,32,25,.12);font:800 .72rem/22px ui-monospace,monospace;text-align:center;color:var(--green-dark)}
+.top3-share--money .top3-preview li::before{color:#a53e18}
+.top3-share--stocks .top3-preview li::before{color:#5637b7}
+.top3-share--skills .top3-preview li::before{color:#805c06}
+.top3-note a{color:var(--green-dark);font-weight:750;overflow-wrap:anywhere}

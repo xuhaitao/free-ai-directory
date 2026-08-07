@@ -156,7 +156,7 @@ main { width: min(1180px, calc(100% - 40px)); }
 .site-footer { padding: 48px 0 30px; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.7fr); gap: 46px; }
 .footer-intro p { max-width: 310px; margin: 14px 0 0; }
 .footer-links { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px !important; }
-.footer-links > div { display: grid; align-content: start; gap: 8px; }
+.site-footer .footer-links > div { display: grid; align-content: start; gap: 8px; }
 .footer-links b { color: var(--ink); margin-bottom: 4px; }
 .footer-links a { width: fit-content; min-height: 28px; }
 .disclaimer { margin: 0; }
@@ -235,3 +235,16 @@ main { width: min(1180px, calc(100% - 40px)); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* 设计打磨：入口卡片、信息条带与卡片 hover 一致性 */
+.home-focus-card { min-height: 248px; }
+.home-focus-card > div b { transition: transform .18s ease; }
+.home-focus-card:hover > div b { transform: translateX(4px); }
+.method-strip { grid-template-columns: max-content minmax(0, 1fr) auto; gap: 12px 20px; }
+.comparison > div { transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+.comparison > div:hover { border-color: #96bba9; box-shadow: var(--shadow-sm); transform: translateY(-2px); }
+.footer-links a:hover { color: var(--green-dark); }
+.live-dot { animation: live-pulse 2.4s ease-in-out infinite; }
+@keyframes live-pulse { 0%, 100% { box-shadow: 0 0 0 3px rgba(23,168,111,.14); } 50% { box-shadow: 0 0 0 6px rgba(23,168,111,.05); } }
+@media (max-width: 900px) { .method-strip { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } .home-focus-card:hover > div b { transform: none; } }
