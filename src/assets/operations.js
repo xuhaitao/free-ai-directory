@@ -66,3 +66,19 @@ document.querySelectorAll("[data-share-top3]").forEach(button=>button.addEventLi
     if(error?.name!=="AbortError")button.textContent="请手动复制页面链接";
   }
 }));
+
+// UTM 来源页：将 Top 3 分享模块移到页头下方，让分享链接进来的用户首先看到精选内容
+const pageHead=document.querySelector(".page-head");
+const top3=document.querySelector(".top3-share");
+if(pageHead&&top3){
+  let hasUtm=false;
+  try{
+    const query=new URLSearchParams(location.search);
+    if(query.get("utm_content"))hasUtm=true;
+    else{const attr=JSON.parse(sessionStorage.getItem("traffic-attribution-v1")||"{}");if(attr.content)hasUtm=true;}
+  }catch{}
+  if(hasUtm){
+    pageHead.insertAdjacentElement("afterend",top3);
+    top3.classList.add("top3-share--pinned");
+  }
+}

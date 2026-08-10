@@ -24,7 +24,10 @@
     "dev:worker": "npm run build && wrangler dev",
     "release:audit": "node src/release-audit.ts",
     "indexnow": "node src/submit-indexnow.ts",
-    "release:verify": "npm test && npm run check && npm run daily:verify && npm run opportunities:verify && npm run stocks:verify && npm run weekly:verify && npm run directory:verify && npm run build && npm run release:audit && npm run deploy:dry-run"
+    "release:verify": "npm test && npm run check && npm run daily:verify && npm run opportunities:verify && npm run stocks:verify && npm run weekly:verify && npm run directory:verify && npm run build && npm run release:audit && npm run deploy:dry-run",
+    "weekly-money-report": "npx tsx scripts/weekly-money-report.ts",
+    "weekly-skill-report": "npx tsx scripts/weekly-skill-report.ts",
+    "weekly-stock-report": "npx tsx scripts/weekly-stock-report.ts"
   },
   "engines": {
     "node": ">=22.18"
