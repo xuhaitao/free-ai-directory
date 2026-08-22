@@ -1,4 +1,41 @@
 {
-  "descriptions": {},
+  "descriptions": {
+    "tauricresearch/tradingagents": {
+      "zhDescription": "多 Agent 协作的智能交易决策系统，模拟分析师团队进行投资研判"
+    },
+    "microsoft/qlib": {
+      "zhDescription": "微软开源 AI 量化投资研究框架，提供从数据到策略的完整工具链"
+    },
+    "hkuds/vibe-trading": {
+      "zhDescription": "自然语言驱动的可视化交易工作台，用对话方式构建与执行交易策略"
+    },
+    "hsliuping/tradingagents-cn": {
+      "zhDescription": "TradingAgents 中文本地化版本，适配国内市场的多 Agent 交易系统"
+    },
+    "ai4finance-foundation/fingpt": {
+      "zhDescription": "金融领域大语言模型开源框架，支持金融文本理解与决策辅助"
+    },
+    "ai4finance-foundation/finrl": {
+      "zhDescription": "深度强化学习驱动的量化交易框架，从策略训练到回测一站式完成"
+    },
+    "ai4finance-foundation/finrobot": {
+      "zhDescription": "多 Agent 金融分析与交易机器人，协同完成研报解读与策略执行"
+    },
+    "traderalice/openalice": {
+      "zhDescription": "开源 AI 交易助手与策略执行平台，支持自定义策略与自动化下单"
+    },
+    "valuecell-ai/valuecell": {
+      "zhDescription": "AI 驱动的资产基本面研究工具，自动分析财务数据与行业信息"
+    },
+    "chen-zexi/langalpha": {
+      "zhDescription": "基于 LangChain 的金融研究 Agent，链式调用工具完成投资分析"
+    },
+    "tradinggoose/tradinggoose.github.io": {
+      "zhDescription": "多 Agent 自主交易决策系统，由多个专业角色协作完成市场研判"
+    },
+    "gsaini/financial-research-analyst-agent": {
+      "zhDescription": "AI 金融研究分析 Agent，自动化财务分析与投资建议生成"
+    }
+  },
   "_note": "运营手动维护。key 为项目 id，value 为中文功能描述。每个项目一句话说明。"
 }

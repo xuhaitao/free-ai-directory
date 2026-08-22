@@ -1,6 +1,6 @@
 import type { ModelCategory, ModelEntry, Provider, Relay } from "./types.ts";
 
-export const reviewedAt = "2026-07-26";
+export const reviewedAt = "2026-08-22";
 
 export const categoryLabels: Record<ModelCategory, string> = {
   text_generation: "文本生成", code_generation: "代码生成", multimodal: "多模态理解",

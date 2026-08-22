@@ -1,4 +1,155 @@
 {
-  "descriptions": {},
+  "descriptions": {
+    "mattpocock/skills/grill-me": {
+      "zhDescription": "模拟代码审查面试，通过提问检验你对代码的理解深度"
+    },
+    "mattpocock/skills/grill-with-docs": {
+      "zhDescription": "结合项目文档对代码进行审查式提问与知识验证"
+    },
+    "mattpocock/skills/grilling": {
+      "zhDescription": "对代码提出尖锐问题，帮助发现潜在的逻辑缺陷与设计盲区"
+    },
+    "vercel-labs/skills/find-skills": {
+      "zhDescription": "根据当前项目上下文自动发现并推荐适用的 Agent Skill"
+    },
+    "mattpocock/skills/improve-codebase-architecture": {
+      "zhDescription": "分析代码库结构并提出架构改进建议，优化模块划分与依赖关系"
+    },
+    "mattpocock/skills/tdd": {
+      "zhDescription": "引导测试驱动开发流程，先写测试再实现代码的渐进式工作流"
+    },
+    "heygen-com/hyperframes/hyperframes-cli": {
+      "zhDescription": "HeyGen 视频生成命令行工具，通过终端脚本批量创建 AI 视频"
+    },
+    "anthropics/skills/frontend-design": {
+      "zhDescription": "Anthropic 官方前端设计技能，生成高质量的 Web 界面代码"
+    },
+    "heygen-com/hyperframes/media-use": {
+      "zhDescription": "将本地图片与视频素材接入 HeyGen 渲染管线生成成品视频"
+    },
+    "heygen-com/hyperframes/hyperframes-core": {
+      "zhDescription": "HeyGen Hyperframes 核心渲染引擎，处理视频场景编排与输出"
+    },
+    "heygen-com/hyperframes/hyperframes": {
+      "zhDescription": "HeyGen AI 视频批量生成框架，支持模板化大规模视频制作"
+    },
+    "101-skills/skills/ai-video-generation": {
+      "zhDescription": "调用 AI 模型根据文本描述自动生成短视频内容"
+    },
+    "101-skills/skills/ai-image-generation": {
+      "zhDescription": "调用 AI 图像模型根据提示词批量生成图片素材"
+    },
+    "101-skills/skills/twitter-automation": {
+      "zhDescription": "自动化 Twitter/X 账号运营，支持定时发帖与互动操作"
+    },
+    "101-skills/skills/remotion-render": {
+      "zhDescription": "使用 Remotion 框架以 React 代码编程式渲染视频"
+    },
+    "101-skills/skills/ai-avatar-video": {
+      "zhDescription": "生成 AI 数字人口播视频，支持自定义形象与语音"
+    },
+    "vercel-labs/agent-browser/agent-browser": {
+      "zhDescription": "Vercel 浏览器自动化代理，以 AI 驱动网页操作与数据提取"
+    },
+    "design-layers/agent-skills/sleek-design-mobile-apps": {
+      "zhDescription": "生成精致的移动端 UI 设计方案，注重现代视觉与交互细节"
+    },
+    "heygen-com/hyperframes/hyperframes-animation": {
+      "zhDescription": "HeyGen 视频动画效果引擎，为 AI 视频添加动态转场与特效"
+    },
+    "leonxlnx/taste-skill/design-taste-frontend": {
+      "zhDescription": "以高审美标准指导前端界面设计，提升视觉品味与排版质感"
+    },
+    "obra/superpowers/brainstorming": {
+      "zhDescription": "结构化头脑风暴工具，系统化发散创意并筛选可行方案"
+    },
+    "stablyai/orca/orca-cli": {
+      "zhDescription": "Stably AI 命令行工具，编排多步骤自动化工作流"
+    },
+    "juliusbrussee/caveman/caveman": {
+      "zhDescription": "极简风格代码生成与重构，用最少的代码表达最清晰的逻辑"
+    },
+    "stablyai/orca/orchestration": {
+      "zhDescription": "将复杂任务自动拆解为多步骤编排流程并逐步执行"
+    },
+    "shadcn/ui/shadcn": {
+      "zhDescription": "使用 shadcn/ui 组件库构建界面，快速搭建风格一致的 Web UI"
+    },
+    "vercel-labs/agent-skills/vercel-react-best-practices": {
+      "zhDescription": "Vercel 官方 React 最佳实践，指导高性能 Next.js 项目开发"
+    },
+    "vercel-labs/agent-skills/web-design-guidelines": {
+      "zhDescription": "Vercel 官方 Web 设计规范，提供布局、色彩与排版准则"
+    },
+    "juliusbrussee/caveman/caveman-commit": {
+      "zhDescription": "生成极简风格的 Git commit message，简洁准确无冗余"
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max": {
+      "zhDescription": "专业级 UI/UX 设计全流程指导，覆盖从调研到交付各环节"
+    },
+    "juliusbrussee/caveman/caveman-review": {
+      "zhDescription": "极简风格代码审查，以最精炼的反馈指出关键问题"
+    },
+    "juliusbrussee/caveman/caveman-compress": {
+      "zhDescription": "压缩代码体积以减少 token 用量，适用于上下文窗口受限场景"
+    },
+    "juliusbrussee/caveman/cavecrew": {
+      "zhDescription": "多 Agent 协作的极简编排框架，以最少配置协调多个智能体"
+    },
+    "leonxlnx/taste-skill/high-end-visual-design": {
+      "zhDescription": "生成高端品牌视觉设计方案，强调质感、留白与视觉层次"
+    },
+    "leonxlnx/taste-skill/redesign-existing-projects": {
+      "zhDescription": "对现有项目进行视觉重设计，在保留功能的前提下提升界面品质"
+    },
+    "stablyai/orca/computer-use": {
+      "zhDescription": "通过屏幕截图与鼠标键盘控制自动操作桌面应用程序"
+    },
+    "anthropics/skills/skill-creator": {
+      "zhDescription": "创建新 Agent Skill 的元技能，引导编写规范的技能描述文件"
+    },
+    "leonxlnx/taste-skill/brandkit": {
+      "zhDescription": "生成品牌视觉识别系统，包含配色、字体与图形语言定义"
+    },
+    "leonxlnx/taste-skill/minimalist-ui": {
+      "zhDescription": "极简主义 UI 设计方案，以克制的元素传达清晰的产品意图"
+    },
+    "emilkowalski/skills/emil-design-eng": {
+      "zhDescription": "设计工程师视角的前端实现，弥合设计稿与工程代码之间的差距"
+    },
+    "emilkowalski/skills/review-animations": {
+      "zhDescription": "审查界面动画的质量与流畅度，检查时序、缓动与性能表现"
+    },
+    "emilkowalski/skills/improve-animations": {
+      "zhDescription": "优化界面动画效果与渲染性能，提升交互体验的细腻度"
+    },
+    "emilkowalski/skills/apple-design": {
+      "zhDescription": "Apple 设计语言指导，将 Human Interface Guidelines 融入产品开发"
+    },
+    "emilkowalski/skills/animation-vocabulary": {
+      "zhDescription": "动画设计术语与模式参考手册，统一设计与开发的动效沟通语言"
+    },
+    "magentosh/skills/twitter-automation": {
+      "zhDescription": "自动化 Twitter/X 内容发布与社交互动，支持批量化运营"
+    },
+    "magentosh/skills/ai-video-generation": {
+      "zhDescription": "调用 AI 视频模型根据脚本自动生成短视频素材"
+    },
+    "magentosh/skills/ai-image-generation": {
+      "zhDescription": "调用 AI 图像模型根据描述批量生成所需图片素材"
+    },
+    "magentosh/skills/ai-avatar-video": {
+      "zhDescription": "生成 AI 数字人视频，支持口播、解说等多种呈现形式"
+    },
+    "magentosh/skills/remotion-render": {
+      "zhDescription": "基于 Remotion 以编程方式渲染视频，用代码定义画面与时间线"
+    },
+    "pbakaus/impeccable/impeccable": {
+      "zhDescription": "代码质量与格式完美化工具，自动检测并修复风格与规范问题"
+    },
+    "larksuite/cli/lark-doc": {
+      "zhDescription": "飞书文档读写命令行工具，在终端中直接操作飞书云文档"
+    }
+  },
   "_note": "运营手动维护。key 为 Skill id，value 为中文功能描述。每周一更新 Top 10。"
 }
