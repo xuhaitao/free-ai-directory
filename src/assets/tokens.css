@@ -1,0 +1,290 @@
+/* 设计 token 地基：primitive → semantic → 主题覆盖 → 旧变量别名
+   加载顺序必须最先（style.css 之前），保证所有变量在其他样式解析时已就绪。
+   深色为默认主题（:root），浅色通过 [data-theme="light"] 覆盖 semantic 层。 */
+
+:root {
+  /* ---------- Primitive：中性灰阶（冷调，深色主题主体） ---------- */
+  --c-ink-900: #0d1117;
+  --c-ink-850: #131922;
+  --c-ink-800: #161b22;
+  --c-ink-700: #1b222b;
+  --c-ink-600: #212a34;
+  --c-ink-550: #262e38;
+  --c-ink-500: #3d4a56;
+  --c-ink-400: #5b6874;
+  --c-ink-300: #7f8f99;
+  --c-ink-250: #8b98a6;
+  --c-ink-200: #aab6c1;
+  --c-ink-100: #c6d2dc;
+  --c-ink-050: #e6edf3;
+
+  /* ---------- Primitive：苔绿中性阶（浅色主题沿用现有配色） ---------- */
+  --c-moss-900: #102019;
+  --c-moss-700: #46534e;
+  --c-moss-600: #53635c;
+  --c-moss-400: #6f8079;
+  --c-moss-300: #96bba9;
+  --c-moss-200: #d7e2dc;
+  --c-moss-100: #eef4f1;
+  --c-moss-050: #f6f9f7;
+
+  /* ---------- Primitive：品牌色（霓虹青绿，基准 #06d6a0） ---------- */
+  --c-accent-950: #0f2a22;
+  --c-accent-900: #16382d;
+  --c-accent-800: #1f4a3a;
+  --c-accent-700: #075a41;
+  --c-accent-600: #087a55;
+  --c-accent-500: #06d6a0;
+  --c-accent-400: #4ce3bb;
+  --c-accent-350: #6ee7c0;
+  --c-accent-200: #b8ddca;
+  --c-accent-100: #e8f3ed;
+  --c-accent-050: #d8ece3;
+  --c-accent-contrast: #04231a;
+
+  /* ---------- Primitive：紫（AI 炒股线） ---------- */
+  --c-violet-950: #150c33;
+  --c-violet-900: #1b1533;
+  --c-violet-850: #251d45;
+  --c-violet-800: #322a58;
+  --c-violet-700: #5637b7;
+  --c-violet-600: #6746d9;
+  --c-violet-550: #5335bd;
+  --c-violet-400: #a08cf5;
+  --c-violet-300: #b8a8f9;
+  --c-violet-250: #c3b5fb;
+  --c-violet-200: #cfc2ff;
+  --c-violet-150: #e4dcff;
+  --c-violet-100: #f1edff;
+
+  /* ---------- Primitive：珊瑚（AI 赚钱线） ---------- */
+  --c-coral-950: #2a0d02;
+  --c-coral-900: #2a1610;
+  --c-coral-850: #3a1e16;
+  --c-coral-800: #4a281c;
+  --c-coral-700: #a53e18;
+  --c-coral-500: #f06432;
+  --c-coral-400: #ff8b62;
+  --c-coral-300: #ffb69c;
+  --c-coral-200: #f2b69f;
+  --c-coral-150: #ffe1d3;
+  --c-coral-100: #fff2eb;
+
+  /* ---------- Primitive：金（Skill 热榜 / 提示） ---------- */
+  --c-gold-900: #2a220f;
+  --c-gold-800: #382d13;
+  --c-gold-700: #4a3c19;
+  --c-gold-650: #805c06;
+  --c-gold-600: #9a5a0b;
+  --c-gold-500: #d9a01a;
+  --c-gold-400: #f0c04a;
+  --c-gold-200: #e4d5a4;
+  --c-gold-150: #fdefc4;
+  --c-gold-100: #fff9e8;
+
+  /* ---------- Primitive：红（风险 / 下降） ---------- */
+  --c-red-900: #2b1412;
+  --c-red-800: #4b241f;
+  --c-red-700: #a9362d;
+  --c-red-300: #ff9b90;
+  --c-red-200: #e5beba;
+  --c-red-100: #fff0ef;
+
+  --c-white: #ffffff;
+
+  /* ---------- Primitive：间距 scale（4px 基准） ---------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+
+  /* ---------- Primitive：圆角 ---------- */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* ---------- Primitive：字号 ---------- */
+  --fs-3xs: .68rem;
+  --fs-2xs: .72rem;
+  --fs-xs: .78rem;
+  --fs-sm: .86rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.2rem;
+  --fs-xl: 1.45rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: clamp(2.6rem, 5vw, 4.4rem);
+  --fs-4xl: clamp(3.25rem, 5vw, 5rem);
+
+  /* ---------- Primitive：层级 ---------- */
+  --z-base: 1;
+  --z-header: 5;
+  --z-dropdown: 20;
+  --z-skip: 100;
+
+  /* ================= Semantic：深色主题（默认） ================= */
+  --bg: var(--c-ink-900);
+  --bg-soft: var(--c-ink-850);
+  --panel: var(--c-ink-800);
+  --panel-2: var(--c-ink-700);
+  --panel-3: var(--c-ink-600);
+  --ink: var(--c-ink-050);
+  --ink-soft: var(--c-ink-100);
+  --muted: var(--c-ink-250);
+  --ink-faint: var(--c-ink-300);
+  --line: var(--c-ink-550);
+  --line-strong: var(--c-ink-500);
+  --chip-bg: var(--c-ink-600);
+  --note-bg: var(--c-ink-700);
+  --code-bg: var(--c-ink-700);
+  --header-bg: rgba(13, 17, 23, .88);
+  --menu-bg: #161b22;
+  --hover-bg: rgba(255, 255, 255, .04);
+  /* 彩色卡片上的浅浮层芯片 */
+  --tint-chip: rgba(255, 255, 255, .08);
+
+  --accent: var(--c-accent-500);
+  --accent-strong: var(--c-accent-400);
+  --accent-ink: var(--c-accent-350);
+  --accent-soft: var(--c-accent-950);
+  --accent-soft-strong: var(--c-accent-900);
+  --accent-line: var(--c-accent-800);
+  --on-accent: var(--c-accent-contrast);
+  --link: var(--accent);
+
+  --cta-bg: var(--c-accent-500);
+  --cta-bg-hover: var(--c-accent-400);
+  --cta-ink: var(--c-accent-contrast);
+
+  --violet: var(--c-violet-400);
+  --violet-strong: var(--c-violet-300);
+  --violet-ink: var(--c-violet-250);
+  --violet-soft: var(--c-violet-900);
+  --violet-soft-strong: var(--c-violet-850);
+  --violet-line: var(--c-violet-800);
+  --on-violet: var(--c-violet-950);
+
+  --coral: var(--c-coral-400);
+  --coral-ink: var(--c-coral-300);
+  --coral-soft: var(--c-coral-900);
+  --coral-soft-strong: var(--c-coral-850);
+  --coral-line: var(--c-coral-800);
+  --on-coral: var(--c-coral-950);
+
+  --gold: var(--c-gold-400);
+  --gold-ink: var(--c-gold-400);
+  --gold-soft: var(--c-gold-900);
+  --gold-soft-strong: var(--c-gold-800);
+  --gold-line: var(--c-gold-700);
+
+  --danger-ink: var(--c-red-300);
+  --danger-soft: var(--c-red-900);
+  --danger-line: var(--c-red-800);
+
+  /* 聚光面：深底亮字的展示区块（首页日报、快照、对比条、视频） */
+  --spotlight: #12231e;
+  --spotlight-ink: #eaf6f1;
+  --spotlight-muted: #a7c3b8;
+  --spotlight-accent: var(--c-accent-350);
+  --spotlight-line: rgba(255, 255, 255, .12);
+
+  --focus-ring: rgba(6, 214, 160, .45);
+  --focus-ring-soft: rgba(6, 214, 160, .18);
+  --shadow-1: 0 8px 24px rgba(0, 0, 0, .42);
+  --shadow-2: 0 18px 50px rgba(0, 0, 0, .55);
+  --shadow-3: 0 26px 70px rgba(0, 0, 0, .65);
+
+  /* ---------- 旧变量名别名过渡：全部指向 semantic，自动跟随主题 ---------- */
+  --paper: var(--bg);
+  --green: var(--accent);
+  --green-dark: var(--accent-ink);
+  --mint: var(--accent-soft);
+  --navy: var(--spotlight);
+  --amber: var(--gold-ink);
+  --red: var(--danger-ink);
+  --shadow-sm: var(--shadow-1);
+  --shadow-md: var(--shadow-2);
+}
+
+/* ================= Semantic：浅色主题（沿用现有配色） ================= */
+[data-theme="light"] {
+  --bg: var(--c-moss-050);
+  --bg-soft: #eef5f1;
+  --panel: var(--c-white);
+  --panel-2: #f8fbf9;
+  --panel-3: #f2f6f4;
+  --ink: var(--c-moss-900);
+  --ink-soft: var(--c-moss-700);
+  --muted: var(--c-moss-600);
+  --ink-faint: var(--c-moss-400);
+  --line: var(--c-moss-200);
+  --line-strong: var(--c-moss-300);
+  --chip-bg: var(--c-moss-100);
+  --note-bg: #f5f7f6;
+  --code-bg: #eaf1ed;
+  --header-bg: rgba(246, 249, 247, .95);
+  --menu-bg: rgba(255, 255, 255, .98);
+  --hover-bg: rgba(255, 255, 255, .55);
+  --tint-chip: rgba(255, 255, 255, .72);
+
+  --accent: var(--c-accent-600);
+  --accent-strong: var(--c-accent-700);
+  --accent-ink: var(--c-accent-700);
+  --accent-soft: var(--c-accent-100);
+  --accent-soft-strong: var(--c-accent-050);
+  --accent-line: var(--c-accent-200);
+  --on-accent: var(--c-white);
+
+  --cta-bg: #173f34;
+  --cta-bg-hover: #0f2c24;
+  --cta-ink: var(--c-white);
+
+  --violet: var(--c-violet-600);
+  --violet-strong: var(--c-violet-550);
+  --violet-ink: var(--c-violet-700);
+  --violet-soft: var(--c-violet-100);
+  --violet-soft-strong: var(--c-violet-150);
+  --violet-line: var(--c-violet-200);
+  --on-violet: var(--c-white);
+
+  --coral: var(--c-coral-500);
+  --coral-ink: var(--c-coral-700);
+  --coral-soft: var(--c-coral-100);
+  --coral-soft-strong: var(--c-coral-150);
+  --coral-line: var(--c-coral-200);
+  --on-coral: var(--c-white);
+
+  --gold: var(--c-gold-500);
+  --gold-ink: var(--c-gold-650);
+  --gold-soft: var(--c-gold-100);
+  --gold-soft-strong: var(--c-gold-150);
+  --gold-line: var(--c-gold-200);
+
+  --danger-ink: var(--c-red-700);
+  --danger-soft: var(--c-red-100);
+  --danger-line: var(--c-red-200);
+
+  --spotlight: #173f34;
+  --spotlight-ink: var(--c-white);
+  --spotlight-muted: #bed4cb;
+  --spotlight-accent: #8fcdb5;
+  --spotlight-line: rgba(255, 255, 255, .14);
+
+  --focus-ring: rgba(8, 122, 85, .3);
+  --focus-ring-soft: rgba(8, 122, 85, .12);
+  --shadow-1: 0 8px 24px rgba(17, 49, 39, .06);
+  --shadow-2: 0 18px 50px rgba(17, 49, 39, .1);
+  --shadow-3: 0 26px 70px rgba(17, 49, 39, .14);
+}
+
+/* 表单控件与滚动条跟随主题 */
+:root { color-scheme: dark; }
+[data-theme="light"] { color-scheme: light; }
