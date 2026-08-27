@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "date": "2026-07-28",
-  "generatedAt": "2026-07-28T02:03:47.906Z",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T13:50:49.601Z",
   "timezone": "Asia/Shanghai",
   "models": [
     {
@@ -20,7 +20,7 @@
         "中文",
         "长文本"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "gemma-4",
@@ -37,7 +37,7 @@
         "API",
         "开放权重"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "openrouter-free",
@@ -54,7 +54,7 @@
         "OpenAI 兼容",
         "免模型选择"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "github-gpt41",
@@ -145,7 +145,7 @@
         "OpenAI 兼容",
         "工具"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "mistral-small",
@@ -163,7 +163,7 @@
         "免信用卡",
         "API"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "cohere-command-a",
@@ -181,7 +181,7 @@
         "工具调用",
         "试用 Key"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "llama-cf",
@@ -198,7 +198,26 @@
         "API",
         "轻量"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
+    },
+    {
+      "id": "siliconflow-glm4-free",
+      "name": "GLM-4 9B Chat",
+      "modelId": "THUDM/glm-4-9b-chat",
+      "providerId": "siliconflow",
+      "category": "text_generation",
+      "freeType": "permanent",
+      "freeSummary": "永久免费（限速内不限量），中文对话表现优秀",
+      "modelUrl": "https://docs.siliconflow.cn/models",
+      "sourceUrl": "https://cloud.siliconflow.cn/",
+      "tryUrl": "https://docs.siliconflow.cn/models",
+      "tags": [
+        "中文",
+        "对话",
+        "API",
+        "轻量"
+      ],
+      "lastReviewedAt": "2026-08-23"
     },
     {
       "id": "qwen-coder-cf",
@@ -215,7 +234,7 @@
         "代码",
         "API"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "gpt-oss-groq",
@@ -233,7 +252,7 @@
         "推理",
         "OpenAI 兼容"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "gpt-oss-cerebras",
@@ -269,7 +288,43 @@
         "代码",
         "开放权重"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
+    },
+    {
+      "id": "codestral-mistral",
+      "name": "Codestral",
+      "modelId": "codestral-latest",
+      "providerId": "mistral",
+      "category": "code_generation",
+      "freeType": "recurring",
+      "freeSummary": "Free mode 可用，限 1 req/s、30 RPM，支持 80+ 编程语言",
+      "modelUrl": "https://docs.mistral.ai/capabilities/code_generation/",
+      "sourceUrl": "https://console.mistral.ai/",
+      "tryUrl": "https://docs.mistral.ai/capabilities/code_generation/",
+      "tags": [
+        "代码",
+        "API",
+        "Fill-in-the-Middle"
+      ],
+      "lastReviewedAt": "2026-08-23"
+    },
+    {
+      "id": "qwen3-coder-bailian",
+      "name": "Qwen3-Coder-Plus",
+      "modelId": "qwen3-coder-plus",
+      "providerId": "alibaba-bailian",
+      "category": "code_generation",
+      "freeType": "signup_credit",
+      "freeSummary": "100 万 Token 免费额度（90 天），阿里最新代码模型",
+      "modelUrl": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
+      "sourceUrl": "https://bailian.console.aliyun.com/",
+      "tryUrl": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
+      "tags": [
+        "代码",
+        "中文",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
     },
     {
       "id": "moondream-cf",
@@ -287,7 +342,7 @@
         "OCR",
         "目标定位"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "gemini-vision",
@@ -305,7 +360,26 @@
         "文档",
         "视频理解"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
+    },
+    {
+      "id": "qwen-vl-bailian",
+      "name": "Qwen-VL-Max",
+      "modelId": "qwen-vl-max",
+      "providerId": "alibaba-bailian",
+      "category": "multimodal",
+      "freeType": "signup_credit",
+      "freeSummary": "100 万 Token 免费额度（90 天有效），强中文多模态理解",
+      "modelUrl": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
+      "sourceUrl": "https://bailian.console.aliyun.com/",
+      "tryUrl": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
+      "tags": [
+        "图片理解",
+        "中文",
+        "OCR",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
     },
     {
       "id": "flux-schnell",
@@ -322,7 +396,7 @@
         "文生图",
         "API"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "flux-klein",
@@ -339,7 +413,7 @@
         "文生图",
         "图像编辑"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "qwen-image",
@@ -356,7 +430,7 @@
         "文生图",
         "中文文字"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "wan22-video",
@@ -373,7 +447,7 @@
         "文生视频",
         "图生视频"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "hunyuan-video",
@@ -389,7 +463,7 @@
       "tags": [
         "文生视频"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "ltx-video",
@@ -406,7 +480,7 @@
         "视频",
         "开放权重"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "bge-m3",
@@ -423,7 +497,7 @@
         "多语言",
         "稠密向量"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "qwen3-embed",
@@ -440,7 +514,7 @@
         "多语言",
         "轻量"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "gemini-embedding",
@@ -457,7 +531,7 @@
         "多模态向量",
         "API"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "cohere-embed-v4",
@@ -475,7 +549,7 @@
         "多模态向量",
         "API"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "jina-embeddings-v4",
@@ -493,7 +567,7 @@
         "多模态向量",
         "长文本"
       ],
-      "lastReviewedAt": "2026-07-26",
+      "lastReviewedAt": "2026-08-22",
       "notes": "模型权重使用 Qwen Research License；官方 API 与本地权重的使用边界不同。"
     },
     {
@@ -511,7 +585,7 @@
         "向量",
         "开放权重"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "bge-reranker",
@@ -528,7 +602,7 @@
         "RAG",
         "重排"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "cohere-rerank-v4",
@@ -546,7 +620,7 @@
         "多语言",
         "API"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "jina-reranker-v3",
@@ -564,7 +638,7 @@
         "多语言",
         "长上下文"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "cross-encoder",
@@ -581,7 +655,7 @@
         "RAG",
         "本地运行"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "mask2former-panoptic",
@@ -598,7 +672,7 @@
         "全景分割",
         "实例分割"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "mask2former-ade",
@@ -616,7 +690,7 @@
         "ADE20K",
         "本地运行"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "rmbg2",
@@ -633,7 +707,7 @@
         "前景分割",
         "抠图"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "detr-cf",
@@ -650,7 +724,7 @@
         "目标检测",
         "COCO"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "resnet-cf",
@@ -666,7 +740,7 @@
       "tags": [
         "图像分类"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "whisper-cf",
@@ -683,7 +757,45 @@
         "ASR",
         "多语言"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
+    },
+    {
+      "id": "groq-whisper",
+      "name": "Whisper Large v3 Turbo (Groq)",
+      "modelId": "whisper-large-v3-turbo",
+      "providerId": "groq",
+      "category": "speech_to_text",
+      "freeType": "recurring",
+      "freeSummary": "免费计划每日 2,000 次请求，硬件加速超低延迟",
+      "modelUrl": "https://console.groq.com/docs/speech-text",
+      "sourceUrl": "https://console.groq.com/",
+      "tryUrl": "https://console.groq.com/docs/speech-text",
+      "tags": [
+        "ASR",
+        "多语言",
+        "低延迟",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
+    },
+    {
+      "id": "deepgram-nova3",
+      "name": "Deepgram Nova-3",
+      "modelId": "nova-3",
+      "providerId": "deepgram",
+      "category": "speech_to_text",
+      "freeType": "signup_credit",
+      "freeSummary": "注册赠 $200 免费额度（一年有效），业界 STT 准确率标杆",
+      "modelUrl": "https://developers.deepgram.com/docs/models-overview",
+      "sourceUrl": "https://deepgram.com/",
+      "tryUrl": "https://developers.deepgram.com/docs/models-overview",
+      "tags": [
+        "ASR",
+        "多语言",
+        "实时流",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
     },
     {
       "id": "aura2-cf",
@@ -700,7 +812,63 @@
         "TTS",
         "英语"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
+    },
+    {
+      "id": "fish-tts-free",
+      "name": "Fish Audio S2.1 Pro Free",
+      "modelId": "s2.1-pro-free",
+      "providerId": "fish-audio",
+      "category": "text_to_speech",
+      "freeType": "recurring",
+      "freeSummary": "Fair Use 无硬性用量上限，83 种语言含中文，无需绑卡",
+      "modelUrl": "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
+      "sourceUrl": "https://fish.audio/",
+      "tryUrl": "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
+      "tags": [
+        "TTS",
+        "中文",
+        "多语言",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
+    },
+    {
+      "id": "gemini-tts",
+      "name": "Gemini 2.5 Flash TTS",
+      "modelId": "gemini-2.5-flash-preview-tts",
+      "providerId": "google",
+      "category": "text_to_speech",
+      "freeType": "recurring",
+      "freeSummary": "同 Gemini 免费层额度（15 RPM / 1,500 RPD），多语言高品质",
+      "modelUrl": "https://ai.google.dev/gemini-api/docs/text-generation",
+      "sourceUrl": "https://ai.google.dev/",
+      "tryUrl": "https://ai.google.dev/gemini-api/docs/text-generation",
+      "tags": [
+        "TTS",
+        "多语言",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
+    },
+    {
+      "id": "deepgram-aura2",
+      "name": "Deepgram Aura-2",
+      "modelId": "aura-2",
+      "providerId": "deepgram",
+      "category": "text_to_speech",
+      "freeType": "signup_credit",
+      "freeSummary": "共享 $200 免费额度，低延迟英文 TTS",
+      "modelUrl": "https://developers.deepgram.com/docs/text-to-speech",
+      "sourceUrl": "https://deepgram.com/",
+      "tryUrl": "https://developers.deepgram.com/docs/text-to-speech",
+      "tags": [
+        "TTS",
+        "英语",
+        "低延迟",
+        "API"
+      ],
+      "lastReviewedAt": "2026-08-23"
     },
     {
       "id": "wav2vec-audio",
@@ -717,7 +885,7 @@
         "关键词识别",
         "本地运行"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "m2m100-cf",
@@ -734,7 +902,7 @@
         "翻译",
         "多语言"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "openrouter-cohere-north-mini-code-free",
@@ -751,7 +919,26 @@
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-dots-studio-dots-3-note-preview-free",
+      "name": "Dots Studio: Dots3-Note Preview",
+      "modelId": "dots-studio/dots-3-note-preview:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入"
+      ],
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -771,7 +958,7 @@
         "图片输入",
         "视频输入"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -791,43 +978,63 @@
         "图片输入",
         "视频输入"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
-      "id": "openrouter-inclusionai-ling-3-0-flash-free",
-      "name": "Ling-3.0-flash",
-      "modelId": "inclusionai/ling-3.0-flash:free",
+      "id": "openrouter-liquid-lfm-2-5-2-6b-free",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "modelId": "liquid/lfm-2.5-2.6b:free",
       "providerId": "openrouter",
       "category": "text_generation",
       "freeType": "recurring",
       "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
-      "modelUrl": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
+      "modelUrl": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
       "sourceUrl": "https://openrouter.ai/api/v1/models",
-      "tryUrl": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
+      "tryUrl": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
       "tags": [
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
-      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
-      "modelId": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "id": "openrouter-minimax-minimax-m2-7-free",
+      "name": "MiniMax: MiniMax M2.7",
+      "modelId": "minimax/minimax-m2.7:free",
       "providerId": "openrouter",
       "category": "text_generation",
       "freeType": "recurring",
       "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
-      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "modelUrl": "https://openrouter.ai/minimax/minimax-m2.7:free",
       "sourceUrl": "https://openrouter.ai/api/v1/models",
-      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "tryUrl": "https://openrouter.ai/minimax/minimax-m2.7:free",
       "tags": [
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-minimax-minimax-m3-free",
+      "name": "MiniMax: MiniMax M3",
+      "modelId": "minimax/minimax-m3:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/minimax/minimax-m3:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/minimax/minimax-m3:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入",
+        "视频输入"
+      ],
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -848,7 +1055,7 @@
         "图片输入",
         "视频输入"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -866,7 +1073,7 @@
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -884,7 +1091,7 @@
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -903,81 +1110,25 @@
         "每日同步",
         "图片输入"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
-      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL",
-      "modelId": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "providerId": "openrouter",
-      "category": "multimodal",
-      "freeType": "recurring",
-      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
-      "modelUrl": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
-      "sourceUrl": "https://openrouter.ai/api/v1/models",
-      "tryUrl": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
-      "tags": [
-        "OpenAI 兼容",
-        "每日同步",
-        "图片输入",
-        "视频输入"
-      ],
-      "lastReviewedAt": "2026-07-28",
-      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
-    },
-    {
-      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
-      "name": "NVIDIA: Nemotron Nano 9B V2",
-      "modelId": "nvidia/nemotron-nano-9b-v2:free",
+      "id": "openrouter-nvidia-nemotron-3-5-lightning-free",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "modelId": "nvidia/nemotron-3.5-lightning:free",
       "providerId": "openrouter",
       "category": "text_generation",
       "freeType": "recurring",
       "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
-      "modelUrl": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+      "modelUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
       "sourceUrl": "https://openrouter.ai/api/v1/models",
-      "tryUrl": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+      "tryUrl": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
       "tags": [
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
-      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
-    },
-    {
-      "id": "openrouter-openai-gpt-oss-20b-free",
-      "name": "OpenAI: gpt-oss-20b",
-      "modelId": "openai/gpt-oss-20b:free",
-      "providerId": "openrouter",
-      "category": "text_generation",
-      "freeType": "recurring",
-      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
-      "modelUrl": "https://openrouter.ai/openai/gpt-oss-20b:free",
-      "sourceUrl": "https://openrouter.ai/api/v1/models",
-      "tryUrl": "https://openrouter.ai/openai/gpt-oss-20b:free",
-      "tags": [
-        "OpenAI 兼容",
-        "每日同步"
-      ],
-      "lastReviewedAt": "2026-07-28",
-      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
-    },
-    {
-      "id": "openrouter-poolside-laguna-m-1-free",
-      "name": "Poolside: Laguna M.1",
-      "modelId": "poolside/laguna-m.1:free",
-      "providerId": "openrouter",
-      "category": "text_generation",
-      "freeType": "recurring",
-      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
-      "modelUrl": "https://openrouter.ai/poolside/laguna-m.1:free",
-      "sourceUrl": "https://openrouter.ai/api/v1/models",
-      "tryUrl": "https://openrouter.ai/poolside/laguna-m.1:free",
-      "tags": [
-        "OpenAI 兼容",
-        "每日同步"
-      ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -995,7 +1146,7 @@
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     },
     {
@@ -1013,7 +1164,65 @@
         "OpenAI 兼容",
         "每日同步"
       ],
-      "lastReviewedAt": "2026-07-28",
+      "lastReviewedAt": "2026-08-27",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-thinkingmachines-inkling-free",
+      "name": "Thinking Machines: Inkling",
+      "modelId": "thinkingmachines/inkling:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/thinkingmachines/inkling:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/thinkingmachines/inkling:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入",
+        "音频输入"
+      ],
+      "lastReviewedAt": "2026-08-27",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-thinkingmachines-inkling-small-free",
+      "name": "Thinking Machines: Inkling Small",
+      "modelId": "thinkingmachines/inkling-small:free",
+      "providerId": "openrouter",
+      "category": "multimodal",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步",
+        "图片输入",
+        "音频输入"
+      ],
+      "lastReviewedAt": "2026-08-27",
+      "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
+    },
+    {
+      "id": "openrouter-z-ai-glm-5-2-free",
+      "name": "Z.ai: GLM 5.2",
+      "modelId": "z-ai/glm-5.2:free",
+      "providerId": "openrouter",
+      "category": "text_generation",
+      "freeType": "recurring",
+      "freeSummary": "OpenRouter 官方模型目录当前将输入与输出价格标为 0；仍受共享免费额度和速率限制",
+      "modelUrl": "https://openrouter.ai/z-ai/glm-5.2:free",
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "tryUrl": "https://openrouter.ai/z-ai/glm-5.2:free",
+      "tags": [
+        "OpenAI 兼容",
+        "每日同步"
+      ],
+      "lastReviewedAt": "2026-08-27",
       "notes": "由 OpenRouter 公开模型目录每日自动同步；免费路由可能增删或限流。"
     }
   ],
@@ -1040,7 +1249,7 @@
         "https://price.302.ai/"
       ],
       "riskNotes": [],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "aihubmix",
@@ -1067,7 +1276,7 @@
       "riskNotes": [
         "免费模型可能下线或限流。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "api2d",
@@ -1093,7 +1302,7 @@
       "riskNotes": [
         "主要为付费服务。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "packyapi",
@@ -1120,7 +1329,7 @@
       "riskNotes": [
         "上游和运营主体披露不足。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "fastapi",
@@ -1143,7 +1352,7 @@
       "riskNotes": [
         "额度、上游和持续运营均为官网自述。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "ccsub",
@@ -1169,7 +1378,7 @@
       "riskNotes": [
         "低价和倍率均为站方自述。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "apikl",
@@ -1197,7 +1406,7 @@
       "riskNotes": [
         "账号池、价格和模型真实性为站方自述。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "getcodex",
@@ -1220,7 +1429,7 @@
       "riskNotes": [
         "模型核验截图不能替代独立审计。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "suixiang",
@@ -1247,7 +1456,7 @@
       "riskNotes": [
         "上游与数据处理方式未独立核验。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "timedigital",
@@ -1269,7 +1478,7 @@
         "https://www.timedigital.cn/"
       ],
       "riskNotes": [],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "quickrouter",
@@ -1293,7 +1502,7 @@
       "riskNotes": [
         "赠金额度尚无独立或文档级证据。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "pateway",
@@ -1317,7 +1526,7 @@
       "riskNotes": [
         "体验额度和上游均需用户自行复核。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
     },
     {
       "id": "llmapi",
@@ -1345,7 +1554,32 @@
       "riskNotes": [
         "“低至官方十分之一”等为站方营销自述。"
       ],
-      "lastReviewedAt": "2026-07-26"
+      "lastReviewedAt": "2026-08-22"
+    },
+    {
+      "id": "github-div197-bob-gemini-free",
+      "name": "div197/BOB-Gemini-Free",
+      "websiteUrl": "https://bob-gemini-free.abcsteps.com/",
+      "evidence": "third_party_listing",
+      "trialSummary": "由公开 GitHub 仓库每日发现；尚未核实免费额度、模型上游或运营主体",
+      "protocols": [
+        "Anthropic 兼容"
+      ],
+      "clients": [
+        "Claude Code",
+        "通用 SDK"
+      ],
+      "operatorDisclosure": "not_found",
+      "termsFound": false,
+      "privacyFound": false,
+      "sourceUrls": [
+        "https://github.com/div197/BOB-Gemini-Free",
+        "https://bob-gemini-free.abcsteps.com/"
+      ],
+      "riskNotes": [
+        "每日自动发现候选，不构成推荐；充值或发送代码前需人工核对主体、条款、隐私和退款规则。"
+      ],
+      "lastReviewedAt": "2026-08-27"
     }
   ],
   "checks": [
@@ -1356,28 +1590,28 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gemini-36-flash",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gemma-4",
       "url": "https://aistudio.google.com/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1386,18 +1620,18 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "openrouter-free",
       "url": "https://openrouter.ai/openrouter/free",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -1406,7 +1640,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1416,28 +1650,28 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "github-gpt41",
       "url": "https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cerebras-glm47",
       "url": "https://cloud.cerebras.ai/",
       "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "model",
@@ -1446,18 +1680,18 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "sambanova-gpt-oss",
       "url": "https://cloud.sambanova.ai/",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -1466,7 +1700,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1476,38 +1710,38 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "siliconflow-qwen35",
       "url": "https://www.siliconflow.com/pricing",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "groq-compound",
       "url": "https://console.groq.com/docs/models",
       "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "model",
       "id": "groq-compound",
       "url": "https://console.groq.com/docs/rate-limits",
       "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "model",
@@ -1516,7 +1750,7 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
@@ -1526,7 +1760,7 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
@@ -1536,18 +1770,18 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cohere-command-a",
       "url": "https://docs.cohere.com/v2/docs/rate-limits",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -1556,7 +1790,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1566,7 +1800,27 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "siliconflow-glm4-free",
+      "url": "https://docs.siliconflow.cn/models",
+      "ok": false,
+      "state": "not_found",
+      "status": 404,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口确认不存在"
+    },
+    {
+      "kind": "model",
+      "id": "siliconflow-glm4-free",
+      "url": "https://cloud.siliconflow.cn/",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1576,7 +1830,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1586,7 +1840,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1594,30 +1848,30 @@
       "id": "gpt-oss-groq",
       "url": "https://console.groq.com/docs/models",
       "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "model",
       "id": "gpt-oss-groq",
       "url": "https://console.groq.com/docs/rate-limits",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "model",
       "id": "gpt-oss-cerebras",
       "url": "https://cloud.cerebras.ai/",
       "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "model",
@@ -1626,27 +1880,67 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen-coder-hf",
       "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "qwen-coder-hf",
       "url": "https://huggingface.co/docs/inference-providers/pricing",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "codestral-mistral",
+      "url": "https://docs.mistral.ai/capabilities/code_generation/",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "codestral-mistral",
+      "url": "https://console.mistral.ai/",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "qwen3-coder-bailian",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "qwen3-coder-bailian",
+      "url": "https://bailian.console.aliyun.com/",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1656,7 +1950,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1666,27 +1960,47 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemini-vision",
       "url": "https://aistudio.google.com/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gemini-vision",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-vl-bailian",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "qwen-vl-bailian",
+      "url": "https://bailian.console.aliyun.com/",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1696,7 +2010,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1706,7 +2020,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1716,7 +2030,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1726,7 +2040,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1736,38 +2050,38 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "qwen-image",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-image",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "wan22-video",
       "url": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "wan22-video",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1776,18 +2090,18 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "hunyuan-video",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1796,18 +2110,18 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "ltx-video",
       "url": "https://huggingface.co/docs/inference-providers/tasks/text-to-video",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1816,7 +2130,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1826,7 +2140,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1836,38 +2150,38 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "qwen3-embed",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "gemini-embedding",
       "url": "https://ai.google.dev/gemini-api/docs/embeddings",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "gemini-embedding",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1876,7 +2190,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1886,28 +2200,28 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "jina-embeddings-v4",
       "url": "https://jina.ai/models/jina-embeddings-v4/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "jina-embeddings-v4",
       "url": "https://api.jina.ai/docs",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1916,18 +2230,18 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "harrier-embed",
       "url": "https://huggingface.co/docs/inference-providers/tasks/feature-extraction",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -1936,7 +2250,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1946,18 +2260,18 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "cohere-rerank-v4",
       "url": "https://dashboard.cohere.com/",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -1966,7 +2280,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -1976,28 +2290,28 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "jina-reranker-v3",
       "url": "https://api.jina.ai/docs",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "cross-encoder",
       "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -2006,18 +2320,18 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "mask2former-panoptic",
       "url": "https://huggingface.co/facebook/mask2former-swin-large-coco-panoptic",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -2026,7 +2340,7 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
@@ -2036,28 +2350,28 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "rmbg2",
       "url": "https://huggingface.co/briaai/RMBG-2.0",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
       "id": "rmbg2",
       "url": "https://huggingface.co/docs/inference-providers/tasks/image-segmentation",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "model",
@@ -2066,7 +2380,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2076,7 +2390,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2086,7 +2400,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2096,7 +2410,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2106,7 +2420,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2116,7 +2430,47 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "groq-whisper",
+      "url": "https://console.groq.com/docs/speech-text",
+      "ok": true,
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
+    },
+    {
+      "kind": "model",
+      "id": "groq-whisper",
+      "url": "https://console.groq.com/",
+      "ok": true,
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
+    },
+    {
+      "kind": "model",
+      "id": "deepgram-nova3",
+      "url": "https://developers.deepgram.com/docs/models-overview",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "deepgram-nova3",
+      "url": "https://deepgram.com/",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2126,7 +2480,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2136,7 +2490,67 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "fish-tts-free",
+      "url": "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "fish-tts-free",
+      "url": "https://fish.audio/",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-tts",
+      "url": "https://ai.google.dev/gemini-api/docs/text-generation",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "gemini-tts",
+      "url": "https://ai.google.dev/",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
+    },
+    {
+      "kind": "model",
+      "id": "deepgram-aura2",
+      "url": "https://developers.deepgram.com/docs/text-to-speech",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "deepgram-aura2",
+      "url": "https://deepgram.com/",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2146,7 +2560,7 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
@@ -2156,7 +2570,7 @@
       "ok": false,
       "state": "network_limited",
       "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "更新服务器无法完成访问：fetch failed"
     },
     {
@@ -2166,18 +2580,18 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "m2m100-cf",
       "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -2186,7 +2600,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2196,18 +2610,38 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-dots-studio-dots-3-note-preview-free",
+      "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-dots-studio-dots-3-note-preview-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-google-gemma-4-26b-a4b-it-free",
       "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -2216,7 +2650,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2226,7 +2660,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2236,47 +2670,67 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
-      "id": "openrouter-inclusionai-ling-3-0-flash-free",
-      "url": "https://openrouter.ai/inclusionai/ling-3.0-flash:free",
+      "id": "openrouter-liquid-lfm-2-5-2-6b-free",
+      "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
-      "id": "openrouter-inclusionai-ling-3-0-flash-free",
+      "id": "openrouter-liquid-lfm-2-5-2-6b-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
-      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
-      "url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "id": "openrouter-minimax-minimax-m2-7-free",
+      "url": "https://openrouter.ai/minimax/minimax-m2.7:free",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
-      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
+      "id": "openrouter-minimax-minimax-m2-7-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-minimax-minimax-m3-free",
+      "url": "https://openrouter.ai/minimax/minimax-m3:free",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-minimax-minimax-m3-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2286,7 +2740,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2296,7 +2750,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2306,7 +2760,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2316,38 +2770,38 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-nvidia-nemotron-3-5-content-safety-free",
       "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "model",
@@ -2356,87 +2810,27 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
-      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
-      "url": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
+      "id": "openrouter-nvidia-nemotron-3-5-lightning-free",
+      "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
-      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
-      "url": "https://openrouter.ai/api/v1/models",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
-    },
-    {
-      "kind": "model",
-      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
-      "url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
-    },
-    {
-      "kind": "model",
-      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
-      "url": "https://openrouter.ai/api/v1/models",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
-    },
-    {
-      "kind": "model",
-      "id": "openrouter-openai-gpt-oss-20b-free",
-      "url": "https://openrouter.ai/openai/gpt-oss-20b:free",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
-    },
-    {
-      "kind": "model",
-      "id": "openrouter-openai-gpt-oss-20b-free",
+      "id": "openrouter-nvidia-nemotron-3-5-lightning-free",
       "url": "https://openrouter.ai/api/v1/models",
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
-    },
-    {
-      "kind": "model",
-      "id": "openrouter-poolside-laguna-m-1-free",
-      "url": "https://openrouter.ai/poolside/laguna-m.1:free",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
-    },
-    {
-      "kind": "model",
-      "id": "openrouter-poolside-laguna-m-1-free",
-      "url": "https://openrouter.ai/api/v1/models",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2446,7 +2840,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2456,7 +2850,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2466,78 +2860,138 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "model",
       "id": "openrouter-poolside-laguna-xs-2-1-free",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-thinkingmachines-inkling-free",
+      "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-thinkingmachines-inkling-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-thinkingmachines-inkling-small-free",
+      "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-thinkingmachines-inkling-small-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-z-ai-glm-5-2-free",
+      "url": "https://openrouter.ai/z-ai/glm-5.2:free",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "model",
+      "id": "openrouter-z-ai-glm-5-2-free",
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "302ai",
       "url": "https://302.ai/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "302ai",
       "url": "https://help.302.ai/docs/chang-jian-wen-ti",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "302ai",
       "url": "https://price.302.ai/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "aihubmix",
       "url": "https://aihubmix.com/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "aihubmix",
       "url": "https://docs.aihubmix.com/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "aihubmix",
       "url": "https://docs.aihubmix.com/en/blogs/free-ai-models",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
@@ -2546,38 +3000,38 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "packyapi",
       "url": "https://packyapi.com/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "packyapi",
       "url": "https://docs.packyapi.com/docs/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
       "id": "packyapi",
       "url": "https://docs.packyapi.com/docs/register/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     },
     {
       "kind": "relay",
@@ -2586,28 +3040,28 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "ccsub",
       "url": "https://www.ccsub.net/",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "ccsub",
       "url": "https://www.ccsub.net/docs",
-      "ok": false,
-      "state": "network_limited",
-      "status": 0,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "更新服务器无法完成访问：fetch failed"
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
@@ -2616,18 +3070,18 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
       "kind": "relay",
       "id": "getcodex",
       "url": "https://home.getcodex.cc/",
-      "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：This operation was aborted"
     },
     {
       "kind": "relay",
@@ -2636,7 +3090,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2646,7 +3100,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2656,7 +3110,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2664,10 +3118,10 @@
       "id": "quickrouter",
       "url": "https://quickrouter.ai/",
       "ok": true,
-      "state": "reachable",
-      "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
-      "note": "目标入口正常响应"
+      "state": "restricted",
+      "status": 403,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标站已响应，但拒绝或限制自动检查"
     },
     {
       "kind": "relay",
@@ -2676,7 +3130,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2686,7 +3140,7 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
     },
     {
@@ -2696,35 +3150,242 @@
       "ok": true,
       "state": "reachable",
       "status": 200,
-      "checkedAt": "2026-07-28T02:03:47.906Z",
+      "checkedAt": "2026-08-27T13:50:49.601Z",
       "note": "目标入口正常响应"
+    },
+    {
+      "kind": "relay",
+      "id": "github-div197-bob-gemini-free",
+      "url": "https://bob-gemini-free.abcsteps.com/",
+      "ok": true,
+      "state": "reachable",
+      "status": 200,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "目标入口正常响应"
+    },
+    {
+      "kind": "relay",
+      "id": "github-div197-bob-gemini-free",
+      "url": "https://github.com/div197/BOB-Gemini-Free",
+      "ok": false,
+      "state": "network_limited",
+      "status": 0,
+      "checkedAt": "2026-08-27T13:50:49.601Z",
+      "note": "更新服务器无法完成访问：fetch failed"
     }
   ],
-  "changes": [],
+  "changes": [
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "siliconflow-glm4-free",
+      "name": "GLM-4 9B Chat",
+      "summary": "新增收录",
+      "url": "/models/siliconflow-glm4-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "codestral-mistral",
+      "name": "Codestral",
+      "summary": "新增收录",
+      "url": "/models/codestral-mistral/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "qwen3-coder-bailian",
+      "name": "Qwen3-Coder-Plus",
+      "summary": "新增收录",
+      "url": "/models/qwen3-coder-bailian/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "qwen-vl-bailian",
+      "name": "Qwen-VL-Max",
+      "summary": "新增收录",
+      "url": "/models/qwen-vl-bailian/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "groq-whisper",
+      "name": "Whisper Large v3 Turbo (Groq)",
+      "summary": "新增收录",
+      "url": "/models/groq-whisper/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "deepgram-nova3",
+      "name": "Deepgram Nova-3",
+      "summary": "新增收录",
+      "url": "/models/deepgram-nova3/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "fish-tts-free",
+      "name": "Fish Audio S2.1 Pro Free",
+      "summary": "新增收录",
+      "url": "/models/fish-tts-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "gemini-tts",
+      "name": "Gemini 2.5 Flash TTS",
+      "summary": "新增收录",
+      "url": "/models/gemini-tts/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "deepgram-aura2",
+      "name": "Deepgram Aura-2",
+      "summary": "新增收录",
+      "url": "/models/deepgram-aura2/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-dots-studio-dots-3-note-preview-free",
+      "name": "Dots Studio: Dots3-Note Preview",
+      "summary": "新增收录",
+      "url": "/models/openrouter-dots-studio-dots-3-note-preview-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-liquid-lfm-2-5-2-6b-free",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "summary": "新增收录",
+      "url": "/models/openrouter-liquid-lfm-2-5-2-6b-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-minimax-minimax-m2-7-free",
+      "name": "MiniMax: MiniMax M2.7",
+      "summary": "新增收录",
+      "url": "/models/openrouter-minimax-minimax-m2-7-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-minimax-minimax-m3-free",
+      "name": "MiniMax: MiniMax M3",
+      "summary": "新增收录",
+      "url": "/models/openrouter-minimax-minimax-m3-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-nvidia-nemotron-3-5-lightning-free",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "summary": "新增收录",
+      "url": "/models/openrouter-nvidia-nemotron-3-5-lightning-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-thinkingmachines-inkling-free",
+      "name": "Thinking Machines: Inkling",
+      "summary": "新增收录",
+      "url": "/models/openrouter-thinkingmachines-inkling-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-thinkingmachines-inkling-small-free",
+      "name": "Thinking Machines: Inkling Small",
+      "summary": "新增收录",
+      "url": "/models/openrouter-thinkingmachines-inkling-small-free/"
+    },
+    {
+      "kind": "model",
+      "change": "added",
+      "id": "openrouter-z-ai-glm-5-2-free",
+      "name": "Z.ai: GLM 5.2",
+      "summary": "新增收录",
+      "url": "/models/openrouter-z-ai-glm-5-2-free/"
+    },
+    {
+      "kind": "model",
+      "change": "removed",
+      "id": "openrouter-inclusionai-ling-3-0-flash-free",
+      "name": "Ling-3.0-flash",
+      "summary": "已从当前目录移除"
+    },
+    {
+      "kind": "model",
+      "change": "removed",
+      "id": "openrouter-nvidia-nemotron-3-nano-30b-a3b-free",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+      "summary": "已从当前目录移除"
+    },
+    {
+      "kind": "model",
+      "change": "removed",
+      "id": "openrouter-nvidia-nemotron-nano-12b-v2-vl-free",
+      "name": "NVIDIA: Nemotron Nano 12B 2 VL",
+      "summary": "已从当前目录移除"
+    },
+    {
+      "kind": "model",
+      "change": "removed",
+      "id": "openrouter-nvidia-nemotron-nano-9b-v2-free",
+      "name": "NVIDIA: Nemotron Nano 9B V2",
+      "summary": "已从当前目录移除"
+    },
+    {
+      "kind": "model",
+      "change": "removed",
+      "id": "openrouter-openai-gpt-oss-20b-free",
+      "name": "OpenAI: gpt-oss-20b",
+      "summary": "已从当前目录移除"
+    },
+    {
+      "kind": "model",
+      "change": "removed",
+      "id": "openrouter-poolside-laguna-m-1-free",
+      "name": "Poolside: Laguna M.1",
+      "summary": "已从当前目录移除"
+    },
+    {
+      "kind": "relay",
+      "change": "added",
+      "id": "github-div197-bob-gemini-free",
+      "name": "div197/BOB-Gemini-Free",
+      "summary": "新增收录",
+      "url": "/relays/?q=div197%2FBOB-Gemini-Free"
+    }
+  ],
   "sourceStatus": [
     {
       "name": "OpenRouter 免费模型目录",
       "url": "https://openrouter.ai/api/v1/models",
-      "ok": false,
-      "note": "同步失败，保留 15 个上一版条目：fetch failed"
+      "ok": true,
+      "note": "同步 17 个零价格模型"
     },
     {
       "name": "GitHub 中转站候选发现",
       "url": "https://api.github.com/search/repositories",
       "ok": true,
-      "note": "筛出 0 个高相关候选"
+      "note": "筛出 1 个高相关候选"
     },
     {
       "name": "免费模型入口检查",
       "url": "https://www.qaz5678.xyz/models/",
-      "ok": true,
-      "note": "正常响应 81，限制自动检查 0，确认失效 0，网络受限 32，临时错误 0"
+      "ok": false,
+      "note": "正常响应 84，限制自动检查 8，确认失效 1，网络受限 42，临时错误 0"
     },
     {
       "name": "中转站入口与证据检查",
       "url": "https://www.qaz5678.xyz/relays/",
       "ok": true,
-      "note": "正常响应 20，限制自动检查 0，确认失效 0，网络受限 2，临时错误 0"
+      "note": "正常响应 12，限制自动检查 1，确认失效 0，网络受限 11，临时错误 0"
     }
   ]
 }

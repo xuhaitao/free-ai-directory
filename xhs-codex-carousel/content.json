@@ -1,0 +1,71 @@
+{
+  "main_title": "我用错 Codex 很久：开 3 个代理，不会更快",
+  "format": "小红书 3:4 连环图｜8 张｜1242×1660",
+  "slides": [
+    {
+      "id": "01-cover",
+      "kind": "cover",
+      "eyebrow": "AI 编程避坑 · 可直接收藏",
+      "headline": "我用错 Codex\n很久了",
+      "highlight": "开 3 个代理\n不会更快",
+      "footer": "复杂需求不返工的拆法 →"
+    },
+    {
+      "id": "02-problem",
+      "kind": "problem",
+      "eyebrow": "为什么越开越慢？",
+      "headline": "3 个代理\n同时改一份文件",
+      "highlight": "省下的时间\n都会还给返工",
+      "footer": "最常见的并行误区"
+    },
+    {
+      "id": "03-principle",
+      "kind": "principle",
+      "eyebrow": "正确打开方式",
+      "headline": "第一次并行\n只做不改代码的事",
+      "highlight": "探索 · 核查 · 验收",
+      "footer": "先收集证据，再集中实现"
+    },
+    {
+      "id": "04-roles",
+      "kind": "roles",
+      "eyebrow": "只要拆成这 3 个角色",
+      "headline": "每个代理\n只回答一个问题",
+      "highlight": "问题越窄，结论越能用",
+      "footer": "不要让它们“顺手改一下”"
+    },
+    {
+      "id": "05-prompt",
+      "kind": "prompt",
+      "eyebrow": "直接复制给 Codex",
+      "headline": "这段提示词\n我会反复用",
+      "highlight": "先研究，后实现",
+      "footer": "复制后把【需求】替换掉"
+    },
+    {
+      "id": "06-merge",
+      "kind": "merge",
+      "eyebrow": "结果回来后，别急着写",
+      "headline": "主线程先做\n一次汇总",
+      "highlight": "冲突 → 计划 → 确认",
+      "footer": "这一轮能挡掉大部分返工"
+    },
+    {
+      "id": "07-implement",
+      "kind": "implement",
+      "eyebrow": "确认后才进入实现",
+      "headline": "只留 1 个代理\n统一修改代码",
+      "highlight": "最后一起测",
+      "footer": "一个人改，所有人提供证据"
+    },
+    {
+      "id": "08-summary",
+      "kind": "summary",
+      "eyebrow": "一张图记住",
+      "headline": "复杂需求\n不返工的顺序",
+      "highlight": "收藏后，下一次直接套用",
+      "footer": "你不需要开更多窗口"
+    }
+  ],
+  "prompt": "请先将【需求】拆为 3 个互不修改同一文件的子任务：\nA. 代码结构探索：找页面、组件、调用链；\nB. 风险与边界核查：找校验、埋点、异常路径；\nC. 测试与验收建议：列出通过标准和失败路径。\n每个子任务只返回结论、证据和建议，不要修改代码。主线程汇总成执行计划后，等待我确认再实施。"
+}

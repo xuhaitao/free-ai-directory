@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "我翻了1336条评论：普通人这样用 Codex 才值",
+    "evidence_date": "2026-07-28",
+    "pages": 8
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "eyebrow": "真实数据选题",
+      "kind": "cover",
+      "footer": "5 类高频场景｜不是只会写代码"
+    },
+    {
+      "id": "evidence",
+      "eyebrow": "选题依据",
+      "kind": "evidence",
+      "headline": "这次不是\n拍脑袋",
+      "footer": "同关键词综合搜索 · 图文结果公开可见样本"
+    },
+    {
+      "id": "files",
+      "eyebrow": "场景 01 · 文件整理",
+      "kind": "files",
+      "headline": "把重复整理\n交给它",
+      "footer": "先让它列规则，再让它动文件"
+    },
+    {
+      "id": "assets",
+      "eyebrow": "场景 02 · 批量素材",
+      "kind": "assets",
+      "headline": "一份原料\n变一套交付物",
+      "footer": "有图像工具时，可把处理链继续自动化"
+    },
+    {
+      "id": "teaching",
+      "eyebrow": "场景 03 · 教辅文档",
+      "kind": "teaching",
+      "headline": "做一次模板\n后面批量复用",
+      "footer": "课程、培训、咨询交付都能套这个思路"
+    },
+    {
+      "id": "knowledge",
+      "eyebrow": "场景 04 · 个人知识库",
+      "kind": "knowledge",
+      "headline": "让资料真的\n流动起来",
+      "footer": "接入相应工具后，再做跨应用工作流"
+    },
+    {
+      "id": "mvp",
+      "eyebrow": "场景 05 · 小工具",
+      "kind": "mvp",
+      "headline": "别从“大项目”\n开始",
+      "footer": "从每天最烦的一次重复动作开始"
+    },
+    {
+      "id": "prompt",
+      "eyebrow": "直接复制",
+      "kind": "prompt",
+      "headline": "这段提示词\n先存下来",
+      "footer": "评论区写下你最烦的重复工作，我挑一个做实战"
+    }
+  ]
+}
